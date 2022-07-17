@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "32262d5cac352864",
+    "type": "split",
+    "children": [
+      {
+        "id": "026c6d7643fc28c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Static and Dynamic Routing.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee34ab8dba75a96a",
+    "type": "split",
+    "children": [
+      {
+        "id": "43115d2f8601ef68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d35ee8173509f6e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "342a1f6b174b4aa8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "22a66dfa9f9e1d29",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20ebcc9b30bc3808",
+    "type": "split",
+    "children": [
+      {
+        "id": "62b0357293a62570",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7bf40da4cfc1c33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Static and Dynamic Routing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d91a1e05fb34174c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Static and Dynamic Routing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0def12f4ef0a11f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "72fd844cfe9b9442",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Static and Dynamic Routing.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "026c6d7643fc28c5",
+  "lastOpenFiles": [
+    "Notes/Buffet Investing approach questions.md",
+    "Notes/Types of charts.md",
+    "Notes/Succesful Trading Vs Unsuccesful Trading.md",
+    "Notes/Capitalization Size.md",
+    "Notes/Before investing in a company.md",
+    "Notes/Dollar Cost Averaging.md",
+    "Notes/Growth Investing and Income Investing.md",
+    "Notes/Inflation Meaning.md",
+    "Notes/Investor Sentiment.md",
+    "Notes/Mutual Funds and ETF.md"
+  ]
+}
