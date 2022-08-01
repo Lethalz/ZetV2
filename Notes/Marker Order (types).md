@@ -14,7 +14,8 @@
 **A Stop Limit order** is used to limit the prive your trade will be executed at.
 I.E between 15.00 - 14.84 has to trade within the range
 
-Trailing stop - A trailing stop is a great way to protect yourself when you are looking to sell a position
+
+.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.Trailing stop - A trailing stop is a great way to protect yourself when you are looking to sell a position
 **-  If the stock falls a certain percentage or dollar amount during the trading day, the sell order is executed**  
 Will follow higher but not lower.
 

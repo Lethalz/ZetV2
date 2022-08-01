@@ -11,3 +11,4 @@ Support and Resistance = supply and demand
 ---
 # Reference
 [Stock Market For Beginners 2022](https://www.youtube.com/watch?v=T1x_knZmZAk)
+[[Types Of Stocks]]

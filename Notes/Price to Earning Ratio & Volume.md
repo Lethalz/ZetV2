@@ -1,4 +1,5 @@
-2207171520
+
+.2207171520
 	Status: #idea 
 		Tags: [[Investing]] [[Stocks]] 
 

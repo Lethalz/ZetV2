@@ -1,3 +1,4 @@
+
 2207171632
 	Status: #idea 
 		Tags: [[Investing]] [[Stocks]]
