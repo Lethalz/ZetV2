@@ -2,5 +2,18 @@
   "attachmentFolderPath": ".//Files",
   "newFileLocation": "folder",
   "newFileFolderPath": "Notes",
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "Spearphishing",
+    "WhalePhishing",
+    "Pharming",
+    "ishing ",
+    "spearphishing",
+    "Cyberwarfare",
+    "SPIM",
+    "Multipartite",
+    "multipartite",
+    "Ries",
+    "Non-Persistant"
+  ]
 }

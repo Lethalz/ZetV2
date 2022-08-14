@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "026c6d7643fc28c5",
+        "id": "f5b7df0cc9dbe175",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Static and Dynamic Routing.md",
+            "file": "Reference/Exams/Security+ Study Guide.md",
             "mode": "source",
             "source": false
           }
@@ -40,9 +40,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "backgroun",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "right": {
     "id": "20ebcc9b30bc3808",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Static and Dynamic Routing.md",
+                "file": "Reference/Exams/Security+ Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Static and Dynamic Routing.md",
+                "file": "Reference/Exams/Security+ Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Static and Dynamic Routing.md"
+                "file": "Reference/Exams/Security+ Study Guide.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "026c6d7643fc28c5",
+  "active": "f5b7df0cc9dbe175",
   "lastOpenFiles": [
-    "Notes/Buffet Investing approach questions.md",
-    "Notes/Types of charts.md",
-    "Notes/Succesful Trading Vs Unsuccesful Trading.md",
-    "Notes/Capitalization Size.md",
-    "Notes/Before investing in a company.md",
-    "Notes/Dollar Cost Averaging.md",
-    "Notes/Growth Investing and Income Investing.md",
-    "Notes/Inflation Meaning.md",
-    "Notes/Investor Sentiment.md",
-    "Notes/Mutual Funds and ETF.md"
+    "Reference/Jemermy IT References.md",
+    "Reference/Exams/Security+ Study Guide.md",
+    "Reference/Books/The Lean Startup.md",
+    "Reference/Untitled.md",
+    "Notes/Commonly used CSS properties.md",
+    "Notes/CSS.md",
+    "Notes/The Cascade of CSS.md",
+    "Notes/How to think of webpages.md",
+    "Templates/Security + Exam Note template.md",
+    "Templates/Core Note Template.md"
   ]
 }
