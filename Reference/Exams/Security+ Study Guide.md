@@ -366,8 +366,15 @@ A **buffer** is a place where data is stored. Buffers have a *fixed size*. A pro
 
 If a malicious hacker has control over the data that is put into a buffer, sometimes **they can control what data overflows out of the buffer as well**. This allows them to replace _other_ data in memory, with the data they chose. This can change the behavior of the program, allowing the hacker to manipulate it to his/her will.
 
-An **integer overflow** is another type of overflow that is specific to whole numbers, known as integers. For example, 12 is an integer, but 12.1 is not. When programs do not carefully account for integer overflows, undesirable behaviors and
+An **integer overflow** is another type of overflow that is specific to whole numbers, known as integers.
+Putting too much information into too small of a space that has been set aside for numbers.
+**Usually causes the error to be unexpected.**
+
+
+For example, 12 is an integer, but 12.1 is not. When programs do not carefully account for integer overflows, undesirable behaviors and
 consequences can result.
+
+
 
 #### Replay Attack
 
@@ -380,11 +387,18 @@ Hackers can eavesdrop on data exchanges being sent through networks—this type 
 > - Data/Time stamps
 
 
+#### Session replay
+
+- an attacker steals a valid session ID of a user and reuses it to impersonate an authorized user and perform fraudulent transactions or activities
+- disallow session ID  reuse in web apps
+
 ##### Cookies and Session IDs
 
 - Cookies are information stored on your computer by the browser, they are used for tracking, personalization, session management and security.
 - Could be considered a privacy risk because of all the personal data those cookies contain about you.
-- *Session IDs* are typically stored in the cookie in order to maintain sessions across multiple browser sessions. ***Pass the hash*** - A type of replay attack in which the attacker provides the hashed password to an accepting authentication scheme.
+- *Session IDs* are typically stored in the cookie in order to maintain sessions across multiple browser sessions.
+- ***Pass the hash—A type of replay attack in which the attacker provides the hashed password to an accepting authentication scheme.
+- a technique whereby and attacker captures a password hash and then passes it through for *authentication and lateral access*
 	- Session Hijacking : When an Attacker gets a hold of your session ID and pretends to be you.
 	- Solutions : Encrypt end-to-end
 		- They can't capture your session ID if they can't see it
@@ -425,9 +439,11 @@ EXAMPLE :
 
 ##### Driver Manipulation
 
-**Drivers** are the interation between the hardware of your computaer and your OS, which makes them a perfect medium for attack.
+**Drivers** are the integration between the hardware of your computer and your OS, which makes them a perfect medium for attack.
 
-- Shimming : Filling the space between two objects. A middleman.
+- Shimming :
+- Involves creating a library (or modifying and existing one) to bypass a driver and perform a function other than the one for which the API was created
+- Filling the space between two objects. A middleman.
 	 - Windows includes its own shim via backwards compatibility with previous windows versions.
 	- Malware authors write their own shims to get around security.
 - Refactoring: Metamorphic malware, a different program each time it's downloaded. Used to dodge antivirus and anti-malware because they stop malware by signatures.
@@ -452,9 +468,11 @@ SSL stripping attacks (also known as SSL downgrade or HTTP downgrade attacks) ar
 
 A **race condition** is an undesirable situation that occurs when a device or system attempts to perform **two or more operations at the same time**. 
 
+
 Because of the nature of the device or system, the operations must be done in the proper sequence to be done correctly.
 
 - Time-of-check to time-of-use attack (TOCTOU)
+- a timing vulnerability that occurs when a program check access permissions *too far in advance of a resource request*
  it is an asynchronous attack that exploits timing. TOCTOU takes advantage of
 the time delay between the checking of something and the usage of something.
 
@@ -464,9 +482,11 @@ EXAMPLE: A simple example of a race condition is a light switch. In some homes, 
 ##### Memory vulnerabilities
 
 Memory leak: Unused memory not properly released, so it begins to slowly grow in size it eventually uses all available memory and the system crashes.
+- Solutions: A *static code analyzer* can check to see if all memory allocation commands have a matching deallocation command.
  - **NULL pointer**/object deference 
 	 - Dereferencing means taking away the reference and giving you what it was actually referring to.
 	 - Technique that references a empty portion of memory, application crashes, debug information displayed also a denial of service. 
+	 - Prevented by good code practices
 
 ##### Directory Traversal / Path traversal 
 Read files from a web server that are outside the website file directory.
@@ -475,9 +495,16 @@ Web server software vulnerability and web app code vulnerability.
 
 Able to view files you aren't supposed to read.
 
+May allow the attack to get to the site's root directory.
+
+- Solutions: Run a scanner and keep the web sever software patched.
+
+
 ##### Improper error handling
 - Make sure that your error messages aren't showing too much information such as network info memory dump stack traces database dumps, etc.
 - easy to fix and find
+- Related to input validation
+- If a program crashes that's a sign of bad error handling
 
 ##### Improper input handling
 All input should be considered malicious, check everything, trust no one.
@@ -506,7 +533,7 @@ I.E zip bomb: compressed file that will slowly fill up your storage space to cap
 
 ##### Rouge Access Points
 
-An unauthorized wireless access point, may be added by an employee doesn't necessarily have to be an attack, but it is still a problem to your network. It's becoming very easy to plug in a wireless AP or enable wireless sharing on your phone or OS. It's always a good idea to schedule a periodic survey and be aware of your surroundings.
+An *unauthorized wireless access point*, may be added by an employee doesn't necessarily have to be an attack, but it is still a problem to your network. It's becoming very easy to plug in a wireless AP or enable wireless sharing on your phone or OS. It's always a good idea to schedule a periodic survey and be aware of your surroundings.
 
 NAC (Network Access Control) 802.1X is a good deterrent. 
 A NAC system can deny network access to noncompliant devices, place them in a quarantined area, or give them only restricted access to computing resources, thus keeping insecure nodes from infecting the network.
@@ -515,6 +542,7 @@ A NAC system can deny network access to noncompliant devices, place them in a qu
 ##### Evil Twins
 
 An evil twin attack is **a spoofing cyberattack that works by tricking users into connecting to a fake Wi-Fi access point that mimics a legitimate network**. 
+
 The most dangerous evil twin attacks work by tricking victims into thinking that they are connecting to a reliable public Wi-Fi network. To make the attack as believable as possible, hackers will choose a location with free Wi-Fi and set up an AP, then name it something that a victim thinks is the right Wi-Fi.
 
 
@@ -522,13 +550,16 @@ The most dangerous evil twin attacks work by tricking victims into thinking that
 
 ##### Bluejacking
 Sending of unsolicited messages to another device, via Bluetooth. The typical functional distance of Bluetooth is about 10 meters, depending on antenna and interference.
-However, Bluejacking **does not involve device hijacking**, despite what the name implies. The bluejacker may send only unsolicited messages. Hijacking does not actually occur because the attacker never has control of the victim’s device. At worst, bluejacking is an annoyance.
+However, Bluejacking **does not involve device hijacking**, despite what the name implies. The bluejacker may send only *unsolicited messages.* Hijacking does not actually occur because the attacker never has control of the victim’s device. At worst, bluejacking is an annoyance.
 
-**Bluesnarfing and bluebugging,** however, are actual attacks that may result in a user losing control of his device. Although bluejacking, bluesnarfing and bluebugging use Bluetooth as the point of entry, bluesnarfing and bluebugging are far more harmful.
+**Bluesnarfing and bluebugging,** however, are actual attacks that may result in a user losing control of his device. Bluesnarfing (data theft), Bluebugging(eavesdropping or hacking backdoor attack). To prevent use long pin 2fa and disable discovery mode.
 
 #### Wireless Disassociation Attacks 
 
-A type of DoS attack in which the attacker breaks the wireless connection between the victim device and the access point. The method is based on the use of a special disassociation frame specified under IEEE 802.11. Transferring such a frame to the target device breaks the connection, and the Wi-Fi protocol does not require any encryption for it. For a successful attack, the cybercriminal needs to know only the victim’s MAC address or Wi-Fi address.
+A type of DoS attack in which the attacker *breaks the wireless connection* between the victim device and the access point.
+The method is based on the use of a *special disassociation frame* specified under IEEE 802.11. 
+Transferring such a frame to the target device breaks the connection, and the Wi-Fi protocol does not require any encryption for it. For a successful attack, the cybercriminal needs to know only the victim’s MAC address or Wi-Fi address.
+**It gives the attacker a window to inject an evil twin.**
 
 
 #### Wireless Jamming
@@ -558,6 +589,7 @@ Types of Attacks :
 
 #### NFC (Near field communication)
 
+Built on RFID often used with payment systems Subject to many of the same vulnerabilities as RFID.
 -  Two way wireless communicationon
 - Payment systems use this option
 - Bootstrap for other wireless
@@ -612,14 +644,21 @@ The attacker changes their MAC  adress to match the MAC address of an existing d
 
 DNS poisoning, also known as DNS cache poisoning or DNS spoofing, is **a highly deceptive cyber attack in which hackers redirect web traffic toward fake web servers and phishing websites**.
 
+DNS spoofing: attacker sends false replies to a requesting system, beating the real reply from the valid DNS server.
+
 Usually done by either modifing the client host file or sending a fake response to a DNS request (MITM/On-Path)
+
+> [!note] Solutions
+> allow only authorized changes to DNS 
+> restrict zone transfers, verified fowarders and
+> log all privileged DNS activity
 
 ##### Domain hijacking
 
 The attacker gets access to the domain registration has control on where the traffic flows.
 Done by social engineering, or brute forcing.
 
-##### URL hijacking
+##### URL hijacking (Hyperlink Spoofing)
 URl looks like the real site.
 Used for malicious softaware installation or sold back to the company that it's close to.
 
@@ -652,6 +691,11 @@ Increase the cloud server response time
 ##### Operation technology DoS
 The hardware and software for industrial equipment: electric grids, traffic control , manufacturing plants, etc..
 
+> [!note] Solutions
+> Firewalls,Routers, IDS
+> SIEM
+> Disable broadcast packets entering/leaving
+> disable echo replies patching
 
 #### Malicious scripts
 
@@ -1115,7 +1159,7 @@ For example, in September of 2021 of Chile’s largest banks Banco Estado was at
 
 
 
-## 1.7 Summarize the techniques used in security assessments.
+## 1.7 Summarize the techniques used in **security assessments.**
 
 #### Threat hunting
 The attackers are constantly trying to find a way into your network to gain access to your data.
@@ -1275,3 +1319,566 @@ Hand security tasks automatically
 Response 
 Makes changes independantly.
 
+
+## 1.8 Explain the techniques used in **penetration testing**.
+
+#### Types of Penetration Tests
+
+##### Known environment *white box test*
+- penetration tester is given a map or target systems and networks, They go into the test with *subnstatial/full information* of the target systems and networks.
+
+##### Unknown environment (black box test)
+- penetration tester knows nothing about target systems and networks. They go into the test completely blind and buil out the database of everything they find as they go
+
+##### Partially known environment (grey box test) 
+- limited information is shared with the tester, sometimes in the form of login creadentials. Simulates the level of knowledge that a hacker with long-term access to a system would achieve through research and system footprinting
+
+##### Rules of Engagement
+- Define the purpose of the test and what the scope will be for the people who are performing this test on the network.
+- They ensure everyone will be aware of what systems will be considered, date and time and any constraints all should be aware of.
+
+#### Concepts
+
+##### Lateral Movement
+Gaining access to an inital system, then moving to other devices on the inside of the network
+
+##### Privilege escaltion 
+A securtiy hole created whne code is executed with higher privileges than those of the user running it
+
+##### Persistence
+In the context of penetration testing refers to the testers ability tp achieve a persistent presense in the exploited system - long enough for a bad actor to gain in-depth access.
+
+
+
+##### Cleanup
+The final stage of a penetration tes in which all work done during the testing process is cleaned up/removed.
+
+##### Bug bounty
+A monetary reward given to ethical hackers for successfully discovedring and reporting a vulnerability or bug to the applications developer.
+
+##### Pivioting
+Also known as island hopping, is *when a compromised system is used to attack another system on the same network* following the inital exploitiation if the compromise in introduced at a different time than the attack then it is said to involve persistance
+
+
+#### Passive and Active Reconnaissance
+
+
+##### Passive Reconnaissance 
+One is not interacting directly with the taget and as such, the target has no way of knowing, recording, or logging activity.
+
+- War driving: gathering wireless network information while driving around the streets.
+- Drones: Can be leveraged in multiple wats for passive recon from assessing phyical security to gathering wireless network info
+- War flying: combines war driving with a drone and simply float above all of these organizations to gather wireless details.
+- OSINT : Much of this info in the open source can be categorized as open-source intelligence or OSINT.
+
+##### Active reconnaissance 
+Interacts directly with the target in some way and as such, the target may discover , record, or log these activities.
+
+- Footprinting: An ethical hacking technique uesed to gather as much data as possible abot a specific targeted computer system , infrastructure and networks to identify opportunities to penetrate them.
+- Active: Ping sweep ,Tracert , Nmap , Extracting DNS information
+- Passive: Browsing taget website, google seach(dorking) . Whois lookiup
+
+##### Exercise types
+
+###### Red team : offense
+###### Blue Team : defense
+###### Purple Team : Process improvement
+###### White team: Referees
+
+
+
+# 2.0 Architecture and Design
+## 2.1 Explain the importance of security concepts in an enterprise environment.
+
+#### Configuration Management 
+- Ensures that systems are configured similarly, configurations are **known and documented.**
+ - **Baselining:** ensures that systems are deployed with a common baseline or starting point, and imaging is a common base lining method.
+
+##### Diagrams
+- Network diagrams : Document the physical wire and device, detailed diagrams to show the relationship of all the interconnected devices. Full topology.
+	- Physical data center layout: Can include physical rack locations.
+	- Device diagrams: individual cabling.
+
+##### Baseline configuration
+- The security of an application environment should be well-defined. 
+- Firewall rules: can be used to block traffic, and we can use either an MDM solution or group policy to change the configuration on endpoint devices.
+- It is vital that each type of device being placed on the network has a secure baseline configuration.
+- Integrity measurements check for the secure baseline, these should be performed often and will check against well-documented baselines.
+
+##### Standard naming conventions
+
+- Makes identifying device type (router, server, printer) easier.
+- Needs to be easily understood by everyone.
+- Devices should have asset tag names and numbers, serial numbers and pc names—location or region. 
+- Network racks and plates should identify what port the device is going to 
+- Domain configurations. Should have identifiable user account names and standard email addresses.
+
+
+##### IP Schema
+
+- An IP address plan or model for consistent addressing for network devices.
+- Use *network segmentation* to reduce broadcast traffic and enable filtering/restricting traffic to subnets containing sensitive resources.
+- Number of subnets, and hosts per.
+- IP ranges of all the different subnets within the company and reserved addresses for certain important network devices (switch, router, gateways)
+
+##### Asset Management
+
+- Maintain an up-to-date asset register to ease the process of tracking and maintaining assets.
+- Scan for unknown devices that may be threats, and ensure each asset is patched,
+
+
+### Protecting data 
+
+#### Data sovereignty 
+
+A primary task of cybersecurity experts is to protect data, and an organization is out of business without data. And it is everywhere, on a storage drive, on the network, in a CPU.
+
+This task is normally accomplished by encryption, security policies and data permissions.
+
+**Data sovereignty:** 
+Digital data is subject to the laws and regulations of the country in which it was created.
+It cannot be moved to another region-even for a backup-related reason.
+Data is subject to the laws of where it is stored, which can bring significant legal implications.
+
+For example, the EU and the **GDPR** (General Data Protection Regulation).
+
+##### Data Masking
+
+- It is when only partial data is left in a data field. 
+- Example: *\**\* *\*\**\ 1234
+
+- Used to protect PII and any other sensitive data.
+
+
+#### Data Encryption
+Encode information into unreadable data, original information is plaintext, encrypted form is ciphertext.
+The encrypted data is drastically different from the plaintext.
+
+##### Diffusion 
+
+Change one character of the input, and many characters change of the output.
+
+
+##### Data at-rest 
+
+- The data is on a storage device 
+- Encrypt the data 
+- Apply permissions
+
+##### Data in-transit
+
+- Data transmitted over the network 
+- Not much protection as it travels
+- Network based protection
+- Provide transport encryption : TLS, IPsec
+
+##### Data in-use
+
+- Data is actively processing in memory 
+- The data is almost always decrypted
+- The attackers can pick the decrypted information out of RAM
+
+
+##### Tokenization
+
+Replace sensitive data with a non-sensitive placeholder
+- Common with credit card processing, uses a temporary token during payment
+- no encryption stateless stronger than encryption.
+- Stored in a remote vault.
+
+##### Information rights management 
+- Control how data is used
+- Restrict data access to unauth persons
+- Each person has own rights
+
+
+### Data Loss Prevention
+
+Stop the data before the attackers get it
+Endpoint DLP is on your computer
+on your network 
+on your server
+
+USB blocking on a workstation : allow or deny certain tasks
+
+
+##### Cloud based DLP 
+
+Located between users and the internet
+Block custom defined data strings
+Manage access to URLs
+block viruses and malware
+
+**DLP and Email**
+
+Email continues to be the most critical risk vector 
+
+Check every email, inbound and outbound
+
+**Inbound**
+Block keywords identify impostors
+
+**Outbound**
+Fake wire transfers w-2 info employee information
+
+
+#### Geographical considerations
+
+- Legal implications
+- Business regulations vary between states
+- for a recovery site outside the country personnel must have a passport and be able to clear immigration
+- refer to your legal team
+
+- Offsite backup
+- - Organization-owned site or 3rd-party secure facility
+- Offsite recovery
+- Hosted in a different location, outside the scope of the disaster
+- Travel consideration for the support staff
+
+#### Response and recovery controls
+
+- Incident responses and recovery has become common place
+- Incident response plan should be established Documentation is critical
+- Limit the impact of an attacker: Limit data exfiltration
+- Limit access to sensitive data.
+
+
+#### SLS/TLS INSPECTION
+
+- Commonly used to examine outgoing SSL/TLS 
+- Examine encrypted traffic
+- SSL/TLS relies on trust, without trust none of this works.
+- Your browser contains a list of trusted CA's
+- CA = Certificate authority
+- Your browser doesn't trust a website unless a CA has signed the web server's encryption cert 
+- The CA has ostensibly performed some checks, validated against the DNS record, phone call, etc.
+
+SSL/TLS proxy
+
+<img src="https://i.gyazo.com/57fb1d26b78228fb394cb921ff208237.png">
+
+
+
+Decrypting it from the outside and encrypting it internally with the internal CA
+
+#### Hashing
+
+- Represent data as a short string of text.
+- One-way trip: its impossible to recover the original message from the digest
+- Verify a downloaded document is the same as the original
+- Can be a digital signature for authentication, non-repudiation and integrity
+- Different messages will not have the same hash (collsion)
+
+#### API considerations
+- Application programming interfaces - controls software or hard ware programmatically 
+- Secure and harden the login page.
+- On-path attacks can intercept and modify api messages, replay API commands.
+- API INJECTIONs
+- DDoS - One bad api can bring down a system.
+
+**API Security** 
+
+Authentication : Limit API access to legitimate users
+Authorization: API should not allow extended access, each user should only have the permissions they need.
+WAF (Web Application Firewall) : How you apply rules to API  commuincation.
+
+### SIte resiliency
+
+- Recovery site is prepped, data is synced
+- A dister is called , business processes failover to the alternate processing site 
+- Can take hours, weeks, or longer to resolve issue.
+
+#### Hot site
+- An exact replica
+- Stocked with hardware, constantly updated, you buy two of everything
+- Applications and software are constantly updated
+- Flip a switch that moves everything to the hot site
+
+#### Cold site
+- No hardware 
+- No data 
+- No people 
+
+#### Warm site
+- Somewhere in the middle between cold and hot 
+- Big room with rack space , just need the hardware
+- Hardware is ready and waiting , you bring the software and data.
+
+
+### Honeypots and deception
+
+
+#### Honeypots
+
+- Attracts the bad guys for recon on how they are trying to break into your system
+- Create a virtual world to explore
+- Many different options of this
+- ITs a constaant battle to dicern the real from the fake.
+
+#### Honeynet
+= More than one honeypot on a network
+- More than one source of information
+- Projecthoneypot.org
+
+#### Honeyfiles
+- Bair for the honeynet
+- An alert is sent if the file is accessed
+- A virtual bear trap
+
+#### Fake telemetry
+
+- Machine learning, interprets big data to identify the invisible
+- Tain the machine with actual data , learn how malware looks and acts, stop malware based on actions and not signatures
+- Send the machine learning model fake telemetry
+
+
+#### DNS sinkhole
+
+- A DNS  that hands out incorrect IP addresses.
+- Ab attacjer cab redirect users to a malicious site
+- Can watch for any users hitting that IP address 
+- can be integrated with a firewall , ifentify infected devices not directly connected
+
+
+## 2.2 Summarize authentication and authorization design concepts.
+
+### Cloud Models
+
+#### Infrastructure (Hardware) as a Service
+- Outsource your equpment
+- Responsible for the management and security, And your data is within your control (can be encrypted from the provider)
+- Web server 
+
+#### Software as a service
+- On-demand software
+- Log into the system and begin to use
+- no logs, updates, or mainteinance
+- Central management of data and applications
+- Less control of your data 
+- i,e google mail
+
+#### Platform as a service 
+
+- No servers, no software, no maintenance team
+- Someone else handles the platform, you handle the development
+- You dont have direct control of the data people or infrastructure
+- Put the buiding blocks together 
+- Salesforce.com , Wix.com
+
+#### Anything as a Service
+
+- Service delivered over the internet
+- Flixbible consumption model , no large upfront costs or ongoing licensing
+- It becomes more of an operating model
+
+<img src = "https://i.gyazo.com/1ee1c112042bae699f852e80925751f2.png"> 
+
+
+
+#### Managed service providers
+
+- Handle many ascpets of tech for their clients
+- MSP support 
+- Connectivity managemen
+- Backups and disaster recovery
+- Growth management and planning
+
+
+#### On-premises vs off-premises
+
+On-Premises 
+- Your applications are local 
+- your servers are in your data center in your building
+
+Off-premises
+- Your servers are not in your building 
+- They may not even be running on your hardware
+
+
+#### Cloud deployment models
+
+Public
+- Available to everyone over the internet
+
+Community
+- Several organizations share the same resources
+
+Private 
+- Your own virtualized local data center
+
+Hybrid
+- A mix of public and private
+
+
+
+
+##### Cloud Computing Pros and Cons
+
+Pros
+- Computing on-demand
+- Fast implementation
+
+Cons
+- Latency - the cloud is far away
+- Limited bandwitdh
+- Difficult to protect data
+- Requires internet/network connectivity
+
+
+#### Edge computing
+
+- Over 30 billion IoT devices on the Internet 
+- Process application data on an edge server, close to the user.
+- Often process data on the device itself
+	- low latency not network requirment
+	- Increase speed and performance
+	- Process where the data is, instad of processs in the cloud.
+	- i.e a thermostate controlling the temperature
+
+#### Fog computing
+
+- Fog: A cloud thats close to your data 
+- Fog computing - a distributed cloud architecture , extends the cloud
+- DIstribute the data and processing
+	- Immediate data stays local no latency
+	- Local decisions made from local data - No bandwidth requirements
+	- Private data never leaves - minimizes security concerns 
+	- Long-term analysis can occur in the cloud - Internet aonly when required
+	- Think of fog as the "middleman" before the internet/cloud
+
+<img src= "https://i.gyazo.com/257732ba5fd101a6510b45f49c5de694.png">
+
+
+
+#### Designing the cloud
+
+- Elasticity : Scale up or down as needed
+- Applications also scale if needed and accessible from anywhere
+
+##### Thin client
+
+Basic application usage for applications so they run on a remote server
+- VDI (Virtual Desktop Infrastructure)
+- Local devices is a keyboard, mouse , and screen
+
+Minimal operating sustem on the client
+
+Network connectivity
+
+
+##### Virtualization 
+Run many different operating systems on the same hardware 
+- I.e Proxmox
+
+Each application instance has its own operating system
+
+
+##### Containerization
+- Container : Contains everything you need to run an application
+- Code and dependencies
+
+- AN isolated process in a sandbows
+
+- Specified container image
+
+![[Pasted image 20220828192951.png]]
+
+
+
+##### Microservices and API's
+
+- Monolithic applications: One big application that does everything
+- APplication contains all decision making processes
+	- User interface
+	- Business logic 
+	- Data input and output
+- Code challenges
+	- Large codebase
+	- Change control challenges
+<img src = "https://i.gyazo.com/8fe752c103a31d242e86a2c1a1b91467.png">
+
+
+APIs
+
+API is the "glue" for the microservices
+![[Pasted image 20220828193334.png]]
+
+
+
+#### Serverless architecture
+
+Function as a service (FaaS)
+- Applications are separated into individual, autonomous functions
+- Remove the operating system from the equation
+- Like what Rob does on docker with all his containers
+
+Dev still created the server-side logic: Runs in a statless compute container
+	-May be event triggered and ephemeral
+
+#### Transit gateway
+
+- VPC - Virtual private cloud
+	- A pool of resources created in a public cloud
+- COmmon to create many VPCs
+	- Many different application clouds
+- Think of like a "Router" But in the cloud
+- Connect VPCs with a transit gateway
+
+![[Pasted image 20220828194009.png]]
+
+
+#### Service intergration and management
+
+(SIAM)
+- Many different service providers (multisourcing)
+	- Up and running regardless of provider going down
+- SIAM allows you to bring all those service providers into one view and service all of them
+
+
+### Infrastructure as code
+
+- Decribe an infrastructure
+	- Define servers, network, and applications as code
+- Modify the infrastructure and create versions
+	- The same way you vaersion application code
+- Use the descrioption (code) to build other application instances
+- very efficent
+
+##### SDN - Software Defined Networking
+ 
+_ Networking devices_ have two function planes of oeperation
+- Control plane, data plate.
+
+- Directly programmable
+- Agile
+	- Changes can be made at any time
+- Centrally managed
+	- Global view - "single pane of glass"
+- Programmatically congiured
+- Open standards
+- Having certain network devices not physically be there but virtually like a firewall, router , switch etc
+
+##### Softrwre defined visibility
+
+- Dynamic deploymnents include security and network visibilty device
+	- Next-generation firewalls,
+- Data is encapsulated and encrypted
+- Security devices monitor application traffic 
+	- Visibiltiy expands as the application instances expands
+
+
+### Virtualization Security
+
+#### VM Sprawl Avoidance
+- Click a button
+	- Youve built a server
+	- Or multiple serves, networkds, and firewalls
+
+- need to make sure the process we have for deploying these instantces aso considers the proces of recoveirng those instances and returning them to the pool
+- The vms are sprawled everywhere makes it important to have a formal process to deal with creation and deprovisioning
+
+#### VM escape protection
+
+- Break out of the VM and interact with the ohst operating sustem or hardware
+- Once you escape the VM you have great control
+- Segment the network
