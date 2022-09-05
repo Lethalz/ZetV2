@@ -1395,7 +1395,7 @@ Interacts directly with the target in some way and as such, the target may disco
  - **Baselining:** ensures that systems are deployed with a common baseline or starting point, and imaging is a common base lining method.
 
 ##### Diagrams
-- Network diagrams : Document the physical wire and device, detailed diagrams to show the relationship of all the interconnected devices. Full topology.
+- *Network diagrams* : Document the physical wire and device, detailed diagrams to show the relationship of all the interconnected devices. Full topology.
 	- Physical data center layout: Can include physical rack locations.
 	- Device diagrams: individual cabling.
 
@@ -1882,3 +1882,469 @@ _ Networking devices_ have two function planes of oeperation
 - Break out of the VM and interact with the ohst operating sustem or hardware
 - Once you escape the VM you have great control
 - Segment the network
+
+
+## 2.3 Summarize secure application development, deployment, and automation concepts.
+
+### Secure Deployments
+
+#### Development to production
+If you’re an organization that does your own development work, there’s always a challenge in getting the application from the development process and move it into the production environment.
+
+Each of these scenarios where you’re **moving an application from a nonproduction environment to the production environment should be very closely monitored.**
+
+#### Sandboxing
+
+- A sandbox is an isolated testing environment that can be used by the developers to test different aspects of the application that they’re building.
+	- A technological saffe space
+- Use during the development process, if something doesn’t work or goes wrong, the only people it will affect are people using that particular sandbox.
+
+#### Building the application
+
+The application development process generally **starts with a developer.** This would be a programmer who writes the code in a secure environment and begins testing out different aspects of the code’s functionality.
+- The developers will commonly use the sandbox to perform tests, until it is fit for live production.
+The application devs bring all the code together to see how the different parts will react and will be able to check if everything is working as expected.
+
+#### Verifying the application
+- Quality Assurance (QA)
+	- verifies features are working as expected.
+	- tests new features that have been added making sure they work
+	- Verifies that old errors don't appear
+- Staging
+	- Almost ready to roll it out
+	- Works and feels exactly like the production environment
+	- Working with a copy of production data
+	- Run performance test
+	- Test usability and features.
+
+#### Using the application
+
+- Production
+	-  Application is live
+	- Rolled out to the user community
+- Logistical challengers
+	- new servers
+	- new software
+#### Secure baselines
+- The security of an application environment should be well-defined
+	- All application instance must follow this baseline
+	- Firewall settings, patch levels, OS file versions
+	- May require constant updates
+- Integrity measurements check for the secure baseline
+		-  These should be performed often—check against well documented baseline		
+		- Failure requires an immediate correction
+
+### Provisioning and De-Provisioning
+
+
+#### Provisioning
+
+- Provisioning is the process of making something available. If you are provisioning an application, then you’re probably going to deploy a web server, a database server. There may be a middleware server and other configuration and settings to be able to use this particular application.
+- the provisioning of this application instance also includes security components. We want to be sure that the operating system and the application are up-to-date with the latest security patches.
+- be sure that our network design and architecture is also secure. So we might want to create a secure VLAN just for this application.
+	- There might be a set of configurations and a firewall for internal access and a completely different set of security requirements for external access.
+
+-  if we’re deploying software to a workstation, we may want to run our own scans of that software and make sure there’s nothing inside of that binary that may look malicious.
+	-  check the security posture of the workstation and make sure that the workstation itself is up to date with the latest patches and is running all of the latest security configurations.
+-
+#### Scalability and elasticity
+- Handle application workload and adapt to dynamic changes
+- Scalability
+	- The ability to increase the workload in a given infrastructure 
+- Elasticity 
+	- Increase or decrease available resources as the workload changes
+		- Like a a rubber band
+
+#### Orchestration
+
+- Automation is the key to cloud computing
+	- Automate the provisioning and deprovisioning these applications
+- Entire application instance can be instantly provisioned
+	- All servers , networks, switches, firewalls, and policies
+- Instances can move around the world as needed
+	- Follow the sun
+- The security policies should be part of the orchestration
+	- As applications are provisioned, the proper security is automatically included.
+
+#### Deprovisioning
+
+- Dismantiling and removing an application instance
+- Security deprovisioning is important 
+	- Don't leave open holes, don't close important ones
+- Firewall policies must be reverted
+	- If the application is gone so is the access
+- What happens to the data?
+	- Dont leave that out there delete that bitch.
+
+### Secure Coding Techniques
+
+#### Secure coding concepts
+- A balance between time and quality
+- Testing, testing, testing
+	- QA process
+- Vulnerabilities will eventually be found
+
+#### Stored procedures
+
+- SQL databases
+	- Client sends detailed requests for data
+- Client requests can be complex and sometimes modified by the user
+- Stored procedures limit the client interactions
+- Attack cant use database calls
+- Think of it as a placehold for the actual command
+
+#### Obfuscation/camouflage
+
+- Obfuscate
+	- Not human readable
+- Makes it more difficult for attackers to look for holes in code.
+
+
+#### Code reuse/dead code
+
+- Code reuse 
+- If the old code has security vulnerabilities all the new apps have the same one
+- Dead code
+	- Calculations are made, code is executed, results are tallied but not used anywhere else in the app
+	- ALL code is an opportunity for a security problem
+
+#### Input validation
+
+- Find a place where the input is not properly validated
+- Document all input types
+- Check and correct all input if not then could be a possible hole 
+
+#### Validation points
+
+- Server-side validation
+	- All check occur on the server
+	- Helps protect against malicious users
+- Client-side validation
+	- The end-user's app makes the validation decisions
+	- may provide better speed
+- Server side is safer less manipulable
+
+#### Memory management
+
+Malicious users will try to get around some of these input validations, to put their own data into the memory of your computer,
+	- buffer overflow
+		- the user might be able to send more data than what was expected and overflow a section of memory.
+	- fuck a third party library write your own shit
+
+#### Third-party libraries and SDKs 
+- SDK: software development kits , speeds up the dev process.
+- Security risk 
+	- App code written by someone else
+	- Might be secure, might not
+
+- DO YOUR REASEARCH
+
+#### Data exposure
+
+In many applications, we’re inputting a lot of sensitive data. We could put in our name, our address, our birthday, our social security number, information about our family, our medical information, and so much more. That information needs to be secure. We need to make sure that we are encrypting this data when we’re storing it into some type of database or storage system.
+- Encryption of data when handing it.
+
+#### Version control
+
+- Create a file, make a change, make another change and another…
+
+- Commonly used in software development
+- Useful for security
+	- compare versions over time
+- A security challenge make sure a third party doesn't gain access to that information
+- GIT MY BOYS
+
+
+ ###  **Software diversity**
+
+**Compiler**: _To make executables most robust against attacks, an organization may choose to use a special compiler that creates different binary executables every time._
+    -   **Binary** file will be different every time
+    - An attack with only be successful on a fraction of the users
+
+###  **Automation/scripting**: 
+
+Automated testing uses special testing software that works with scripts commonly written by the programmers (or perhaps the quality assurance team) to create automated courses of action for the deployment process.
+
+- **Continuous monitoring**: _Automated processes that monitor the functioning of the application._
+    - **Continuous validation**: _Tests to verify the code is running as expected._
+    -   **Continuous integration**: _Processes to verify different parts of the application software are working together properly._
+    -   **Continuous delivery**: _Automated tools to deploy the latest version to a customer._
+    -   **Continuous deployment**: _The process that makes continuous delivery happen._
+
+DEVOPS WOOOO
+
+
+
+## 2.4 Summarise authentication and authorisation design concepts.
+
+-   -   **Directory services**:
+			- Keeps all of an organization's usernames and passwords in a single database.
+			- Access via Kerberos or LDAP
+    -   **Federation**: _A federated system involves the use of a common authentication system and credentials database that multiple entities use and share. This ensures that a user’s credentials in Company A would be acceptable in Company B and Company C, and only access permissions would be the determining factor in accessing systems and data. Windows Active Directory is a good example of a federated system in practice; user credentials from different domains could be used in other domains if they are all part of the same Active Directory forest._
+		    - Provide network access to others
+		    - Third-parties can establish a federated network
+		    - Third-parties must establish a trust relationship
+    -   Attestation
+	    - Prove the hardware is really yours
+	    - Your having the system 'attest' that the hardeware that is connecting into the network is the hardware you originally setup that is trustworthy to connect to the system.
+	    - OTP "One time password"
+			     -   Technologies of Attestat
+        -   **Time-based One Time Password (TOTP)**: _A time-based one-time password (TOTP) uses time as a factor to assist in generating a OTP. Normally, the user has a set number of seconds to input the correct password before it changes and another one must be used. This has many advantages, including the prevention of replay attacks._
+        -   **HMAC-based One Time Password (HOTP)**: _The Hash-based Message Authentication Code (HMAC) provides for message authentication and data integrity. HMAC can use either MD5 or the SHA series of hashing algorithms and various key sizes. In the case of HOTP use, the user is authenticated against the centralised authentication database, and the authentication server calculates the HMAC value and sends it to the user via an authentication device such as a token. Several popular authentication mechanisms that use mobile devices, such as smartphones, make use of HOTP._
+        -   **Short Message Service (SMS)**: _Many security systems use standard communication methods to convey an OTP. Common systems send an OTP via short message service (SMS) to a smartphone, for example._
+        -   **Token key**: _Hardware tokens are physical devices such as a USB security key linked to a specific account and plugged into the client computer. Software tokens are applications that generate OTPs._
+        -   **Static codes**: _Expect a question on the CompTIA Security+ exam on static codes for authentication. These refer to personal identification numbers (PINs) that you use to log into a Microsoft account, for example, or to finish authenticating with an automated teller machine (ATM) at the bank. Most smartphones require a static code for login (i.e., authentication)._
+        -   **Authentication applications**: _You can use general authentication applications as a part of two-factor authentication at various websites. The [https://login.gov](https://login.gov/) website, for example, enables users to add one of various apps to their smart devices, such as Google Authenticator, Authy, LastPass, or 1Password, to create that second authentication factor._
+        -   **Push notifications**: _Another way of receiving a OTP._ Similar process to an SMS notification. Still more secure than SMS.
+        -   **Phone call**: _Another way of receiving a OTP._
+    -   **Smart card authentication**: _Adding a storage chip to a standard credit card–sized plastic card creates a way for an individual to store personal information, a smart card. Smart cards can store any binary data, not just certificates. Some applications use smart cards that store symmetric keys, digital signatures, PINs, or personally identifiable information (PII)._
+-   **Biometrics**: _Human physical characteristics that can be measured and saved to be compared as authentication in granting the user access to a network or resource. Common biometric factors used in access control include fingerprints, facial scans, retinal scans, voice pattern recognition, and others._
+    -   **Fingerprint**: _Self explanatory._
+    -   **Retina**: _Self explanatory._
+    -   **Iris**: _Self explanatory._
+    -   **Facial**: _Self explanatory._
+    -   **Voice**: _Self explanatory._
+    -   **Vein**: _Self explanatory._
+    -   **Gait analysis**: _Gait analysis measures the unique way a person walks or runs by using machine vision–based tools—external cameras, in other words—or via the sensors built into existing smartphones._
+    -   **Efficacy rates**: _Biometric systems are not foolproof._
+    -   **False acceptance**: _The FAR is the rate of errors from incorrectly authenticating unauthorised users._
+    -   **False rejection**: _The FRR is the rate of errors from incorrectly rejecting authorised users._
+    -   **Crossover error rate**: _The crossover error rate (CER) is the point at which the system must be tuned to reduce both types of errors effectively without increasing either one of them._
+-   **Multifactor Authentication (MFA) factors and attributes**: _Multifactor authentication (MFA) uses more than one factor or attribute to identify a user and validate her credentials._
+    -   **Factors**
+        -   **Something you know**: _The knowledge factor relates to something you know, typically used when you identify yourself to a system with a user name and password combination. You know your user name and password, and use your memory to present them to the system._
+        -   **Something you have**: _The possession factor relates to something you have. You physically possess an object to use as an authenticator. Scanning a gym membership card to gain access, for example, uses something you have._
+        -   **Something you are**: _The inherence factor relates to something you are, relying on a person’s unique physical characteristics that can be used as a form of identification, such as fingerprints, retinal eye patterns, iris patterns, handprints, and voiceprints._
+    -   **Attributes**
+        -   **Somewhere you are**: _The location attribute relates to your location when you authenticate. This attribute could use either physical or logical locations and requires you to be in a certain location when you authenticate to the system._
+        -   **Something you can do**: _Something you do, meaning that when you present your credentials to the system, you must perform an action, is a common attribute that accompanies authentication factors. The best example of this type of authentication attribute is when you use a finger or hand gesture on a smartphone or tablet to log in._
+        -   **Something you exhibit**: _Something you exhibit can refer to something neurological that can be measured or scanned; it could be a personality trait or a mannerism. Speech analysis systems could very easily identify Barak Obama from the cadence of the way he talks, for example, with distinctive pauses._
+        -   **Someone you know**: _The someone you know attribute reflects a trust relationship._
+-   **Authentication, Authorization, and Accounting (AAA)**:
+    -   **Authentication**: _Authentication gets you in the door of a shared resource; the key unlocks the box._
+    -   **Authorization**: _Authorization defines what you can do once you authenticate._
+    -   **Accounting**: _Accounting or auditing enables security professionals to keep track of the accesses that take place on any given resource over time._
+
+
+## 2.5 Given a scenario, implement cybersecurity resilience.
+### Redundancy
+  **Geographic dispersal**: _Self explanatory. The gold standard for system redundancy is to make perfect copies of the same system and spread them apart geographically, then use the Internet to keep the copies identical._ So that in the case of partial failure, a backup is always available.
+    -   **Disk** Redundancy
+        -   **Redundant Array of Inexpensive Disks (RAID) levels**: _Redundant array of inexpensive disks (RAID) is a fault tolerance technology that spans data across multiple hard disk drives or solid state drives within a server or workstation. This level of fault tolerance specifically addresses hard drive failure and balances the need for data redundancy with speed and performance. RAID uses multiple physical mass storage drives to create logical drives, usually making it transparent to users. Data is spanned across the different physical drives, along with metadata (usually parity information), so that if any one drive fails, the other drives in the RAID set can continue to provide data while the single drive is replaced._
+            
+           RAID Level
+            
+            Details
+            
+            Minimum Number of Physical Drives Required
+            
+            RAID 0
+            
+            Striping, no mirroring of parity.
+            
+            -
+            
+            RAID 1
+            
+            Mirroring, no striping or parity.
+            
+            -
+            
+            RAID 5
+            
+            Striping with parity. 1/n of the total disk space is used for parity.
+            
+            -
+            
+            RAID 6
+            
+            Striping with double distributed parity. Allows for failure of up to 2 drives.
+            
+            -
+            
+            RAID 10
+            
+            A stripe of mirrors.
+            
+            -
+            
+            RAID 01
+            
+            A mirror of stripes.
+            
+            -
+            
+
+-   **Multipath**: _A multipath solution provides more than one way to access storage. A RAID 1 implementation with two controllers, one for each drive, is the traditional multipath solution. More than one connection to a SAN is also a typical implementation of multipath._
+
+-   **Network** Redundancy
+    -   **Load balancers**: _A load balancer is a network device used to provide efficient and seamless workload sharing between network devices (such as routers or firewalls) or hosts, typically Web or file servers or storage devices. Placed strategically between devices, a load balancer enhances security and efficiency._
+    -   **Network Interface Card (NIC) teaming**: _Network interface cards rarely fail, but when one does, the system with the bad NIC is offline until the NIC is replaced. Network interface card (NIC) teaming addresses this issue by using two or more NICs on a single system that act as though they are a single NIC with one MAC address and one IP addresses. Not only does NIC teaming increase throughput (sort of), but if one NIC fails, the other continues to work._
+	    - Port aggregation.
+-   **Power**
+    -   **Uninterruptible Power Supply (UPS)**: _An uninterruptible power supply (UPS) uses a small battery (often the same type used in motorcycles) as a backup power source if the power ever sags or goes out completely._
+    -   **Generator**: _If you need to ensure that a system has uninterrupted power for an extended period of time after a power failure, you need to consider an onsite generator as a source of backup electricity._
+    -   **Dual supply**: _Many higher-end devices support dual power supplies. These aren't complicated: if one power supply goes out, the other takes over._
+    -   **Managed Power Distribution Units** (PDUs): _At the simplest end a simple power strip is a PDU, but if you’re going to distribute power, why not use a managed PDU that can monitor power usage, send alarms, and so forth?
+	    - <img src = "https://i.gyazo.com/c4a1983571fd3937fd5a5438b8febc6a.png">
+	    
+- ### **Replication**:
+    -   **Storage Area Network**: _A storage area network (SAN) is a network storage that enables you to access the shared folders by using block-level controls rather than the network stack. This gives SANs some unique capabilities, mainly on-the-fly volume creation/manipulation. On most systems, if you want to add storage, you first get a storage device, configure it, mount it, and format it. On a SAN, you just tell the SAN controller to add another disk to your local system. You can create a new volume, or you can mount an existing volume._
+    -   **VM**: _The capability to push out multiple identical copies of VMs from a master image is categorized as replication on the CompTIA Security+ exam._
+-   **On-premises vs cloud**: _Nothing beats virtualization, especially cloud-based services, for giving you all the benefits of redundancy, especially high availability, without outrageous cost and time. First, virtualization solutions are incredibly scalable. Virtualization also makes geographic dispersal easy to achieve. Is your new Website huge in Japan? Just tell Amazon to spin up some new servers over in Japan, so your customers in Tokyo get the same speed and response as your US users._
+	- Speed'Money'Security 
+- ### **Backup types**
+    -   **Full**: _In a full backup, regardless of whether you back up a shared folder, a single hard drive, a RAID array, or an entire server, everything is included in the backup set. At the basic file system level, a full backup also sets the archive bits on files to indicate that the files have been backed up. One important difference between the standard full backup method and copy or image is that the latter two do not turn off the archive bit.
+    -   -   **Incremental**: _The incremental backup typically backs up only files that have changed since the last full backup. In other words, when an incremental backup runs, it backs up only the files that have the archive bits turned on. After it backs up those files, it turns off the archive bits. If a full backup is run, and then files subsequently change, an incremental backup backs up only those files._
+    - <img src = "https://i.gyazo.com/652f9bbf51e947018f30c2f01af68d77.png">
+    - 
+    -   **Snapshot**: _A snapshot stores a version of an operating system (including applications) at a given moment in time. These are common for individual system backups, such as restore points in Windows and Time Machine backups in macOS. For servers and such, a snapshot as a backup refers to the powerful feature with virtual machines that enables you to save a version of a functional VM to restore very quickly if anything negative happens to the functional server._
+    -   **Differential**: _The differential backup also gets only a subset of the total data and is also based upon the archive bit setting. However, the major difference between a differential backup and an incremental backup is that the differential backup does not clear the archive bit—it leaves it turned on.
+    - <img src = "https://i.gyazo.com/402b602dbadf887d83fb4e47fd2feed4.png">  
+    -   **Tape**: _A lot of cloud storage providers still use tape for archival backup, especially for records an organisation probably won’t need but must store for a set number of years to comply with government regulations._
+    -   **Disk**: _Backing up to a hard disk._
+    -   **Copy**: _A full copy (typically using dd). Does not affect archive bits._
+    -   **Network Attached Storage (NAS)**: _A network-attached storage (NAS) system is a standalone box filled with removable hard drives._
+    -   **Storage Attached Network (SAN)**: _A storage area network (SAN) typically combines multiple devices into a coherent block-storage space, then connects to hosts using blazingly fast Fibre Channel networking. The block storage enables a SAN to provide simultaneous high-speed access to multiple users, divide space in whatever way makes sense for the network, and even create what appears to be external hard drives connected to local machines. SANs are much more complicated and expensive than NASs but are pretty much the solution for enterprise on-premises backup and storage._
+    - **Other Backups**:
+    -   **Cloud**: _Backing up to cloud storage._
+    -   **Image**: _Creating an image, usually using dd. Does not affect archive bits._
+-  
+    -   **Online vs offline**: _The concept of online versus offline backups refers to the state of the data at the time of the backup. When dealing with a big database, for example, an online backup means the backup happens while the database is live and in use by however many numbers of simultaneous users. With an offline backup, in contrast, the database is shut down._
+    -   **Offsite storage**: _Storing backup drives at a location distant from your primary organisation provides essential security in the event of a disaster._
+        -   **Distance considerations**: _Storing backup drives at a location distant from your primary organisation provides essential security in the event of a disaster. The location of offsite backups and services matters because of law and international jurisdictions._
+
+### Resiliency
+-   **Non persistence**: _Non-persistence simply means to possess a method to bring a system back quickly to its pre-attack state._
+    -   **Revert to known state**: _Every major OS has some form of revert/rollback method to bring a system back to a previous state, what the CompTIA Security+ objectives call revert to known state. All revert/rollback methods work by making the OS aware of changes and then storing files or settings in such a way that techs can look up previous states and tell the OS to go back to one of those states._
+    -   **Last known good configuration**: _Older Windows versions (such as Windows 7) offered a boot feature called last known good configuration that enabled quick recovery from installation of a buggy driver._
+    -   **Live boot media**: _Live boot media are complete, installed operating systems that exist on bootable media._
+-   **High availability**
+    -   **Scalability**: _Redundancy provides high availability. High availability means using redundancy in such a way as to ensure that certain levels of operational performance are balanced against risk._
+-   **Restoration order**:
+	- Application-specific
+		- Certain components may need to be resotred first
+		- Databases should be restored before the application
+	- Backup-specific 
+		- Incremental backups restore the full backup, then all subsequent incremental backups
+		- Differential  backups restore the full backup, then the last differential backup
+-   **Diversity**: _Diversity refers to the practices of using a variety of technologies, vendors, cryptographic systems, and controls to avoid the possibility that all systems have the same vulnerability and can be taken out en masse. When organisations rely on multiple redundant technologies, vendors, cryptographic systems, and security controls, that diversity provides cybersecurity resilience. If a single technology fails, a vendor disappears, the crypto system is cracked, or security controls change and conflict, an organization that employs multiple systems through diversity can quickly pivot and implement fixes._
+    -   **Technologies**
+	    - A zero-day OS vulnerability can cause significant outages
+	    - Multiple security devices
+    -   **Vendors**
+	    - A single vendor can be a vulnerability
+    -   **Crypto**
+	    - All cryptography is temporary
+	    - Diverse certificate authorities can provide additional protection
+    -   **Controls**
+	    - Administrative controls
+	    - Physical 
+	    - Technical 
+	    - Combine them together
+	    - Defense in depth
+
+### 2.6 Explain the security implications of embedded and specialised systems.
+
+-   **Embedded systems**: _CompTIA uses the term embedded system to describe discrete hardware components that make up portions of systems._
+    -   **Raspberry Pi**: 
+    - Multiple Components on a single chip
+    - Acts like a desktop computer
+    - Small form factor
+    - Security considerations: Difficult to upgrade hardware, Limited off-the-shelf security options.
+	- **(SoC) System on a Chip**. 
+	
+    -   **Field Programmable Gate Array (FPGA)**: _Embedded systems that require flexibility in processing capabilities use field- programmable gate array (FPGA) computers that, as the name suggests, you can reprogram to optimize for various tasks. An FPGA does not have a fixed CPU, like the Raspberry Pi, but rather has integrated circuits (ICs) that developers can redefine as needed. You’ll see FPGAs used in vehicular systems, such as airplanes and automobiles, where switching hardware to make changes would be prohibitively expensive. Reprogramming the hardware for updates or corrections makes more sense. Embedded systems running on an FPGA tend to run a real-time operating system (RTOS), such as Windows Embedded Compact (Figure 9-2). An RTOS is designed to respond in real time to inputs. An RTOS is critical for anti-lock brakes, safety stops, and so forth. From a security standpoint, keeping the firmware up to date to work through bugs helps. Plus, limiting physical access to control ports or connections minimises the potential for an attacker to damage your systems._
+    -   **Arduino**: _Arduino systems have security concerns. Physical access, like with FPGA systems, presents a clear danger. The limited memory on Arduino-based systems leaves them vulnerable to buffer overflow and heap attacks. The systems often connect automatically to the nearest access point when the default connection fails, again providing an opportunity for mischief. As with all computing systems, assume Arduinos need careful thought and preparation for security._
+-   **Supervisory Control and Data Acquisition (SCADA)/Industrial Control System (ICS)**: _Supervisory control and data acquisition (SCADA) systems are used in industrial applications. SCADA systems are more and more often being connected to the Internet, and often in an unprotected state. They run TCP/IP protocols and use embedded versions of some of the popular consumer operating systems, such as Windows or Linux. This makes SCADA systems prime targets for hackers, who attack them to damage critical infrastructure, launch denial-of- service (DoS) attacks, and generally create mischief and outright harm._
+    -   **Facilities**
+    -   **Industrial**
+    -   **Manufacturing**
+    -   **Energy**
+    -   **Logistics**
+-   **Internet of Things (IoT)**: _The term Internet of Things (IoT) describes the many computing devices (other than PCs, routers, and servers) that connect through the Internet, which is about as broad a definition as it gets. IoT often refers to smaller helper devices, such as lightbulbs you can turn on or off remotely, but it also applies to heating and cooling systems (facility automation tools), smart devices like a refrigerator that can tell you how much milk is left, diapers that inform you when junior needs a change, and so on._
+    -   **Sensors**
+    -   **Smart devices**
+    -   **Wearables**
+    -   **Facility automation**
+    -   **Weak defaults**: _What IoT devices have in common from a security standpoint are weak default settings. Most manufacturers of IoT devices in the consumer sphere, for example, err on the side of ease of use for the consumer rather than rigorous security for the power user or IT security specialist. Fine-tuning options such as connectivity and notification settings can go a long way toward adding worthwhile security to IoT devices._
+-   **Specialised**: _Both CompTIA and many writers throw up their hands at the rest of the dedicated systems, calling them simply specialised systems._
+    -   **Medical systems**: _IoT pacemakers not only provide stimulus to regularise the heartbeat but also transmit over the Internet so doctors and technicians can monitor the patient’s heart and the current level of battery power. Other Internet of Medical Things (IoMT) devices—both wearable and implanted—monitor all sorts of things, from general vital signs to specific things like glucose levels in diabetic patients. The IoMT field continues to grow, combining medical systems with phenomenal technology advances. The inherent security risks involved with IoMT devices cannot be dismissed. Any device that connects to a network has vulnerabilities and the potential for hacking. A hacked medical lifesaving device could have deadly consequences._
+    -   **Vehicles**: _From a security perspective, in-vehicle computing systems have some of the same common vulnerabilities that other systems have, which may include network security issues, such as the vulnerabilities inherent to Bluetooth, Wi-Fi, and cellular technologies. There are also issues involving firmware and patch updates to the systems. Many of these systems have USB or SD card ports, for example, to upload firmware updates or play media content on the devices. Perhaps someday someone will develop a virus or other type of malware that could be injected into these types of systems via a removable media device._
+    -   **Aircraft**: _Aircraft of all sorts, both manned and unmanned, have increasingly sophisticated computing systems, many connected to extended networks and the Internet._
+    -   **Smart meters**: _Smart meters rely on cellular and wireless networks to communicate to consumers and utility companies real-time information about power usage, usually electricity, but also natural gas or water.
+-   **Voice over IP (VoIP)**: _You need to secure VoIP communications just like you would any other IP network. Typical VoIP attacks include denial of service, spoofing telephone numbers, and just harassment._
+-   **Heating, Ventilation, Air Conditioning (HVAC)**: _Self explanatory._
+-   **Drones**: _Drones typically have multiple embedded camera systems, high-end wireless networking capabilities, and an SoC to run them all._
+-   **Multifunction Printer (MFP)**: _Multifunction devices (MFDs) that combine printers, scanners, and copiers into one machine and then add Internet capabilities. You can print to MFDs from a variety of devices, including smartphones like the Apple iPhone via AirPrint, plus scan and send PDF files directly to Internet or e-mail destinations._
+-   **Real Time Operating System (RTOS)**: _A RTOS is designed to respond in real time to inputs. An RTOS is critical for anti-lock brakes, safety stops, and so forth._
+-   **Surveillance systems**: _The security implications and considerations with modern IoT surveillance systems run from paranoia to downright scary. Ring devices, for example, interface with Amazon Alexa home infotainment devices to send your security footage to “the cloud.” Nothing stops “the cloud” from sharing your footage with local law enforcement or companies that can monetise the information in some other way. Other device manufacturers have been accused of sending personal information gathered from their devices secretly to other nation states._
+-   **System on Chip (SoC)**: _The system on chip (SoC) design concept is where all the processing components reside on a single circuit board—that includes CPU, RAM, system BIOS, Ethernet networking, and Wi-Fi networking._
+-   **Communication considerations**
+    -   **5G**: _5G networks operate at three distinct bands: Low-band, Mid-band, and High-band. The higher the band, the faster the connection speed, but the shorter the range. 5G devices connect automatically at the fastest speed available at range. Cellular voice and data services these days offer very robust security. Direct sniffing of these networks is difficult at best (assuming you’re using a late-generation 4G/LTE or 5G phone). Carriers will quickly detect and act on any attempts to emulate a cell tower, for example, which could lead to serious legal ramifications for the bad actor._
+    -   **Narrow band**: _Developers use the Narrowband Internet of Things (NB-IoT) technology for high connection density IoT deployment, specifically with an eye to maximising battery life and minimising costs. Narrowband means NB-IoT uses only a single radio frequency — 200 KHz. The goal with NB-IoT is to provide good coverage and devices that don’t need recharging for years._
+    -   **Baseband radio**: _Part of the underlying physical layer of NB-IoT can rely on devices that use baseband radio processors that manage radio functions from multiple devices. Sounds like a circular definition, but you might see the term on the exam._
+    -   **Subscriber Identity Module (SIM) cards**
+    -   **Zigbee**: _Devices and systems that rely on the Zigbee communication protocols offer ad hoc personal area networks that use very low-power radios. This low-bandwidth solution works perfectly for things like medical device data collection and home automation. Zigbee is an open standard, so adoption by manufacturers is increasing._
+-   **Contraints**
+    -   **Power**
+    -   **Compute**
+    -   **Network**
+    -   **Crypto**
+    -   **Inability to patch**
+    -   **Authentication**
+    -   **Range**
+    -   **Cost**
+    -   **Implied trust**
+
+### [2.7 Explain the importance of physical security controls.](https://duncanbennie.com/comptia-security-sy0-601-study-notes/html/CompTIA%20Security+%20SY0-601.html#2.0%20Architecture%20and%20Design-2.7%20Explain%20the%20importance%20of%20physical%20security%20controls.)
+
+-   **Bollards/barricades**: _Barricades are physical security devices that can block unauthorised personnel from entering an area. Barricades are often used in the area surrounding a facility to keep vehicles from getting too close to a building, for example. They can also be used inside a facility to control the flow of people through secure areas.
+-   **Access control vestibules**: _CompTIA uses the nonstandard term access control vestibule to refer to mantrap-designed rooms. Although the non-gendered term should be used, you’re unlikely to hear it in common speech for many years. Be prepared for either term on the CompTIA Security+ exam. A mantrap usually has some type of authentication station in the room, or even a one-way glass window so that a guard can observe the individual and confirm his or her identity, or ensure that the visitor doesn't possess any unauthorised weapons or items. The individual may have to use biometrics or a smart card and PIN to authenticate themselves at the station. If the individual is properly authenticated, the exit doors open and allow the person to enter into the secure area. If the individual is not authenticated, or the guard suspects an issue with the person, he or she can be detained in the mantrap until the proper authorities or security personnel can be summoned to help secure the person. Mantraps are normally used in highly secure facilities, such as data centers, where positive authentication of personnel is of critical importance._
+-   **Badges**: _Positive identification and authentication using access badges can mitigate vulnerabilities associated with tailgating._
+-   **Alarms**: _Physical alarm systems and intrusion detection systems are a must in any physical security program. Alarm systems can be loud and obnoxious, such as fire or tornado alarms, but they can also be silent alarms that sound or activate only at a guard station._
+-   **Signage**: _Signage helps deter unwanted visitors. Signs can warn intruders away from restricted areas and instruct authorised personnel to follow the proper security and safety procedures. Signs can direct personnel during an evacuation to the correct exit points, warn personnel about potential safety hazards in the facility, or help them find proper safety or fire suppression equipment. In short, the value of signs cannot be understated, because they may be required to help deter unauthorised activities or intruders but can also help protect the safety of the people who work in the facility._
+-   **Cameras**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
+    -   **Motion recognition**: _Recording systems should automatically kick in with motion recognition hardware detecting movement, thus capturing anything larger than a squirrel that enters a camera’s field of view. CCTVs should also date and time stamp those recordings so that a realistic time frame of events can be reconstructed if needed._
+    -   **Object detection**
+-   **Closed Circuit Television (CCTV)**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
+-   **Industrial camouflage**: _Hiding or obscuring CCTV cameras helps enhance the security of a network. This industrial camouflage potentially causes attackers to miss the fact that cameras are rolling, thus minimising the attackers’ ability to avoid visual or auditory capture._
+-   **Personnel**
+    -   **Guards**: _Security guards have specific training and skills to monitor and maintain facility security._
+    -   **Robot sentries**: _Self explanatory._
+    -   **Reception**: _Guards in the reception area of a building manage people in real time. They can actively review people who step up to the entryway and, again, actively allow or deny access to the facility. They can and should log in and out every single visitor on a visitor log._
+    -   **Two person integrity/control (TPIC)**: _Expect a question on the CompTIA Security+ exam that addresses two-person integrity/control. In a general sense, two-person integrity (TPI) simply means that you have two guards in the same space at all times, so one guard can’t mess up (inadvertently or on purpose) without the other guard catching the problem. Specifically, TPI refers to the nuclear weapons controls in the United States; again, so one person can’t make a catastrophic mistake. It’s a failsafe mechanism._
+-   **Locks**: _Locks are physical security controls that can help keep unauthorised persons from entering doorways, secure areas, and perimeters._
+    -   **Biometrics**: _Security controls that use biometrics to verify authorisation._
+    -   **Electronic**: _Electronic locks are more sophisticated and may use various protection mechanisms. Usually, an electronic lock uses a PIN code and may be known as a cipher lock. Electronic locks usually have their mechanisms protected by metal containers or embedded into wall._
+    -   **Physical**: _Combination locks, which require a numerical combination or PIN code to unlock them, and locks built into the door or other type of entrance (such as a gate, vault, or safe) are also popular hardware locks. Each has advantages and disadvantages, depending on the level of security you require. Each also has different variations. Ordinary padlocks, referred to as warded locks, may appear to be strong, but they can easily be cut or picked._
+    -   **Cable locks**
+-   USB data blocker
+-   **Lighting**: _Lighting is another critical aspect of perimeter security. During evening or dark hours, lighting can help ensure that trespassers, attackers, and thieves are deterred from venturing out into open areas when trying to approach a facility or harm its personnel._
+-   **Fencing**: _Fencing deters unwanted and unauthorised visitors. Fencing is often used at facilities that require higher security than a simple lock on the door. Fencing can intimidate trespassers or attackers._
+-   **Fire suppression**: _Most modern data centers these days have foam fire suppression systems, such as FM-200 or another approved chemical foam. This type of system not only is very effective for putting out large fires but is also typically safe for humans and equipment._
+-   **Sensors**
+    -   **Motion detection**: _Motion detection involves sensing the presence of a person in an area using different types of sensors._
+    -   **Noise detection**: _Noise detection sensors pick up unusual sound levels and are used in very specific security settings, such as hospitals._
+    -   **Proximity reader**: _A proximity reader device is used to help authenticate personnel entering or exiting a facility. The person places a smart card or other access device near the sensor so it can be read via RFID or another passive wireless technology. The reader receives information from the card regarding the individual’s identity. The individual may further authenticate by using a PIN or biometric method, such as a thumbprint scan, retinal scan, or voiceprint._
+    -   **Moisture detection**: _A device that monitors humidity in a data center is called a hygrometer or, if it can measure both temperature and humidity at the same time, a hygrothermograph. Like automated temperature controls and other HVAC equipment, these devices can be centrally monitored through a remote console and alert operators whenever the temperature or humidity changes from certain levels. HVAC controls can be automatically or remotely adjusted based upon information received from these monitors._
+    -   **Cards**: _Smart card sensors._
+    -   **Temperature**: _Thermometers._
+-   **Drones**: _Small, remotely controlled flying surveillance vehicles — drones — form increasingly useful tools for security professionals to patrol areas._
+-   **Visitor logs**: _Guards in the reception area of a building manage people in real time. They can actively review people who step up to the entryway and, again, actively allow or deny access to the facility. They can and should log in and out every single visitor on a visitor log._
+-   **Faraday cages**: _Faraday cages are devices that prevent RFI or EMI from damaging contents stored. Faraday cages are named for the English scientist—Michael Faraday—who created the design way back in the 19th century._
+-   **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet-connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
+-   **Screened subnet (previously known as a Demilitarised Zone (DMZ))**: _A network that includes public servers must have a more complex topology that protects Internet systems but still enables less-protected access for public servers. To do this, create a screened subnet—also known as a demilitarised zone (DMZ) - a LAN, separate from the internal LANs that contain workstations and private servers. The DMZ connects to the Internet via a lightly firewalled router, and an internal network connects to the DMZ via a much more aggressively firewalled router._
+-   **Protected cable distribution**: _Protecting physical cabling is as much about facility design as anything else. The facility should be designed so that physical cabling is run outside of normal traffic areas, through ducts in the walls or ceiling. The end connection points of the cabling should be physically protected from unauthorised access, by placing termination points such as switches in locked closets, and protecting end-user device connection points in offices and other rooms from unauthorised access. In addition to physical security design, protecting cabling involves other possible measures, including using shielded cabling to prevent eavesdropping (or using fiber cable); configuring systems to send alarms when a connection is lost, possibly indicating a cut or damaged cable; and even using technical or logical controls that prevent unauthorised devices from connecting to end- user cable connection points, such as network outlets, by controlling port access._
+-   **Secure areas**
+    -   **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet- connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
+    -   **Vault**: _A vault you've likely seen in every cops and robbers movie. A giant metal door with a super-complicated lock protects the contents of a thick-walled room._
+    -   **Safe**: _Most organisations have a designated safe, a smaller version of a vault for storing valuables, such as secure passwords and important papers._
+    -   **Hot and cold aisles**: _The concept of hot and cold aisles relates to designing the layout of data centers intelligently and efficiently. In this type of setup, aisles of equipment racks are set up such that there are alternating hot and cold aisles, enabling cooler air to be blown into equipment as hotter air is pulled away from them._
+-   **Secure data destruction**
+    -   **Burning**: _Self explanatory._
+    -   **Shredding**: _Self explanatory._
+    -   **Pulping**: _Self explanatory._
+    -   **Pulverising**: _Self explanatory._
+    -   **Degaussing**: _Self explanatory._
+    -   **Third party solutions**: _Self explanatory._
