@@ -2244,7 +2244,7 @@ DEVOPS WOOOO
 	    - Combine them together
 	    - Defense in depth
 
-### 2.6 Explain the security implications of embedded and specialised systems.
+## 2.6 Explain the security implications of embedded and specialised systems.
 
 -   **Embedded systems**: _CompTIA uses the term embedded system to describe discrete hardware components that make up portions of systems._
     -   **Raspberry Pi**: 
@@ -2255,6 +2255,8 @@ DEVOPS WOOOO
 	- **(SoC) System on a Chip**. 
 	
     -   **Field Programmable Gate Array (FPGA)**: _Embedded systems that require flexibility in processing capabilities use field- programmable gate array (FPGA) computers that, as the name suggests, you can reprogram to optimize for various tasks. An FPGA does not have a fixed CPU, like the Raspberry Pi, but rather has integrated circuits (ICs) that developers can redefine as needed. You’ll see FPGAs used in vehicular systems, such as airplanes and automobiles, where switching hardware to make changes would be prohibitively expensive. Reprogramming the hardware for updates or corrections makes more sense. Embedded systems running on an FPGA tend to run a real-time operating system (RTOS), such as Windows Embedded Compact (Figure 9-2). An RTOS is designed to respond in real time to inputs. An RTOS is critical for anti-lock brakes, safety stops, and so forth. From a security standpoint, keeping the firmware up to date to work through bugs helps. Plus, limiting physical access to control ports or connections minimises the potential for an attacker to damage your systems._
+	    - An integrated circuit that can be configured after manufacturing 
+	    - A problem doesn't require a hardware replacement 
     -   **Arduino**: _Arduino systems have security concerns. Physical access, like with FPGA systems, presents a clear danger. The limited memory on Arduino-based systems leaves them vulnerable to buffer overflow and heap attacks. The systems often connect automatically to the nearest access point when the default connection fails, again providing an opportunity for mischief. As with all computing systems, assume Arduinos need careful thought and preparation for security._
 -   **Supervisory Control and Data Acquisition (SCADA)/Industrial Control System (ICS)**: _Supervisory control and data acquisition (SCADA) systems are used in industrial applications. SCADA systems are more and more often being connected to the Internet, and often in an unprotected state. They run TCP/IP protocols and use embedded versions of some of the popular consumer operating systems, such as Windows or Linux. This makes SCADA systems prime targets for hackers, who attack them to damage critical infrastructure, launch denial-of- service (DoS) attacks, and generally create mischief and outright harm._
     -   **Facilities**
@@ -2268,8 +2270,9 @@ DEVOPS WOOOO
     -   **Wearables**
     -   **Facility automation**
     -   **Weak defaults**: _What IoT devices have in common from a security standpoint are weak default settings. Most manufacturers of IoT devices in the consumer sphere, for example, err on the side of ease of use for the consumer rather than rigorous security for the power user or IT security specialist. Fine-tuning options such as connectivity and notification settings can go a long way toward adding worthwhile security to IoT devices._
--   **Specialised**: _Both CompTIA and many writers throw up their hands at the rest of the dedicated systems, calling them simply specialised systems._
-    -   **Medical systems**: _IoT pacemakers not only provide stimulus to regularise the heartbeat but also transmit over the Internet so doctors and technicians can monitor the patient’s heart and the current level of battery power. Other Internet of Medical Things (IoMT) devices—both wearable and implanted—monitor all sorts of things, from general vital signs to specific things like glucose levels in diabetic patients. The IoMT field continues to grow, combining medical systems with phenomenal technology advances. The inherent security risks involved with IoMT devices cannot be dismissed. Any device that connects to a network has vulnerabilities and the potential for hacking. A hacked medical lifesaving device could have deadly consequences._
+	    - For the love of God don't keep your admin user/pass.
+-   **Specialized**: _Both CompTIA and many writers throw up their hands at the rest of the dedicated systems, calling them simply specialized._
+    -   **Medical systems**: _IoT pacemakers not only provide stimulus to regularize the heartbeat, but also transmit over the Internet so doctors and technicians can monitor the patient’s heart and the current level of battery power. Other Internet of Medical Things (IoMT) devices—both wearable and implanted—monitor all sorts of things, from general vital signs to specific things like glucose levels in diabetic patients. The IoMT field continues to grow, combining medical systems with phenomenal technology advances. The inherent security risks involved with IoMT devices cannot be dismissed. Any device that connects to a network has vulnerabilities and the potential for hacking. A hacked medical lifesaving device could have deadly consequences._
     -   **Vehicles**: _From a security perspective, in-vehicle computing systems have some of the same common vulnerabilities that other systems have, which may include network security issues, such as the vulnerabilities inherent to Bluetooth, Wi-Fi, and cellular technologies. There are also issues involving firmware and patch updates to the systems. Many of these systems have USB or SD card ports, for example, to upload firmware updates or play media content on the devices. Perhaps someday someone will develop a virus or other type of malware that could be injected into these types of systems via a removable media device._
     -   **Aircraft**: _Aircraft of all sorts, both manned and unmanned, have increasingly sophisticated computing systems, many connected to extended networks and the Internet._
     -   **Smart meters**: _Smart meters rely on cellular and wireless networks to communicate to consumers and utility companies real-time information about power usage, usually electricity, but also natural gas or water.
@@ -2278,15 +2281,31 @@ DEVOPS WOOOO
 -   **Drones**: _Drones typically have multiple embedded camera systems, high-end wireless networking capabilities, and an SoC to run them all._
 -   **Multifunction Printer (MFP)**: _Multifunction devices (MFDs) that combine printers, scanners, and copiers into one machine and then add Internet capabilities. You can print to MFDs from a variety of devices, including smartphones like the Apple iPhone via AirPrint, plus scan and send PDF files directly to Internet or e-mail destinations._
 -   **Real Time Operating System (RTOS)**: _A RTOS is designed to respond in real time to inputs. An RTOS is critical for anti-lock brakes, safety stops, and so forth._
+	-  Airline traffic control systems, Command Control Systems, Airlines reservation system
+	- Military Enviornments
+	- Extremely sensitive to security issues
 -   **Surveillance systems**: _The security implications and considerations with modern IoT surveillance systems run from paranoia to downright scary. Ring devices, for example, interface with Amazon Alexa home infotainment devices to send your security footage to “the cloud.” Nothing stops “the cloud” from sharing your footage with local law enforcement or companies that can monetise the information in some other way. Other device manufacturers have been accused of sending personal information gathered from their devices secretly to other nation states._
+	- Sometimes physically difficult to replace cameras
+	- Segment the Cameras just in case they are compromised
 -   **System on Chip (SoC)**: _The system on chip (SoC) design concept is where all the processing components reside on a single circuit board—that includes CPU, RAM, system BIOS, Ethernet networking, and Wi-Fi networking._
--   **Communication considerations**
+- #### **Communication considerations**
     -   **5G**: _5G networks operate at three distinct bands: Low-band, Mid-band, and High-band. The higher the band, the faster the connection speed, but the shorter the range. 5G devices connect automatically at the fastest speed available at range. Cellular voice and data services these days offer very robust security. Direct sniffing of these networks is difficult at best (assuming you’re using a late-generation 4G/LTE or 5G phone). Carriers will quickly detect and act on any attempts to emulate a cell tower, for example, which could lead to serious legal ramifications for the bad actor._
     -   **Narrow band**: _Developers use the Narrowband Internet of Things (NB-IoT) technology for high connection density IoT deployment, specifically with an eye to maximising battery life and minimising costs. Narrowband means NB-IoT uses only a single radio frequency — 200 KHz. The goal with NB-IoT is to provide good coverage and devices that don’t need recharging for years._
+	    - SCADA
+	    - Oil Fields
     -   **Baseband radio**: _Part of the underlying physical layer of NB-IoT can rely on devices that use baseband radio processors that manage radio functions from multiple devices. Sounds like a circular definition, but you might see the term on the exam._
-    -   **Subscriber Identity Module (SIM) cards**
+	    - SIngle cable w a digital signal
+	    - Bidirectional communication
+	    - Ethernet standart
+    -   **Subscriber Identity Module (SIM) cards
+	    - provide information to a cellular network provider
+	    - contains mobile details
+	    - Important to manage
     -   **Zigbee**: _Devices and systems that rely on the Zigbee communication protocols offer ad hoc personal area networks that use very low-power radios. This low-bandwidth solution works perfectly for things like medical device data collection and home automation. Zigbee is an open standard, so adoption by manufacturers is increasing._
+	    - IoT networking
+	    - Less power than wifi , longer distance than bluetooth
 -   **Contraints**
+- These systems have to trade one thing for a another , for example more ram but less space for power; more portability less ability to patch.
     -   **Power**
     -   **Compute**
     -   **Network**
@@ -2297,29 +2316,43 @@ DEVOPS WOOOO
     -   **Cost**
     -   **Implied trust**
 
-### [2.7 Explain the importance of physical security controls.](https://duncanbennie.com/comptia-security-sy0-601-study-notes/html/CompTIA%20Security+%20SY0-601.html#2.0%20Architecture%20and%20Design-2.7%20Explain%20the%20importance%20of%20physical%20security%20controls.)
+## 2.7 Explain the importance of physical security controls.
 
 -   **Bollards/barricades**: _Barricades are physical security devices that can block unauthorised personnel from entering an area. Barricades are often used in the area surrounding a facility to keep vehicles from getting too close to a building, for example. They can also be used inside a facility to control the flow of people through secure areas.
--   **Access control vestibules**: _CompTIA uses the nonstandard term access control vestibule to refer to mantrap-designed rooms. Although the non-gendered term should be used, you’re unlikely to hear it in common speech for many years. Be prepared for either term on the CompTIA Security+ exam. A mantrap usually has some type of authentication station in the room, or even a one-way glass window so that a guard can observe the individual and confirm his or her identity, or ensure that the visitor doesn't possess any unauthorised weapons or items. The individual may have to use biometrics or a smart card and PIN to authenticate themselves at the station. If the individual is properly authenticated, the exit doors open and allow the person to enter into the secure area. If the individual is not authenticated, or the guard suspects an issue with the person, he or she can be detained in the mantrap until the proper authorities or security personnel can be summoned to help secure the person. Mantraps are normally used in highly secure facilities, such as data centers, where positive authentication of personnel is of critical importance._
+	- Prevent access
+	- Channels people through a specific access point
+	- Identify safety concerns
+	- Prevent large items from entering a certain area
+-   **Access control vestibules**: _CompTIA uses the nonstandard term access control vestibule to refer to mantrap-designed rooms. Although the non-gendered term should be used, you’re unlikely to hear it in common speech for many years. Be prepared for either term on the CompTIA Security+ exam. A mantrap usually has some type of authentication station in the room, or even a one-way glass window so that a guard can observe the individual and confirm his or her identity, or ensure that the visitor doesn't possess any unauthorised weapons or items. The individual may have to use biometrics or a smart card and PIN to authenticate themselves at the station. If the individual is properly authenticated, the exit doors open and allow the person to enter into the secure area. If the individual is not authenticated, or the guard suspects an issue with the person, he or she can be detained in the mantrap until the proper authorities or security personnel can be summoned to help secure the person. 
+	- **Mantraps** are normally used in highly secure facilities, such as data centers, where positive authentication of personnel is of critical importance._
 -   **Badges**: _Positive identification and authentication using access badges can mitigate vulnerabilities associated with tailgating._
 -   **Alarms**: _Physical alarm systems and intrusion detection systems are a must in any physical security program. Alarm systems can be loud and obnoxious, such as fire or tornado alarms, but they can also be silent alarms that sound or activate only at a guard station._
+	- Motion detection
+	- Circut - based - opening of a door or window
+	- Duress/Panic button
 -   **Signage**: _Signage helps deter unwanted visitors. Signs can warn intruders away from restricted areas and instruct authorised personnel to follow the proper security and safety procedures. Signs can direct personnel during an evacuation to the correct exit points, warn personnel about potential safety hazards in the facility, or help them find proper safety or fire suppression equipment. In short, the value of signs cannot be understated, because they may be required to help deter unauthorised activities or intruders but can also help protect the safety of the people who work in the facility._
+	- Clear and specific instructions
+	- Workers and visitors
+	- Safety, fire exits, chemicals, first aid , etc...
+	- Informational
 -   **Cameras**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
     -   **Motion recognition**: _Recording systems should automatically kick in with motion recognition hardware detecting movement, thus capturing anything larger than a squirrel that enters a camera’s field of view. CCTVs should also date and time stamp those recordings so that a realistic time frame of events can be reconstructed if needed._
     -   **Object detection**
 -   **Closed Circuit Television (CCTV)**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
--   **Industrial camouflage**: _Hiding or obscuring CCTV cameras helps enhance the security of a network. This industrial camouflage potentially causes attackers to miss the fact that cameras are rolling, thus minimising the attackers’ ability to avoid visual or auditory capture._
+-   **Industrial camouflage**: _Conceal an important facility in plain sight but it blends into the local enviornment. There should be no identifying features that would tell you that this unsuspecting build is for example a data center._
 -   **Personnel**
     -   **Guards**: _Security guards have specific training and skills to monitor and maintain facility security._
-    -   **Robot sentries**: _Self explanatory._
+    -   **Robot sentries**: _Self explanatory._ EXTREME ROOMBAS
     -   **Reception**: _Guards in the reception area of a building manage people in real time. They can actively review people who step up to the entryway and, again, actively allow or deny access to the facility. They can and should log in and out every single visitor on a visitor log._
     -   **Two person integrity/control (TPIC)**: _Expect a question on the CompTIA Security+ exam that addresses two-person integrity/control. In a general sense, two-person integrity (TPI) simply means that you have two guards in the same space at all times, so one guard can’t mess up (inadvertently or on purpose) without the other guard catching the problem. Specifically, TPI refers to the nuclear weapons controls in the United States; again, so one person can’t make a catastrophic mistake. It’s a failsafe mechanism._
 -   **Locks**: _Locks are physical security controls that can help keep unauthorised persons from entering doorways, secure areas, and perimeters._
     -   **Biometrics**: _Security controls that use biometrics to verify authorisation._
     -   **Electronic**: _Electronic locks are more sophisticated and may use various protection mechanisms. Usually, an electronic lock uses a PIN code and may be known as a cipher lock. Electronic locks usually have their mechanisms protected by metal containers or embedded into wall._
     -   **Physical**: _Combination locks, which require a numerical combination or PIN code to unlock them, and locks built into the door or other type of entrance (such as a gate, vault, or safe) are also popular hardware locks. Each has advantages and disadvantages, depending on the level of security you require. Each also has different variations. Ordinary padlocks, referred to as warded locks, may appear to be strong, but they can easily be cut or picked._
-    -   **Cable locks**
--   USB data blocker
+    -   **Cable locks** , Locks computer down temporarily , can be cut but is a means of friction for attackers
+-   **USB data blocker** 
+	-  Don't connect to unknown USB interfaces
+	- Allow the voltage , reject potential data.
 -   **Lighting**: _Lighting is another critical aspect of perimeter security. During evening or dark hours, lighting can help ensure that trespassers, attackers, and thieves are deterred from venturing out into open areas when trying to approach a facility or harm its personnel._
 -   **Fencing**: _Fencing deters unwanted and unauthorised visitors. Fencing is often used at facilities that require higher security than a simple lock on the door. Fencing can intimidate trespassers or attackers._
 -   **Fire suppression**: _Most modern data centers these days have foam fire suppression systems, such as FM-200 or another approved chemical foam. This type of system not only is very effective for putting out large fires but is also typically safe for humans and equipment._
@@ -2336,15 +2369,191 @@ DEVOPS WOOOO
 -   **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet-connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
 -   **Screened subnet (previously known as a Demilitarised Zone (DMZ))**: _A network that includes public servers must have a more complex topology that protects Internet systems but still enables less-protected access for public servers. To do this, create a screened subnet—also known as a demilitarised zone (DMZ) - a LAN, separate from the internal LANs that contain workstations and private servers. The DMZ connects to the Internet via a lightly firewalled router, and an internal network connects to the DMZ via a much more aggressively firewalled router._
 -   **Protected cable distribution**: _Protecting physical cabling is as much about facility design as anything else. The facility should be designed so that physical cabling is run outside of normal traffic areas, through ducts in the walls or ceiling. The end connection points of the cabling should be physically protected from unauthorised access, by placing termination points such as switches in locked closets, and protecting end-user device connection points in offices and other rooms from unauthorised access. In addition to physical security design, protecting cabling involves other possible measures, including using shielded cabling to prevent eavesdropping (or using fiber cable); configuring systems to send alarms when a connection is lost, possibly indicating a cut or damaged cable; and even using technical or logical controls that prevent unauthorised devices from connecting to end- user cable connection points, such as network outlets, by controlling port access._
--   **Secure areas**
-    -   **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet- connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
+#### **Secure areas**
+  - **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet- connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
+		- Disconnection from the network
+		- I.e Stock Market Networks, Power systems, Airplanes , Nuclear power plants, etc...
     -   **Vault**: _A vault you've likely seen in every cops and robbers movie. A giant metal door with a super-complicated lock protects the contents of a thick-walled room._
     -   **Safe**: _Most organisations have a designated safe, a smaller version of a vault for storing valuables, such as secure passwords and important papers._
     -   **Hot and cold aisles**: _The concept of hot and cold aisles relates to designing the layout of data centers intelligently and efficiently. In this type of setup, aisles of equipment racks are set up such that there are alternating hot and cold aisles, enabling cooler air to be blown into equipment as hotter air is pulled away from them._
+    - <img src = "https://i.gyazo.com/2f4a4bd7200a00215c38d4112a212954.png">
+    
+
 -   **Secure data destruction**
     -   **Burning**: _Self explanatory._
     -   **Shredding**: _Self explanatory._
     -   **Pulping**: _Self explanatory._
     -   **Pulverising**: _Self explanatory._
-    -   **Degaussing**: _Self explanatory._
+    -   **Degaussing**: Remove the magnetic field
     -   **Third party solutions**: _Self explanatory._
+
+
+
+## 2.8 Summarise the basics of cryptographic concepts.
+
+
+**Common terms**
+
+- Plaintext - An unencrypted message *in the clear*
+- Ciphertext - An encrypted message
+- Cipher - The algorithm used to encrypt and/or decrypt
+- Cryptanalysis  - The art of cracking encryption
+
+Cryptographic keys
+
+**Keys**
+	- Add the key to the cipher to encrypt 
+	- Larger keys are generally more secure
+
+**Key stretching libraries**
+
+Key stretching is like hashing a hash.
+blueboy = kdfjakdlsdkf3423kl but then you take that hash
+kdfjakdlsdkf3423kl = fdasfuhdsoafdhaifudhsjfouiahdsfodhfosdufha
+hash that bitch again.
+
+**Bcrypt**
+ - Generates hashes from passwords
+ - An extention to the UNIX crypt library
+ - Uses Blow fish cipher to perform multiple rounds of hashing
+
+- Password-Based key Derivation Function 2 (PBKDF2)
+
+Lightweight cruptography
+	- Cryptography with the least amount of power, great for IoT devices.
+	- Emerging
+
+
+-   **Digital signatures**:
+
+_The challenge to key exchange isn't handing out the keys. The Web server and client can automatically share their public keys the moment they connect. The problem comes with the key itself. Imagine a scenario where a third party intercepts the data and tries to send a bogus public key to the client. Digital signatures address this scenario. To send a message in a typical asymmetric encryption cryptosystem, the sender encrypts using the recipient’s public key; the recipient decrypts using her private key. The reverse, however, can also work. The sender can encrypt with his private key; the only key that would enable decryption is his public key. This concept makes digital signatures possible. Here’s the full process of creating a digital signature. To prove that the public key your client receives came from the proper server, the Web server adds a digital signature. The Web server takes the current Web page and does the following:_
+
+1.  _Encrypts the page with the client’s public key_
+2.  _Hashes the page._
+3.  _Encrypts the hash with the server’s private key._
+4.  _Sends the page, the public key, and the hash to the client._
+
+<img src = "https://i.gyazo.com/16bce479ddd410918e9f191ee4ebbd5b.png">
+
+
+_Now it’s the client’s turn:_
+
+1.  _The client decrypts the hash using the server’s public key to verify it really came from the server. (Only the server’s public key can decrypt something encrypted with the server’s private key.)_
+2.  _The client decrypts the message with the client’s private key._
+
+<img src = "https://i.gyazo.com/422d53b59628a96d3a876d9d2f581ca6.png">
+
+
+_The hash value encrypted with the private key and that accompanies the public key is a digital signature. Digital signatures alone work great to verify the identity of a source. Successfully decrypting the message using the source’s public key means the message could only have come from that source._
+
+#### Key Terms
+-   **Key length**: _Key length or key size refers to the number of bits in a key; this number implies security — a hacker can readily break a short key, for example. With the unbelievable growth in computing power today, on the other hand, a long key doesn't necessarily equate to better security._
+-   **Key stretching**: _Keys are almost always generated from some plain English password. If we just hash the password, it doesn't take a lot of time for an attacker to pick a potential password, hash it, then compare the results to a password hash file. But what if we were to make the process by which a key is derived from a password more complex? We can do so with a key derivation function. What if, for example, we hashed an initial password five times to then derive the key? This would require the attacker to run not just one hash, but five hashes for every iteration. Using key derivation functions that intentionally slow this derivation of keys is key stretching._
+-   **Salting**: _A salt is an arbitrary value, usually created by the application or operating system storing passwords, added to the end of a password before it is hashed. 
+- Salts defeat rainbow tables simply because (hopefully) there are no rainbow tables that include dictionary terms plus the string akxcf3sf. 
+- Salts are common in just about everything that stores passwords. The downside is that a salt must be stored. If someone had access to your hashes, they also have access to the salt. 
+- They can run dictionary attacks, but now they must add the salt every time and recalculate the hash, slowing cracking down immensely. Also, it is possible to grab a salt and re-create a rainbow table, although this is also a slow process._
+-   **Hashing**: _Hashing provides integrity in the confidentiality, integrity, availability (CIA) triad of security by creating unique numbers for data and originators of information. In the hashing process, variable-length text, such as a document or spreadsheet, or even a password, is exposed to a cryptographic algorithm that produces a cryptographic sum, or hash (also sometimes called a message digest), of the document. This hash is only a representation of the text; it is not the same thing as the text itself. 
+- Think of a hash as a unique fingerprint that identifies a very specific piece of plaintext. The piece of plaintext can be any length, and it generally does not matter how large the input plaintext is. 
+- The resulting hash will always be a fixed-length piece of ciphertext, usually expressed in a hexadecimal format. Unlike the encryption and decryption process, hashing was not designed to be reversible. In other words, you don’t simply encrypt text with a hashing function with the expectation of decrypting it later. 
+- Hashing is a one-way mathematical function whose sole purpose is to produce the cryptographic sum of the input plaintext. Think of the hashing process as sort of a measuring process for the data, with the resultant hash being the actual measurement itself. 
+- Although its purpose is not to decrypt text, the cryptographic sum produced by hashing has some uses. First, hashing is used to provide for integrity of data. \
+- A hash is unique to a particular piece of text. If one letter or word of the text is altered in any way, if even one binary digit changes, the resulting hash will differ from the original hash.
+- Hashing assures the integrity of a piece of plaintext, since any changes would produce an easily detected different sum. Data transmitted over a network can be hashed before transmission and after reception, and the two resulting hashes can be compared. If the hashes match, you have unaltered data._
+	- Fingerprint
+	- Message digest
+	- One-way trip
+-   **Key exchange**: _Key exchange refers to the process used to exchange keys between users who send a message and those who receive it. Without the key, an authorised user or message recipient can’t decrypt the message; the message will simply remain as ciphertext.
+- In-band key exchange involves using the same communications channel you are using to send the message to send the key. This may not be the most secure way, since that channel may be monitored by a malicious person. 
+- Out-of-band key exchange involves the use of a separate, independent channel, such as snail mail, phone call, USB stick, or even a different network connection, to send the key to the authorised users.
+
+-   **Perfect forward secrecy**: _Forward secrecy means to protect a cryptosystem from one key giving away some secret that makes it easier to crack. If an algorithm achieves this, we call it perfect forward secrecy. There is no such thing as perfect forward secrecy other than using a key only once and throwing it away —a one-time pad._
+	- Elliptic curve or Diffie -Hellman ephemeral
+	- Single-session use
+	- Every session has new keys
+	- PFS requires more computing power
+	- Browser needs to support PFS
+	- 
+
+#### Quantum computing
+ 
+-   **Communications**: _The field of quantum communication has established connections between quantum computers over fiber-optic lines that regularly transact business using Quantum Key Distribution (QKD). The connection between Shanghai and Beijing banks using quantum communication is over 2000 kilometers._
+ -   **Computing**: _Quantum cryptography relies on quantum computers to accomplish a couple of things. First, future complex quantum computers (theoretically) can easily crack modern secure cryptosystems, especially RSA and Diffie-Hellman. Second, key distribution using something called quantum entanglement holds the promise that it should become completely secure, a positive development. Quantum cryptography remains in the realm of theory, not practical application today. The math works, but building machines that can handle the complexities involved seems a decade or more in the future._
+-   **Post-quantum**: _The flip side to quantum cryptography, called post-quantum cryptography, speculates cryptographic algorithms that can withstand any attack using quantum computers. Wildly complex forms of encryption are already being developed, although it will be years before any form of encryption algorithm will be forwarded for public use._
+-   **Ephemeral**: _Parts of the Diffie-Hellman (DH) key exchange process requires each side to create a temporary key, called an ephemeral key, which is used in only one exchange and then discarded. This ephemeral key usage is called Diffie-Hellman Ephemeral (DHE). DH relies on pseudorandom number generation to create the ephemeral keys. In most cases, this relies on pseudorandom number code that uses aspects of the underlying system like dates, MAC address of the network interface card (NIC), and other seemingly random information to make these values._
+
+#### Stream and block cipher 
+-   **Modes of operation**: _Modes of operation are **defined methods** that determine how a plaintext block is input and changed to produce ciphertext. 
+- The modes of operation used in symmetric cryptosystems can run in a couple of different ways, as unauthenticated or authenticated. 
+- The strength of the encryption doesn't change either way, but unauthenticated modes offer a flaw when used in online applications. An attacker can use an attack called a chosen ciphertext attack to intercept, modify, and, eventually, decrypt messages._
+    -   **Authenticated**
+    -   **Unauthenticated**
+   
+
+-   **Cipher suites**: _Groups of algorithms used to secure network connections._
+    -   **Stream**: _Streaming algorithms operate on individual bits, one bit at a time. Streaming algorithms don’t work on blocks of text; instead, they look at each individual bit and perform a mathematical operation on that bit and then move on to the next bit. Streaming algorithms tend to work much faster than block algorithms and are used in cryptographic methods that support fast communications requirements, such as wireless technologies._
+	    - Used with symmetric encryption
+	    - One bit at a time
+	    - You dont know what your getting in the stream until you get to that specific byte
+	    - The starting state should never be the same twice
+    -   **Block**: _A block algorithm operates on a predefined size of a group of bits, known as a block. Different block algorithms use different block sizes, but typical sizes are 16-, 64-, and 128-bit blocks._
+	    - ECB (Electronic Codebook)
+		    - The simplest encryption mode
+		    - Each block is encrypted with the same key
+			- CBC (Cipher block chaining)
+				- Each plaintext black is XORed with the precious ciphertext block
+				- <img src = "https://i.gyazo.com/8b3b11f6669d2f5bd7bbdb6b1b6ec074.png">
+			-  **Counter**: _In DES, counter (CTR) mode uses a random 64-bit block as the first IV, then increments a specified number or counter for every subsequent block of plaintext. CTR mode offers the best performance._
+	<img src = "https://i.gyazo.com/72d3df77f4e06e79d523081421e13329.png">
+	
+		
+####   **Symmetric vs asymmetric**
+ **Symmetric**: _Symmetric cryptography uses **a single key** that both encrypts and decrypts data. All parties that require access to a piece of encrypted data know that key. 
+ Symmetric keys are sometimes called **secret keys or session keys**. Session keys, more specifically, are created and used for a single communications session. Symmetric keys require **minimal computational overhead**.
+  Symmetric keys **do not scale well**: what if 100 users want to exchange information with every other user? Symmetric key cryptography excels in speed, efficiency, and the ability to handle large amounts of data easily. 
+  The disadvantages primarily involve **scalability and key exchange.**
+  Often **combined with asymmetric** in order to transfer a symmetric key_
+    -   **Asymmetric**: _Asymmetric cryptography uses two separate keys — a key pair — for secure communication. Data encrypted with one key requires the other key in the key pair for decryption. In public key cryptography — the primary asymmetric implementation — these keys are called a public key and a private key. Each user is issued or generates a key pair for his or her own use. The user gives the public key to anyone, even posting it on the Internet. The user keeps the private key, on the other hand, secret. With public key cryptography, what one key encrypts, only the other key can decrypt, and vice versa. If the key in the pair is used to encrypt a message, it cannot decrypt the same message. This makes the cryptography process, particularly sending and receiving confidential messages, different from the process used in symmetric key cryptography. Asymmetric key cryptography has several advantages over symmetric key cryptography, the major one being key exchange. The process eliminates key exchange issues, since no one really has to exchange a key. Anyone can acquire the public key. Asymmetric key cryptography has a couple of disadvantages as well. First, it’s slower than symmetric key cryptography and more computationally intensive to generate keys. Second, it works well only with small amounts of data; it’s not suited for bulk data encryption or transmission._
+-    **Elliptic-curve cryptography**: _Elliptic-curve cryptography (ECC) is an asymmetric method of cryptography based on problems involving the algebraic structure of elliptic curves over finite fields. It requires low computational power and memory usage, so ECC has been widely implemented in smartphones and other low-power mobile devices. ECC typically **uses much smaller key sizes than other asymmetric algorithms**, but these smaller-sized ECC keys are also harder to break. The largest known ECC key broken to date is only a 112-bit key, for example, compared to a 768-bit key size that has been broken with RSA._
+
+Symmetric key from asymm key 
+
+<img src = "https://i.gyazo.com/376d19401245c40f869fe52ba47aef2f.png">
+
+#### Other Cryptography
+-   **Lightweight cryptography**: _Low-powered IoT devices rely on light- weight cryptographic algorithms that don’t offer as much security as heavier ones—because they need to function using much lower computing power._
+-   **Steganography**: _The science of hiding information in other data_
+    -   **Audio**
+    -   **Video**
+    -   **Image**
+-   **Homomorphic encryption**: _Homomorphic encryption enables manipulation of encrypted data — without decrypting — that then applies to that data when it’s decrypted._
+-   **Common use cases**
+    -   **Low power devices**
+    -   **Low latency**
+    -   **High resiliency**
+    -   **Supporting confidentiality**
+    -   **Supporting integrity**
+    -   **Supporting obfuscation**
+    -   **Supporting authentication**
+    -   **Supporting non-repudiation**
+-   **Limitations**
+    -   **Speed**
+    -   **Size**
+    -   **Weak keys**
+    -   **Time**
+    -   **Longevity**
+    -   **Predictability**
+    -   **Reuse**
+    -   **Entropy**
+    -   **Computational overheads**
+    -   **Resource vs security constraints**
+
+#### BlockChain Tech
+
+-   **Blockchain**: _Blockchain is a decentralised, peer-to-peer system for secure interaction between buyer and seller.
+    -   **Public ledgers**: _A peer to peer record/distributed database._
+
+Verified transactions are added to a new block of data containing other recently verified transactions
+	- A secure code (hash) is calculated from the previous blocks of transaction data in the blockchain and added to the new block of transactions.
+	- So if anything on any of those blocks are changed the hash will change
+	

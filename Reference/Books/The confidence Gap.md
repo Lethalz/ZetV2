@@ -173,7 +173,7 @@
 - Stop focusing on the end result or your thoughts and feelings and engage fully in the task you are doing.
 
 -   **How to Change Relationship With Failure:**
--   1) Regularly reminding self that failure is fact of life
+-   1) Regularly reminding self that **failure is fact of life**
     -   Ex: collect stories of Walt Disney, Oprah Winfrey, Albert Einstein, Steven Steinburg, Microsoft Bill Gates, Abraham Lincoln
 -   2) Collect favorite quotes
 -   3) Play by the rule of 6 values
