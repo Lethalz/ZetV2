@@ -113,7 +113,7 @@
     
     -   De-stigmatize discomfort (everyone has felt discomfort before)
         
-    -   Neutralize negativity
+    -   Neutralize negativity (doesnt mean not thinkk about it but maybe come up with a solution)
         
     -   Re-write reality (example: colleague writes a sarcastic email to you, imagine they are having difficulty in their personal life)
         
@@ -135,7 +135,7 @@
 
 -   First impressions are powerful. Within a few seconds, with just a glance, people have judged your social and economic level, education, level of success, etc.
     
--   It is possible to overcome a bad first impression, but you have to work much harder than if you came across charismatic from the start
+-   It is possible to overcome a bad first impression, but you have to work much harder than **if you came across charismatic from the start**
     
 -   Overall appearance is evaluated before demeanor and body language. Clothing is essentially modern day tribal wear
     
@@ -146,7 +146,7 @@
     -   **Keep the spotlight on the other person as long as possible. You control the conversation this way and lead it in the direction you want.**
         
     -   People will associate you with whatever feelings your conversation generates. Focus on questions that will elicit positive emotions, not negative ones.
-        
+	        People don't remember what you said or did but how you make them feel
 
 **Speaking and Listening with Charisma**
 

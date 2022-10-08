@@ -1387,6 +1387,7 @@ Interacts directly with the target in some way and as such, the target may disco
 
 
 
+
 # 2.0 Architecture and Design
 ## 2.1 Explain the importance of security concepts in an enterprise environment.
 
