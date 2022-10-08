@@ -2,36 +2,29 @@
 	Status: #Resource
 		Tags: 
 
-# Valorant Controller Maps
- Ascent: Astra , Omen
- Bind: Brim , Astra , Viper
- Breeze: Viper
- Fracture: Brim, Omen, Astra
- Haven:  Omen, Astra
- Icebox: Viper
- Pearl:  Omen, Viper , Astra 
- Split: Omen
+# Valorant SENTINEL Maps
 
 
 Ascent
 
-A: Chamber , killjoy
-B: Sage , Cypher
+A: killjoy, Sage
+B: Cypher *maybe with a controller than can hold down B*
 
 Bind
-A: Chamber , sage
+A: Chamber , viper,sage
+B: Killjoy , Cypher
 
 breeze
-Cypher , chamber
+Cypher , chamber, sage
 
 Fracture
-Chamber , sage , Killjoy
+Chamber , Killjoy cypher
 
 Haven
 Chamber, Killjoy
 
 icebox
-Chamber , sage
+sage
 
 Split any
 

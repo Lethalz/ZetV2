@@ -5,7 +5,7 @@
 # You Need to Spend Money to Get Rich
 
 
- As a CEO(Remember, do your finances as if you were a Business)you have two jobs :  
+ As a CEO (Remember, do your finances as if you were a Business) you have two jobs :  
 1. Set up the System 
 2. and Maintain it.
 
