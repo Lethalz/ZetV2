@@ -87,7 +87,13 @@ More aggressive techniques likely to be noticed by the target, including port sc
 > - Countermeasures: email defense, anti-malware, EDR/XDR \* solutions that will check  URLs and block the scripts often used to execute the attack
 
 
+#### Pretexting 
 
+Pretexting is a certain type of social engineering technique that manipulates victims into divulging information. A pretext is a made-up scenario developed by threat actors for the purpose of stealing a victim’s personal data.
+
+A form of social engineering in which one individual lies to obtain confidential data about another individual.
+
+E.G "Your son has been arrested, and we need his social security number to get him out."
 
 
 
@@ -296,6 +302,9 @@ have the same birthday is 50%
 
 
 ## 1.3 Given a scenario, analyze potential indicators associated with **application attacks.**
+
+An **application-layer** attack **targets computers by deliberately causing a fault in a computer's operating system or applications**. This results in the attacker gaining the ability to bypass normal access controls. The attacker takes advantage of this situation, gaining control of an application, system, or network.
+
 
 #### Privilege escalation
 

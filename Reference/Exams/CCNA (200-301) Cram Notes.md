@@ -3,7 +3,31 @@
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # CCNA (200-301) Cram Notes
+### The OSI model
+[[The OSI Model]]
 
- 
+### Hex and Binary
+[[Hexadecimal]]
+[[Subnetting and Binary]] (IP CLASSES INCL.)
+[[IP subnet chart]]
+[[Subnetting example]]
+
+### TCP/IP and Ethernet
+[[TCPIP networking]]
+[[Ethernet LANs]]
+
+### IP Addressing 
+[[Private IP Addresses]]
+[[APIPA Addressing]]
+[[Subnetting ref]]
+[[CIDR Notation]]
+
+### Cisco IOS 
+[[Cisco IOS Software Intro]]
+[[Connecting to the router]]
+[[Cisco IOS Command Lines Modes]]
+[[Using the Cisco CLI]]
+
+
 ---
 # Reference
