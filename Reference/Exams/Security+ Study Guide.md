@@ -56,7 +56,7 @@ title: Solutions
 >- Spearphishing – This type of phishing goes for a specific individual.
 >- WhalePhishing (Whaling)—This is a targeted version of phishing, except for the size of the fish. Going after the CEO of a company instead of helpdesk.
 >- Vishing - fake caller ID to appear as a trusted organization or vendor.
->-  Pharming - Redirects a user from a legitimate website to a fake one, usually done with DNS cache poisoning.
+>-  Pharming - Redirects a user from a legitimate website to a fake one, usually done with DNS cache poisoning. Pharming is a cyberattack intended to redirect a website's traffic to another, fake site by installing a malicious program on the computer.
 >- Smishing - SMS phishing. Phishing done over text.
 >- SPIM (Spam over Internet Messaging) - The delivery of spam through the use of IM.
 
@@ -66,13 +66,13 @@ title: Solutions
 A common technique that comes in multiple forms:
 
 ##### Passive discovery
-Techniques that do not send packets to the ttarget, like google hacking phone calls DNS and WHOIS lookups
+Techniques that do not send packets to the target, like google hacking phone calls DNS and WHOIS lookups
 
 ##### Semi-passive discovery
 Touches the target with packets in a non-aggressive fashion to avoid raising alarms of the target
 
 ##### Active discovery 
-More aggressive techniques likely to be noticed by the target, including port scanning, and tools like nmap and metaploit.
+More aggressive techniques likely to be noticed by the target, including port scanning, and tools like nmap and metas****ploit.
 
 
 
@@ -82,7 +82,7 @@ More aggressive techniques likely to be noticed by the target, including port sc
 
 
 >[!attention]+ Misc.
-> - Credential harvesting is a common goal of phishing campaigns that involves capturing usernames and passwords.
+> - **Credential harvesting** is a common goal of phishing campaigns that involves capturing usernames and passwords.
 > - E.g In the form of a bogus email bank's website. From there, the attacker's goal would be to get you to input and submit your username and password.
 > - Countermeasures: email defense, anti-malware, EDR/XDR \* solutions that will check  URLs and block the scripts often used to execute the attack
 
@@ -116,8 +116,8 @@ E.G "Your son has been arrested, and we need his social security number to get h
 
 
                          
- #### Typo squatting
-- Also known as URL hijacking is a simple method used frequently for benign purposes, but it is also easily used for more malicious attacks. 
+ **#### Typo squatting**
+- Also known as **URL hijacking** is a simple method used frequently for benign purposes, but it is also easily used for more malicious attacks. 
 - Redirecting a user to a fictitious website based on a misspelling of the URL. 
 - E.G www.gooogle.com 
 
@@ -275,9 +275,10 @@ Attackers will put this software on your computer so that they can use your reso
 
 
 ### Physical Attacks
+**Card cloning** is more-so for RFID and magnet strips for like accessing a building. 
 
-Skimming is and attack type that has gained more widespead attention. It involves copying data from a credit or debit card by using a specialized terminal.
-The card can subsequently be cloned, in a process known as card cloning.
+**Skimming** is and attack type that has gained more widespead attention. It involves **copying data from a credit or debit card** by using a specialized terminal.
+
 
 ### ADVERSARIAL ARTIFICIAL INTELLIGENCE (AI)
 
@@ -395,6 +396,9 @@ Hackers can eavesdrop on data exchanges being sent through networks—this type 
 > - Encryption : Use a session ID with the password hash to create a unique authentication hash each time.
 > - Data/Time stamps
 
+> [!Attention]+ Is a Replay the same as a MITM(on-path) attack
+> #### Replay and Man-in-the-middle attacks 
+> In general a replay attack refers to capturing legitimate traffic and reusing it at a later time without modification. On the other hand, a man-in-the-middle attack involves manipulating existing network packets or forging new ones.
 
 #### Session replay
 
@@ -542,9 +546,11 @@ I.E zip bomb: compressed file that will slowly fill up your storage space to cap
 
 ##### Rouge Access Points
 
-An *unauthorized wireless access point*, may be added by an employee doesn't necessarily have to be an attack, but it is still a problem to your network. It's becoming very easy to plug in a wireless AP or enable wireless sharing on your phone or OS. It's always a good idea to schedule a periodic survey and be aware of your surroundings.
+An ***unauthorized wireless access point***, may be added by an employee doesn't necessarily have to be an attack, but it is still a problem to your network.
+	It's becoming very easy to plug in a wireless AP or enable wireless sharing on your phone or OS. It's always a good idea to schedule a periodic survey and be aware of your surroundings.
 
-NAC (Network Access Control) 802.1X is a good deterrent. 
+> [!Solution]+ Solution
+> NAC (Network Access Control) 802.1X is a good deterrent. 
 A NAC system can deny network access to noncompliant devices, place them in a quarantined area, or give them only restricted access to computing resources, thus keeping insecure nodes from infecting the network.
 
 
@@ -565,35 +571,40 @@ However, Bluejacking **does not involve device hijacking**, despite what the nam
 
 #### Wireless Disassociation Attacks 
 
-A type of DoS attack in which the attacker *breaks the wireless connection* between the victim device and the access point.
-The method is based on the use of a *special disassociation frame* specified under IEEE 802.11. 
-Transferring such a frame to the target device breaks the connection, and the Wi-Fi protocol does not require any encryption for it. For a successful attack, the cybercriminal needs to know only the victim’s MAC address or Wi-Fi address.
+A type of **DoS attack** in which the attacker *breaks the wireless connection* between the victim device and the access point.
+	
+   The method is based on the use of a *special disassociation frame* specified under IEEE 802.11. 
+   
+Transferring such a frame to the target device **breaks the connection**, and the Wi-Fi protocol does not require any encryption for it. 
+   For a successful attack, the cybercriminal needs to know only the victim’s MAC address or Wi-Fi address.
 **It gives the attacker a window to inject an evil twin.**
 
 
 #### Wireless Jamming
 
 ##### Radio frequency (RF) jamming
-Denial of Service
+*Denial of Service*
 A jamming attack is **the transmission of radio signals that disrupt communications by decreasing the Signal-to-Inference-plus-Noise ratio (SINR)**
 
-Counteracting a jamming attack is both simple and complicated. It is simple because most jamming attacks require physical proximity.
+> [!Note]+ Solution
+> Counteracting a jamming attack is both simple and complicated. It is simple because most jamming attacks require physical proximity.
+> Many enterprise-grade devices provide power levels that can be configured and have the capability to identify and locate rogue devices that are causing interference.
 
-Many enterprise-grade devices provide power levels that can be configured and have the capability to identify and locate rogue devices that are causing interference.
+
 
 #### RFID (Radio-frequency identification)
 
-An RFID tag works by [transmitting and receiving information](http://electronics.howstuffworks.com/gadgets/high-tech-gadgets/rfid1.htm) via an antenna and a microchip — also sometimes called an integrated circuit or IC. The microchip on an RFID reader is written with whatever information the user wants.
+  An RFID tag works by [transmitting and receiving information](http://electronics.howstuffworks.com/gadgets/high-tech-gadgets/rfid1.htm) via an antenna and a microchip — also sometimes called an integrated circuit or IC. The microchip on an RFID reader is written with whatever information the user wants.
 There are two main [types of RFID tags](http://blog.atlasrfidstore.com/active-rfid-vs-passive-rfid): **battery-operated and passive.** As the name suggests, battery-operated RFID tags contain an onboard battery as a power supply, whereas a passive RFID tag does not, instead working by using electromagnetic energy transmitted from an RFID reader. Battery-operated RFID tags might also be called active RFID tags.
 
 <img src = "https://butlertechnologies.com/wp-content/uploads/rfid-tag.jpg">
 
-Types of Attacks :
-
-- Data captures : View communication , Replay attack
-- Spoof the reader : write your own data to the tag
-- Denial of service : signal jamming
-- Decrypt communication 
+> [!Note]+ Types of Attacks :
+> - Data captures : View communication , Replay attack
+> - Spoof the reader : write your own data to the tag
+> - Denial of service : signal jamming
+> - Decrypt communication 
+> - 
 
 
 #### NFC (Near field communication)
@@ -605,18 +616,23 @@ Built on RFID often used with payment systems Subject to many of the same vulner
 - Access token or, Identity card.
 
 
-Security concerns:
+> [!Note]+ Security concerns:
 - Remote capture 10 meters for active devices
 - Frequency jamming
 - Relay / Replay attack  "On-Path attack"
 - Loss of RFC device control 
 
 
-#### Cryptographic nonce "Salt"
+#### Cryptographic Nonce "Salt"
 
 - Arbitrary number : Used once, "for the nonce" - for the time being.
 - A random or pseudo-random number, something that cant be reasonably guessed.
 - Use a nonce during the login process, Salting your password makes it more secure.
+
+##### Pepper
+**Pepper** is also random data that is added to data before generating a hash code. 
+**Unlike salt, pepper is kept secret.** 
+  In many cases, pepper isn't stored at all. In other cases, it is securely stored separately from the hash code.
 
 #### On-path network attack (MITM)
 
@@ -658,9 +674,9 @@ DNS spoofing: attacker sends false replies to a requesting system, beating the r
 Usually done by either modifing the client host file or sending a fake response to a DNS request (MITM/On-Path)
 
 > [!note] Solutions
-> allow only authorized changes to DNS 
-> restrict zone transfers, verified fowarders and
-> log all privileged DNS activity
+> Allow only authorized changes to DNS 
+> Restrict zone transfers, verified fowarders and
+> Log all privileged DNS activity
 
 ##### Domain hijacking
 
@@ -678,17 +694,17 @@ TYPES:
 - Different TLD .com , .org, etc..
 
 #### Denial of Service
-
+##### Symptoms
 - Force a server/ service to fail
 - takes advantage of a design failure 
 - cause a system to be unavailable
 - smokescreen for other attack 
 - Doesnt have to be complicated.
 
-- DDoS : Launch a army of computers normally with a botnet to take down a system.
-- DDoS Amplification : Uses Protocols with little authentication like NTP DNS ICMP
-- Command and Control is the center of a botnet attack
-- Disgruntled or malicious internal users may use DDoS attacks todisrupt services without any outside influence.
+- **DDoS** : Launch a army of computers(bots) normally with a botnet to take down a system.
+- **DDoS Amplification** : Uses Protocols with little authentication like NTP DNS ICMP
+- **Command and Control** is the center of a botnet attack
+- Disgruntled or malicious internal users may use DDoS attacks to disrupt services without any outside influence.
 
 ![[Pasted image 20220817135806.png]]
 ##### Application DoS
@@ -708,17 +724,18 @@ The hardware and software for industrial equipment: electric grids, traffic cont
 
 #### Malicious scripts
 
-Scripts allow you ti automate tasks so you dont have to be there however for attackers it helps automate their attacks.
-Windows powershell is a big medium for attackers to attack your system/
-Python is used in conjunction with scripts to attack systems , cloud based systems.
+Scripts allow you to **automate tasks** so you dont have to be there however, for attackers it helps automate their attacks.
 
-- Shell scripts, etcc
+**Windows powershell** is a big medium for attackers to attack your system.
+  Python is used in conjunction with scripts to attack systems , cloud based systems.
+
+-  Shell scripts, etcc
 ##### Macros
 Automates functions within an application , desifned to make the applicaitons easier to use but attackers use it to attack unsuspecting users.
 
 **VBA Visual basic for applications** is used to automate processes within windows applications it is a powerful programming language.
-
-
+	- Microsoft Windows Native Programming language 
+	- Doesn't work on UNIX/LINUX machines
 
 
 
@@ -731,16 +748,17 @@ Automates functions within an application , desifned to make the applicaitons ea
 
 #### Threat actors and attributes
 
-A threat actor is an individual, a group, or an entity that contributes
-to an incident—or, more simply, a person or an entity that executes a given threat.
-Threat actors are an **Advanced Persistant Threat (APT)** - Meaning they are in the network and undetected for a elogated period of time.
+A **threat actor** is an individual, a group, or an entity that contributes
+to an incident—or, more simply, a person or an entity that **executes a given threat.**
+   Threat actors are an **Advanced Persistant Threat (APT)** - Meaning they are in the network and undetected for a elogated period of time.
 
 ##### Insider Threats
 
 Attacks dont always come from malicious actors from the outside but **from the inside.**
+
 In many cases insiders are just misguided and misinformed employees, that don't know the implications of **not following policy.**
-Deliberate malicious insider threats also can be attack sources. These threats are typically
-motivated by *financial gain, sabotage, and theft to gain competitive advantage.*
+
+Deliberate malicious insider threats also can be attack sources. These threats are typically motivated by *financial gain, sabotage, and theft to gain competitive advantage.*
 
 ##### Nation states
 - Government
@@ -749,12 +767,13 @@ motivated by *financial gain, sabotage, and theft to gain competitive advantage.
 
 ##### Hacktivists
 
-These are normally ahckers with a purpose , social change or political agenda.
+These are normally hackers with a purpose , social change or political agenda.
 These groups or people can be remarkably sophisticated, as seen in the past with DDoS attacks and public site defacing. Their funding is normally limited.
 
 ##### Script kiddies
 
-Runs pre-made scripts without any knowledge of whats really going on. this can be internal or external but it is not very sophisticated but still can be critical. Motivated by the hunt or stroking their own ego.
+Runs pre-made scripts without any knowledge of whats really going on.
+This can be internal or external but it is not very sophisticated but still can be critical. Motivated by the hunt or stroking their own ego.
 
 ##### Organized crime
 
@@ -763,15 +782,17 @@ These are the professional criminals , they are motivated by money and very soph
 ##### Hackers 
 
 - Experts with technology ofter driven by money power ego 
-1.  **Authorized hackers** (White Hat) are hackers that do it with permission or blue team.
-2. **Unauthorized hackers** (Black Hat) are malicious and violates security and policy for monetary gain
-3. **Semi-authorized hackers** (Gray Hat)Find a vulnerabilty but dont use , people like those who are looking for bugs with apple as an example.
+1.  **Authorized hackers** (*White Hat*) are hackers that do it with permission or blue team.
+2. **Unauthorized hackers** (*Black Hat*) are malicious and violates security and policy for monetary gain
+3. **Semi-authorized hackers** (*Gray Hat*)Find a vulnerabilty but dont use , people like those who are looking for bugs with apple as an example.
 
 ##### Shadow IT
 
 Shadow IT is **the use of IT-related hardware or software by a department or individual without the knowledge of the IT or security group within the organization**. 
+
 People that think they know better than IT; its like that guy from QCD that thought he was IT.
-Need to put up roadblocks for these kinds of people.
+
+Need to put up roadblocks for these kinds of people. THEY ARE DANGEROUS!
 
 ##### Competitors
 
@@ -800,8 +821,8 @@ Many different intents
 
 #### Vectors 
 
-The path threat actors use to carry out and attack are called attack vectors, understanding them is important to proper risk analysis that may be required for defense.
-IT professionals spend their career watching these vectors or **attack surface**.
+**The path threat actors use to carry out and attack** are called **attack vectors,** understanding them is important to proper risk analysis that may be required for defense.
+IT professionals spend their career watching these vectors or **attack surfaces**.
 
 ##### Types
 
@@ -1003,8 +1024,8 @@ Tactics, techiques, and procedures
 
 ##### Zero-day attacks
 
-If the attackers do use this vulnerability against you and this vulnerability has never been seen up to this point, then we have a zero-day attack.
-A zero-day attack means that we’ve never seen this vulnerability before. It’s brand new. And because of that, there’s probably not a patch or a way to prevent this vulnerability from being exploited.
+If the attackers do use this vulnerability against you and this vulnerability has never been seen up to this point, then we have a **zero-day attack**.
+A **zero-day attack** means that we’ve never seen this vulnerability before. *It’s brand new.* Congratulations. And because of that, there’s probably not a patch or a way to prevent this vulnerability from being exploited.
 
 
 ##### Open Permissions
@@ -1015,57 +1036,70 @@ We’re putting an increasing amount of data on the cloud. And because this data
 
 Attackers spend a lot of time on these cloud repositories, trying to find sections of data that may have been left open. So make sure that if you’re storing data in the cloud that you’re putting the proper security in place.
 
+>[!note]+ Solutions
+>Configure things the right way the first time.
+
 ##### Unsecured Root accounts
 
- we also sometimes leave our accounts open. And if this account is an administrator account or root account, then an attacker may have full control over an operating system.
-On many systems, the administrator has chosen not to allow interactive access to log into the administrator account. This means no matter how hard the attacker tries to find the correct username and password combinations, they’ll never gain access to the operating system by logging in with the administrator or the root account.
+ We also sometimes leave our accounts open. And if this account is an administrator account or root account, then an attacker may have full control over an operating system.
+ 
+>[!note]+ FIX 
+>On many systems, the administrator has chosen not to allow interactive access to log into the administrator account. This means no matter how hard the attacker tries to find the correct username and password combinations, they’ll never gain access to the operating system by logging in with the administrator or the root account.
 Administrative account should be closely monitored. And we should always have policies and procedures in place to prevent casual use of these accounts.
 
 ##### Error
 
-Occasionally, we can **give too much information** in that error message and that information could be used against us. For example, the error message may show the service that’s being used or the application that we’re using. 
+*Occasionally*, we can **give too much information** in that error message and that information could be used against us. For example, the error message may show the service that’s being used or the application that we’re using. 
 It might show **version information** associated with that application. 
 And the message may display debug information that could be memory values or information that’s not commonly seen from the outside.
 
 ##### Weak Encryption
 
-just because we’re encrypting data doesn’t necessarily mean that it’s well protected.
-That’s why you need to be sure that you’re using encryption protocols that are strong protocols. Encryption protocols, such as AES and triple DES, are very common to see used. And of course, you want to be sure that the length of the encryption key is long enough to provide the proper amount of security.
+Just because we’re encrypting data doesn’t *necessarily* mean that it’s well protected.
 
-And if you’re communicating over a wireless network, make sure you’re using the latest wireless encryption protocols.
-It’s always good to stay up to date with what the industry believes are the best ciphers to use on your network.
-it’s important that you configure your web servers and your clients to make sure that they are using the strongest TLS protocols.
+That’s why you need to be sure that you’re using **encryption protocols** that are strong protocols. 
+ Encryption protocols, such as **AES and triple DES**, are very common to see used. 
+And of course, you want to be sure that the length of the encryption key is long enough to provide the proper amount of security.
+
+Communicating over a wireless network? *Make sure* you’re using the latest **wireless encryption protocols**.
+>[!note]+
+**Stay up to date** with what the industry believes are the best ciphers to use on your network.
+**Configure your web servers and your clients to make sure that they are using the strongest TLS protocols.**
+
 
 There are many documents for best practices on the internet that will help you know exactly which of these cipher suites is the best to use
 
-128 bits or smaller, which tend to be very easy to brute force.
-not using any outdated hashes, like MD5, where known vulnerabilities may exist.
+
 
 
 ##### Insecure protocols
 
-Protocols, such as Telnet, FTP, SMTP, and IMAP, are good examples of these in the clear protocols
+Protocols, such as **Telnet, FTP, SMTP, and IMAP**, are good examples of these in the clear protocols
+	- They have their use-cases
 
-In many cases, you can reconfigure the application to use an encrypted protocol instead of the in the clear protocol. So you might want to change the application to use SSH, SFTP, or IMAPS.
+*Instead*, use the more secure **SSH, SFTP, or IMAPS.**
 
 ##### Default settings
 
-The attackers know that many people will plug these in and never change that username and password. And they found ways to use this to their advantage.
-One such use is the Mirai botnet. It takes advantage of these default usernames and passwords to gain access to these systems and take them over for their own use.
- the Mirai botnet is now open source. So attackers can download the software, modify it for their own purposes, and control even more IoT devices.
+Attackers know that people are prone to not changing the default username and password.
+
+The **Mirai botnet** takes advantage of these default usernames and passwords to gain access to these systems and take them over for their own use.
+ The Mirai botnet is now open source. So attackers can download the software, modify it for their own purposes, and control even more IoT devices.
 
 ##### Open Ports and services
-Unfortunately, opening these ports also creates an opening into the server. And we have to make sure that we’re properly adding the security that we need to let the good people in and keep the bad guys out.
-We’ll have software based firewalls running on the server and we’ll have network based firewalls on the ingress and egress parts of the network.
-The firewall will commonly have a rule set that will allow or disallow access to certain ports on the IP address and thereby keep out anyone who may be trying to attack that device.
 
-It may become very easy to accidentally allow access to a service that was not intended. In fact, it’s very common for someone who is managing one of these firewalls to occasionally audit the rule base, make sure that all of the rules are up to date, and that no mistakes have been made with IP addresses, port numbers, or any of the other services that are configured in that rule base.
+Unfortunately, opening ports creates an opening into the server. 
+
+- Have software based firewalls running on the server and we’ll have network based firewalls on the ingress and egress parts of the network.
+The firewall will commonly have a rule set that will **allow or disallow** access to certain ports on the IP address and thereby keep out anyone who may be trying to attack that device.
+
+It may become very easy to accidentally allow access to a service that was not intended. In fact, it’s very common for someone who is managing one of these firewalls to occasionally **audit the rule base**, make sure that all of the rules are up to date, and that no mistakes have been made with IP addresses, port numbers, or any of the other services that are configured in that rule base.
 
 ##### Improper patch management
 
-We know that these vulnerabilities exist in our software and, of course, many organizations will occasionally release updates to the software that didn’t need to be deployed on all of our systems. 
+These vulnerabilities exist in our software and many organizations will occasionally release updates to the software that didn’t need to be deployed on all of our systems. 
 Many organizations will have processes in place to be able to keep all of their systems up to date with the latest patches.
-This is a priority for many organizations because most of these patches are associated with security vulnerabilities.
+This is a **priority** for many organizations because *most* of these patches are associated with **security vulnerabilities.**
 
 There’s usually a **group of people that will test these patches,** make sure that they will **operate properly in your environment,** and then **load them on a central server**, which will then deploy to all of the other systems in your organization
 
@@ -1084,10 +1118,15 @@ You should always plan for the worst possible scenario and make sure that your s
 
 Could be non malicious and just a human made problem.
 
-##### System interfration risk
-the system integrators have additional access to the systems because they need that access to be able to do their jobs.
-And because these integrators are on the inside of the network, they’re past the firewalls and the security devices that we commonly put on the perimeter.
- it’s much easier to put malware into an existing network, because you’ve now gone past all of those security filters.
+Always cover your bases.
+
+##### System intergration risk
+
+The system integrators have additional access to the systems because they need that access to be able to do their jobs.
+
+And because these integrators are on the **inside of the network,** they’re **past the firewalls** and the security devices that we commonly put on the perimeter.
+
+ It’s much easier to put malware into an existing network, because you’ve now gone past all of those security filters.
  in some cases, running software that you thought was safe may inadvertently install malware on systems. And now that those integrators are on the inside
 
 
@@ -1096,42 +1135,47 @@ And because these integrators are on the inside of the network, they’re past t
 We have to make sure that the vendors know a problem exists and that they can fix the problem in a timely manner.
 This isn’t always the case. You have to, of course, make sure that the vendor is aware of the problem, and then the vendor themselves has to be motivated enough to make sure that they can keep those systems up to date and safe.
 
+>[!Attention]+ Test Tip
+>Know that one way to scout out vendor support is asking about company longevity and customer amount and reviews.
+
 ##### Supply chain risk
 
- it’s always important to maintain your security controls, whether these are devices that you have in-house or things that you bring in from a third party.
- lthough you trusted the software coming from this third party, it, in fact, was able to infect your systems once you installed the trusted software.
- you also have to check the hardware that you’re getting from a third party.
- Organizations need to have processes and procedures in place so that they’re able to monitor all of this coming through the supply chain and be able to react to any type of security concern.
+ It’s always *important* to **maintain your security controls**, whether these are devices that you have in-house or things that you bring in from a **third party.**
+ 
+ Though you trusted the software coming from this third party, it was able to infect your systems once you installed the trusted software.
+ you also have to ***check the hardware that you’re getting from a third party.***
+ 
+ Organizations need to have processes and procedures in place so that they’re able to **monitor all of this coming through the supply chain** and be able to react to any type of security concern.
 
 ##### Outsourced code development
 
 Not every organization has the resources available to do their own in-house development.
 
- you need to make sure that you’re building a secure environment for the developers to work in and for you to be able to evaluate the code that’s being created.
+ You need to make sure that you’re **building a secure environment** for the developers to work in and for you to be able to **evaluate the code** that’s being created.
 
-a good best practice to make sure that wherever that data is stored and where the developers may be working is isolated and secure from the rest of the network.
+A good *best practice* to make sure that wherever that data is stored and where the developers may be working is **isolated and secure** from the rest of the network. (Segmentation)
 
-The production services should be on a separate, isolated part of the network, and the development team should not have access to the production site of the network.
-
- it needs to be checked to make sure there’s no other ways to gain access into that application. 
+ It needs to be checked to make sure there’s no other ways to gain access into that application. 
   be sure that the data that’s being used by that application is being stored in a secure way and is being transmitted across the network in encrypted form.
 
-##### DAta storage
-With cloud-based services, we are storing a lot of information in a separate, third-party location.
- This data may contain customer information. There may be healthcare data or financial details. And we need to make sure that we’re applying the proper security around the type of data that we’re storing.
-  if we are storing that data at a third-party location, we need to be sure that the transfer of data in and out of that facility is all done over an encrypted channel.
+##### Data storage
+With **cloud-based services**, we are storing a lot of information in a separate, **third-party location.**(off-site)
+ This data may contain customer information. (**PII**) There may be healthcare data or financial details. And we need to *make sure that we’re applying the proper security around the type of data that we’re storing.*
+	 - Whether that be GDPR or HIPPA
+  If we are storing that data at a third-party location, we *need* to be sure that the transfer of data in and out of that facility is all done **over an encrypted channel.**
 
 
 #### Vulnerability impacts
 
 ##### Data Loss
+ 
  In some cases losing the data may be more damaging than losing money.
 
  A database that has no password or is using default passwords can be at risk for losing the data within that database.
  
-It’s very important to always have a backup.
+**It’s *very important* to always have a backup.**
 
-Some attackers don’t delete the data, but instead prefer to steal the data and then use that data for their own purposes.
+Some attackers don’t delete the data, but instead prefer to steal the data and then use that data for their own purposes. I.E Ransom, Breached.to clout.
 
 ##### Identity theft
 
@@ -1171,20 +1215,19 @@ For example, in September of 2021 of Chile’s largest banks Banco Estado was at
 ## 1.7 Summarize the techniques used in **security assessments.**
 
 #### Threat hunting
-The attackers are constantly trying to find a way into your network to gain access to your data.
-The strategies that we use to protect against attacks today will be very different than the strategies that we need to follow tomorrow.
+Attackers are constantly finding new and improved ways to attack systems. 
 
 One of the problems we have in reacting to these attacks, of course, is that we can’t react until the attack occurs
 
-The goal then is to speed up this reaction time or perhaps prevent the attack from occurring before the attacker even arrives on your network.
+The goal then is to **speed up this reaction time** or perhaps prevent the attack from occurring before the attacker even arrives on your network.
 
 ##### Intelligence fusion
-there is a huge amount of data we have to sift through to even be able to understand if an attack is occurring
+there is a huge amount of data we have to sift through to even be able to understand if an attack is occurring.
 
-Different data types
+**Different data types**
 
- You have security operations, security intelligence, threat response teams, operations teams, security operations centers, and more people that are looking at data that can help identify these threats.
- take all of this data, put it into a massive database, use big data analytics. That’s going to allow us to correlate, identify, and pick out individual important pieces of data that can give us some insight into when attacks may be occurring
+ You have **security operations, security intelligence, threat response teams, operations teams, security operations centers**, and more people that are looking at data that can help identify these threats.
+ Take all of this data, put it into a **massive database**, use big data analytics. That’s going to allow us to correlate, identify, and pick out individual important pieces of data that **can give us some insight** into when attacks may be occurring.
 
 ###### Fusing the data 
 
@@ -1195,11 +1238,11 @@ Different data types
 
 ##### Cybersecurity maneuvers
 
-We can deploy additional firewalls, intrusion prevention, and scanning systems to understand what’s happening on the network right now. "Manuevers"
+We can deploy additional **firewalls, intrusion prevention, and scanning systems** to *understand* what’s happening on the network right now. "*Manuevers*"
 
-Unlike a military that takes time to deploy, these systems are virtualized. We can deploy them instantly.
+Unlike a military that takes time to deploy, these systems are **virtualized**. We can deploy them *instantaneously*.
 
-And since all of this is automated, it can identify those threats coming from many different places simultaneously, even if those threats are very different in scope.
+  And since all of this is automated, it can identify those threats coming from many different places simultaneously, even if those threats are very different in scope.
 
 
 #### Vulnerability scans
@@ -1265,13 +1308,16 @@ Update to the latest signatures
 
 #### Syslog/Security information and event management (SIEM)
 
- A SIEM is designed to collect information from anything on the network that can create log files, security alerts, or any type of real time information that can tell us about what’s happening on the network right now.
+ A **SIEM** is designed to **collect information** from anything on the network that can create **log files, security alerts,** or any type of **real time information** that can tell us about what’s happening on the network *right now.*
 
-  The SIEM is commonly used as a central repository. So everything will be logged and aggregated into the central database of the SIEM. From there, you can create reports and historical perspectives of what’s been happening on the network over time.
+  The SIEM is commonly used as a central repository. 
+  So everything will be **logged and aggregated** into the central database of the SIEM.
+   From there, you can create *reports and historical perspectives* of what’s been happening on the *network over time*.
    
-  Data correlation: able to correlate data from different devices to see if you can start to see events occurring even though the data sources that you’re receiving are very different between these different devices.
+  **Data correlation:** 
+  Able to *correlate* data from different devices to see if you can start to see events occurring *even though* the data sources that you’re receiving are very different between these different devices.
 
- it’s a perfect place to go to be able to perform forensics after a security event has occurred.
+ It’s a *perfect* place to go to be able to perform forensics after a security event has occurred.
 
 ##### Syslog
 The data that’s being fed into the SIEM is coming from very different devices.
@@ -1333,18 +1379,18 @@ Makes changes independantly.
 
 #### Types of Penetration Tests
 
-##### Known environment *white box test*
-- penetration tester is given a map or target systems and networks, They go into the test with *subnstatial/full information* of the target systems and networks.
+##### Known environment (*white box test*)
+- The penetration tester is given a map or target systems and networks, They go into the test with *subnstatial/full information* of the target systems and networks.
 
 ##### Unknown environment (black box test)
-- penetration tester knows nothing about target systems and networks. They go into the test completely blind and buil out the database of everything they find as they go
+- The penetration tester knows nothing about target systems and networks. They go into the test completely blind and build out the database of everything they find as they go
 
 ##### Partially known environment (grey box test) 
-- limited information is shared with the tester, sometimes in the form of login creadentials. Simulates the level of knowledge that a hacker with long-term access to a system would achieve through research and system footprinting
+- Limited information is shared with the tester, sometimes in the form of login creadentials. Simulates the level of knowledge that a hacker with long-term access to a system would achieve through research and system footprinting
 
 ##### Rules of Engagement
-- Define the purpose of the test and what the scope will be for the people who are performing this test on the network.
-- They ensure everyone will be aware of what systems will be considered, date and time and any constraints all should be aware of.
+- **Define the purpose of the test** and what the *scope* will be for the people who are performing this test on the network.
+- They ensure *everyone will be aware* of what systems will be considered, date and time and *any constraints* all should be aware of.
 
 #### Concepts
 
@@ -1360,10 +1406,10 @@ In the context of penetration testing refers to the testers ability tp achieve a
 
 
 ##### Cleanup
-The final stage of a penetration tes in which all work done during the testing process is cleaned up/removed.
+The final stage of a penetration test in which all work done during the testing process is cleaned up/removed.
 
 ##### Bug bounty
-A monetary reward given to ethical hackers for successfully discovedring and reporting a vulnerability or bug to the applications developer.
+A monetary reward given to ethical hackers for successfully discovering and reporting a vulnerability or bug to the applications developer.
 
 ##### Pivioting
 Also known as island hopping, is *when a compromised system is used to attack another system on the same network* following the inital exploitiation if the compromise in introduced at a different time than the attack then it is said to involve persistance
@@ -1373,19 +1419,19 @@ Also known as island hopping, is *when a compromised system is used to attack an
 
 
 ##### Passive Reconnaissance 
-One is not interacting directly with the taget and as such, the target has no way of knowing, recording, or logging activity.
+One is **not interacting directly** with the taget and as such, the target has no way of **knowing, recording, or logging activity**.
 
-- War driving: gathering wireless network information while driving around the streets.
-- Drones: Can be leveraged in multiple wats for passive recon from assessing phyical security to gathering wireless network info
-- War flying: combines war driving with a drone and simply float above all of these organizations to gather wireless details.
-- OSINT : Much of this info in the open source can be categorized as open-source intelligence or OSINT.
+- **War driving:** gathering wireless network information while driving around the streets.
+- **Drones:** Can be leveraged in multiple wats for passive recon from assessing phyical security to gathering wireless network info
+- **War flying:** combines war driving with a drone and simply float above all of these organizations to gather wireless details.
+- **OSINT :** Much of this info in the open source can be categorized as open-source intelligence or OSINT.
 
 ##### Active reconnaissance 
-Interacts directly with the target in some way and as such, the target may discover , record, or log these activities.
+Interacts **directly with the target** in some way and as such, the **target may discover , record, or log these activities.**
 
-- Footprinting: An ethical hacking technique uesed to gather as much data as possible abot a specific targeted computer system , infrastructure and networks to identify opportunities to penetrate them.
-- Active: Ping sweep ,Tracert , Nmap , Extracting DNS information
-- Passive: Browsing taget website, google seach(dorking) . Whois lookiup
+- **Footprinting:** An ethical hacking technique uesed to gather as much data as possible abot a specific targeted computer system , infrastructure and networks to identify opportunities to penetrate them.
+- **Active:** Ping sweep ,Tracert , Nmap , Extracting DNS information
+- **Passive:** Browsing taget website, google seach(dorking) . Whois lookiup
 
 ##### Exercise types
 
@@ -1504,32 +1550,36 @@ Replace sensitive data with a non-sensitive placeholder
 
 ### Data Loss Prevention
 
-Stop the data before the attackers get it
-Endpoint DLP is on your computer
-on your network 
-on your server
+**Stop the data before the attackers get it.**
 
-USB blocking on a workstation : allow or deny certain tasks
+Endpoint DLP is on your computer
+- on your network 
+- on your server
+
+I.E USB blocking on a workstation - allow or deny certain tasks.
 
 
 ##### Cloud based DLP 
 
-Located between users and the internet
-Block custom defined data strings
-Manage access to URLs
-block viruses and malware
+- Located between users and the internet.
+- Block custom defined data strings.
+- Manage access to URLs.
+- Block viruses and malware.
 
 **DLP and Email**
 
-Email continues to be the most critical risk vector 
+Email continues to be the most critical risk vector. (Attack Surface)
 
-Check every email, inbound and outbound
+Check every email, inbound and outbound.
 
 **Inbound**
-Block keywords identify impostors
+Block keywords 
+Identify impostors
 
 **Outbound**
-Fake wire transfers w-2 info employee information
+Fake wire transfers 
+w-2 info 
+employee information
 
 
 #### Geographical considerations
@@ -1540,7 +1590,7 @@ Fake wire transfers w-2 info employee information
 - refer to your legal team
 
 - Offsite backup
-- - Organization-owned site or 3rd-party secure facility
+- Organization-owned site or 3rd-party secure facility
 - Offsite recovery
 - Hosted in a different location, outside the scope of the disaster
 - Travel consideration for the support staff
@@ -1548,22 +1598,22 @@ Fake wire transfers w-2 info employee information
 #### Response and recovery controls
 
 - Incident responses and recovery has become common place
-- Incident response plan should be established Documentation is critical
-- Limit the impact of an attacker: Limit data exfiltration
+- Incident response plan should be established documentation is critical
+- Limit the impact of an attacker: **Limit data exfiltration**
 - Limit access to sensitive data.
 
 
-#### SLS/TLS INSPECTION
+#### SSL/TLS INSPECTION
 
 - Commonly used to examine outgoing SSL/TLS 
 - Examine encrypted traffic
-- SSL/TLS relies on trust, without trust none of this works.
-- Your browser contains a list of trusted CA's
-- CA = Certificate authority
-- Your browser doesn't trust a website unless a CA has signed the web server's encryption cert 
-- The CA has ostensibly performed some checks, validated against the DNS record, phone call, etc.
+- SSL/TLS relies on *trust*, without trust none of this works.
+- Your browser contains a list of trusted **CA's**
+- **CA** = Certificate authority
+- Your browser doesn't trust a website unless a **CA** has signed the web server's encryption cert 
+- The **CA** has ostensibly performed some checks, validated against the DNS record, phone call, etc.
 
-SSL/TLS proxy
+**SSL/TLS proxy**
 
 <img src="https://i.gyazo.com/57fb1d26b78228fb394cb921ff208237.png">
 
@@ -1574,23 +1624,23 @@ Decrypting it from the outside and encrypting it internally with the internal CA
 #### Hashing
 
 - Represent data as a short string of text.
-- One-way trip: its impossible to recover the original message from the digest
-- Verify a downloaded document is the same as the original
-- Can be a digital signature for authentication, non-repudiation and integrity
+- **One-way trip**: its impossible to recover the original message from the digest
+- **Verify** a downloaded document is the same as the original
+- Can be a digital signature for **authentication, non-repudiation** and **integrity**
 - Different messages will not have the same hash (collsion)
 
 #### API considerations
 - Application programming interfaces - controls software or hard ware programmatically 
-- Secure and harden the login page.
-- On-path attacks can intercept and modify api messages, replay API commands.
+- **Secure and harden** the login page.
+- On-path (MITM) attacks can intercept and modify api messages, replay API commands.
 - API INJECTIONs
-- DDoS - One bad api can bring down a system.
+- **DDoS** - One bad api can bring down a system.
 
 **API Security** 
 
-Authentication : Limit API access to legitimate users
-Authorization: API should not allow extended access, each user should only have the permissions they need.
-WAF (Web Application Firewall) : How you apply rules to API  commuincation.
+**Authentication :** Limit API access to legitimate users
+**Authorization:** API should not allow extended access, each user should only have the permissions they *need*. **(Least Privliege)**
+**WAF (Web Application Firewall) :** How you apply rules to API  commuincation.
 
 ### SIte resiliency
 
@@ -1622,35 +1672,35 @@ WAF (Web Application Firewall) : How you apply rules to API  commuincation.
 
 - Attracts the bad guys for recon on how they are trying to break into your system
 - Create a virtual world to explore
-- Many different options of this
-- ITs a constaant battle to dicern the real from the fake.
+- Many different options 
+- Chance to see how attacker would try and exploit your system
 
 #### Honeynet
-= More than one honeypot on a network
+- More than one honeypot on a network
 - More than one source of information
 - Projecthoneypot.org
 
 #### Honeyfiles
-- Bair for the honeynet
+- Bait for the honeynet
 - An alert is sent if the file is accessed
 - A virtual bear trap
 
 #### Fake telemetry
 
 - Machine learning, interprets big data to identify the invisible
-- Tain the machine with actual data , learn how malware looks and acts, stop malware based on actions and not signatures
-- Send the machine learning model fake telemetry
+- *Train* the machine with actual data , *learn* how malware looks and acts, *stop* malware based on actions and not signatures
+- Send the machine learning model **fake telemetry**
 
 
 #### DNS sinkhole
 
 - A DNS  that hands out incorrect IP addresses.
-- Ab attacjer cab redirect users to a malicious site
+- An attacker can redirect users to a malicious site
 - Can watch for any users hitting that IP address 
-- can be integrated with a firewall , ifentify infected devices not directly connected
+- Can be integrated with a firewall , identify infected devices not directly connected
 
 
-## 2.2 Summarize authentication and authorization design concepts.
+## 2.2 Summarize virtualization and cloud computing concepts.     
 
 ### Cloud Models
 
@@ -1687,21 +1737,22 @@ WAF (Web Application Firewall) : How you apply rules to API  commuincation.
 
 #### Managed service providers
 
-- Handle many ascpets of tech for their clients
+- Handle many aspects of tech for their clients
 - MSP support 
-- Connectivity managemen
+- Connectivity management
 - Backups and disaster recovery
 - Growth management and planning
+- Cloud Architechture
 
 
 #### On-premises vs off-premises
 
-On-Premises 
-- Your applications are local 
+**On-Premises** 
+- Your applications are **local** 
 - your servers are in your data center in your building
 
-Off-premises
-- Your servers are not in your building 
+**Off-premises**
+- Your servers are **not in your building** 
 - They may not even be running on your hardware
 
 
@@ -1727,6 +1778,8 @@ Hybrid
 Pros
 - Computing on-demand
 - Fast implementation
+- Elasticity
+- Backups
 
 Cons
 - Latency - the cloud is far away
@@ -1747,10 +1800,10 @@ Cons
 
 #### Fog computing
 
-- Fog: A cloud thats close to your data 
-- Fog computing - a distributed cloud architecture , extends the cloud
+- **Fog:** A cloud thats close to your data 
+- **Fog computing** - a distributed cloud architecture , extends the cloud
 - DIstribute the data and processing
-	- Immediate data stays local no latency
+	- Immediate data stays local, no latency
 	- Local decisions made from local data - No bandwidth requirements
 	- Private data never leaves - minimizes security concerns 
 	- Long-term analysis can occur in the cloud - Internet aonly when required
@@ -1762,7 +1815,7 @@ Cons
 
 #### Designing the cloud
 
-- Elasticity : Scale up or down as needed
+- **Elasticity :** Scale up or down as needed
 - Applications also scale if needed and accessible from anywhere
 
 ##### Thin client
@@ -1784,11 +1837,9 @@ Each application instance has its own operating system
 
 
 ##### Containerization
-- Container : Contains everything you need to run an application
+- **Container :** Contains everything you need to run an application
 - Code and dependencies
-
-- AN isolated process in a sandbows
-
+- An isolated process in a sandbows
 - Specified container image
 
 ![[Pasted image 20220828192951.png]]
@@ -1797,8 +1848,9 @@ Each application instance has its own operating system
 
 ##### Microservices and API's
 
-- Monolithic applications: One big application that does everything
-- APplication contains all decision making processes
+- **Monolithic applications:** One big application that does everything
+	- **the user interface and data access code are combined into a single program from a single platform**
+- Application contains *all* decision making processes
 	- User interface
 	- Business logic 
 	- Data input and output
@@ -1817,7 +1869,7 @@ API is the "glue" for the microservices
 
 #### Serverless architecture
 
-Function as a service (FaaS)
+**Function as a service** (FaaS)
 - Applications are separated into individual, autonomous functions
 - Remove the operating system from the equation
 - Like what Rob does on docker with all his containers
@@ -1827,19 +1879,19 @@ Dev still created the server-side logic: Runs in a statless compute container
 
 #### Transit gateway
 
-- VPC - Virtual private cloud
+- **VPC** - Virtual private cloud
 	- A pool of resources created in a public cloud
-- COmmon to create many VPCs
+- Common to create many **VPCs**
 	- Many different application clouds
-- Think of like a "Router" But in the cloud
-- Connect VPCs with a transit gateway
+- Think of it like a "Router" But in the cloud
+- Connect VPCs with a **transit gateway**
 
 ![[Pasted image 20220828194009.png]]
 
 
 #### Service intergration and management
 
-(SIAM)
+**(SIAM)**
 - Many different service providers (multisourcing)
 	- Up and running regardless of provider going down
 - SIAM allows you to bring all those service providers into one view and service all of them
@@ -1847,28 +1899,33 @@ Dev still created the server-side logic: Runs in a statless compute container
 
 ### Infrastructure as code
 
-- Decribe an infrastructure
-	- Define servers, network, and applications as code
+- Decribes an **infrastructure**
+	- Define **servers, network, and applications *all as code***
 - Modify the infrastructure and create versions
-	- The same way you vaersion application code
-- Use the descrioption (code) to build other application instances
-- very efficent
+	- The same way you version application code
+- Use the description (code) to build other application instances
+- very effecient
 
 ##### SDN - Software Defined Networking
+
+**The physical separation of the network control plane from the forwarding plane, and where a control plane controls several devices.**
  
-_ Networking devices_ have two function planes of oeperation
-- Control plane, data plate.
+- Networking devices - have two function planes of operation
+- **Control plane, data plane**.
 
 - Directly programmable
 - Agile
 	- Changes can be made at any time
+	- Abstracting control from forwarding lets administrators dynamically adjust network-wide traffic flow to meet changing needs.
 - Centrally managed
 	- Global view - "single pane of glass"
 - Programmatically congiured
+	- SDN lets network managers **configure, manage, secure, and optimize network resources very quickly via dynamic, automated SDN programs**, which they can write themselves because the programs do not depend on proprietary software.
 - Open standards
 - Having certain network devices not physically be there but virtually like a firewall, router , switch etc
+- Software-defined networking (SDN) improves network connectivity for sales, customer service, internal communications, and document sharing.
 
-##### Softrwre defined visibility
+##### Software defined visibility
 
 - Dynamic deploymnents include security and network visibilty device
 	- Next-generation firewalls,
@@ -1881,17 +1938,18 @@ _ Networking devices_ have two function planes of oeperation
 
 #### VM Sprawl Avoidance
 - Click a button
-	- Youve built a server
-	- Or multiple serves, networkds, and firewalls
+	- You've built a server
+	- Or multiple servers, networks, and firewalls
 
-- need to make sure the process we have for deploying these instantces aso considers the proces of recoveirng those instances and returning them to the pool
-- The vms are sprawled everywhere makes it important to have a formal process to deal with creation and deprovisioning
+- Need to make sure the process we have for deploying these instances also considers the process of recovering those instances and returning them to the pool.
+- The vms are sprawled everywhere and makes it important to have a formal process to deal with **creation and deprovisioning**
 
 #### VM escape protection
 
-- Break out of the VM and interact with the ohst operating sustem or hardware
+- Break out of the VM and interact with the host operating system or hardware
 - Once you escape the VM you have great control
-- Segment the network
+>[!note]+ Solution
+> Segment the network to prevent this
 
 
 ## 2.3 Summarize secure application development, deployment, and automation concepts.
@@ -1905,22 +1963,22 @@ Each of these scenarios where you’re **moving an application from a nonproduct
 
 #### Sandboxing
 
-- A sandbox is an isolated testing environment that can be used by the developers to test different aspects of the application that they’re building.
-	- A technological saffe space
+- A **sandbox** is an isolated testing environment that can be used by the developers to test different aspects of the application that they’re building.
+	- A technological safe-space
 - Use during the development process, if something doesn’t work or goes wrong, the only people it will affect are people using that particular sandbox.
 
 #### Building the application
 
 The application development process generally **starts with a developer.** This would be a programmer who writes the code in a secure environment and begins testing out different aspects of the code’s functionality.
-- The developers will commonly use the sandbox to perform tests, until it is fit for live production.
+- The developers will commonly use the sandbox to perform tests, until it is **fit for live production**.
 The application devs bring all the code together to see how the different parts will react and will be able to check if everything is working as expected.
 
 #### Verifying the application
-- Quality Assurance (QA)
-	- verifies features are working as expected.
-	- tests new features that have been added making sure they work
-	- Verifies that old errors don't appear
-- Staging
+- **Quality Assurance** (QA)
+	- *verifies* features are working as expected.
+	- *Tests* new features that have been added making sure they work
+	- *Verifies* that old errors don't appear
+- **Staging**
 	- Almost ready to roll it out
 	- Works and feels exactly like the production environment
 	- Working with a copy of production data
@@ -1929,34 +1987,33 @@ The application devs bring all the code together to see how the different parts 
 
 #### Using the application
 
-- Production
+- **Production**
 	-  Application is live
 	- Rolled out to the user community
-- Logistical challengers
+- **Logistical challenges**
 	- new servers
 	- new software
+
 #### Secure baselines
-- The security of an application environment should be well-defined
-	- All application instance must follow this baseline
-	- Firewall settings, patch levels, OS file versions
-	- May require constant updates
-- Integrity measurements check for the secure baseline
-		-  These should be performed often—check against well documented baseline		
-		- Failure requires an immediate correction
+- The security of an application environment should be **well-defined**
+	- All application instances must **follow this baseline**
+	- **Firewall settings, patch levels, OS file versions**
+	- May require *constant* updates
+- Integrity measurements check for the **secure baseline**
+		-  These should be *performed often*—check against well documented baseline		
+		- Failure requires an *immediate* correction
 
 ### Provisioning and De-Provisioning
 
 
 #### Provisioning
 
-- Provisioning is the process of making something available. If you are provisioning an application, then you’re probably going to deploy a web server, a database server. There may be a middleware server and other configuration and settings to be able to use this particular application.
-- the provisioning of this application instance also includes security components. We want to be sure that the operating system and the application are up-to-date with the latest security patches.
-- be sure that our network design and architecture is also secure. So we might want to create a secure VLAN just for this application.
+- **Provisioning** is the process of *making something available.* If you are provisioning an application, then you’re probably going to **deploy a web server**, or**a database server**. 
+- The provisioning of this application instance also ***includes* security components.** We want to be sure that the operating system and the application are *up-to-date* with the latest security patches.
+- Be sure that our network **design and architecture** is also **secure**. So we might want to create a **secure VLAN** just for this application.(Segmentation)
 	- There might be a set of configurations and a firewall for internal access and a completely different set of security requirements for external access.
 
--  if we’re deploying software to a workstation, we may want to run our own scans of that software and make sure there’s nothing inside of that binary that may look malicious.
-	-  check the security posture of the workstation and make sure that the workstation itself is up to date with the latest patches and is running all of the latest security configurations.
--
+
 #### Scalability and elasticity
 - Handle application workload and adapt to dynamic changes
 - Scalability
@@ -1967,19 +2024,18 @@ The application devs bring all the code together to see how the different parts 
 
 #### Orchestration
 
-- Automation is the key to cloud computing
+- **Automation is the key to cloud computing**
 	- Automate the provisioning and deprovisioning these applications
-- Entire application instance can be instantly provisioned
-	- All servers , networks, switches, firewalls, and policies
+- Entire application instance can be *instantly* provisioned
+	- All **servers , networks, switches, firewalls,** and **policies**
 - Instances can move around the world as needed
-	- Follow the sun
-- The security policies should be part of the orchestration
-	- As applications are provisioned, the proper security is automatically included.
+- The *security policies should be part of the orchestration*
+	- As applications are provisioned, the proper security is *automatically* included.
 
 #### Deprovisioning
 
-- Dismantiling and removing an application instance
-- Security deprovisioning is important 
+- Dismantiling and removing an application instance is *just as important*
+- Security deprovisioning is **important** 
 	- Don't leave open holes, don't close important ones
 - Firewall policies must be reverted
 	- If the application is gone so is the access
@@ -2005,14 +2061,15 @@ The application devs bring all the code together to see how the different parts 
 
 #### Obfuscation/camouflage
 
-- Obfuscate
+- **Obfuscate**
 	- Not human readable
+	- Hard to understand
 - Makes it more difficult for attackers to look for holes in code.
 
 
 #### Code reuse/dead code
 
-- Code reuse 
+- Code reuse has it's risks
 - If the old code has security vulnerabilities all the new apps have the same one
 - Dead code
 	- Calculations are made, code is executed, results are tallied but not used anywhere else in the app
@@ -2026,33 +2083,34 @@ The application devs bring all the code together to see how the different parts 
 
 #### Validation points
 
-- Server-side validation
+- **Server-side validation**
 	- All check occur on the server
 	- Helps protect against malicious users
-- Client-side validation
+- **Client-side validation**
 	- The end-user's app makes the validation decisions
 	- may provide better speed
-- Server side is safer less manipulable
+- **Server side** is safer less manipulable
 
 #### Memory management
 
 Malicious users will try to get around some of these input validations, to put their own data into the memory of your computer,
-	- buffer overflow
+	- I,E buffer overflow
 		- the user might be able to send more data than what was expected and overflow a section of memory.
-	- fuck a third party library write your own shit
+	- fuck a third party library, write your own shit. If possible
 
 #### Third-party libraries and SDKs 
-- SDK: software development kits , speeds up the dev process.
-- Security risk 
+- **SDK:** software development kits , speeds up the dev process.
+- **Security risk** 
 	- App code written by someone else
 	- Might be secure, might not
 
-- DO YOUR REASEARCH
+- DO YOUR RESEARCH ON ANYTHING PART OF YOUR NETWORK AND SYSTEMS
 
 #### Data exposure
 
 In many applications, we’re inputting a lot of sensitive data. We could put in our name, our address, our birthday, our social security number, information about our family, our medical information, and so much more. That information needs to be secure. We need to make sure that we are encrypting this data when we’re storing it into some type of database or storage system.
-- Encryption of data when handing it.
+- **Encryption of data when handing it.**
+- Secure Transmission of data
 
 #### Version control
 
@@ -2085,29 +2143,44 @@ DEVOPS WOOOO
 
 
 
-## 2.4 Summarise authentication and authorisation design concepts.
+## 2.4 Summarise authentication and authorization design concepts.
 
+### Authentication Services
 -   -   **Directory services**:
 			- Keeps all of an organization's usernames and passwords in a single database.
 			- Access via Kerberos or LDAP
-    -   **Federation**: _A federated system involves the use of a common authentication system and credentials database that multiple entities use and share. This ensures that a user’s credentials in Company A would be acceptable in Company B and Company C, and only access permissions would be the determining factor in accessing systems and data. Windows Active Directory is a good example of a federated system in practice; user credentials from different domains could be used in other domains if they are all part of the same Active Directory forest._
+			
+    -   **Federation**: _A federated system involves the **use of a common authentication system** and credentials database that multiple entities use and share. **This ensures that a user’s credentials in Company A would be acceptable in Company B and Company C**, and only access permissions would be the determining factor in accessing systems and data._
+    - **Windows Active Directory** is a good example of a federated system in practice; user credentials from different domains could be used in other domains if they are all part of the same Active Directory forest.
 		    - Provide network access to others
 		    - Third-parties can establish a federated network
 		    - Third-parties must establish a trust relationship
-    -   Attestation
+
+
+    -   **Attestation** (to attest)
 	    - Prove the hardware is really yours
-	    - Your having the system 'attest' that the hardeware that is connecting into the network is the hardware you originally setup that is trustworthy to connect to the system.
+	    - Your having the system 'attest' that the hardware that is connecting into the network is the hardware you originally setup that is trustworthy to connect to the system.
 	    - OTP "One time password"
-			     -   Technologies of Attestat
-        -   **Time-based One Time Password (TOTP)**: _A time-based one-time password (TOTP) uses time as a factor to assist in generating a OTP. Normally, the user has a set number of seconds to input the correct password before it changes and another one must be used. This has many advantages, including the prevention of replay attacks._
-        -   **HMAC-based One Time Password (HOTP)**: _The Hash-based Message Authentication Code (HMAC) provides for message authentication and data integrity. HMAC can use either MD5 or the SHA series of hashing algorithms and various key sizes. In the case of HOTP use, the user is authenticated against the centralised authentication database, and the authentication server calculates the HMAC value and sends it to the user via an authentication device such as a token. Several popular authentication mechanisms that use mobile devices, such as smartphones, make use of HOTP._
-        -   **Short Message Service (SMS)**: _Many security systems use standard communication methods to convey an OTP. Common systems send an OTP via short message service (SMS) to a smartphone, for example._
+			     -   Technologies of Attestation
+
+### Technologies of Authentication
+
+-   **Time-based One Time Password (TOTP)**: _A time-based one-time password (TOTP) uses time as a factor to assist in generating a OTP. 
+        - The user has a set number of seconds to input the correct password before it changes and another one must be used. 
+	        - This has many advantages, including the prevention of replay attacks.
+        -   **HMAC-based One Time Password (HOTP)**: _The Hash-based Message Authentication Code (HMAC) provides for message authentication and data integrity. HMAC can use either MD5 or the SHA series of hashing algorithms and various key sizes.
+        - In the case of HOTP use, the user is authenticated **against the centralised authentication database**, and the authentication server calculates the **HMAC value** and sends it to the user via an authentication device such as a **token**.
+        - Several popular authentication mechanisms that use mobile devices, such as smartphones, make use of HOTP.
+        
+    - **Short Message Service (SMS)**: _Many security systems use standard communication methods to convey an OTP. Common systems send an OTP via short message service (SMS) to a smartphone, for example._
         -   **Token key**: _Hardware tokens are physical devices such as a USB security key linked to a specific account and plugged into the client computer. Software tokens are applications that generate OTPs._
         -   **Static codes**: _Expect a question on the CompTIA Security+ exam on static codes for authentication. These refer to personal identification numbers (PINs) that you use to log into a Microsoft account, for example, or to finish authenticating with an automated teller machine (ATM) at the bank. Most smartphones require a static code for login (i.e., authentication)._
         -   **Authentication applications**: _You can use general authentication applications as a part of two-factor authentication at various websites. The [https://login.gov](https://login.gov/) website, for example, enables users to add one of various apps to their smart devices, such as Google Authenticator, Authy, LastPass, or 1Password, to create that second authentication factor._
         -   **Push notifications**: _Another way of receiving a OTP._ Similar process to an SMS notification. Still more secure than SMS.
         -   **Phone call**: _Another way of receiving a OTP._
     -   **Smart card authentication**: _Adding a storage chip to a standard credit card–sized plastic card creates a way for an individual to store personal information, a smart card. Smart cards can store any binary data, not just certificates. Some applications use smart cards that store symmetric keys, digital signatures, PINs, or personally identifiable information (PII)._
+
+### Biometrics
 -   **Biometrics**: _Human physical characteristics that can be measured and saved to be compared as authentication in granting the user access to a network or resource. Common biometric factors used in access control include fingerprints, facial scans, retinal scans, voice pattern recognition, and others._
     -   **Fingerprint**: _Self explanatory._
     -   **Retina**: _Self explanatory._
@@ -2120,8 +2193,10 @@ DEVOPS WOOOO
     -   **False acceptance**: _The FAR is the rate of errors from incorrectly authenticating unauthorised users._
     -   **False rejection**: _The FRR is the rate of errors from incorrectly rejecting authorised users._
     -   **Crossover error rate**: _The crossover error rate (CER) is the point at which the system must be tuned to reduce both types of errors effectively without increasing either one of them._
+
+### Multifactor Authentication (MFA)
 -   **Multifactor Authentication (MFA) factors and attributes**: _Multifactor authentication (MFA) uses more than one factor or attribute to identify a user and validate her credentials._
-    -   **Factors**
+- #### **Factors**
         -   **Something you know**: _The knowledge factor relates to something you know, typically used when you identify yourself to a system with a user name and password combination. You know your user name and password, and use your memory to present them to the system._
         -   **Something you have**: _The possession factor relates to something you have. You physically possess an object to use as an authenticator. Scanning a gym membership card to gain access, for example, uses something you have._
         -   **Something you are**: _The inherence factor relates to something you are, relying on a person’s unique physical characteristics that can be used as a form of identification, such as fingerprints, retinal eye patterns, iris patterns, handprints, and voiceprints._
@@ -2137,9 +2212,11 @@ DEVOPS WOOOO
 
 
 ## 2.5 Given a scenario, implement cybersecurity resilience.
-### Redundancy
-  **Geographic dispersal**: _Self explanatory. The gold standard for system redundancy is to make perfect copies of the same system and spread them apart geographically, then use the Internet to keep the copies identical._ So that in the case of partial failure, a backup is always available.
-    -   **Disk** Redundancy
+#### Redundancy
+  **Geographic dispersal**: Make perfect copies of the same system and spread them apart geographically, then use the Internet to keep the copies identical. So that in the case of partial failure, a backup is always available!
+    
+#### Disk
+-   **Disk** Redundancy
         -   **Redundant Array of Inexpensive Disks (RAID) levels**: _Redundant array of inexpensive disks (RAID) is a fault tolerance technology that spans data across multiple hard disk drives or solid state drives within a server or workstation. This level of fault tolerance specifically addresses hard drive failure and balances the need for data redundancy with speed and performance. RAID uses multiple physical mass storage drives to create logical drives, usually making it transparent to users. Data is spanned across the different physical drives, along with metadata (usually parity information), so that if any one drive fails, the other drives in the RAID set can continue to provide data while the single drive is replaced._
             
            RAID Level
@@ -2187,30 +2264,35 @@ DEVOPS WOOOO
 
 -   **Multipath**: _A multipath solution provides more than one way to access storage. A RAID 1 implementation with two controllers, one for each drive, is the traditional multipath solution. More than one connection to a SAN is also a typical implementation of multipath._
 
+#### Network
 -   **Network** Redundancy
     -   **Load balancers**: _A load balancer is a network device used to provide efficient and seamless workload sharing between network devices (such as routers or firewalls) or hosts, typically Web or file servers or storage devices. Placed strategically between devices, a load balancer enhances security and efficiency._
     -   **Network Interface Card (NIC) teaming**: _Network interface cards rarely fail, but when one does, the system with the bad NIC is offline until the NIC is replaced. Network interface card (NIC) teaming addresses this issue by using two or more NICs on a single system that act as though they are a single NIC with one MAC address and one IP addresses. Not only does NIC teaming increase throughput (sort of), but if one NIC fails, the other continues to work._
 	    - Port aggregation.
--   **Power**
-    -   **Uninterruptible Power Supply (UPS)**: _An uninterruptible power supply (UPS) uses a small battery (often the same type used in motorcycles) as a backup power source if the power ever sags or goes out completely._
+#### **Power**
+-   **Uninterruptible Power Supply (UPS)**: _An uninterruptible power supply (UPS) uses a small battery (often the same type used in motorcycles) as a backup power source if the power ever sags or goes out completely._
     -   **Generator**: _If you need to ensure that a system has uninterrupted power for an extended period of time after a power failure, you need to consider an onsite generator as a source of backup electricity._
     -   **Dual supply**: _Many higher-end devices support dual power supplies. These aren't complicated: if one power supply goes out, the other takes over._
     -   **Managed Power Distribution Units** (PDUs): _At the simplest end a simple power strip is a PDU, but if you’re going to distribute power, why not use a managed PDU that can monitor power usage, send alarms, and so forth?
 	    - <img src = "https://i.gyazo.com/c4a1983571fd3937fd5a5438b8febc6a.png">
 	    
-- ### **Replication**:
+- #### **Replication**:
     -   **Storage Area Network**: _A storage area network (SAN) is a network storage that enables you to access the shared folders by using block-level controls rather than the network stack. This gives SANs some unique capabilities, mainly on-the-fly volume creation/manipulation. On most systems, if you want to add storage, you first get a storage device, configure it, mount it, and format it. On a SAN, you just tell the SAN controller to add another disk to your local system. You can create a new volume, or you can mount an existing volume._
     -   **VM**: _The capability to push out multiple identical copies of VMs from a master image is categorized as replication on the CompTIA Security+ exam._
+
+#### On-prem vs cloud
 -   **On-premises vs cloud**: _Nothing beats virtualization, especially cloud-based services, for giving you all the benefits of redundancy, especially high availability, without outrageous cost and time. First, virtualization solutions are incredibly scalable. Virtualization also makes geographic dispersal easy to achieve. Is your new Website huge in Japan? Just tell Amazon to spin up some new servers over in Japan, so your customers in Tokyo get the same speed and response as your US users._
 	- Speed'Money'Security 
-- ### **Backup types**
-    -   **Full**: _In a full backup, regardless of whether you back up a shared folder, a single hard drive, a RAID array, or an entire server, everything is included in the backup set. At the basic file system level, a full backup also sets the archive bits on files to indicate that the files have been backed up. One important difference between the standard full backup method and copy or image is that the latter two do not turn off the archive bit.
+
+#### **Backup types**
+ -   **Full**: _In a full backup, regardless of whether you back up a shared folder, a single hard drive, a RAID array, or an entire server, everything is included in the backup set. At the basic file system level, a full backup also sets the archive bits on files to indicate that the files have been backed up. One important difference between the standard full backup method and copy or image is that the latter two do not turn off the archive bit.
     -   -   **Incremental**: _The incremental backup typically backs up only files that have changed since the last full backup. In other words, when an incremental backup runs, it backs up only the files that have the archive bits turned on. After it backs up those files, it turns off the archive bits. If a full backup is run, and then files subsequently change, an incremental backup backs up only those files._
     - <img src = "https://i.gyazo.com/652f9bbf51e947018f30c2f01af68d77.png">
     - 
     -   **Snapshot**: _A snapshot stores a version of an operating system (including applications) at a given moment in time. These are common for individual system backups, such as restore points in Windows and Time Machine backups in macOS. For servers and such, a snapshot as a backup refers to the powerful feature with virtual machines that enables you to save a version of a functional VM to restore very quickly if anything negative happens to the functional server._
-    -   **Differential**: _The differential backup also gets only a subset of the total data and is also based upon the archive bit setting. However, the major difference between a differential backup and an incremental backup is that the differential backup does not clear the archive bit—it leaves it turned on.
-    - <img src = "https://i.gyazo.com/402b602dbadf887d83fb4e47fd2feed4.png">  
+    -   **Differential**: _The differential backup also gets only a subset of the total data and is also based upon the archive bit setting. However, the major difference between a differential backup and an incremental backup is that t**he differential backup does not clear the archive bit—it leaves it turned on.**
+    - In other words it backs up everything since the last full backup
+    <img src = "https://i.gyazo.com/402b602dbadf887d83fb4e47fd2feed4.png">  
     -   **Tape**: _A lot of cloud storage providers still use tape for archival backup, especially for records an organisation probably won’t need but must store for a set number of years to comply with government regulations._
     -   **Disk**: _Backing up to a hard disk._
     -   **Copy**: _A full copy (typically using dd). Does not affect archive bits._
@@ -2225,12 +2307,15 @@ DEVOPS WOOOO
         -   **Distance considerations**: _Storing backup drives at a location distant from your primary organisation provides essential security in the event of a disaster. The location of offsite backups and services matters because of law and international jurisdictions._
 
 ### Resiliency
+
+##### Non persistence
 -   **Non persistence**: _Non-persistence simply means to possess a method to bring a system back quickly to its pre-attack state._
     -   **Revert to known state**: _Every major OS has some form of revert/rollback method to bring a system back to a previous state, what the CompTIA Security+ objectives call revert to known state. All revert/rollback methods work by making the OS aware of changes and then storing files or settings in such a way that techs can look up previous states and tell the OS to go back to one of those states._
     -   **Last known good configuration**: _Older Windows versions (such as Windows 7) offered a boot feature called last known good configuration that enabled quick recovery from installation of a buggy driver._
     -   **Live boot media**: _Live boot media are complete, installed operating systems that exist on bootable media._
--   **High availability**
-    -   **Scalability**: _Redundancy provides high availability. High availability means using redundancy in such a way as to ensure that certain levels of operational performance are balanced against risk._
+
+##### **High availability**
+-   **Scalability**: _Redundancy provides high availability. High availability means using redundancy in such a way as to ensure that certain levels of operational performance are balanced against risk._
 -   **Restoration order**:
 	- Application-specific
 		- Certain components may need to be resotred first
@@ -2238,6 +2323,8 @@ DEVOPS WOOOO
 	- Backup-specific 
 		- Incremental backups restore the full backup, then all subsequent incremental backups
 		- Differential  backups restore the full backup, then the last differential backup
+
+##### Diversity
 -   **Diversity**: _Diversity refers to the practices of using a variety of technologies, vendors, cryptographic systems, and controls to avoid the possibility that all systems have the same vulnerability and can be taken out en masse. When organisations rely on multiple redundant technologies, vendors, cryptographic systems, and security controls, that diversity provides cybersecurity resilience. If a single technology fails, a vendor disappears, the crypto system is cracked, or security controls change and conflict, an organization that employs multiple systems through diversity can quickly pivot and implement fixes._
     -   **Technologies**
 	    - A zero-day OS vulnerability can cause significant outages
@@ -2256,6 +2343,7 @@ DEVOPS WOOOO
 
 ## 2.6 Explain the security implications of embedded and specialised systems.
 
+#### Embedded systems
 -   **Embedded systems**: _CompTIA uses the term embedded system to describe discrete hardware components that make up portions of systems._
     -   **Raspberry Pi**: 
     - Multiple Components on a single chip
@@ -2268,12 +2356,17 @@ DEVOPS WOOOO
 	    - An integrated circuit that can be configured after manufacturing 
 	    - A problem doesn't require a hardware replacement 
     -   **Arduino**: _Arduino systems have security concerns. Physical access, like with FPGA systems, presents a clear danger. The limited memory on Arduino-based systems leaves them vulnerable to buffer overflow and heap attacks. The systems often connect automatically to the nearest access point when the default connection fails, again providing an opportunity for mischief. As with all computing systems, assume Arduinos need careful thought and preparation for security._
+
+#### SCADA
 -   **Supervisory Control and Data Acquisition (SCADA)/Industrial Control System (ICS)**: _Supervisory control and data acquisition (SCADA) systems are used in industrial applications. SCADA systems are more and more often being connected to the Internet, and often in an unprotected state. They run TCP/IP protocols and use embedded versions of some of the popular consumer operating systems, such as Windows or Linux. This makes SCADA systems prime targets for hackers, who attack them to damage critical infrastructure, launch denial-of- service (DoS) attacks, and generally create mischief and outright harm._
     -   **Facilities**
     -   **Industrial**
     -   **Manufacturing**
     -   **Energy**
     -   **Logistics**
+
+
+#### IOT
 -   **Internet of Things (IoT)**: _The term Internet of Things (IoT) describes the many computing devices (other than PCs, routers, and servers) that connect through the Internet, which is about as broad a definition as it gets. IoT often refers to smaller helper devices, such as lightbulbs you can turn on or off remotely, but it also applies to heating and cooling systems (facility automation tools), smart devices like a refrigerator that can tell you how much milk is left, diapers that inform you when junior needs a change, and so on._
     -   **Sensors**
     -   **Smart devices**
@@ -2281,11 +2374,16 @@ DEVOPS WOOOO
     -   **Facility automation**
     -   **Weak defaults**: _What IoT devices have in common from a security standpoint are weak default settings. Most manufacturers of IoT devices in the consumer sphere, for example, err on the side of ease of use for the consumer rather than rigorous security for the power user or IT security specialist. Fine-tuning options such as connectivity and notification settings can go a long way toward adding worthwhile security to IoT devices._
 	    - For the love of God don't keep your admin user/pass.
+	    -
+
+#### Specialized Systems
 -   **Specialized**: _Both CompTIA and many writers throw up their hands at the rest of the dedicated systems, calling them simply specialized._
     -   **Medical systems**: _IoT pacemakers not only provide stimulus to regularize the heartbeat, but also transmit over the Internet so doctors and technicians can monitor the patient’s heart and the current level of battery power. Other Internet of Medical Things (IoMT) devices—both wearable and implanted—monitor all sorts of things, from general vital signs to specific things like glucose levels in diabetic patients. The IoMT field continues to grow, combining medical systems with phenomenal technology advances. The inherent security risks involved with IoMT devices cannot be dismissed. Any device that connects to a network has vulnerabilities and the potential for hacking. A hacked medical lifesaving device could have deadly consequences._
     -   **Vehicles**: _From a security perspective, in-vehicle computing systems have some of the same common vulnerabilities that other systems have, which may include network security issues, such as the vulnerabilities inherent to Bluetooth, Wi-Fi, and cellular technologies. There are also issues involving firmware and patch updates to the systems. Many of these systems have USB or SD card ports, for example, to upload firmware updates or play media content on the devices. Perhaps someday someone will develop a virus or other type of malware that could be injected into these types of systems via a removable media device._
     -   **Aircraft**: _Aircraft of all sorts, both manned and unmanned, have increasingly sophisticated computing systems, many connected to extended networks and the Internet._
     -   **Smart meters**: _Smart meters rely on cellular and wireless networks to communicate to consumers and utility companies real-time information about power usage, usually electricity, but also natural gas or water.
+
+#### More
 -   **Voice over IP (VoIP)**: _You need to secure VoIP communications just like you would any other IP network. Typical VoIP attacks include denial of service, spoofing telephone numbers, and just harassment._
 -   **Heating, Ventilation, Air Conditioning (HVAC)**: _Self explanatory._
 -   **Drones**: _Drones typically have multiple embedded camera systems, high-end wireless networking capabilities, and an SoC to run them all._
@@ -2298,8 +2396,9 @@ DEVOPS WOOOO
 	- Sometimes physically difficult to replace cameras
 	- Segment the Cameras just in case they are compromised
 -   **System on Chip (SoC)**: _The system on chip (SoC) design concept is where all the processing components reside on a single circuit board—that includes CPU, RAM, system BIOS, Ethernet networking, and Wi-Fi networking._
-- #### **Communication considerations**
-    -   **5G**: _5G networks operate at three distinct bands: Low-band, Mid-band, and High-band. The higher the band, the faster the connection speed, but the shorter the range. 5G devices connect automatically at the fastest speed available at range. Cellular voice and data services these days offer very robust security. Direct sniffing of these networks is difficult at best (assuming you’re using a late-generation 4G/LTE or 5G phone). Carriers will quickly detect and act on any attempts to emulate a cell tower, for example, which could lead to serious legal ramifications for the bad actor._
+
+#### **Communication considerations**
+-   **5G**: _5G networks operate at three distinct bands: Low-band, Mid-band, and High-band. The higher the band, the faster the connection speed, but the shorter the range. 5G devices connect automatically at the fastest speed available at range. Cellular voice and data services these days offer very robust security. Direct sniffing of these networks is difficult at best (assuming you’re using a late-generation 4G/LTE or 5G phone). Carriers will quickly detect and act on any attempts to emulate a cell tower, for example, which could lead to serious legal ramifications for the bad actor._
     -   **Narrow band**: _Developers use the Narrowband Internet of Things (NB-IoT) technology for high connection density IoT deployment, specifically with an eye to maximising battery life and minimising costs. Narrowband means NB-IoT uses only a single radio frequency — 200 KHz. The goal with NB-IoT is to provide good coverage and devices that don’t need recharging for years._
 	    - SCADA
 	    - Oil Fields
@@ -2314,7 +2413,8 @@ DEVOPS WOOOO
     -   **Zigbee**: _Devices and systems that rely on the Zigbee communication protocols offer ad hoc personal area networks that use very low-power radios. This low-bandwidth solution works perfectly for things like medical device data collection and home automation. Zigbee is an open standard, so adoption by manufacturers is increasing._
 	    - IoT networking
 	    - Less power than wifi , longer distance than bluetooth
--   **Contraints**
+
+#### **Contraints**
 - These systems have to trade one thing for a another , for example more ram but less space for power; more portability less ability to patch.
     -   **Power**
     -   **Compute**
@@ -2326,8 +2426,9 @@ DEVOPS WOOOO
     -   **Cost**
     -   **Implied trust**
 
-## 2.7 Explain the importance of physical security controls.
+## 2.7 Explain the importance of **physical** security controls.
 
+#### Barricades , ACV, badges, etc...
 -   **Bollards/barricades**: _Barricades are physical security devices that can block unauthorised personnel from entering an area. Barricades are often used in the area surrounding a facility to keep vehicles from getting too close to a building, for example. They can also be used inside a facility to control the flow of people through secure areas.
 	- Prevent access
 	- Channels people through a specific access point
@@ -2345,40 +2446,53 @@ DEVOPS WOOOO
 	- Workers and visitors
 	- Safety, fire exits, chemicals, first aid , etc...
 	- Informational
+
+#### CCTV
 -   **Cameras**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
     -   **Motion recognition**: _Recording systems should automatically kick in with motion recognition hardware detecting movement, thus capturing anything larger than a squirrel that enters a camera’s field of view. CCTVs should also date and time stamp those recordings so that a realistic time frame of events can be reconstructed if needed._
     -   **Object detection**
 -   **Closed Circuit Television (CCTV)**: _CCTVs use cameras to record surveillance video and transmit it to a central monitoring station, which enables guards to extend their view of the facility._
+
+#### Industrial compuflage and Personnel
 -   **Industrial camouflage**: _Conceal an important facility in plain sight but it blends into the local enviornment. There should be no identifying features that would tell you that this unsuspecting build is for example a data center._
 -   **Personnel**
     -   **Guards**: _Security guards have specific training and skills to monitor and maintain facility security._
     -   **Robot sentries**: _Self explanatory._ EXTREME ROOMBAS
     -   **Reception**: _Guards in the reception area of a building manage people in real time. They can actively review people who step up to the entryway and, again, actively allow or deny access to the facility. They can and should log in and out every single visitor on a visitor log._
     -   **Two person integrity/control (TPIC)**: _Expect a question on the CompTIA Security+ exam that addresses two-person integrity/control. In a general sense, two-person integrity (TPI) simply means that you have two guards in the same space at all times, so one guard can’t mess up (inadvertently or on purpose) without the other guard catching the problem. Specifically, TPI refers to the nuclear weapons controls in the United States; again, so one person can’t make a catastrophic mistake. It’s a failsafe mechanism._
+
+#### Locks
 -   **Locks**: _Locks are physical security controls that can help keep unauthorised persons from entering doorways, secure areas, and perimeters._
     -   **Biometrics**: _Security controls that use biometrics to verify authorisation._
     -   **Electronic**: _Electronic locks are more sophisticated and may use various protection mechanisms. Usually, an electronic lock uses a PIN code and may be known as a cipher lock. Electronic locks usually have their mechanisms protected by metal containers or embedded into wall._
     -   **Physical**: _Combination locks, which require a numerical combination or PIN code to unlock them, and locks built into the door or other type of entrance (such as a gate, vault, or safe) are also popular hardware locks. Each has advantages and disadvantages, depending on the level of security you require. Each also has different variations. Ordinary padlocks, referred to as warded locks, may appear to be strong, but they can easily be cut or picked._
     -   **Cable locks** , Locks computer down temporarily , can be cut but is a means of friction for attackers
--   **USB data blocker** 
-	-  Don't connect to unknown USB interfaces
+####  **USB data blocker**, Lighting etc...
+-  Don't connect to unknown USB interfaces
 	- Allow the voltage , reject potential data.
 -   **Lighting**: _Lighting is another critical aspect of perimeter security. During evening or dark hours, lighting can help ensure that trespassers, attackers, and thieves are deterred from venturing out into open areas when trying to approach a facility or harm its personnel._
 -   **Fencing**: _Fencing deters unwanted and unauthorised visitors. Fencing is often used at facilities that require higher security than a simple lock on the door. Fencing can intimidate trespassers or attackers._
 -   **Fire suppression**: _Most modern data centers these days have foam fire suppression systems, such as FM-200 or another approved chemical foam. This type of system not only is very effective for putting out large fires but is also typically safe for humans and equipment._
--   **Sensors**
-    -   **Motion detection**: _Motion detection involves sensing the presence of a person in an area using different types of sensors._
+
+ 
+#### **Sensors**
+-   **Motion detection**: _Motion detection involves sensing the presence of a person in an area using different types of sensors._
     -   **Noise detection**: _Noise detection sensors pick up unusual sound levels and are used in very specific security settings, such as hospitals._
     -   **Proximity reader**: _A proximity reader device is used to help authenticate personnel entering or exiting a facility. The person places a smart card or other access device near the sensor so it can be read via RFID or another passive wireless technology. The reader receives information from the card regarding the individual’s identity. The individual may further authenticate by using a PIN or biometric method, such as a thumbprint scan, retinal scan, or voiceprint._
     -   **Moisture detection**: _A device that monitors humidity in a data center is called a hygrometer or, if it can measure both temperature and humidity at the same time, a hygrothermograph. Like automated temperature controls and other HVAC equipment, these devices can be centrally monitored through a remote console and alert operators whenever the temperature or humidity changes from certain levels. HVAC controls can be automatically or remotely adjusted based upon information received from these monitors._
     -   **Cards**: _Smart card sensors._
     -   **Temperature**: _Thermometers._
+
+=== 
+#### Drones, Visitor Logs, etc...
 -   **Drones**: _Small, remotely controlled flying surveillance vehicles — drones — form increasingly useful tools for security professionals to patrol areas._
 -   **Visitor logs**: _Guards in the reception area of a building manage people in real time. They can actively review people who step up to the entryway and, again, actively allow or deny access to the facility. They can and should log in and out every single visitor on a visitor log._
 -   **Faraday cages**: _Faraday cages are devices that prevent RFI or EMI from damaging contents stored. Faraday cages are named for the English scientist—Michael Faraday—who created the design way back in the 19th century._
 -   **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet-connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
 -   **Screened subnet (previously known as a Demilitarised Zone (DMZ))**: _A network that includes public servers must have a more complex topology that protects Internet systems but still enables less-protected access for public servers. To do this, create a screened subnet—also known as a demilitarised zone (DMZ) - a LAN, separate from the internal LANs that contain workstations and private servers. The DMZ connects to the Internet via a lightly firewalled router, and an internal network connects to the DMZ via a much more aggressively firewalled router._
 -   **Protected cable distribution**: _Protecting physical cabling is as much about facility design as anything else. The facility should be designed so that physical cabling is run outside of normal traffic areas, through ducts in the walls or ceiling. The end connection points of the cabling should be physically protected from unauthorised access, by placing termination points such as switches in locked closets, and protecting end-user device connection points in offices and other rooms from unauthorised access. In addition to physical security design, protecting cabling involves other possible measures, including using shielded cabling to prevent eavesdropping (or using fiber cable); configuring systems to send alarms when a connection is lost, possibly indicating a cut or damaged cable; and even using technical or logical controls that prevent unauthorised devices from connecting to end- user cable connection points, such as network outlets, by controlling port access._
+
+
 #### **Secure areas**
   - **Air gap**: _Passive security methods also include network design, such as providing physical separation between secure and nonsecure networks, an air gap. A highly secure facility, for example, would have interconnected internal systems to enable people to get work done, but have an Internet- connected system in a reception area for visitors to use. That system would in no way connect with any of the secure systems._
 		- Disconnection from the network
@@ -2389,8 +2503,8 @@ DEVOPS WOOOO
     - <img src = "https://i.gyazo.com/2f4a4bd7200a00215c38d4112a212954.png">
     
 
--   **Secure data destruction**
-    -   **Burning**: _Self explanatory._
+####  **Secure data destruction**
+ -   **Burning**: _Self explanatory._
     -   **Shredding**: _Self explanatory._
     -   **Pulping**: _Self explanatory._
     -   **Pulverising**: _Self explanatory._
@@ -2402,7 +2516,7 @@ DEVOPS WOOOO
 ## 2.8 Summarise the basics of cryptographic concepts.
 
 
-**Common terms**
+#### **Common terms**
 
 - Plaintext - An unencrypted message *in the clear*
 - Ciphertext - An encrypted message
@@ -2417,10 +2531,13 @@ Cryptographic keys
 
 **Key stretching libraries**
 
-Key stretching is like hashing a hash.
+**Key stretching** is like hashing a hash.
 blueboy = kdfjakdlsdkf3423kl but then you take that hash
 kdfjakdlsdkf3423kl = fdasfuhdsoafdhaifudhsjfouiahdsfodhfosdufha
 hash that bitch again.
+HASH IT! AGAIN!
+fdasfuhdsoafdhaifudhsjfouiahdsfodhfosdufha = dhafjodhsfsadhfjdsfafdskahfjdlshkfjsahdlfkjahdkfjlhsdjkafhjkdslafhkjadhfkjldshfkjsdhfkjasdhfksdajfhdskjfhdsalkjfhskdjfhdsklfhdjkfahkdfhakjsdfhkjsadhfkjh334jh3kjhkj3hjkh3j4kh3h5j5hjh56jh6k7jhkj...
+I broke it..
 
 **Bcrypt**
  - Generates hashes from passwords
@@ -2434,7 +2551,7 @@ Lightweight cruptography
 	- Emerging
 
 
--   **Digital signatures**:
+####  **Digital signatures**:
 
 _The challenge to key exchange isn't handing out the keys. The Web server and client can automatically share their public keys the moment they connect. The problem comes with the key itself. Imagine a scenario where a third party intercepts the data and tries to send a bogus public key to the client. Digital signatures address this scenario. To send a message in a typical asymmetric encryption cryptosystem, the sender encrypts using the recipient’s public key; the recipient decrypts using her private key. The reverse, however, can also work. The sender can encrypt with his private key; the only key that would enable decryption is his public key. This concept makes digital signatures possible. Here’s the full process of creating a digital signature. To prove that the public key your client receives came from the proper server, the Web server adds a digital signature. The Web server takes the current Web page and does the following:_
 
@@ -2477,13 +2594,13 @@ _The hash value encrypted with the private key and that accompanies the public k
 - In-band key exchange involves using the same communications channel you are using to send the message to send the key. This may not be the most secure way, since that channel may be monitored by a malicious person. 
 - Out-of-band key exchange involves the use of a separate, independent channel, such as snail mail, phone call, USB stick, or even a different network connection, to send the key to the authorised users.
 
--   **Perfect forward secrecy**: _Forward secrecy means to protect a cryptosystem from one key giving away some secret that makes it easier to crack. If an algorithm achieves this, we call it perfect forward secrecy. There is no such thing as perfect forward secrecy other than using a key only once and throwing it away —a one-time pad._
+-   **Perfect forward secrecy**: _Forward secrecy means to protect a crypto-system from one key giving away some secret that makes it easier to crack.
+		- If an algorithm achieves this, we call it perfect forward secrecy. **There is no such thing as perfect forward secrecy other than using a key only once and throwing it away** —a one-time pad._
 	- Elliptic curve or Diffie -Hellman ephemeral
 	- Single-session use
 	- Every session has new keys
 	- PFS requires more computing power
 	- Browser needs to support PFS
-	- 
 
 #### Quantum computing
  
@@ -2567,3 +2684,1063 @@ Verified transactions are added to a new block of data containing other recently
 	- A secure code (hash) is calculated from the previous blocks of transaction data in the blockchain and added to the new block of transactions.
 	- So if anything on any of those blocks are changed the hash will change
 	
+
+# 3.0 Implementation
+## 3.1 Given a scenario, implement secure protocols.
+
+### Protocols
+
+<img src = "https://i.gyazo.com/3b09303cf982f74073a461b8dfaf661c.png">
+
+#### IPSec Protocols
+
+Authentication Header (AH) and Encapsulating Security Payload. (ESP)
+
+AH provides a mechanism for authentication only.
+ESP provides data confidentiality and authentication. 
+
+Because AH does not perform encryption, it is a fast protocol than ESP.
+
+##### IPSec Modes
+In *transport mode*, the IP addresses in the outer header are used to determine the IPsec policy that will be applied to the packet:
+	- Good for ESP host-to-host traffic
+In *tunnel mode*, **two IP headers are sent,** The inner IP packet determines the IPsec policy that protects its contents.
+– Good for VPNs, and gateway-to-gateway security.
+
+
+#### Voice and Video
+
+##### SRTP (IP Phones)
+- Secure Real-Time Trasport Protocol/ Secure RTP
+- Used to keep conversations private 
+- It uses AES to encrypt the data
+
+#### Time Sync
+- Classic **NTP** has no security 
+- **NTPsec** is the solution 
+
+#### Email
+##### S/MIME
+- Secure / Multipurpose Internet Mail Extension
+- Public key encryption and digital signing of mail content
+
+##### Secure POP and Secure IMAP
+- Uses a STARTTLS extension to encrypt POP3 with SSL or IMAP w/ SSL
+- IF The mail is browser based, always use SSL (Secure Socket Layer)/ TLS (Transport Layer Security)
+
+#### Web
+**SSL/TLS**
+**HTTPS :** Http over TLS / Secure
+		- Uses public key encryption 
+		- Symmetric session key is transferred using Asym encrytption 
+
+
+## 3.2 Given a scenario, implement host or application security controls.
+
+### Endpoint protection
+
+Defense-In-Depth
+	Layered Protection
+
+
+*Antivirus* 
+- Detects and destroys viruses
+
+*Anti-malware*
+- Protects systems from all types of malware
+
+*Endpoint Detection and Response (EDR)*
+- Real-Time continous monitoring and collection of endpoint data with rules-based **automated response and analysis**.
+- machine learning used to pick up on sus behavior.
+
+#### Data Loss Prevention
+A way to protect sensitive information and prevent its inadvertent disclosure.
+
+Anytype of sensiive data (PII)
+
+- Policies can be typically applied to email, Sharepoint, cloud storage, and in some cases even databases.
+
+
+#### Modern Firewalls
+
+Web app **Firewalls:** 
+Protect web apps by filtering and monitoring HTTP traffic BETWEEN  a web application and the internet
+- Protects from XSS, CSRF AND SQL Injection
+
+Next Generation **Firewalls**: 
+A deep-packet inspection firewall that moves beyond port/protocol inspection and blocking.
+	**-Brings intelligence from outside the firewall**
+
+##### Host-based firewall
+ firewalls built into operating systems like windows or linux.
+ Often used in conjuction with a network-based firewall.
+
+#### IDS & IPS 
+
+IDS (Intrusion Detection System) :  Analyzes whole packets, both header and payload, looking for known events. When a known event is detected, a log message is generated.
+
+IPS (Intrusion Prevention System) : The IPS however does not just log the occurance, it takes action and the **packet is rejected.**
+
+#### Host-based IDS and IPS
+
+Same thing as the above-mentioned however it is in **software form** on **a host,** most often a **server.**
+
+### Boot Integrity
+
+#### UEFI ( Unified Extensible Firmware Interface)
+- Basic Input/Output System (BIOS) but more secure and is needed for a secure boot of the OS
+	- BIOS cannot provide secure boot
+
+#### Measured Boot
+
+All components from the firmware, applications, and software are measured and information is stored in a log file
+The log file is on the trusted platfom module(TPM)
+
+#### Trusted Boot and Boot Attestation
+
+Windows 10 can perform a secure boot at startup, where the OS checks that all of the drivers have been signed.
+
+If they have not the boot sequence fails as the system intergrity had been compromised this can be coupled with attestsion where the software integrity had been confired
+- Bit locker implements attestion and its keys are stored on the TPM
+
+
+### Databases
+This whole section is ways to secure/protect databases.
+
+#### Tokenization
+Is deemed more secure than encruption becuase it cannot be reversed
+takes sensitiv datat such as credit card nimber and replaces it with random data
+
+Tokenization can help companies meet PCI DSS HIPAA  complicance requirments
+
+#### Hashing 
+Hashing is used to index and fetch items from a database.
+This makes the search faster as the hash key is hsorter than the data. 
+The hash function maps data to where the actual records are held.
+
+#### Salting
+Salting passwords in a databass adds random text before hashing to increase the compute time for a burte-force attack.
+
+
+### Application Security
+
+#### Input validation
+ensures buffer overflow interger overflow and SQL  injection attacks cannot be launched against applications and databases,
+Only accept data in the correect format within a range of miniuum and maximum values.
+
+#### Secure Cookies
+
+Cookies can be stolen by attackers to do *Session Hijacking* Attacks.
+Setting the secure flag in website code to ensure that cookies are only downloaded when there is a secure HTTPS session.
+
+
+#### Hypertext Transfer Protocol (HTTP) Headers
+
+AN Attacker can carry out cross-site scripting (XSS) as it is mainly delivered through injecting HTTP  response headers.
+
+Can be prevented by entering the HTTP Stict Transport Security (HSTS) header: 
+HSTS ensures that the browser will ignore all  HTTP  connections
+
+#### Code Signing
+Uses a certificat eto digitally sign scrips and executables to verify their authenticity and to confirm that they are gfunuine
+
+#### Allow List
+An allow list enable only explicitly allow application to run this can be done by setting up and application whitelist ussually done in zero trust settings.
+
+### Block List 
+Prevents specified applications from being downloaded or run.
+
+### Secure Coding practices
+Code that prevents attacks 
+
+#### Static Code analysis
+code is not executed locally but is analyzed by a static code analyzer tool, inside the tool 
+Needs source code access
+Testing natively
+
+#### Dynamic code analysis
+fuzzing is used to inject random input into the application.
+Output is then used to ensure the appropriate handling of unexpected input
+doesn't need source code. Working in a real time enviornment.
+
+#### Manual code review
+Code reviewed line-by-line
+
+#### Fuzzing
+randon information is input into an application to see if the application crashes or memory leaks reults, or if error information is returned/
+
+Used to remedy any potential problems within application code before a new appp is released. (white box testing)
+find improper input validation  (blackbox)
+
+
+### Hardening
+
+#### Open ports and services
+Block through firewalls, disable by disabling underlying services
+
+#### Registry
+Access should be resetricted and updats controlled through policy where possible
+always take a backup of the registry before you start making changes.
+
+#### Disk encryption
+Drive encryption can preven unwanted acces to data in a variety of circumstances.
+
+#### OS
+Can often be implemented through security baselines (group policies, MDM, implement all the above)
+
+#### Patch management 
+Ensures that systemes are kept up-to-date with current patches.
+Will evaluate test approve and deply patches
+System audits to verikfy the deplyment of approved patches to the system
+Patc
+h both native OS and 3rd party apps
+Apply out of band updates promptly.
+
+#### Drive encryption
+
+##### FDE (Full Disk Encryption)
+- Built into the windows operating system
+- Bitlocker is an implementation of FDE 
+- Keys are stored on the TPM
+
+##### SED (Self-Encrypting Device)
+- encryption on a SED that's built into the hardware of the drive itself.
+
+#### Hardware Root of Trust 
+
+Key storage
+VErifies the keys match before the secure boot process takes place
+TPM is often used as the basis for a hardware root of trust
+
+#### Trusted Platform Module
+A **chip** that resides on the mother board of the device.
+
+Multi-purpose like storage and management of keys ysed for full disk encryption solutions
+Provides the operating system with access to keys, but prevents drive removal and data access
+
+
+#### Sandboxing
+
+Applicaiton is installed in a cirtula machine enviorment isolated from our network
+enables parch test and ensure that it is dseucre before putting it into a productruionb enviorment 
+also facilitates investingating dangerous malware
+
+On linux this is called  "chroot jail"
+
+
+## 3.3 Given a scenario, implement secure network designs
+
+
+#### Load Balancing
+
+Load Balancers , distribute the load between multiple servers that are invisible to the end-user.
+This can scale up to large-scale implementations. ie. Web server farms, database farms.
+Load balancing causes server outages to have less of an impact on operations, there is a very fast convergence time.
+
+##### Functions
+- Configurable load
+- TCP offload
+- SSL offload
+- Caching/Fast reponse time
+- Prioritization 
+- Content Swtiching
+
+##### Scheduling
+
+- Round-robin 
+	- each server is selected in turn
+- Weighted round-robin
+	- Prioritize the server use 
+- Dynamic round-robin
+- Active/active Load balancing
+
+##### Affinity 
+
+Affinity is a user vcommunticating through that load balancer will always be distributed tot hte same server.
+
+	- Each user is stuck to the same server 
+	- Source affinity/sticky session/ session persistence
+
+##### Active/passive load balancing
+
+Some servers are active and some are on stand-by for when an active server fails (passive)
+
+#### Network segmentation
+
+Physical , Logical or virtual
+	Devices VLANS virtual networks
+
+Performance
+Helps with applications that have high bandwidth requirements.
+
+Security
+	So that users cant talk directly to database servers 
+	Or if an attacker gets access to the phones then they wont have access to the POS system
+
+Compliance
+	Mandated segmentation so that users do not have any type of access to something like credit card information.
+	Makes change control much easier
+
+##### Physical 
+*Air-gap*
+
+<img src = "https://i.gyazo.com/df101dcf8493324add6b1b730b97d26a.png">
+
+**An air-gapped computer is **physically segregated and incapable of connecting wirelessly or physically with other computers or network devices**.**
+
+Devices are physically separate 
+
+Webservers in one rack and databases on another
+
+No oppurtunity for mixing data
+
+##### Logical
+
+Done by using VLANs 
+Cannot communicate between VLANS without a Layer 3 device
+This is normally the standard for segmenting things like Phones and POS systems
+
+###### Screened Subnet (DMZ)
+Alllows people to come in from the internet but all of the users acceess the screened subnet which is segmented from the network
+
+###### Extranet
+A private network for partners
+	- Vendors suppliers etc
+	- Additional authentication
+
+###### Intranet
+Private network only accesible from inside the network
+	- Company docs
+	- Announcments
+	- employee only
+
+##### East west traffic
+
+Traffic between devices in the same data center 
+	fast response times
+	stays inside the building 
+	
+North-south traffic
+	Ingress/Egress to an outside device 
+	A different security posture than east-west
+
+
+<img src="https://i.gyazo.com/e8844bfe97277f58c89e8405e697bf9b.png">
+
+
+##### Zero trust
+
+Instead of trusting ever device you trust nothing else on your network.
+	Every device every app and ever data flow is untrusted 
+	Has to go through a authentication process to be accepted
+	Allievate certain Zero-days
+
+
+#### Virtual Private network
+
+A way to send data securley through a network that normally would be considered public.
+
+
+**VPN concentrator.** 
+	This is the device that is encrypting data sending it out over the network and then decrypting anything that it happens to receive.
+		standalone device or it’s integrated into another device, such as a firewall.
+Can be Hardware devices or built into the appliance or can be software on OS
+
+Used to encrypt important information 
+
+You create a VPN tunnel to the concentrator which decrpts the info you send and vice versa
+And the VPN client that’s on your laptop will then decrypt that data and show you the information as if you were sitting locally in the corporate network.
+
+I saw the guy from urbant do this with OpenVPN
+
+<img src = "https://i.gyazo.com/a58a9deb707b6088dee781a54ce05723.png">
+
+
+##### SSL VPN 
+For individual users communicating to a network, especially from a coffee shop a hotel or from home you might be using an **SSL VPN.**
+	Uses port 443 
+	Common port to be used , can be found on most networks
+- Designed for end-user use
+- Two factor auth
+- runs on Small client , OS , even Browser w/ **HTML 5**
+
+HTML 5 supports API support
+
+##### Full tunnel
+ALl of the data is going across the encypted tuneel 
+Cant say visit Youtube without going throuhg concentrator
+
+###### Split tunnel
+Only data thats going to the targeted network is sent ot the VPN concentrator 
+
+##### SITE TO SITE
+
+We can also use VPN technology between remote locations. 
+We might have a corporate network and a remote site and we might set up a VPN between VPN concentrators or firewalls. 
+This means that anything running between those firewalls **will be encrypted**
+almost always connected constantly
+Dynamic connection if needed
+
+##### L2TP
+Many site to site VPNs are implemented using L2TP.
+
+This is layer 2 tunneling protocol. This means that we’re connecting two networks together as if they are on the same layer 2 network.
+
+Commonly used with IPSec
+
+LT2P used for the Tunnel and IPsec used for the encryption
+	LT2P ove IPSec
+
+##### IPsec
+Internet Protocol security
+
+allows you to have authentication and encryption over a layer 3 network
+
+IPSec also supports packet signing along with the encryption. So you can not only have security of the data but you can make sure that anti-replay is built in to the conversation.
+
+Two core IPSec Protocols
+1. Authentication Header (AH)
+2. Encapsulation Security Payload (ESP)
+
+###### Transport mode and tunnel mode
+
+<img src = "https://i.gyazo.com/cfb4d678cb7ecf955666c7e32207a107.png ">
+
+Transport mode puts the IPSec header behind the IP header so the IP info is still in the clear
+If you want to protect both the IP information and the data then you want to use tunnel mode.
+
+###### Authentication Header (AH)
+
+IF you dont need encryption use just the AH
+
+Hash of the packet and a shared key
+not going to provide any encryption. But it will provide data integrity because we do have a hash.
+Guarentee the origin of the data , prevention of replay attacks because sequence number is included
+
+
+###### Encapsulation Security Payload (ESP)
+Most times there will be encryption
+
+- Uses SHA-2 
+- and AES 
+- Configurable
+
+Used in combination with the AH to ensure the integrity or that no one messed with the data of the outer header
+
+<img src = "https://i.gyazo.com/d9a5a3565bd44e8a80f6ae00d9ab8bb9.png">
+
+##### IPsec Transport mode and Tunnel Mode
+<img src = "https://i.gyazo.com/7fc602d5728b63c5924d2102cfb40820.png">
+
+
+
+
+
+#### Network Security
+
+##### DNS
+
+**DNSSec**
+
+Adds the ability to confirm the responses from a dns server and ensure data integrity
+adds public key cryptogrpahy to digitally sign the info from a third party
+
+DNS can be used for security:
+- Stop end users from visitng dangerous sites
+- known malicious locations lead to sinkhole (preconfigured address)
+- Can track who visits the sinkhole address
+- Can show whether a device is infected by malware
+- Content filtering
+
+
+##### NAC 
+##### Out-of-band managment
+
+When the network isn't available
+
+Serial port , USB , ethernet
+
+Comm server gains you access to the network 
+
+##### QOS
+Describes the process of controlling process flows
+
+Reasons for QOS:
+- Many different devices
+- Network requirement
+- application Priority
+
+Prioritize traffic performace.
+VOIP has priority over web-browsing
+
+##### IPV6
+
+More IP Address space makes it hard to IP/port scan
+No need for NAT
+No ARP (no arp spoofing)
+
+
+##### FIM (FIle integrity Monitoring)
+Some files should change all the time , some should never change
+Monitor important OS and application files that never really need to change
+
+WIndows SFC is a good tool for this.
+
+
+#### Port Security
+
+The physical connection you're making to a switch or a router.
+Not TCP or UDP ports
+
+Port security is to maintain uptime and availability of the communication across the network.
+
+##### Broadcasts
+Every device has to example the packet
+If there are too many broadcasts hitting the network it would use unessecery bandwidth
+can only traverse networks in the same broadcast domain
+For example use the VLAN to create a broadcast domain
+Can be used for DDOS
+Not used in IPv6 (Multicast)
+
+```ad-note
+Solutions
+	- Managed switches can control broadcasts
+	- Limit broadcasts per second 
+	- have the switch monitor and dynamically remove unwanted broad casts
+```
+
+##### Loops
+
+When two switches connect to each other they'll send traffic back and forth forever.
+
+802.1D (Spanning tree protocol)
+
+
+##### Spanning tree protocol
+<img src = "https://i.gyazo.com/af741b89c8762e89195fae63c55b1d01.png">
+
+
+##### BDPU Guard
+Bridge Protocol data Unit
+The switch is constantly watching the Portfast Interface and if a BDPU frame is detected it shuts down the interface
+
+You can by pass the listening and learning states , say if you know your going to be using that port for and end user
+Cisco calls this PortFast
+
+
+##### DHCP snooping
+
+someone could plug in a DHCP server that was not authorized to be on the network,
+	switches have software inside of them called switches have software inside of them
+
+Filters out invalid IP and DHCP information
+
+##### Mac filtering
+
+Allows the admin to allow or deny traffic based on the MAC address
+Say if someone pull up with a labtop BYOD, they wouldnt be able to access the network
+Not effective because someone can spoof their mac address by listening to the network 
+Security through obscurity
+
+
+
+
+
+
+
+
+
+
+#### Firewalls
+
+A firewall is _a network security device that monitors traffic to or from your network_. It allows or blocks traffic based on a defined set of security rules.
+
+##### Network-Based Firewalls
+**Network firewalls are **security devices used to stop or mitigate unauthorized access to private networks connected to the Internet, especially intranets**. The only traffic allowed on the network is defined via firewall policies – any other traffic attempting to access the network is blocked.**
+
+granular rules can be configured to specify the computers or users, programs, services, or ports and protocols. 
+Rules can be configured so that they are applied when profiles are used. 
+
+```ad-note
+When a less restrictive rule is
+placed before a more restrictive rule,
+checking stops at the first rule.
+```
+
+
+An *implicit deny* is **when a user or group are not granted a specific permission in the security settings of an object, but they are not explicitly denied either**.
+	anything that is not explicitly permitted is denied
+
+
+##### Stateless FIrewalls
+A s**tateless firewall** tends to work as ACL filters. 
+This type of firewall **does not inspect traffic.** 
+It merely observes the traffic coming into and going out of the network and then **allows or denies packets** based on the information in the ACL.
+	 - Faster than statefull and good for heavy traffic loads
+	
+###### Stateful Firewalls
+A stateful firewall is a deeper inspection firewall
+type that **analyzes traffic patterns and data flows.**
+	- more dynamic access control
+	- better when it comes toidentifying unauthorized communication attempts
+
+
+
+
+##### Web application Firewalls
+
+Firewall build speciffily for web based applications
+Allow or deny based on expected input
+Can recognize potential breaches and block the traffic
+
+
+##### UTM/ ALL
+#### Network access control
+
+Edge vs access control
+
+Posture assessment
+	You cant trust everyones computer
+	Perform a posture assesment
+		Is this trusted?
+		Does it have a phone lock
+		Is it running anti-virus
+
+
+
+
+#### Proxy server
+A **proxy server** is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network. It is a server, referred to as an “intermediary” because it goes between end-users and the web pages they visit online.
+
+MiddleMan
+CACHING
+ACCESS CONTROL
+BLOCK SITES 
+CONTENT FILTERING
+
+#### NIPS / NIDS
+
+Network versions of IPS AND IDS
+
+
+
+
+
+
+
+#### Other
+
+###### Jump Server 
+Access secure network zones through another network device.
+Done by SSH / Tunnel / VPN
+Huge point of attack must be extrememly secure
+
+###### Hardware Security Module
+
+Security key manager for big enviornments.
+
+
+## 3.4 Given a scenario, install and configure wireless security settings.
+
+### Cryptography protocols
+
+
+#### WPA2 and CCMP
+
+Wifi Protected Access 2 :  uses CCMP block cipher mode (CCMP over WPA2)
+	CCMP SECURITY SERVICES:
+		Data confidentiality with AES (Advanced Encryption Standard (AES) is **a symmetric block cipher chosen by the U.S. government to protect classified information**.)
+		Message Integrity Check (MIC) with CBC-MAC (a cipher block chaining message authentication code)
+
+#### WPA3 AND GCMP 
+
+Wifi protected access 4 (2013)
+	Uses GCMP block cipher mode
+	Uses GMAC(Galois Message Authentication Code) instead of CBC-MAC
+
+Address wpa2 has a PSK brute force problem
+If someone has the HASH by listening to the four-way handshake it makes it easy to break by brute force.
+
+#### SAE
+
+WPA3 changes the PSK authentication process
+Creates a shared session key without having to send the key over the network
+so no more hash brute force attacks.
+
+Perfect forward secrecy - Once the session is over the key is thrown away.
+
+**Simultaneous Authentication of Equals**
+Everyone uses a different session key even with the same PSK
+
+### Authentication Protocols
+
+#### Methods 
+
+There are PSK and enterprise options that use 802,1X that use your windows login. (RADIUS,TACACS,LDAP)
+
+#### Captive Portal 
+Seperate login screen that pops up , think about optimum hotspots that asks for your information.
+
+#### WPS
+This is when you push a button and you can quickly join the wifi network.
+You wanna turn this off normally.
+
+#### Protocols 
+
+#### Extensible Authentication Protocol (EAP)
+
+EAP integrates with 802.1x : Prevents accesss unless authenticated
+
+
+#### IEEE 802.1X
+
+Port-based network access control (NAC)
+Used in conjunction with an access database (RADIUS LDAP TACACS+)
+
+Supplicant - client
+Authenticator - Provides access
+Authentication server - Validates the client credenttials
+
+#### EAP-FAST
+
+Flexible Authentication via Secure tunneling
+	Authentication server and supplicat share a protected access credential (PAC) (shared secret)
+Supplicant receives the PAC
+Supplicant and AS mutually authenticate and negotiate a Transport Layer Security (TLS) tunnel.
+Needs a RADIUS server
+
+#### PEAP
+Protected EAP
+created by cisco
+
+USING THE METHOD digital certificate 
+only needed on the server
+
+#### EAP-TLS
+
+Strong security 
+Requires digital certificates on the AS and all other devices
+perform mutal authentication 
+once complete a TLS tunnel is build to send authentication details
+
+	Need a Public key infrastructure (PKI)
+
+#### EAP-TTLS
+Tunneled TLS
+
+tunnel other authentication protocols within the tunnel
+only needs a single certificate on the AS
+builds the tunnel with this cert 
+Use any authentication method inside that tunnel
+	- Other EAPs
+	- MSCHAPv2
+	- etc
+
+#### RADIUS Federation
+
+When you can link a users identity across multiple authentication system.
+
+Use 802.1X as the authentication method and RADIUS on the backend
+
+This would be like you signing into facebook and then going to Instagram and it letting you on there because you signed into a facebook.
+
+
+
+
+
+
+
+
+
+
+### Installation Considerations
+
+#### Site survey
+Determine existing wireless landscape
+Identify eixting access points 
+Frequencies can cause interference
+Plan for future changes
+
+Heat maps
+
+#### Wifi Analysis
+
+Signal coverage
+Potential interference
+spectrum analyzer
+
+Wireless packet analysis
+	Listens to the transmissions 
+
+<img src = "https://i.gyazo.com/00696fdb2d7bad3fcf8aa6d0f3fd5be5.png">
+
+#### Access point placement
+
+- minimal signal overlap 
+- avoid interference
+- signal control
+	- place ap where people will be
+
+
+## 3.5 Given a scenario, implement secure mobile solutions.
+
+### Connection methods and recievers
+
+#### Point-to Point
+
+One to one connecction between two devices
+Connection between buildings 
+
+#### Point to Multipoint
+
+802.11 wireless
+Most popular communication methods
+Does no imply full connectivity btw nodes
+
+
+#### Cellular 
+
+Mobile devices
+separate land into cells
+Security concerns
+	Traffic monitoring 
+	Location tracking
+	Worldwide access to a mobile device
+
+#### Wifi
+
+Local network access
+Encypt your data
+on-path attack 
+ddos
+
+#### Bluetooth
+
+PAN (personal area network)
+can use this to tether internet
+connects our mobile devices i.e speakers to phone
+
+#### RFID (Radio frequency id)
+
+Access badges
+Pet ID
+Anything that needs to be tracked
+Small
+uses radar technology
+powered from a signal 
+
+#### Near field communication (NFC)
+
+apple pay, samsung pay
+
+NFC speeds up pairing asay if you hold your device next to another it connects faster
+
+Security
+	Jamming 
+	replay attack
+	Remote capture
+	
+#### IR (infared)
+
+used on tv mostly 
+file transfers are possible
+low security
+
+#### USB (universal serial bus)
+Physical connection
+
+#### GPS (global positioning system)
+
+Precise navigation
+Determions loaction based on timing
+	Longitude latitude altitude.
+	
+
+
+### Mobile Device Managment 
+Manage company-owned and use-owned mobile devices
+
+Centralized management (set policies)
+
+Manage Access Control
+
+#### Application management
+
+Manage mobile apps
+allow or dissallow certain apps
+managed through MDM
+
+#### Content managment
+
+MCM mobile content management
+	secure acces to data
+	protect from outsiders
+
+File sharing and viewing
+
+DLP prevents copy/paste of sensitive data
+
+#### Remote wipe
+
+Remove all data if needed or lost
+always have a backup
+
+#### Geolocation
+
+Presice tracking that uses networks and GPS to track device
+
+#### Geofencing
+
+All features when the device is in a particular area
+works with authentication, apps, cameras.
+
+#### Screen lock
+
+Self explanitory
+
+##### Passwords and PINs
+Self explanitory
+
+#### Context aware authentication
+COmbines characteristics of who is trying to authenticate .
+Based on your IP 
+GPS info
+Bluetooth info
+
+#### Containerization
+
+Seperate user from company data
+
+not kubernetes but storage segmentation
+
+#### Full device encryption
+Industry standard
+always have teh decryption key
+
+
+### Mobile Device Security
+
+#### MicroSD HSM
+
+Hardware security module in a microSD card form that provides security services , encryption , key generation , digital signatures and authentication also secure storage.
+
+#### Unified endpoint Managment (UEM)
+
+Manage mobile and non-mobile devicces
+
+Application can be used across different platforms
+
+#### Mobile Applicaiton Management (MAM)
+
+Provision update and remove apps
+Create an enterprise app catalog
+
+Monitor application use and any problems with the app
+
+Remotely wipe applicaiton data
+
+#### SEAndroid
+
+Security Enhancements for Android
+Project from the NSA
+default version of android
+Protects privileged Daemons
+
+
+
+
+
+
+### Mobile Device Enforcement 
+
+#### Third-party app stores
+Not all application are secure
+Not all apps are good for business use 
+MDM can allow or deny app store use
+
+#### Rooting/jailbreaking
+
+Android - rooting
+Iphone - jailbreaking
+
+installs custom firmware
+uncontrolled access
+
+#### Carrier Unlocking
+Can unlock the phone
+
+#### FIrmware OTA updates
+
+This is when your phone is like "hey theres a new update wanna do it at 2am"
+You can turn this off with MDM software.
+may not be a good thing always wanna have control of your updates 
+
+#### Camera
+Cameras can be controlled by the MDM 
+
+
+#### SMS/MMS
+
+MDM can enable or disable sms/mms
+
+#### External media
+Can be dangeous
+you can limit or straight disable the use of this type of meadia
+
+#### USB OTG
+
+Usb on the go 
+
+#### Recording microphone
+
+A legal liabilty
+useful for meetings and notetaking
+MDM configurable
+
+
+#### Geotagging 
+
+Storing location as metadata in files
+like taking a picture
+
+#### Ad hoc
+
+Is when two devices communicate outside the network
+possible vulnerability turn it off
+
+#### hotspot tethering
+Workaround to some content blocking
+
+May provide inadvertent access to an internal network
+
+MDM can disable this mode
+
+#### Payment methods
+
+Nfc can be a vulnerabiltty turn this shit off in the mDM
+
+
+
+### Mobile Deployment Models
+
+#### BYOD 
+Bring your own device 
+difficult to secure 
+
+#### COPE
+Coporate owned but personally enables
+office buys you use
+like a company car
+
+
+
+#### VDI
+Virtual desktop infrastructure
+
+DAta is stored separate and securley
+
+i like this one
+
+your basically remoting into the enviornment you need to
+
+## 3.6 
