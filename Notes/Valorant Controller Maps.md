@@ -5,32 +5,19 @@
 # Valorant SENTINEL Maps
 
 
-Ascent
-
-A: killjoy, Sage
-B: Cypher *maybe with a controller than can hold down B*
-
-Bind
-A: Chamber , viper,sage
-B: Killjoy , Cypher
-
-breeze
-Cypher , chamber, sage
-
-Fracture
-Chamber , Killjoy cypher
-
-Haven
-Chamber, Killjoy
-
-icebox
-sage
-
-Split any
-
-Pearl 
-Chamber , sage
-
+1.  Breeze: viper harbor possible vipor counter
+    
+2.  Icebox: viper harbor 
+    
+3.  Fracture : brim, harbor
+    
+4.  Haven: omen, astra
+    
+5.  Ascent: omen, astra
+    
+6.  Pearl: harbor, viper
+    
+7.  Bind: Brim, viper and harbor as 2nd controller only
 
 ---
 # Reference

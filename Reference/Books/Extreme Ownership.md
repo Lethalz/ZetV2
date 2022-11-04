@@ -1,4 +1,11 @@
-## Introduction
+2211021259
+	Status: #book 
+		Tags: [[Leadership]]
+
+# Extreme Ownership
+
+---
+Introduction
 
 As a leader we need to *prioritize*, that means dealing with the most immediate situation , threat or task first. 
 We need to *execute* with no hesitation engaging any problem with complete focus in the present moment.

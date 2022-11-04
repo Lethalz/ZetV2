@@ -3338,3 +3338,408 @@ Huge point of attack must be extrememly secure
 
 Security key manager for big enviornments.
 
+
+## 3.4 Given a scenario, install and configure wireless security settings.
+
+### Cryptography protocols
+
+
+#### WPA2 and CCMP
+
+Wifi Protected Access 2 :  uses CCMP block cipher mode (CCMP over WPA2)
+	CCMP SECURITY SERVICES:
+		Data confidentiality with AES (Advanced Encryption Standard (AES) is **a symmetric block cipher chosen by the U.S. government to protect classified information**.)
+		Message Integrity Check (MIC) with CBC-MAC (a cipher block chaining message authentication code)
+
+#### WPA3 AND GCMP 
+
+Wifi protected access 4 (2013)
+	Uses GCMP block cipher mode
+	Uses GMAC(Galois Message Authentication Code) instead of CBC-MAC
+
+Address wpa2 has a PSK brute force problem
+If someone has the HASH by listening to the four-way handshake it makes it easy to break by brute force.
+
+#### SAE
+
+WPA3 changes the PSK authentication process
+Creates a shared session key without having to send the key over the network
+so no more hash brute force attacks.
+
+Perfect forward secrecy - Once the session is over the key is thrown away.
+
+**Simultaneous Authentication of Equals**
+Everyone uses a different session key even with the same PSK
+
+### Authentication Protocols
+
+#### Methods 
+
+There are PSK and enterprise options that use 802,1X that use your windows login. (RADIUS,TACACS,LDAP)
+
+#### Captive Portal 
+Seperate login screen that pops up , think about optimum hotspots that asks for your information.
+
+#### WPS
+This is when you push a button and you can quickly join the wifi network.
+You wanna turn this off normally.
+
+#### Protocols 
+
+#### Extensible Authentication Protocol (EAP)
+
+EAP integrates with 802.1x : Prevents accesss unless authenticated
+
+
+#### IEEE 802.1X
+
+Port-based network access control (NAC)
+Used in conjunction with an access database (RADIUS LDAP TACACS+)
+
+Supplicant - client
+Authenticator - Provides access
+Authentication server - Validates the client credenttials
+
+#### EAP-FAST
+
+Flexible Authentication via Secure tunneling
+	Authentication server and supplicat share a protected access credential (PAC) (shared secret)
+Supplicant receives the PAC
+Supplicant and AS mutually authenticate and negotiate a Transport Layer Security (TLS) tunnel.
+Needs a RADIUS server
+
+#### PEAP
+Protected EAP
+created by cisco
+
+USING THE METHOD digital certificate 
+only needed on the server
+
+#### EAP-TLS
+
+Strong security 
+Requires digital certificates on the AS and all other devices
+perform mutal authentication 
+once complete a TLS tunnel is build to send authentication details
+
+	Need a Public key infrastructure (PKI)
+
+#### EAP-TTLS
+Tunneled TLS
+
+tunnel other authentication protocols within the tunnel
+only needs a single certificate on the AS
+builds the tunnel with this cert 
+Use any authentication method inside that tunnel
+	- Other EAPs
+	- MSCHAPv2
+	- etc
+
+#### RADIUS Federation
+
+When you can link a users identity across multiple authentication system.
+
+Use 802.1X as the authentication method and RADIUS on the backend
+
+This would be like you signing into facebook and then going to Instagram and it letting you on there because you signed into a facebook.
+
+
+
+
+
+
+
+
+
+
+### Installation Considerations
+
+#### Site survey
+Determine existing wireless landscape
+Identify eixting access points 
+Frequencies can cause interference
+Plan for future changes
+
+Heat maps
+
+#### Wifi Analysis
+
+Signal coverage
+Potential interference
+spectrum analyzer
+
+Wireless packet analysis
+	Listens to the transmissions 
+
+<img src = "https://i.gyazo.com/00696fdb2d7bad3fcf8aa6d0f3fd5be5.png">
+
+#### Access point placement
+
+- minimal signal overlap 
+- avoid interference
+- signal control
+	- place ap where people will be
+
+
+## 3.5 Given a scenario, implement secure mobile solutions.
+
+### Connection methods and recievers
+
+#### Point-to Point
+
+One to one connecction between two devices
+Connection between buildings 
+
+#### Point to Multipoint
+
+802.11 wireless
+Most popular communication methods
+Does no imply full connectivity btw nodes
+
+
+#### Cellular 
+
+Mobile devices
+separate land into cells
+Security concerns
+	Traffic monitoring 
+	Location tracking
+	Worldwide access to a mobile device
+
+#### Wifi
+
+Local network access
+Encypt your data
+on-path attack 
+ddos
+
+#### Bluetooth
+
+PAN (personal area network)
+can use this to tether internet
+connects our mobile devices i.e speakers to phone
+
+#### RFID (Radio frequency id)
+
+Access badges
+Pet ID
+Anything that needs to be tracked
+Small
+uses radar technology
+powered from a signal 
+
+#### Near field communication (NFC)
+
+apple pay, samsung pay
+
+NFC speeds up pairing asay if you hold your device next to another it connects faster
+
+Security
+	Jamming 
+	replay attack
+	Remote capture
+	
+#### IR (infared)
+
+used on tv mostly 
+file transfers are possible
+low security
+
+#### USB (universal serial bus)
+Physical connection
+
+#### GPS (global positioning system)
+
+Precise navigation
+Determions loaction based on timing
+	Longitude latitude altitude.
+	
+
+
+### Mobile Device Managment 
+Manage company-owned and use-owned mobile devices
+
+Centralized management (set policies)
+
+Manage Access Control
+
+#### Application management
+
+Manage mobile apps
+allow or dissallow certain apps
+managed through MDM
+
+#### Content managment
+
+MCM mobile content management
+	secure acces to data
+	protect from outsiders
+
+File sharing and viewing
+
+DLP prevents copy/paste of sensitive data
+
+#### Remote wipe
+
+Remove all data if needed or lost
+always have a backup
+
+#### Geolocation
+
+Presice tracking that uses networks and GPS to track device
+
+#### Geofencing
+
+All features when the device is in a particular area
+works with authentication, apps, cameras.
+
+#### Screen lock
+
+Self explanitory
+
+##### Passwords and PINs
+Self explanitory
+
+#### Context aware authentication
+COmbines characteristics of who is trying to authenticate .
+Based on your IP 
+GPS info
+Bluetooth info
+
+#### Containerization
+
+Seperate user from company data
+
+not kubernetes but storage segmentation
+
+#### Full device encryption
+Industry standard
+always have teh decryption key
+
+
+### Mobile Device Security
+
+#### MicroSD HSM
+
+Hardware security module in a microSD card form that provides security services , encryption , key generation , digital signatures and authentication also secure storage.
+
+#### Unified endpoint Managment (UEM)
+
+Manage mobile and non-mobile devicces
+
+Application can be used across different platforms
+
+#### Mobile Applicaiton Management (MAM)
+
+Provision update and remove apps
+Create an enterprise app catalog
+
+Monitor application use and any problems with the app
+
+Remotely wipe applicaiton data
+
+#### SEAndroid
+
+Security Enhancements for Android
+Project from the NSA
+default version of android
+Protects privileged Daemons
+
+
+
+
+
+
+### Mobile Device Enforcement 
+
+#### Third-party app stores
+Not all application are secure
+Not all apps are good for business use 
+MDM can allow or deny app store use
+
+#### Rooting/jailbreaking
+
+Android - rooting
+Iphone - jailbreaking
+
+installs custom firmware
+uncontrolled access
+
+#### Carrier Unlocking
+Can unlock the phone
+
+#### FIrmware OTA updates
+
+This is when your phone is like "hey theres a new update wanna do it at 2am"
+You can turn this off with MDM software.
+may not be a good thing always wanna have control of your updates 
+
+#### Camera
+Cameras can be controlled by the MDM 
+
+
+#### SMS/MMS
+
+MDM can enable or disable sms/mms
+
+#### External media
+Can be dangeous
+you can limit or straight disable the use of this type of meadia
+
+#### USB OTG
+
+Usb on the go 
+
+#### Recording microphone
+
+A legal liabilty
+useful for meetings and notetaking
+MDM configurable
+
+
+#### Geotagging 
+
+Storing location as metadata in files
+like taking a picture
+
+#### Ad hoc
+
+Is when two devices communicate outside the network
+possible vulnerability turn it off
+
+#### hotspot tethering
+Workaround to some content blocking
+
+May provide inadvertent access to an internal network
+
+MDM can disable this mode
+
+#### Payment methods
+
+Nfc can be a vulnerabiltty turn this shit off in the mDM
+
+
+
+### Mobile Deployment Models
+
+#### BYOD 
+Bring your own device 
+difficult to secure 
+
+#### COPE
+Coporate owned but personally enables
+office buys you use
+like a company car
+
+
+
+#### VDI
+Virtual desktop infrastructure
+
+DAta is stored separate and securley
+
+i like this one
+
+your basically remoting into the enviornment you need to
+
+## 3.6 

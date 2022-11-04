@@ -4,6 +4,7 @@ dig deep to build your skyscraper taller
 A+ (done)
 CCNA (networking) 300$
 SEC + (DOJ) 350$
+Server+
 then
 Learn linux  (Cloud can learn some server admin) 
 learn bash scripting
