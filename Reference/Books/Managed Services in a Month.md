@@ -4,13 +4,11 @@
 
 # Managed Services in a Month
 What is Managed Service?
-
-Technical Support delivered under a service agreement that
-provides specified rates and guarantees the consultant a
-specific minimum income.
-
-NOT: Break/fix tech support 
-On-demand Support
+	Technical Support delivered under a service agreement that
+	provides specified rates and guarantees the consultant a
+	specific minimum income.
+	**NOT:** Break/fix tech support 
+	On-demand Support
 
 cloud + managed service offerings
 - Good for recurring revenue contracts
@@ -21,7 +19,8 @@ cloud + managed service offerings
 - RMM and PSA needed
 
 
-Managed service Pricing Buy 500 licenses and sell when you need to more effecient.
+**Managed service Pricing** 
+Buy 500 licenses and sell when you need to more effecient.
 
 
 **The core components of the Managed Service Model are
@@ -30,7 +29,7 @@ Managed service Pricing Buy 500 licenses and sell when you need to more effecien
 • Support service that bundles all this together for a regular,
 recurring monthly fee**
 
-## Servers and Options
+#### Servers and Options
 MIcrosoft Server
 	- Server Essentials 
 		- Cheaper starting cost 
@@ -59,8 +58,8 @@ MIcrosoft Server
 **MDM** or mobile device management is a huge oppurtunity to sell more managed serves to the company. 
 
 
- ```ad-note Note
-Always be looking for new upcoming managed serves to sell the rate of tech today is amazing.
+ ``` ad-note Note
+Always be looking for new upcoming managed services to sell the rate of tech today is amazing.
 ```
 
 ### Cloud Computing in the Small Business Space
@@ -84,6 +83,28 @@ is their customer.
 	-So even if you decide to part ways you still get paid commision for as long as they are a customer to said service
 
 OTP you earn a much larger commision at the beginning.
+
+Bundle all your offerings into one big bundle
+
+exchange mail, storage on a server, spam filtering, anti-virus and RMM
+
+#### Hosted Servers
+
+This is Hosting the server needs of a company off-prem on another company's infrastructure.
+
+Normally done using Windows Server Or a Linux-based server.
+
+> [!note]+ Note
+> All the server maintenance and upkeep (I.e Patching updating security monitoring) but be accounted for.
+
+*All of this can be automated for a easier workflow*.
+
+
+
+#### Hosted Services
+
+
+
 
 
 
