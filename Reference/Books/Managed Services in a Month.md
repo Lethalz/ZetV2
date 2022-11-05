@@ -385,6 +385,111 @@ roadmap.
 
 
 
+## Per User vs. Per Device Pricing
+
+- Maybe consider per user in places where they have alotof devices that need maintanace
+- You don’t need to fret about the top line (the price you charge); You need to focus on the bottom line (the money you get to keep).
+- Counting devices is becoming much more difficult.
+- The proliferation of devices results in a greater focus on the users rather than their devices.
+
+
+## Create A Three-Tiered Pricing Structure
+
+
+Platnum
+Gold
+Silver
+
+List provided service 
+x• Services on the server/domain  
+• Services on the desktop or workstation  
+• Other services (network, printers, ISP, etc.)
+
+E.g 
+Silver covers servers only. Gold covers servers and workstations. Platinum covers everything we could throw in the mix.
+
+
+# Backup and Other Add-On Offerings
+
+## Building a Catalog of Services
+
+Generally speaking, you will sell six kinds of products and services. They are:
+
+• Standardized hardware, software, and materials. This is called your Line Card. This is what you sell “every day.”
+
+• Specialty hardware, software, and materials. These are low- volume sales that you have the opportunity to sell.
+
+• Managed Service . This is labor sold as blocks of time or as flat-rate monthly services.
+
+• Hourly labor or project labor sold outside the managed service contract.
+
+• Cloud services, including virtualization, hosting, remote backup, etc.
+
+• Specialty products and services. This category includes customized software, specific line of business applications for which you are a reseller, telephone systems and services, etc
+
+Have a basis of what you sell  (Line card)
+- Hardware, Software,Materials.
+
+
+**Special Order HW SW MATS**
+
+20% upcharge
+have skills to install
+
+upcharge is insurance on getting the right thing
+
+#### Hourly labor
+Hourly labor is easily divided into projects and break/fix.
+
+Hourly break/fix labor happens even with clients under managed service. Adds, moves, and changes (AMC) are not covered. So if someone wants a program installed, that’s billable.
+
+Hourly Labor can come part of the package at a cheaper rate but once they use their hours they get upcharged 
+
+### Specialty Products and Services
+
+
+the more time, effort, and money you need to invest in order to support it, the more money you will make. If you have a specific niche market (or two), then a high level of training in those software packages can be very profitable.
+
+This is something like the smsturbo software in QCD
+
+### Cloud Services
+### Managed service
+
+## BDR and backup
+
+backup and disaster recovery
+
+Clients Aren’t Stupid – But They Are Uneducated
+
+educate them on why a backup is essential and maintanace is needed on it
+
+three options for backup:  
+1) Old school disc or tape. Onsite but rotated offsite. 
+2) BDR onsite backed up to the cloud  
+3) Simple backup to hosted cloud storage.
+
+find your selling point
+like no more than 1 hr of downtime after critical failure
+
+
+## VOIP, Signage, Security, and More
+
+TCP/IP is taking over so learning how to deal with IP services and IOT devices will be key
+
+
+
+# Putting Your (New) Business Together
+
+## Weed Your Client Garden and Finish The Plan
+
+- Meaning draw some lines, set some rules and possibly drop some clients
+1. Cut off any unwanted clients
+2. make 3 sets of lists, Platnum ,gold, silver.
+3. finialize the plan
+
+
+
+
 
 
 
