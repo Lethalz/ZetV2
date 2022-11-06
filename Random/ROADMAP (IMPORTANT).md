@@ -1,21 +1,42 @@
 wGet good at the fundamentals 
 dig deep to build your skyscraper taller
 
+Early Certs:
 A+ (done)
 CCNA (networking) 300$
 SEC + (DOJ) 350$
-Server+
-then
+
+At some point get AZURE admin certs we need to to create solutions for bigger companies
+AZ-900 -> AZ-104 -> AZ-400 -> AZ-500
+
+
+learn powershell first then 
+learn SQL (Basics)
+
+These Two go hand in hand and are key to making life easier
+
+
+
+** Not in any order but this is something i really want to learn**
+Learn about Server Adminsistration
 Learn linux  (Cloud can learn some server admin) 
 learn bash scripting
-learn SQL (Basics)
-learn powershell
-Don't need Linux+ or server+ Jobs don't value those at all!
-Will Do RHCSA then RHCE at some point for the pursuit of knowledge.
+
+The above can be summed up to doing some sort of project
+when i find out what project i will put it here:
+
+
+
+
+
+**Don't need Linux+ or server+ Jobs don't value those at all!**
+Will Do **RHCSA** then **RHCE** at some point for the pursuit of knowledge.
 
 learn these to understand the basics of what you are working with in this field (automation is key to being efficent)
 
-Learn PYTHON for automation do CS50
+Learn PYTHON for automation 
+
+---- 
 
 Then move on to cloud.
 Cloud is the big thing more and more people need cloud experts and it's only going to get more lucarative.
@@ -31,7 +52,7 @@ CLOUD CERTS:
 AZURE because learning this first is key to success in HWT
 https://cloudacademy.com/blog/how-to-become-a-microsoft-certified-azure-solutions-architect/
 
-AZ 104 -> AZ 305
+AZ 900 -> AZ 104 -> AZ-305 -> AZ-400 -> AZ-500
 
 AWS  for jobs outside the scope of HWT think about the future
 
