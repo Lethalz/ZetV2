@@ -23,8 +23,9 @@ Learn linux  (Cloud can learn some server admin)
 learn bash scripting
 
 The above can be summed up to doing some sort of project
-when i find out what project i will put it here:
+when i find out what project i will put it heree: set up server, pfsense
 
+kubernetes and docker are huge after doing the above linux/server admin project learn docker first then kubernetes
 
 
 
