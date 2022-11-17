@@ -1,8 +1,13 @@
-## Key notes:
+{{date:YYMMDD}}{{time:HHmm}}
 
-> Reader’s note: Wow, apparently this book did so well for a first draft that it went viral. Then when he finally revised it, it was the number one bestseller in its category, even about The Game and Mystery Method. People in forums even said you read this before asking any questions.
+Status: #book 
+Tags: [[dating]]
 
--   This is a book about speaking and relating to other people, not obtaining objects or status symbols
+# Models
+
+---
+notes:
+
 
 ### Part 1: Reality
 
@@ -63,13 +68,13 @@
 
 #### CHAPTER 4: POLARIZATION
 
--   If you don’t find a woman attractive by your tastes or standards, don’t pursue her
+-   **If you don’t find a woman attractive by your tastes or standards, don’t pursue her**
 -   3 Categories:
     -   receptive
     -   neutral
     -   unreceptive
 -   The goal is to identify the women in each category and move forward appropriately
-    -   Don’t try to make unreceptive women receptive
+    -   **Don’t try to make unreceptive women receptive**
 -   The two biggest time sinks are
     1.  friend zones
     2.  women already in relationships
@@ -116,6 +121,9 @@
 #### CHAPTER 6: THE THREE FUNDAMENTALS
 
 -   These are the three ways a man can become more vulnerable and less needy
+1.  Creating an attractive and enriching lifestyle. (Honest living)
+2.  Overcoming your fears and anxiety around women. (Honest action)
+3.  Mastering the expression of your emotions and communicating fluidly. (Honest communication)
 -   Identifying and focusing on the fundamentals you need to work on most will be the quickest route to improving your love life and sex life
 -   Almost all men who struggle with relationships fall into one of two categories:
     -   socially anxious
@@ -129,7 +137,9 @@
 -   **Theory of demographics**: _Like attracts like. You attract what you are_
 -   Sit down and figure out the following before taking to women:
     -   _What do you value the most in a woman?_
+	    - compassion , 
     -   _What is an absolute deal breaker?_
+	    - Attitude
         -   This will help you decide where to look
     -   _Where do these type of women frequent?_
     -   _What are the events and organizations that explore your hobbies?_
@@ -328,6 +338,8 @@
 -   To avoid awkwardness, just pay on a date
     -   Unless you’re broke, just take care of them
     -   The only exception is if she physically takes out her wallet/credit card and stops you
+	    - WIFE HERRRR
+	    
 
 #### CHAPTER 14: PHYSICALITY AND SEX
 
@@ -374,7 +386,7 @@
         -   Women like to feel like _you are in power_ in the bedroom
         -   They want you to be assertive and strong with what you want
 -   **_True, long-lasting, emotional connection can only come through submitting to long-term commitment_**
--   [No More Mr. Nice Guy by Dr. Robert Glover](https://www.audible.com/pd/No-More-Mr-Nice-Guy-Audiobook/B078924C5Z?qid=1542673584&sr=sr_1_1&ref=a_search_c3_lProduct_1_1&pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&pf_rd_r=GCTS05PDQFYXDXG4ASMX&) – one of the best books he’s read on men’s emotional ealth and development
+-   
 -   “_What if it was a gift?_”
     -   No matter what happens to you, no matter how bad or how bleak you feel, ask yourself “what if it was a gift?” and try to rationalize a way it could be so
 
@@ -401,3 +413,6 @@
 -   Our **level of intimacy** comes from the _experiences we share_
 -   Getting physical quickly and comfortably is by far the _most integral piece of seduction_ and dating women
 -   **_True, long-lasting, emotional connection_** can only come through submitting to long-term commitment
+
+
+# Reference 

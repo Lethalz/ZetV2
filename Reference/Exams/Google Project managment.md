@@ -489,6 +489,7 @@ When you are thinking about change management as it relates to your project, beg
 
 # Project Initiation: Starting a Successful Project
 
+# Project Initiation
 # Reference
 
 [Foundations of PM Glossary](https://docs.google.com/document/d/100bNgK8Ly_30OjVzjRPkxBNle-zF92YtclgXCg_doGU/template/preview)

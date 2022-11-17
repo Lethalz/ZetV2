@@ -3743,4 +3743,1681 @@ i like this one
 
 your basically remoting into the enviornment you need to
 
-## 3.6 
+## 3.6 Given a scenario, apply cybersecurity solutions to the cloud.
+
+### Cloud security controls
+
+#### High availiability (HA) Across zones
+
+- Availability Zones (AZ)
+	- Isolated locations within a clod region (geological)
+	- Region
+	- self-contained
+	- Build apps to be highly available
+		- run as active/standby
+		- Applications recognizes outages
+	- Load balancers to provide seamless HA
+
+#### Resource Policies
+
+Identity and access management (IAM)
+Who gets accesss and what they get accesss to
+
+Map job functions to roles
+
+Provide access to cloud resoursces 
+basically security by privelge 
+
+Centralize user accounts
+
+
+#### Secrets Management
+
+Cloud computing includes many sercrets 
+	API keys passwords certificates
+
+Secrets need to be managed and  can quickly become overwhelming'
+
+Sometimes a seperate service is used to manage all the secrets in your organizationo
+
+Can use access control to make sure the right people can access onlly what they need
+
+
+Can audit to seee whos be using secrets
+
+
+#### Intergration and auditing
+
+Intergrate security across multiple platforms
+
+
+consolidate log strage and reporting
+
+Auditing 
+Validate security controls
+
+
+### Securing CLoud Storage
+
+### Cloud storage
+
+Data is on a public cloud but not public info 
+need controls in place to limit who can see what kind of data
+
+DAta may be required to be in different geographical locations
+
+Availability is always important 
+
+
+#### Permissions
+
+Its important 
+
+Data needs permissions , one permissions mistake can cause a data breach
+
+Public access should not be the default
+
+
+Options:
+
+IAM 
+Bucket policies 
+Globally blocking public accesss
+
+
+#### Encryption
+
+
+Cloud data is more accessible than non-cloud data
+
+Server-side encryption 
+	Encrypt the data in the cloud 
+
+Client-side encryption
+	DAta is already encrypted when its sent to the cloud
+
+Key management is critical
+	Need proper process to manage keys and sercrets
+
+####  Replication
+
+Copy data from one place to another
+
+Disaster recovery, high availability
+Hotsite for disaster
+
+Data analysis
+
+Backups
+
+
+### Securing cloud networks
+
+
+### Cloud networks
+
+Connect cloud components 
+Users communicate to the cloud
+
+CLoud devices communicate between each other
+
+#### Virtual networks
+
+A cloud contain virtual devices 
+Virtual switches, virtual routers, firewalls, etc...
+On-demand network infrastructure
+
+
+
+#### Public and private subnets
+
+Private cloud
+	all internal IP addresses
+	connect to the private cloud over a VPN
+PUBLIC CLOUD
+External IP addreeesss connect to the cloud from anywhere
+
+
+#### Segmentation
+
+	The cloud contains separate VPCs containers and microservices
+
+Separation is a security opportunity
+
+Virtualized security tech
+	Web application firewall
+	Next generation firewall
+	Intrusion Prevention system
+
+
+#### Api inspection and integration
+
+Microservice architecture is the underlying application engine
+
+API calls can be a security risk
+
+attackers can circumvent the client and send custom calls to the api
+
+### Securing compute clouds
+
+#### Compute cloud instances
+
+Amazon elastic compute cloud (EC2)
+Google comput engine (GCE)
+
+#### Security groups
+
+A firewall for compute instances
+Lay 4 port number
+Layer 3 address
+
+#### Dynamic resource allocation
+
+Provision resources when they are needed
+Scale up and down
+	rapid elasticity
+	Pay for what's used (save money)
+Ongoing monitoring (CPU util)
+
+#### Instance awareness
+
+Granular security controls
+
+Define and set Policies
+
+
+#### Virtual private cloud endpoints
+
+VPC gateway endpoints
+	All private cloud subnets to communicate to oteh cloud services
+Keep private resources private 
+Add and endpoint to connect VPC enpoint
+
+
+#### Container security
+
+Containes have similar security concerns
+
+Use container-specific operating systems
+
+Group container types on the same host
+
+### Cloud security solutions
+
+### Cloud access security broker (CASB) 
+
+Helops enforce security policys
+
+Visibility
+Determine what apps are in use
+
+Compliance
+A
+
+Threat prevention
+All access by authorized users, pevent attacks
+
+Data security
+Encryption
+
+
+
+#### APplication security 
+
+Secure cloud-based application
+application misconfigurations
+authorization and access
+api security
+
+#### Next-gen Secure Web gatewat (SWG) 
+Protect users and devices 
+GO beyond URLs and get requests
+examin gson strings and api requests
+Instance aware security
+
+
+
+#### Firewalls in the cloud
+
+Conrtol traffic flows in the cloud
+Cost 
+	inexpensivbe
+segmentation
+OSI layer protection 
+
+#### SEcurity controls
+
+CLoud-native security controls
+	integrated and suported by thte cloud providee
+Third-part solutions
+
+
+## 3.7 Given a scenario, implement identity and account management controls.
+
+### Identity provider IdP
+
+Idefication as a service 
+Third-party
+COmmpbnly sued by sso applications
+SAML OAUTH openID connect
+
+#### Attributes
+
+An identifier or property of an entity
+Job title dept name phone number
+
+
+#### Certificates
+
+Digital certificate assignted to a person or device
+Binds theindetity of the crt owner to a public and privae key
+Public key Infrastructure
+
+#### Tokens and cards
+
+Smart card
+
+Usb Token
+
+
+#### SSH keys
+
+User a key instaead of username and password 
+
+Key management is critcal
+
+key managers
+
+![https://i.gyazo.com/0295a10ace0298d549b3c89a07354445.png](https://i.gyazo.com/0295a10ace0298d549b3c89a07354445.png)
+
+
+
+### User Accounts
+
+An account on a computer assciated with a specific person 
+Storage and files can be private to that user
+NO privileged access to the operating system
+
+
+#### Shared and generic accounts
+
+Very difficult to create an audit trail
+Hard to add permissions
+Password management can be difficult
+dont use em
+#### Guest account
+Access to a computer for guests
+No access to change settings, modify applications
+no password
+Secuirty challenge 
+
+#### Service account
+USed by backgroup services in your operating system 
+ACces can be defined for a specific service
+Commonly use usernamess and passwords
+
+#### Priveliged account
+Adminstrator = windows
+Linux = root
+
+This accouunt should not be used for normal admisnistration
+
+Complete access to the system root privelieges
+
+### Account policies
+
+Controling the access to an account 
+The authentication process
+Permissions after login
+
+#### Perform routine audits
+
+Is everythign following the policy 
+certain actrions can be auto identified
+
+
+##### Auditing
+
+Permission auditing
+Usage auditing 
+	How are resources being used
+
+#### Password complexity and length
+
+Make your pass strong
+Increas password entropy (no obvious passwords)
+
+#### ACCount lockout and disablement
+
+Too many icorrect passwords will cause a lockout
+can be a problem for service accounts (web server etc)
+
+#### Location based policies
+
+Network location
+Geolocation
+geotaggin
+
+
+## 3.8 Given a scenario, implement authentication and authorization solutions.
+
+### Athentication management
+
+#### password keys 
+Hardawre-based authentication
+	something you have
+Helps prevent unauthorized logins
+
+<img src = "https://i.gyazo.com/f78d8748f195d7f520e469eb9062ddcc.png">
+
+#### Password vault
+
+This is like Last Pass 
+Password manager
+all of the data is encrypted
+
+#### Trusted Platform module
+
+A specification for cyrptographic functions
+Cryptographix processor
+	random number gen
+Persistent memory
+versitile memeory
+password protected
+
+
+#### Hardware Secrutiy module (HSM)
+
+High-end cryptographic hardware
+Key backup 
+Cryptographic accelerators
+uUsed in large environments
+
+#### Knowlege based authentication (KBA)
+
+Static KBA 
+Like security questions
+what was your first pet?
+
+Dynamic KBA 
+Is like when you go on your website
+What strret did you live on? 
+and itll show you random streets
+
+### Pap and Chap
+
+Password authentication protocol
+	A basic authentication method
+	PAP is in the clear
+	weak asf
+	designed b4 people cared about securtiy
+
+
+Challenge-handshake auth protocol
+	Threeway handshake 
+	Challege response continues
+		occurs periodically while seession is active
+
+### Identity access services
+
+RADIUS 
+AAA protocol
+Cetralize authentication for users
+any OS
+
+
+TACACS 
+Terminal access controller access control system
+XTACACS 
+TACACS+ the lastest version
+
+
+KERBEROS
+SSO
+Network authentication protocol
+kerberos remmebres that we authenticated for a pre-set amoutn of time
+avoid replay attacks or MITM attacks 
+TCKET SYSTEM
+TGT 
+
+which one to use?
+Depends on what medium you are using in other words youll know my brother
+
+
+
+#### Network access control
+
+IEEE 802.1X 
+Network access control
+
+EAP integrates with 902.1X
+Used in conjunction with and access database 
+	RAdius tacacs etc...
+
+
+### Fedrated Identitites
+
+#### Federation 
+Provide network access to other
+thirdparties can estabish a federated network
+
+its like when you sign in with google or facebook
+
+
+#### Security Assertion markup language (SAML) 
+Open standard for authentication and authorization
+Not originally designed for mobile apps
+
+
+#### OAuth
+Authorization framwork
+openid connect handsle the sso authentication 
+this is oauth
+
+<img src = "https://i.gyazo.com/bafb746addac80a366e3012faa0611f7.png">
+
+
+### Access control
+
+Authtrization
+Mandatory access control
+	every objectgets a label
+		confidential secret top secret etc..
+
+Discretionary Access control (DAC)
+Used in most operating systems
+	As owner you control who has access 
+	very flexible access control
+
+Role-based acces control
+	Baed on yoiur role in the company
+	Adminsitrators provide access based on the role of the user
+
+Atribute bacsed access control (ABAC)
+	Users have complex relationships to application and data
+	ABAC can consider many parameters
+	alot of things can be a attribute
+	combine and evaluate differnt attributes
+
+Rule based access control
+	Rule is asociated with the object 
+	Determined through system enforced rules
+	i.e Rules based on a time of day
+
+
+
+## 3.9 Given a scenario, implement public key infrastructure.
+
+### Public Key Infrastructure (PKI) 
+
+Policies procedures, hardware, software, people
+- digital certificates: creat, distribute, manage , store, revoke
+
+PKI deal with everything digital certificate
+also refers to the binding of public keys to people or devices
+
+#### The key management lifecycle
+
+Key genration
+
+Certificate generation
+
+distribution
+
+storgae
+
+revocation
+
+Expiration
+
+
+#### Digital certificate
+
+A public key crtificate
+	Binds a public key with a digital signature
+A digital signature adds trust
+	PKI uses cert authority for addition trust
+Certificate creation can be built into the OS
+
+Commercial cerificate authorites
+	Built into your browser
+	Purchase your website certifivate
+	Create a key pair send the public key to the CA to be signed
+	May provide different levels of trust and additional features
+
+Private cert authority
+
+Needed for medium to large organizations
+
+Implement as part of your overall computing stragey
+
+
+PKI trust reltaionships
+SINGLE CA
+Heiraarchical
+
+<img src = "https://i.gyazo.com/f80dc5a50b35a50b1a0979bfd0903112.png">
+
+
+#### Registration authority (RA)
+
+<img src = "https://i.gyazo.com/7e3703b7323506d9f917ce0df40367bf.png">
+
+#### Important cerificate attributes
+
+COMMON NAME (CN)
+FQDN for the certificate
+Subject alternative names
+	alias namnes
+Expiration 
+	Limit exposure to compromise
+	398 browser limit (13 months)
+
+#### Key revocation
+
+CRL 
+Certificate revocation list
+Maintained by the cert authority
+can contain many revocations in a large file
+
+<img src = "https://i.gyazo.com/6e453e4eaf2932af6f959d010a2d9b6c.png"> 
+
+
+Certificate 
+
+Uses for these certs
+
+### Web server SSL certificates
+Domain validation certificate (DV)
+Subjext alternative name (SAN)
+	allows a cert to support many differnt domain
+
+Wildcard domain
+	when there is a star
+	/*.youtube.com 
+	
+Code signing cert
+Devs provide a level of trust
+
+Root cert
+
+Root cert issues other certificates
+very important
+
+Self signed cert
+Internal certs dont need to be signed by a public Ca
+Build your own CA 
+Install the CA CErt chain on all devices
+
+Machine and computer certs 
+You have to manage many devices
+	often devices that youll never phsucally see
+Other business process rely on the cert
+	aAccess to the remote access VPN 
+	Managment software can validate the end-deivce
+
+Email certs
+
+Use cryptogrpah in a email platform 
+encrypting emails
+receiving encrypted emails
+digital signatures
+
+User Certificates
+
+Associate a cert with a user
+use as an addition authenticatio nfactor 
+integrate onto physical smart cards
+
+
+
+### Certificate formats
+
+X.509 standard for digital certs
+there are many different file formats of digitalcerts
+
+
+#### DER (distinguished Encoding Rules)
+Format designed to transfer syntac for data structures
+Binary format 
+common
+
+#### PEM (Privacy-Enhances Mail)
+Very common 
+	Base 64 encoded DER cert
+	generally the format provided by CAs'
+
+ASCII format
+Letters and numbers
+Easy to actually email compared to DER (binary)
+
+
+#### PKCS #12
+Pyblic Key cryptography standards #12
+Personal information exchange syntax standard 
+container format for many certs 
+extended from microsofts pfx format
+
+#### CER (certificate)
+primarily a windows X.509 file extension
+
+ususally contains a public key 
+	private keys would be transfeered in the pfx file formate
+	common format for windows certs
+
+#### PKCS #7
+
+Public key cryptography standards #7 
+Cryptographix message syntax standard
+Stored in ASCII
+contains certs and chain certs
+	Private keys are not included in a p7b file
+
+### Certificate concepts
+
+Online and offline CAs 
+Distrubute the load so no one has access to the root CA certs
+
+OSCP stapling
+OSCP stauts is stapled into the SSL TLS handshake 
+
+Pinning 
+Youre communicating over TLSSSL to a server
+Pin the epected cert of public key to an application
+
+Key escrow
+
+When someone else holds your decryption keys
+
+Certificate chaining 
+Chain of trust 
+	List all of the certs between the server and the root CA
+Chain starts with the SSL certificate and ends with the root CA cert
+Any cert between the ssl cert and the root cert is a chain cert
+
+The web server needs to be configured with the proper chain
+
+You can see this chain in cert details
+
+<img src = "https://i.gyazo.com/ba5aa98a45ff5123097c5d27cc04aa30.png">
+
+
+# 4.0 Operations and Incident Response
+## 4.1 Given a scenario, use the appropriate tool to assess organizational security
+
+### Reconnaissance Tools
+
+`traceroute` 
+- Determines the route a packet takes to a destination
+	- Maps the entire path
+- `tracert` (windows) `traceroute` (linux)
+- ICMP TTL error messages
+	- TTL = hops or routers
+
+`nslookup` and `dig`
+- Lookup information from DNS servers
+- `dig` is the replacement for nslookup
+
+`ipconfig` and `ifconfig`
+(windows)      (linux)
+- Determine TCP/IP and network adapter information
+
+`ping` 
+- Test reachablity
+
+`pathping`
+ping + traceroute
+
+`netstat` 
+- Network statistics
+- show how data is moving in your network
+- comminucation happening on your network
+
+netstat -
+all active connections
+netstat -b
+show binaries
+netstat -n
+do not resolve names
+
+`curl`
+client url
+uniform resource locator
+retreive data using a URL
+	- raw data
+
+#### IP scanners
+
+`hping`
+TCP/IP packet anaylyzer
+- Send crafted frames
+
+`Nmap` 
+- Network Mapper
+- Port scanner
+- OS scan
+- Service scan
+- addition added scripts
+
+##### theHarvester
+
+- Gather OSINT
+- Scrape info from google
+- List of people from linkedIn
+- DNS brute force
+
+
+`sn1per`
+- many scans at once 
+- customizable
+
+`scanless`
+proxy for port scanning
+
+`dnsenum` 
+- enumerate DNS information
+- Find host names in Google
+- finds subnames (bruteforce)
+
+`Nessus` 
+Vulnerability scanner
+
+Cuckoo
+- sandbox for malware
+
+### File Manipulation Tools
+
+`cat`
+- see the contents 
+- concatenate 
+
+`head`
+
+View the first part of a file
+
+`tail` 
+opposite of the head
+
+
+`grep`
+Find text in a file
+
+`chmod` 
+chang file permissions
+
+
+<img src = "https://i.gyazo.com/bab35dba32d08c07e549df172a29f943.png">
+
+
+`logger`
+add entries to the system log
+can include in a automation script
+
+### Shell and scrpt env
+
+SSH
+Teminal
+powershell 
+
+OpenSSL
+A toolkit and crypto library for SSL/TLS
+
+### Packet Tools
+
+Wireshark
+Graphical packet analyzer
+Gathers frames on the network
+
+`tcpdump`
+Capture packets on the command-line
+
+`tcpreplay`
+replay captured packets 
+
+`
+### Forensic Tools
+
+`dd`
+Create a bit-by-bit copy of a drive
+
+`memdump`
+take all of the unformation in system memory to the standard output
+
+WinHex
+View info in Hexidecimal mode
+disk cloning
+secure wipe
+
+FTK imager
+
+Mount drives image drives
+Encryption
+
+Autopsy
+Provides digitial forsencics on storage files
+
+
+
+
+
+
+## 4.2 Summarize the importance of policies, processes, and procedures for incident response.
+
+### Incident Response Process
+
+#### Security Incidents
+
+User clicks an email attachment and executes malware
+
+DDOS
+
+Confidential information is stolen
+	- Theif holds it for ransom
+
+User installs peer to peer software 
+
+#### Roles and responsibilities
+
+Incident response team 
+IT security management
+Compliance officers
+Technical staff
+User community
+
+
+#### NIST SP800-61 
+
+
+Information about security incident lifecycle.
+
+
+#### Preparing for an incident 
+
+Communication method
+
+Incident handling hardware and software
+
+Incident analysis resources
+
+Incident mitigation software
+
+Policies
+
+#### Detection
+
+
+#### Pre-indicators
+
+Web server log
+
+Exploit announcement 
+
+An incident might occur in the future
+
+Exploit announcment (ie a Zero-day)
+
+
+#### Indicators
+
+IDS/IPS
+Anti-virus
+3rd party tools
+SIEM
+
+#### Isolation and containment
+
+Sandbox the malware
+malware can sometimes monitor if its on a network and self-destruct if its in a sandbox
+
+
+#### Recovery
+
+Remove the bug
+Recover from a known backup
+Tight attack vectors
+
+#### Reconstitution
+
+may take months
+
+
+#### Lessons learned
+Learn and improve
+change policies and procedures
+create documentation 
+Humans are your weakest point most of the times
+
+
+
+
+
+### Incident Response Planning
+Excercises
+
+Test 
+rules of engagement 
+specific scenario
+sandbox
+
+
+#### Tabletop
+
+Performing a full-scale disster drill can be costly
+
+
+#### Walkthrough
+
+Includes responders
+Test processes and porcedures before an event
+
+#### Simulation
+Pretend it actually happened
+Only certain people know
+Phising pages
+
+#### Communication plan 
+
+- get a contact list 
+- Internal 
+- External
+
+#### Continuity of operations planning (COOP)
+
+
+
+## 4.3 Given an incident, utilize appropriate data sources to support an investigation.
+### Attack Frameworks
+- MITRE ATT&CK
+	- The MITRE coporation (NonProfit)
+	- https://attack.mitre.org/
+- The Diamond Model of Intrusion Analysis 
+	- Apply scientific principles to intrusion analysis
+	- An adversary deploys a capability over some infrastructure against a victim
+		- Use the model to analyze and fill in the details
+		- ![[4b500d8832df41022e282851de24f0f8.png]]
+- Cyber Kill Chain 
+![[58acca1e59b9fc42cf676705deace950.png]]
+
+### Vulnerability Scan Output
+
+Scanner looks for key signatures 
+some vulnerabilities are unknown and cannot be definitively defined
+
+#### Scan results
+
+No firewall
+No antivirus
+No anti-spyware
+
+Misconfigs
+Open shares
+Guess access
+
+Known Vulnerabilities
+
+
+#### False Positives
+
+Doesnt exist
+Misdiagnosed vulnerability
+
+
+#### False Negative
+Significant concern
+
+
+### SIEM 
+
+Securrity Infomation and event managment 
+
+Security alerts
+
+Log aggregation and long term storage
+
+data correlation
+
+Forensic analysis
+
+
+#### Getting th data
+
+Sensors and logs
+Sensitivity settings
+	Some info is unecessary
+
+#### Viewing the data
+Trends 
+alerts
+correlation
+
+### Log files
+
+#### Network log files
+
+Switches routers access points vpn concentrators
+Network changes
+	routing updates
+
+#### System log files
+
+OS info
+Security events
+Event viewer
+Needs filtering
+
+#### Application log files
+
+application log
+/var/log
+Parse the log details on a SIEM
+
+#### Security log files
+
+Detailed security related info
+Scurity devices
+IPS firewall proxies
+
+#### Firewall logs
+![[Pasted image 20221112125642.png]]
+
+
+#### DNS log files
+
+View lookup requests
+IP addres of the request
+Identify queries to known bad URLs
+Block or modify known bad requests at the server
+
+
+
+### Log managment 
+
+#### syslog
+
+Standard for message logging
+sends info to your siem
+daemon options
+- Rsyslog
+- syslog-ng
+- NXlog
+#### Journalctl
+provides a method to access the system journal
+which is in binary
+
+#### Bandwidth monitors
+
+SNMP NETFLOW sFLow IPFIX
+
+fundmental issue
+
+#### Metadata
+
+Email has metadeta
+	header info , server information
+Just defines data within the data your sending that you wouldn't normally think about
+
+#### Netflow
+Gather traffix statistics from all traffic flows
+
+#### IPFIX
+Ip flow information export
+flexible data support
+
+
+#### sFlow
+sampled flow
+only a portion of the actual network traffic
+
+
+
+
+
+## 4.4 Given an incident, apply mitigation techniques or controls to secure an environment.
+
+### Endpoint Security Configuration
+
+The endpoint
+- The user device
+- end user
+
+Approve and deny list
+secure the endpoints
+Configuration changes to the firewall
+better MDM 
+Content filter /URL filter
+Proxy 
+Network Isolation/segmentation 
+	airgapping
+
+#### SOAR 
+SEcurity Orchestration, Automation, and Response
+
+Linear checklist of steps to perform 
+
+## 4.5   Explain the key aspects of digital forensics.
+
+# 5.0 Governance, Risk, and Compliance
+
+## 5.1 Compare and contrast various types of controls.
+
+### Security Controls
+
+Prevent security events, minimize the impact and limit the damage
+
+#### Control categories
+Mangerial controls
+Security policies, SOPs
+
+Operational controls
+Security guards, awareness programs
+
+Technical controls
+Systems
+Firewalls, anti-virus
+
+
+#### Control Types
+
+- Preventative
+	- Physically control access
+	- Locks
+	- security guard
+	- firewall
+- Detective
+	- identifyes and records any intrusion attempt
+	- IDS
+- Corrective
+	- Mitigates damage that couldve occured
+	- Backups can mitigate a ransomeware infection
+- Detterrent
+	- May not directly prevent access
+	- Discoursages an intrusion attempt
+	- Warning signs, login banner, lights
+- Compensating
+	- Doesnt prevent
+	- Restores using other means
+	- Hot site
+	- Backup power system
+- Physical
+	- Fence, Door lock
+
+
+
+
+
+## 5.2 Explain the importance of applicable regulations, standards, or frameworks that impact organizational security posture.
+
+### Security regulation and standards
+
+#### Compliance
+Meetiong the standards of laws, policies and regulations
+
+#### GDPR General Data Protection Regulation
+
+Set of rules that allows someone in the Eu control what happens with their information.
+
+Also forces your data to be kept within the EU
+
+#### PCI DSS
+
+Payment Card Industry Data Security Standard
+
+### Security frameworks
+
+Learn best practices for IT
+Use frameworks to help you organize 
+
+
+##### CIS Center for Internet Security
+
+Designed for implementation
+
+
+##### NIST RMF
+
+National institute of standards and technology risk management Framework 
+
+6 step process
+1. categorize - Define the envoiment
+2. SElect - Pick appropriate controls
+3. Implement - Define proper implementation
+4. Assess - Determine if controls are working
+5. Authorize - Make a decision to authorize a system
+6. Monitor - Check for ongoing compliance
+
+##### ISO/IEC frameworks
+
+International Organization for standardization / Internationsal Electrotechnical Commission
+
+International framework
+
+
+##### SSAE SOC 2 Yupe 1/2 
+
+The american institute of Certified Public accountants auditing standard statement on standards for attestation engagements number 18
+
+Auditing
+
+Typ1 audit
+Tests controls in place at a particular point in time
+
+Type 2 
+tests controls over a period of at least six consecutive months
+
+
+##### Cloud Security Alliance (CSA)
+
+Cloud computing Security framwork
+
+### Security Configurations
+
+No system is secure with the default configs
+
+Web server hardening
+Access a server with your browser
+- Run from a non-privileged account , configure file permissions
+- Configure SSL Mangage and install certificates
+- Log files: Monitor access and error logs
+
+Operating system hardening
+Keep everything updated
+Account limitations
+Network access and security 
+Monitor and secure
+Logs
+
+
+Application SErver
+
+Updates 
+File permissions and access controls
+
+Network infrastructure devices
+
+dont use defaults
+Check with the manufacturer for security updates
+
+
+
+
+## 5.3 Explain the importance of policies to organizational security.
+ 
+### Personnel Security 
+
+Acceptable use policies (AUP)
+
+zused by an organization to limit legal liability
+Covers internet use telephones, computers.
+
+
+#### Business policies
+
+Job rotations
+	- leep people moving between reponsibilites
+	- No one persn maintains control for long periods of time
+- Mandatory vacations
+	- Never trust one person 
+	- Give them a break and make sure they are doing things correctly
+- separation of duties
+	- its like the two people from coke that know the secret but they both only know part
+- Clean desk policy 
+	` nothing on your desk
+
+Least privilege
+
+configure each user only what they need to do their job.
+
+all user accounts must be limited
+
+#### background check
+Good for business
+
+
+#### Personnel security procedures
+
+NDA 
+confidentiality aggrement
+
+Off boarding
+should be pre-planned
+
+#### User training
+Phishing simulation
+	- send simulated phishing emails
+	- Make visiong calls
+
+
+#### Role based security awareness training
+
+Training based on their own job role
+
+### Third- party Risk management
+
+Every organization works with vendors
+Payroll coustomer relations email marketing.
+
+#### Supply chain
+The system involved when creating a product
+Supply chain assesment
+- Getg a product or service from supplier to customer
+- Evalute coordination between groups
+- Identify ares of improvement
+- Asses the IT systems supporting the operations
+
+
+)
+
+#### Business partners
+
+Partner risk management should be included
+Requirements for best practices, data handling, intellectural property
+
+#### Common aggrements
+
+Measurement system analysis (MSA)
+
+Business Partnership Agreement (BPA)
+Going into business together
+
+Product support lifetime
+EOL (end of life)
+
+EOSL (end of SERVICE life)
+Like windows XP
+
+
+### Managing data
+
+Data governance
+Rules processes and accountability for dealing with data
+
+Data steward is responsible for data accountability
+
+#### Data classification
+
+- identify data types
+- Associate governbance controls to the classification levels
+- Data compliance
+
+#### Data retention
+- Keep files that change frequently for version control
+- Recover from virus infection
+
+### Credential Policies
+
+All that stands between the outside world and all of the data
+
+Passswords must not be embedded in the aplication
+
+#### Personnel accounts
+
+An account on a computer associated with a specific person
+
+No privileged access to the operating system
+
+####  Third-party accounts
+Access to external third-party systems
+Add additional layers of security
+
+	2fa
+	audit the security posture of third-parties
+
+#### Device accounts
+
+Access to devices
+Local security
+- MDM
+- Require screen locks 
+
+Additional security
+- geofencing
+- fingerprint etc
+
+#### Service accounts
+
+
+Access can be defined for a specific service 
+commonly use usernames and passswords
+
+#### Admin/root accounts
+
+Elevated access to one or more systems
+
+Should not be used for normal adminstration
+needs to be highly secured
+
+### Organizational Policies
+
+Change management 
+- How to make a change
+- Big common risks
+- Have clear policies
+
+#### change control
+A formal process for managing change
+Nothing changes without the process
+	Detemine the cope of the change
+	analyze the risk asssociated with the change
+	create a plan
+	GEt end user approval
+	have a backout plan
+
+#### Asset management
+
+Identify and track computing assets
+respond faster to security problems 
+keep and eye on the most valuable assets
+track licenses
+
+
+
+
+
+
+
+
+## 5.4 Summarize risk management processes and concepts.
+
+### Risk Mangement Types
+
+Identify assets that could be affected by an attack
+	- hardware customer data intellectual property 
+- Identify threats
+	- loss of data disruption of services
+- Determine the risk
+	- High medium or low
+- Total risk to the org
+
+intelletual property(IP) theft
+	Theft of ideas inventions and creative expressions
+
+#### Risk assesments
+
+External threats
+Internal threats
+Legacy systems
+
+#### Multi-Party risk
+
+Breaches involving multiple parties
+
+
+#### Risk managment strategies
+
+Acceptance
+ 
+Risk avoidance
+ avoid high risk activity
+ 
+transference
+	cyber insurance
+	
+Mitigation
+	invest in security systems
+
+### Risk analysis
+
+#### Evaluating risks
+
+Risk register 
+- every project has a plan
+- identify and document the risk 
+
+Risk matrix/ risk heat map
+how risky something might be based on the color
+
+#### Audit risk model
+
+- Inherent risk
+	- risk that exist in the absence of controls
+- Residual risk
+	- Risk that exists after controls are condered
+- Risk appetite
+	- the amount of risk an organization is willing to take
+
+#### Risk control assessment
+
+Risk has been determined
+find the gap
+Build and maintain security sustems based on the requiements
+
+
+
+### Business impact analysis
+
+#### Recovery
+
+Recovery time objective (RTO)
+- The time it takes to get up and running back to normal 
+Recover point objective (RPO)
+- How much data loss is accepted
+Mean time to repair (MTTR)
+- Time required to fix the issue
+Mean time between failures (MTBF)
+- Predict the time between outages
+
+Remove single points of failure create redundancy
+
+#### Disater recovery plan (DRP)
+
+- Detailed plan for resuming operations after a disaster
+- Backups
+- Off-site data replication
+- cloud alternatives 
+- remote site
+
+
+
+
+
+## 5.5 Explain privacy and sensitive data concepts in relation to security.
+
+#### Reputation damage
+
+Reputation damage—data breaches cause widespread negative publicity, and customers are less likely to trust a company that cannot secure its information assets.  
+  
+is a risk of loss resulting from damages to a firm's reputation, in lost revenue; increased operating, capital or regulatory costs; or destruction of shareholder value, consequent to an adverse or potentially criminal event even if the company is not found guilty.  
+  
+Reputation damage  
+- Opinion of the organization becomes negative  
+- Can have an impact on products or services  
+- Can impact stock price
+
+#### identity theft
+
+A privacy breach may allow the threat actor to perform identity theft or to sell the data to other malicious actors. The threat actor may obtain account credentials or might be able to use personal details and financial information to make fraudulent credit applications and purchases  
+  
+A crime that involves someone pretending to be another person in order to steal money or obtain benefits  
+  
+Identity theft—if the breached data is exploited to perform identity theft, the data subject may be able to sue for damages.  
+  
+• Identity theft  
+- Company and/or customers information  
+becomes public  
+- May require public disclosure  
+- Credit monitoring costs
+
+Fines
+
+Fines  
+- Uber  
+• Data breach in 2016 wasn't disclosed  
+• Uber paid the hackers $100,000 instead  
+• Lawsuit settlement was $148 million  
+- Equifax  
+• 2017 data breach  
+• Government fines were approximately
+
+#### Notifications of Breaches
+
+Notifications of Breaches  
+The requirements for different types of breach are set out in law and/or in regulations. The requirements indicate who must be notified. A data breach can mean the loss or theft of information, the accidental disclosure of information, or the loss or damage of information. Note that there are substantial risks from accidental breaches if effective procedures are not in place. If a database administrator can run a query that shows unredacted credit card numbers, that is a data breach, regardless of whether the query ever leaves the database server  
+  
+Notification  
+• Internal escalation process  
+- Breaches are often found by technicians  
+- Provide a process for making those findings known  
+• External escalation process  
+- Know when to ask for assistance from  
+external resources  
+- Security experts can find and stop an active breach  
+• Public notifications and disclosures  
+- Refer to security breach notification laws  
+- All 50 US states, EU, Australia, etc.  
+- Delays might be allowed for criminal investigations
+
+#### Personally identifiable  
+information (PII)
+
+Personally identifiable information (PII) is data that can be used to identify, contact, or locate an individual. A Social Security Number (SSN) is a good example of PII. Others include name, date of birth, email address, telephone number, street address, biometric data, and so on. Some bits of information, such as a SSN, may be unique; others uniquely identify an individual in combination (for example, full name with birth date and street address).  
+  
+-Data that can be used to identify or contact an individual (or in the case of identity theft, to impersonate them).
+
+#### Data classifications
+
+Proprietary  
+- Data that is the property of an organization  
+- May also include trade secrets  
+- Often data unique to an organization  
+  
+• PII - Personally Identifiable Information  
+- Data that can be used to identify an individual  
+- Name, date of birth, mother's maiden name,  
+biometric information  
+  
+• PHI - Protected Health Information  
+- Health information associated with an individual  
+- Health status, health care records, payments for  
+health care, and much more  
+  
+• Public / Unclassified  
+- No restrictions on viewing the data  
+  
+• Private / Classified / Restricted / Internal use only  
+- Restricted access, may require a non-disclosure  
+agreement (NDA)  
+  
+• Sensitive - Intellectual property, PII, PHI  
+  
+• Confidential - Very sensitive, must be approved to view  
+  
+• Critical - Data should always be available  
+  
+• Financial information  
+- Internal company financial information  
+- Customer financial details  
+  
+• Government data  
+- Open data  
+- Transfer between government entities  
+- May be protected by law  
+  
+• Customer data  
+- Data associated with customers  
+- May include user-specific details  
+- Legal handling requirements
+
+
+Impact assessment
+
+Tracking consent statements and keeping data usage in compliance with the consent granted is a significant management task. In organizations that process large amounts of personal data, technical tools that perform tagging and cross-referencing of personal data records will be required. A data protection impact assessment is a process designed to identify the risks of collecting and processing personal data in the context of a business workflow or project and to identify mechanisms that mitigate those risks.

@@ -1,4 +1,11 @@
 ## Key notes:
+2211061804
+	Status: #book 
+		Tags: 
+
+# No more Mr. Nice Guy
+
+---
 
 #### PREFACE
 
@@ -207,3 +214,8 @@ This process of recovery from the Nice Guy Syndrome allows men to move through:�
 -   Feeling stuck in life
 
 Contrary to what the title might seem to imply, _No More Mr. Nice Guy_ does not teach men how to be _not nice_. Dr. Glover shows men how to become what he calls _Integrated Males_. Becoming integrated does not mean becoming different or better. It means being able to accept all aspects of oneself. An integrated male can embrace everything that makes him unique – his power, his assertiveness, his humor, his courage, and his mission, as well as his fears, his imperfections, his mistakes, his rough edges, and his dark side.” -Audible
+
+
+
+
+# Reference
