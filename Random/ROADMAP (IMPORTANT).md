@@ -1,26 +1,37 @@
-wGet good at the fundamentals 
+Get good at the fundamentals 
 dig deep to build your skyscraper taller
+https://roadmap.sh/devops
 
 Early Certs:
 A+ (done)
 CCNA (networking) 300$
 SEC + (DOJ) 350$
 
-At some point get AZURE admin certs we need to to create solutions for bigger companies
-AZ-900 -> AZ-104 -> AZ-400 -> AZ-500
+Understand what Active Directory is.
+learn powershell / bash/  
+learn Vim/nano/emacs etc..
+Pick up Python for automation
 
-
-learn powershell first then 
-learn SQL (Basics)
+Learn to live in the command line on both LInux/Windows
 
 These Two go hand in hand and are key to making life easier
 
+System Administration
+
+
+VM set up AD and other test virtualization env
+Learn O365 and Email Migrations
+AWS is king to Azure
+[Practice to become a sys admin](https://www.reddit.com/r/sysadmin/comments/3z7qd9/comment/cyjynxh/)
 
 
 ** Not in any order but this is something i really want to learn**
 Learn about Server Adminsistration
-Learn linux  (Cloud can learn some server admin) 
-learn bash scripting
+Linux Unix administration 5th edition
+
+https://roadmap.sh/devops
+
+Following this site because the road im taking for cyber and cloud can coincide with this.
 
 The above can be summed up to doing some sort of project
 when i find out what project i will put it heree: set up server, pfsense
@@ -31,6 +42,7 @@ kubernetes and docker are huge after doing the above linux/server admin project 
 
 
 **Don't need Linux+ or server+ Jobs don't value those at all!**
+ **Linux Professional Institute LPIC-1**
 Will Do **RHCSA** then **RHCE** at some point for the pursuit of knowledge.
 
 learn these to understand the basics of what you are working with in this field (automation is key to being efficent)
@@ -53,7 +65,7 @@ CLOUD CERTS:
 AZURE because learning this first is key to success in HWT
 https://cloudacademy.com/blog/how-to-become-a-microsoft-certified-azure-solutions-architect/
 
-AZ 900 -> AZ 104 -> AZ-305 -> AZ-400 -> AZ-500
+AZ 800-801 -> AZ 900 -> AZ 104 -> AZ-305 -> AZ-400 -> AZ-500
 
 AWS  for jobs outside the scope of HWT think about the future
 

@@ -4251,7 +4251,7 @@ Rule based access control
 ### Public Key Infrastructure (PKI) 
 
 Policies procedures, hardware, software, people
-- digital certificates: creat, distribute, manage , store, revoke
+- digital certificates: create, distribute, manage , store, revoke
 
 PKI deal with everything digital certificate
 also refers to the binding of public keys to people or devices

@@ -489,7 +489,489 @@ When you are thinking about change management as it relates to your project, beg
 
 # Project Initiation: Starting a Successful Project
 
-# Project Initiation
+### Why Project Initiation
+
+A well planned initiation sets your project up for success
+
+Identify project goals 
+Identify project resources
+Determine the criteria for project success with stakeholders
+
+
+what could go wrong
+resources you need
+time it might take
+
+Cost benefit analysis
+
+The process of adding up the expected value of a project - the benefits - and comparing them to the dollar costs
+
+Benefits
+
+- what value will this project create
+- how much money could this save
+- how much money will this bring in
+- how much time will be saved
+- How much time will this project save customers?
+
+Costs
+
+- How much time will people have to spend on this project
+- What will be the one-time costs?
+- Are there any ongoing/longterm costs?
+
+### Key components of project initiation
+
+- goals
+- scope
+- deliverables
+- success criteria
+- stakeholders
+- resources
+
+#### Goal
+
+the goal is what you've been asked to do and what you're trying to achieve.
+Goals are the first thing a project manager needs to consider during the initiation phase.
+
+
+
+#### scope
+This is the process to define the work that needs to happen to complete the project.
+Project managers use scope as a boundary—what should or shouldn’t be included in the project.
+#### deliverables
+They're the products and services that you will create for your customer, client or project sponsor.
+A deliverable is the tangible and intangible outcomes of a project
+#### success criteria
+
+Success criteria are the standards by 
+
+which you measure how successful a project was in reaching its goals.
+
+#### stakeholders
+
+Stakeholders are people who have an interest in, or are affected by, the completion of a successful project
+
+instrumental in determining the goals, 
+understand the needs of stakeholders
+objectives, deliverables and success criteria of the project,
+
+#### resources
+
+It's super important to think carefully about these pieces early on.
+
+### ROI (Return on Investment)
+
+(G-C) / C = ROI %
+You expect that a project will bring in $25,000 USD in revenue per year. You estimate it will cost $12,000 up front. You also estimate costs of $200 per month for the first 12 months, which equals $2,400 per year
+
+(25,000 - 14,400) ÷ 14,400 = 0.74 = 74%
+
+
+
+## Define Project Goals, scope, and success criteria
+
+## Identifying Goals
+### Determining project goals and deliverables
+
+#### Goals
+
+Figure out what needs to be done
+define goals and delivarables
+
+Project goal - desired outcome of the project
+
+Goals give you a roadmap to your destinations
+
+Well defined goals are specific and measurable
+
+Listen to your stakeholders
+Also Assess stakeholder power and influence and how each fits into the project
+Be clear on project goals
+
+#### Deliverables
+
+The products or services that are created for the customer, client, or project sponsor.
+
+What gets produced from the project that is made for the stakeholders 
+
+delieverables need to be well dfined 
+big part of the big goal
+
+### SMART goals
+
+**Specific, Measurable, Attainable, Relevant,** and **Time-bound (SMART)** goals are very helpful for ensuring project success.
+
+-   **Specific:** The objective has no ambiguity for the project team to misinterpret. 
+	If goal is not specific itll be hard to know how long it'll take to complete or know when it's finished
+	- What do i want to accomplish
+	- Why is this a goal
+	- who is involved
+	- Where should the goal be delivered
+	- to what degree
+	- What are the requirments and constraints
+
+
+-   **Measurable:** Metrics help the project team determine when the objective is met.
+    - by asking how much how many and if its done
+    
+-   **Attainable:** The project team agrees the objective is realistic.
+	    - Can it be attained
+	    - Cant be too extreme or too easy
+	- Atomic goals  (specific measurable and attainable)
+-   **Relevant:** The goal fits the organization’s strategic plan and supports the project charter.
+    - Is it relevant to the business as a whole right now and in the long term picture
+    
+-   **Time-bound:** The project team documents a date to achieve the goal.
+
+
+
+### OKR 
+Objectives + key results
+
+Combines a goal and a metric to determine a measurable outcome
+
+Objectives define **what needs to be achieved and describe a desired outcome.** Key results **define how the project team knows whether or not they have met their objective.**
+Key results should be ambitious
+
+- Example
+Objective: improve customer retention
+Key Result: achieve a 90% customer satidfaction rating by the end of the first quarter
+
+<img src = "https://i.gyazo.com/86d53bb6a339f0ea531331fc66bcd74b.png"> 
+What?          |                 How?
+Objectives are the larger more broad goal 
+Key results are the more specific mesurable occurances from the project
+
+Find your Why your passion for your OKRs
+
+
+## Define and determine Scope 
+
+An agreed upon understanding as to what is included or excluded from a project.
+
+Talk to stakeholders to determine what is and isn't include in the project scope.
+
+Defining scope before a project starts helps mitigate the risk of big changes later on.
+
+<img src = "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/mN749RQOSWie-PUUDhloDg_12b56746f80a4790b7b6857b5242e8f1_Scope-questions.jpg?expiry=1669075200000&hmac=rbUNw4iqJ2lwGjA3Jo8HHIrIFRvwOYwZu1XqHIutnj8">
+
+
+- In-scope - stuff within the scope of the project
+- Out-of-scope - not within the scope of the project
+- Scope creep - Changes, growth and uncontrolled factors that affect a project's scope at any point after the project begins
+
+
+#### Scope Creep
+
+Here are some best practices for scope management and controlling scope creep:
+
+-   **Define your project’s requirements.** Communicate with your stakeholders or customers to find out exactly what they want from the project and document those requirements during the initiation phase. 
+    
+-   **Set a clear project schedule.** Time and task management are essential for sticking to your project’s scope. Your schedule should outline all of your project’s requirements and the tasks that are necessary to achieve them.
+    
+-   **Determine what is out of scope.** Make sure your stakeholders, customers, and project team understand when proposed changes are out of scope. Come to a clear agreement about the potential impacts to the project and document your agreement. 
+    
+-   **Provide** **alternatives.** Suggest alternative solutions to your customer or stakeholder. You can also help them consider how their proposed changes might create additional risks. Perform a cost-benefit analysis, if necessary.
+    
+-   **Set up a change control process.** During the course of your project, some changes are inevitable. Determine the process for how each change will be defined, reviewed, and approved (or rejected) before you add it to your project plan. Make sure your project team is aware of this process.
+    
+-   **Learn how to say no.** Sometimes you will have to say no to proposed changes. Saying no to a key stakeholder or customer can be uncomfortable, but it can be necessary to protect your project’s scope and its overall quality. If you are asked to take on additional tasks, explain how they will interfere with the budget, timeline, and/or resources defined in your initial project requirements. 
+    
+-   **Collect** **costs for out-of-scope work.** If out-of-scope work is required, be sure to document all costs incurred. That includes costs for work indirectly impacted by the increased scope. Be sure to indicate what the charges are for.
+
+You can only avoid scope creep if everyone involved in the project understands and agrees on responsibilities, boundaries, and timelines.
+
+### Managing scope changes
+
+
+time budget and scope are all linked
+
+<img src = "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/GOEdQk1-T6ehHUJNfo-n-A_0cfb775c91ec44c39b72066d3de29bf1_triple-constraint.png?expiry=1669075200000&hmac=QL0_IejrYiDOlTy7DZ04gFZlm53zrQdeFIY3A8ssPKU"> 
+
+
+## Success
+
+### **Launching vs. landing a project**
+
+In project management, a project “launching” means you have delivered the final results of the project to the client or user. You can’t solely base project success on when the client accepts the project.
+
+Your work on a project won’t be complete until you “land” it by thoroughly **measuring** the results.
+
+
+Teams should be clear on what they are trying to accomplish, beyond just launching something to users.
+
+### **Launch and forget**
+
+A common mistake of many project teams is to “launch and forget” the results. This happens when a project manager delivers the project to the client and the client accepts the project delivery, but the project manager doesn’t assess if the project deliverables satisfy the customer or user.
+
+Launching your project to the client can be a very big moment for you. You handed over the project to your client and now you can take a step back and breathe. But make sure you l**and your project,** as well. Look over your notes, talk with your team, meet with the client, and remember to **return to your intended deliverables and metrics to help you measure success.**
+
+### Success Criteria
+
+We can determine the success of a project by the **quality of the product**, the ability to **fulfill the needs of your customers**, and the need to **meet the expectations of your stakeholders.**
+
+#### **Product quality**
+To measure the success of a product, consider including these metrics on your checklist: 
+
+-   Track if you implemented the product’s priority requirements
+    
+-   Track and assess the product’s number of technical issues or defects
+    
+-   Measure the percentage of features you delivered or released at the end of the project
+
+### **What is important to the customers or stakeholders**
+
+Metrics to consider include:
+
+-   Evaluating user engagement with the product 
+    
+-   Measuring stakeholder and customer satisfaction via surveys
+    
+-   Tracking user adoption of the product by using sales data
+
+### **Document, align, and communicate success**
+
+ It is best practice to get the key stakeholders or the steering committee to review and approve your success criteria.
+ Communicate everything
+
+
+
+## StakeHolders
+
+### Choosing the right people for the job
+
+- Required roles for each tasks
+- Team size
+- Neccesary skills from each team member
+- Availability 
+- Motivation
+
+Always keep in mind that a project manager does not just select dream teams, they create dream teams through collaboration under great leadership. This is the leadership that you will provide as a project manager.
+
+###  Essential project roles
+
+The project manager
+they use team-building techniques, motivation, influencing, decision-making, and coaching skills, to keep their teams strong. 
+
+Project managers integrate all project work by developing the project management plan, directing the work, documenting reports, controlling change, and monitoring quality.
+
+ **Stakeholders**
+
+Stakeholders are often divided into two groups: **primary stakeholders,** also known as key stakeholders, and **secondary stakeholders.** A primary stakeholder is directly affected by the outcome of the project, while a secondary stakeholder is indirectly affected by the outcome of the project.
+
+
+ **Sponsor**
+The **project sponsor** is another primary stakeholder. A sponsor initiates the project and is responsible for presenting a business case for its existence, signing the project charter, and releasing resources to the project manager.
+
+A project charter is **a formal short document that states a project exists and provides project managers with written authority to begin work**.
+
+
+
+
+
+
+  
+### Stakeholder analysis
+
+1. Make a list of all the stakeholders the project impacts
+2. Determine the level of **interest** and influence for each stakeholder
+3. assess stakeholders' ability to participate and then find way to involve them
+* interest is how much a stakeholder is affected by project.
+* more interest = more important to the project. = key stakeholders
+
+
+<img src = "https://i.gyazo.com/611f2178060b4f8a3356af613b1193e1.png">
+
+effective way to track who to communicate with and when.
+
+Once you organize and assess your stakeholders, it is time to start making some decisions on whose buy-in is absolutely necessary for success.
+
+Tips for gaining key stakeholder buy-in include: 
+
+-   Clearly mapping the work of the project to the goals of the stakeholder.
+    
+-   Describing how the project aligns with the goals of the stakeholder's department or team.
+    
+-   Listening to feedback from the stakeholder and finding ways to incorporate their feedback into the project's charter where appropriate.
+
+
+### Building out a RACI chart
+
+A **RACI chart** can be an extremely effective way to define project roles, give direction to each team member and stakeholder, and ensure work gets done efficiently.
+A.K.A
+**Responsibility Assignment Matrix (RAM), RACI diagram, or RACI matrix**
+
+**R**: Responsible: who gets the work done
+	What department does the work fall under?
+**A**: Accountable: who makes sure the work is done
+	Who will delegate the task to be completed?
+**C**: Consulted: who gives input or feedback on work
+	Who will the task impact?
+**I**: Informed: who needs to know the outcome
+	Who cares about this task’s completion?
+	
+<img src = "https://i.gyazo.com/98008de6569c858aaef8beb0e7588d8e.png">
+
+#### **When should you use a RACI chart?**
+
+If you are wondering if you should use a RACI chart on your project, it is a good idea to evaluate the complexity of the effort. For example, if you have a very small project team with a small amount of stakeholders, clearly defined roles, and a short timeline, introducing a RACI chart could possibly slow down the project. However, larger projects, or even projects that involve a large number of stakeholders, could greatly benefit from a RACI chart. It is always a good idea to work through the creation of a RACI chart and evaluate the outcome. Even if you do not end up using the RACI chart, you will have a better understanding of the project, and your effort will contribute to your project management experience overall.
+
+
+
+### Why projects fail: Initiation missteps
+
+ **Unclear expectations**
+-   What is the end goal? 
+    
+-   What are the expected deliverables and schedule? 
+    
+-   What is the budget? 
+    
+-   Who are the stakeholders?
+
+**Unrealistic expectations**
+
+Rememebr our Smart goals one of the prerequisites is "Attainable". Although setting and achieving ambitious goals is fine, don't go too crazy with your expectations and dont commit to firm dates you are not sure of.
+
+
+ **Miscommunication**
+
+Speaks for itself , communication is key if information is not commincated in a timely matter it can cause risks to the project.
+
+
+ **Lack of resources**
+ Self-explanatory
+
+**Scope creep**
+
+The scope provides an overarching framework of what is and is not included in the project’s work and deliverables.
+Dont go out of it.
+
+
+
+
+
+
+
+## Project resources
+
+- Budget 
+- People
+- Materials
+
+Figure out your resources b4 the project gets rolling
+
+### Budget 
+
+Common aspects of your project budget will include:
+
+-   Team: the cost of the people performing the work
+-   Services: any outside vendors helping your project
+-   Materials: any tangible items purchased to complete the project
+- it is important to make sure that the budget is aligned with the project scope and the stakeholders’ asks.
+
+### **People**
+People are a vital resource on your project; you cannot complete your project on your own! Find the best and right people to get the job done!
+
+### **Materials**
+Materials can be different on every project.
+Materials can be intangible 
+- email storage 
+- subcriptions
+- etc..
+
+
+
+## Documentation
+
+Documentation helps set the stage for the project.
+- Reference point
+- easily assesable for new team members
+- Reviewable
+
+#### Project charter
+A **project charter** clearly defines the project and outlines the necessary details for the project to reach its goals. A well-documented project charter can be a project manager’s secret weapon to success. In this reading, we will go over the function, key elements, and significance of a project charter and learn how to create one.
+
+
+-   introduction/project summary
+    
+-   goals/objectives 
+    
+-   business case/benefits and costs
+    
+-   project team
+    
+-   scope
+    
+-   success criteria
+    
+-   major requirements or key deliverables
+    
+-   budget
+    
+-   schedule/timeline or milestones
+    
+-   constraints and assumptions
+    
+-   risks
+    
+-   OKRs
+    
+-   approvals
+
+Example:
+<img src = "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/sDMSHLUqSYyzEhy1KjmMSA_592feb8ec062452e905649cf325961f1_Project-charter.jpg?expiry=1669248000000&hmac=bj8JdRGYD-Eu0sqfzmckiKXZkXmFG8EhXnrkdluvGKU">
+
+https://docs.google.com/document/d/1HtFRAk4GAIEUdBZvct_Jr9RuWyGS8IlmqNiR0kA19y0/template/preview
+
+#### Project proposal
+
+Kicks off the initiaon phase by influencing and persuading the company to move forward with the project.
+
+Usually comes before the charter, this is used to get key stakeholders to buy into the project.\
+
+
+### Types of tools
+
+1. Scheduling and work managment software
+   -   Smartsheet to maintain the project’s schedule, resources, and budget
+    
+-   Google Sheets to create task lists and project plans, and analyze data with charts
+2. Productivity tools
+-   Cloud Storage such as Google Drive to store documents online
+    
+-   Email such as Gmail or Outlook to send emails to vendors
+    
+
+
+Collaboration tools
+-   Chat tools such as Slack to better communicate with your team members and stakeholders
+-   Video conferencing tools such as Zoom or WebEx to host online meetings
+-   Comprehensive tools like Microsoft Teams or Google Workplace to streamline productivity and collaboration
+
+Google sheets great versatile tool
+-   [Asana](https://asana.com/) and [Asana Guide](https://asana.com/guide)
+    
+-   [Basecamp](https://basecamp.com/)
+    
+-   [Trello](https://trello.com/en-US)
+    
+-   [Jira](https://www.atlassian.com/software/jira)
+    
+-   [ClickUp](https://www.clickup.com/)
+    
+-   [Monday.com](https://monday.com/)
+    
+-   [Microsoft Project](https://www.microsoft.com/en-us/microsoft-365/project/project-management-software) or [Project Libre](https://www.projectlibre.com/) (open source)
+    
+-   [Smartsheet](https://www.smartsheet.com/) ([Demo](https://www.youtube.com/watch?v=quGpnXiCUms "Link to YouTube demo"))
+
+
 # Reference
 
 [Foundations of PM Glossary](https://docs.google.com/document/d/100bNgK8Ly_30OjVzjRPkxBNle-zF92YtclgXCg_doGU/template/preview)
+-   [OKR Scorecard Template Doc](https://docs.google.com/document/d/1sLyiU71HEUpAp6YrwC-JHanhVbiFlwN8RRop9lSDVyA/template/preview?resourcekey=0-heMO9l_aBbAYg_-SRAA9_Q)
+-   [OKR Scorecard Template Sheet](https://docs.google.com/spreadsheets/d/1S8nUtc2jfmoXEWoooTIcRBWN3DFvmqqYJABp659Rh-8/template/preview)
+[Course 2 Glossary](https://docs.google.com/document/d/1NnRFDj6zKTWb4ZnCWlMt2lXh7wZoF9uj9RnJKP56s3A/template/preview "Course 2 Glossary")
+
