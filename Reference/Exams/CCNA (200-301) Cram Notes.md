@@ -15,6 +15,7 @@
 ### TCP/IP and Ethernet
 [[TCPIP networking]]
 [[Ethernet LANs]]
+[[WAN & Routers]]
 
 ### IP Addressing 
 [[Private IP Addresses]]
@@ -24,9 +25,13 @@
 
 ### Cisco IOS 
 [[Cisco IOS Software Intro]]
-[[Connecting to the router]]
+[[Connecting to the Cisco Device]]
 [[Cisco IOS Command Lines Modes]]
 [[Using the Cisco CLI]]
+[[CLI Help Features]]
+[[Configuration File Administration]]
+
+
 
 
 ---

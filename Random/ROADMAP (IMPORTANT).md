@@ -82,3 +82,14 @@ After those main certs all the while gaining experience with jay building serves
 	- JavaScript 
 	
 
+ ### Certs to look into 
+## VCP6-DCV: VMWARE CERTIFIED PROFESSIONAL 6 – DATA CENTER VIRTUALIZATION
+
+## AWS CERTIFIED CLOUD PRACTITIONER
+
+## CCA-N: CITRIX CERTIFIED ASSOCIATE – NETWORKING
+
+
+## ITIL® FOUNDATION
+
+

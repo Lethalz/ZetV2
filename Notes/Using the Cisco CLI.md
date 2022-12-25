@@ -100,5 +100,6 @@ Interface Configuration mode (‘Interface x’)
 
 default terminal length is 24 
 will see --more--
+
 ---
 # Reference

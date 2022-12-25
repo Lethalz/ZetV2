@@ -798,7 +798,7 @@ Tips for gaining key stakeholder buy-in include: 
 
 ### Building out a RACI chart
 
-A **RACI chart** can be an extremely effective way to define project roles, give direction to each team member and stakeholder, and ensure work gets done efficiently.
+A [[RACI chart]] can be an extremely effective way to define project roles, give direction to each team member and stakeholder, and ensure work gets done efficiently.
 A.K.A
 **Responsibility Assignment Matrix (RAM), RACI diagram, or RACI matrix**
 
@@ -968,6 +968,129 @@ Google sheets great versatile tool
 -   [Smartsheet](https://www.smartsheet.com/) ([Demo](https://www.youtube.com/watch?v=quGpnXiCUms "Link to YouTube demo"))
 
 
+
+
+
+# Project Planning: Putting It All Together
+
+## The benefits of Project Planning
+
+- Project manager gets assigned
+- Goals and scope have to be approves
+- Team memebers get assigned
+
+Planning is important determine processing and workflows to make the project a success.
+
+- Understand the work needted to achieve your goal
+- Identify and prepare for risks
+- Collaboration techniques
+- Teamwork and understanding of the project
+
+### Lauching the planning phase
+
+- schedule
+- budget
+- Risk managment plan
+
+
+#### Schedule
+- Start date - End date
+- Important events inbetween
+- Delierables due date
+- Deadlines
+
+
+#### Budget
+- TOtal cost
+- budgeting based on sum of money
+
+#### Risk management
+- Plan for budget problems
+- Plan problems 
+- Plan ahead
+- Bad estimates
+- Employee vacations days off 
+
+### Project Kickoff Meeting
+
+Use [[#Building out a RACI chart|Raci]] Chart to know who should be in this meeting
+
+What this meeting does :
+- Establish a shared vision
+- Align on scope
+- Build team rapport
+- Allows Questions and insights
+- Sets expectations for project
+
+Give a background on why this project is even happening
+Explain the goals and scope
+have everyone indroduce themselves then explain project roles
+Indroduce those who will be collaborating closely
+
+The purpose of a kick-off meeting is to ground everyone in a shared vision, ensure they understand the project’s goals and scope, and make sure that they are all on the same page about their roles and responsibilities on the project.
+
+### Defining tasks and milestones
+
+Project task 
+
+Activity that need
+to be accomlished in a set amount of time.
+
+Milestones
+a significant point in the project schedule, multiple project tasks done.
+
+- Miles stones gives you a clear understanding of the amount of work your project will require
+- Break the project down into smaller chuncks
+- keep breaking things down if possible to manage workloads better
+- Motivates your team 
+
+#### How to set milestones
+
+Steps
+
+1.  Evaluate your project as a whole.   
+-  Make a list of what your teams needs to do to achieve sucess
+- Smaller items are tasks Bigger ones are milestones
+2. Assign each milestone a deadline
+- space milestones out to give teammates time to consider
+- regular indications of progress
+
+#### **Milestone-setting pitfalls**
+
+
+-   **Don’t set too many milestones**. When there are too many milestones, their importance is downplayed. And, if milestones are too small or too specific, you may end up with too many, making the project look much bigger than it really is to your team and stakeholders.  
+    
+-   **Don’t mistake tasks for milestones**. Remember that milestones should represent moments in time, and in order to map out how you will get to those moments, you need to assign smaller tasks to each milestone.
+    
+-   **Don’t list your milestones and tasks separately.** Make sure that tasks and milestones can be visualized together in one place, such as a project plan. This will help ensure that you are hitting your deadlines and milestones.
+
+
+#### Example
+
+Day at the beach
+
+Milestones
+		**Get to the beach**                       Enjoy our time at beach                  **Get home safely**
+Make sure family is available      Get sunscreen
+		Get the right attire                Plan out a place to eat
+Figure out Navigation                  have a carrying pouch for the family
+Make sure car is in order
+Look for any weather advisorsy
+
+
+You get the jist
+
+### Work Breakdown Structure
+
+A WBS is a deliverable-oriented breakdown of a project into smaller components.
+sorts the milestones and tasks of a project into a hierarchy, and in the order they need to be completed
+
+<img src = "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Scu_G9LBQnaLvxvSwQJ2tg_16120ff266654e17b1a393b519ff82f1_WBS.jpg?expiry=1670457600000&hmac=YEIkLf-gyhM47h9fQBgZQUKgBupuVJWH_MH9DqVYYsI">
+
+
+## Building a Project Plan
+
+
 # Reference
 
 [Foundations of PM Glossary](https://docs.google.com/document/d/100bNgK8Ly_30OjVzjRPkxBNle-zF92YtclgXCg_doGU/template/preview)
@@ -975,3 +1098,4 @@ Google sheets great versatile tool
 -   [OKR Scorecard Template Sheet](https://docs.google.com/spreadsheets/d/1S8nUtc2jfmoXEWoooTIcRBWN3DFvmqqYJABp659Rh-8/template/preview)
 [Course 2 Glossary](https://docs.google.com/document/d/1NnRFDj6zKTWb4ZnCWlMt2lXh7wZoF9uj9RnJKP56s3A/template/preview "Course 2 Glossary")
 
+[What is a gantt chart](https://www.gantt.com/)  

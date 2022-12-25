@@ -11,9 +11,7 @@ First two bits in the octet ( the first two are lit up)
 128+64 = 192
 255.255.255.192
 
-
-
-200.15.10.0/24
+200.15.10.0/2![[c9d07c2518415876f58747ed40bc403f.png]]4
 255.255.255.0
  they need 14 hosts each subnet
  

@@ -134,8 +134,9 @@ The Tech Tribe
 	2. Keep building off existing 
 3. Cyber security is important 
 4. Cyber Insurance should be part of  our bundle with how many breaches are happening these days
-5. 
-Other tips
+
+
+Other tips:
 
 
 Pick a BCP/DR Platform - Datto,
