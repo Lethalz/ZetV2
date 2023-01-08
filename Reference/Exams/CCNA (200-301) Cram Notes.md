@@ -30,9 +30,22 @@
 [[Using the Cisco CLI]]
 [[CLI Help Features]]
 [[Configuration File Administration]]
+[[Misc Commands]] 
+
+## Level 2 Switching
+[[Basic Switch Management]]
+[[Switch Interfaces]]
+[[LAN Switching]]
 
 
 
+
+## VLANs and STP
+[[Implementing VLANs]]
+
+
+## STP and RSTP
+[[Spanning Tree Protocol Concepts]]
 
 ---
 # Reference

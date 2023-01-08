@@ -1,5 +1,5 @@
 2210081227
-	Status: #Exam
+	Status: #Exam #CCNA 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # IP subnet chart

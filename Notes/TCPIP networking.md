@@ -1,5 +1,5 @@
 2209261430
-	Status: #Exam
+	Status: #Exam #CCNA
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # TCPIP networking
@@ -20,10 +20,13 @@ What are RFC's?
 
 Each layer has its own PDU, once you get past layer 4 the PDU is just data
 
-Layer 4 = Segment 
-Layer 3 = Packet
-Layer 2 = frame
-Layer 1 = Bit
+Layer 4 PDU;;Segment 
+<!--SR:!2023-01-04,3,250-->
+Layer 3 PDU;;Packet
+Layer 2 PDU;;frame
+<!--SR:!2023-01-05,4,270-->
+Layer 1 PDU;;Bit
+<!--SR:!2023-01-04,3,250-->
 
 #### Encapsulation & De-encapsulation
 
@@ -39,5 +42,19 @@ Same-layer interaction on different computers happens when two computers interac
 
 Adjacent-layer interaction happens on the **same** computer when the data is passed from the one layer to the other layer in the network stack.
 
+
+
+
+
 # Reference
-https://www.google.com/search?q=rfc+1122&rlz=1C1ONGR_enUS999US999&oq=RFC+1122&aqs=chrome.0.0i512l2j0i22i30l5j0i390l2.572j0j4&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=rfc+1122&rlz=1C1ONGR_enUS999US999&oq=RFC+1122&aqs=chrome.0.0i512l2j0i22i30l5j0i390l2.572j0j4&sourceid=chrome&ie=UTF-8`
+---
+ 
+# FlashCards
+
+ happens on the **same** computer when the data is passed from the one layer to the other layer in the network stack.;;Adjacent-layer interaction
+
+
+
+Is the adding of a Header and a trailer so the computer on the recieving end can know what to do with the information.;;Encapsulation
+

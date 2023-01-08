@@ -1,5 +1,5 @@
 2209191059
-	Status: #Exam #idea 
+	Status: #Exam #idea #CCNA 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # Hexadecimal

@@ -1,5 +1,5 @@
 2209191038
-	Status: #idea #Exam 
+	Status: #idea #Exam #CCNA 
 		Tags: [[Networking]] [[CCNA 200-301]]
 
 # Subnetting and Binary

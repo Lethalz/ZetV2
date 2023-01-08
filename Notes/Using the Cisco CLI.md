@@ -1,5 +1,5 @@
 2209291618
-	Status: #Exam
+	Status: #Exam #CCNA 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # Using the Cisco CLI

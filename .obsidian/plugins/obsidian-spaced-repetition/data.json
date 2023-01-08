@@ -4,7 +4,9 @@
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
     "flashcardTags": [
-      "#flashcards"
+      "#flashcards",
+      "#CCNA",
+      ""
     ],
     "convertFoldersToDecks": false,
     "cardCommentOnSameLine": false,
@@ -38,7 +40,7 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2022-12-24",
+  "buryDate": "2023-01-01",
   "buryList": [],
   "historyDeck": "flashcards"
 }

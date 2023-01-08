@@ -1,3 +1,7 @@
+2212301354
+	Status: #Exam #CCNA
+		Tags: [[CCNA 200-301]] [[Networking]]
+
 |num.| Layer | PDU | Devices |
 |----|--------|----|------------|
 |1   | Physical | Bits | Ethernet cables, Connectors, NIC's , Hubs, Repeaters|
@@ -10,3 +14,13 @@
 
  The OSI model isn't used today, certain terminology has stayed throughout the years.
 If you hear someone say “Layer 7 Problem” We know there isn't 7 layers in th TCP/IP model, so they have to be talking about the OSI.
+# The OSI Model
+
+---
+# Reference
+
+Level 3 OSI;;Network
+<!--SR:!2023-01-04,3,250-->
+Level 2 OSI;;Data Link
+Level 4 OSI;;Transport
+<!--SR:!2023-01-04,3,250-->

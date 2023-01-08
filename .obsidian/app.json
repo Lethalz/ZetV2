@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "Untitled=",
+  "attachmentFolderPath": "Attachments",
   "newFileLocation": "folder",
   "newFileFolderPath": "Notes",
   "promptDelete": false,
@@ -89,8 +89,9 @@
     "UI:VE",
     "If"
   ],
-  "vimMode": true,
+  "vimMode": false,
   "spellcheck": false,
   "autoPairBrackets": false,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "showFrontmatter": true
 }

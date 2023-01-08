@@ -103,3 +103,10 @@ router rip
 
 
 ![[4378dcf32e4ebef5bba85b1c9f5ce546.png]]
+
+
+# FlashCards
+
+From the Privileged mode, a user can *move to configuration mode* by running
+?
+the `configure terminal` or `conf t`  command from privileged mode.

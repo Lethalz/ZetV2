@@ -1,5 +1,5 @@
 2209291421
-	Status: #Exam
+	Status: #Exam #CCNA
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # Connecting to the Cisco Device

@@ -5,7 +5,15 @@ Learn the fretboard
 Music theory
 Triads
 
+
+**For everything you are struggling with** SLOW IT DOWN no need to rush to play everything slow it down and practice with a metronome. To learn anything you want to break it down to granular levels
+
 **Learn to switch chords smoothly**, this takes practice but it will help. Go from A to D to E to A to E to D for example over and over, until it sounds good and you can do it blind.
+
+**Air changes** Practice forming the chords in the air before you touch the frets
+https://www.justinguitar.com/guitar-lessons/air-changes-aspire-to-this-b1-703
+
+
 
 **Strumming is important** get used to using the wrist to strum
 
@@ -25,7 +33,9 @@ Learn the Major and minor scales, first in a four fret space and then all the wa
 -practice in a musical fashion. Don’t just play boring scales over and over. Make them sound musical. Mess with the timing and phrasing.
 
 
--focus on rhythm guitar at first. 90% of what you do on guitar is rhythm. Learn to solo later. -play either with other people, or with jam tracks. Get good at playing not just by yourself, but with others.
+-focus on **rhythm guitar** at first. 90% of what you do on guitar is rhythm. Learn to solo later.
+
+-play either with other people, or with jam tracks. Get good at playing not just by yourself, but with others.
 
 # Learning the fretboard
 To learn the fretboard notes, the common answer is not the one that worked for me by itself. I've used this following method myself and I've taught others successfully this way, so try it. It took me one week to know the fretboard. You learn notes and arpeggios at once. Most importantly, you learn the notes in relation to other notes.

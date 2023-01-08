@@ -1,5 +1,5 @@
 2212241522
-	Status: #Exam
+	Status: #Exam #CCNA
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # CISCO CLI Help Features

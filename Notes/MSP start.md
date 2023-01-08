@@ -1,6 +1,6 @@
 2212051811
 	Status: #idea 
-		Tags: 
+		Tags:  [[MSP]]
 
 # MSP start
 

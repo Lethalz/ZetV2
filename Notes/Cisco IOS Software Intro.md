@@ -1,5 +1,5 @@
 2209291413
-	Status: #Exam
+	Status: #Exam #CCNA 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # Cisco IOS Software Intro
@@ -19,3 +19,5 @@
 	- Commands are mode based (user, privilege , global-config)
 ---
 # Reference
+
+Commands that can be used in user and enable mode;;EXEC commands

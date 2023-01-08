@@ -1,12 +1,180 @@
 {
   "recentFiles": [
     {
+      "basename": "ROADMAP (IMPORTANT)",
+      "path": "Random/ROADMAP (IMPORTANT).md"
+    },
+    {
+      "basename": "Spanning Tree Protocol Concepts",
+      "path": "Notes/Spanning Tree Protocol Concepts.md"
+    },
+    {
+      "basename": "CCNA (200-301) Cram Notes",
+      "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
+    },
+    {
+      "basename": "Implementing VLANs",
+      "path": "Notes/Implementing VLANs.md"
+    },
+    {
       "basename": "Guitar random",
-      "path": "Random/Guitar random.md"
+      "path": "Guitar/Guitar random.md"
+    },
+    {
+      "basename": "Practicing with a metronome",
+      "path": "Guitar/Practicing with a metronome.md"
+    },
+    {
+      "basename": "Book Note Temp.",
+      "path": "Templates/Book Note Temp..md"
+    },
+    {
+      "basename": "Most Important Chord changes",
+      "path": "Guitar/Most Important Chord changes.md"
+    },
+    {
+      "basename": "Guitar Template",
+      "path": "Templates/Guitar Template.md"
+    },
+    {
+      "basename": "Map of content template",
+      "path": "Templates/Map of content template.md"
+    },
+    {
+      "basename": "Fleeting Thought Template",
+      "path": "Templates/Fleeting Thought Template.md"
+    },
+    {
+      "basename": "Higher order learning",
+      "path": "Notes/Higher order learning.md"
+    },
+    {
+      "basename": "Learning order control",
+      "path": "Notes/Learning order control.md"
+    },
+    {
+      "basename": "LAN Switching",
+      "path": "Notes/LAN Switching.md"
+    },
+    {
+      "basename": "Using the Cisco CLI",
+      "path": "Notes/Using the Cisco CLI.md"
     },
     {
       "basename": "Cisco IOS Command Lines Modes",
       "path": "Notes/Cisco IOS Command Lines Modes.md"
+    },
+    {
+      "basename": "Connecting to the Cisco Device",
+      "path": "Notes/Connecting to the Cisco Device.md"
+    },
+    {
+      "basename": "Cisco IOS Software Intro",
+      "path": "Notes/Cisco IOS Software Intro.md"
+    },
+    {
+      "basename": "Private IP Addresses",
+      "path": "Notes/Private IP Addresses.md"
+    },
+    {
+      "basename": "Google Project managment",
+      "path": "Reference/Exams/Google Project managment.md"
+    },
+    {
+      "basename": "CLI Help Features",
+      "path": "Notes/CLI Help Features.md"
+    },
+    {
+      "basename": "Configuration File Administration",
+      "path": "Notes/Configuration File Administration.md"
+    },
+    {
+      "basename": "Ethernet LANs",
+      "path": "Notes/Ethernet LANs.md"
+    },
+    {
+      "basename": "Misc Commands",
+      "path": "Notes/Misc Commands.md"
+    },
+    {
+      "basename": "APIPA Addressing",
+      "path": "Notes/APIPA Addressing.md"
+    },
+    {
+      "basename": "Basic Switch Management",
+      "path": "Notes/Basic Switch Management.md"
+    },
+    {
+      "basename": "WAN & Routers",
+      "path": "Notes/WAN & Routers.md"
+    },
+    {
+      "basename": "The OSI Model",
+      "path": "Notes/The OSI Model.md"
+    },
+    {
+      "basename": "TCPIP networking",
+      "path": "Notes/TCPIP networking.md"
+    },
+    {
+      "basename": "CIDR Notation",
+      "path": "Notes/CIDR Notation.md"
+    },
+    {
+      "basename": "Subnetting ref",
+      "path": "Notes/Subnetting ref.md"
+    },
+    {
+      "basename": "Subnetting example",
+      "path": "Notes/Subnetting example.md"
+    },
+    {
+      "basename": "IP subnet chart",
+      "path": "Notes/IP subnet chart.md"
+    },
+    {
+      "basename": "Subnetting and Binary",
+      "path": "Notes/Subnetting and Binary.md"
+    },
+    {
+      "basename": "Hexadecimal",
+      "path": "Notes/Hexadecimal.md"
+    },
+    {
+      "basename": "Switch Interfaces",
+      "path": "Notes/Switch Interfaces.md"
+    },
+    {
+      "basename": "MSP start",
+      "path": "Notes/MSP start.md"
+    },
+    {
+      "basename": "Secuirty + Pracctice test domain 1",
+      "path": "Practice test/Secuirty + Pracctice test domain 1.md"
+    },
+    {
+      "basename": "Notes on HWT SOW",
+      "path": "Random/Notes on HWT SOW.md"
+    },
+    {
+      "basename": "MSP growth",
+      "path": "Notes/MSP growth.md"
+    },
+    {
+      "basename": "Plugin Glossary",
+      "path": "Reference/Plugin Help/Plugin Glossary.md"
+    },
+    {
+      "basename": "CCNA Exam Note Template",
+      "path": "Templates/CCNA Exam Note Template.md"
+    },
+    {
+      "basename": "Pasted image 20220817135806",
+      "path": "Reference/Files/Pasted image 20220817135806.png"
+    },
+    {
+      "basename": "532a0dccacb7b24852419b582fb94dab",
+      "path": "Attachments/532a0dccacb7b24852419b582fb94dab.png"
     }
   ],
   "omittedPaths": [],

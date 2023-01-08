@@ -1,5 +1,5 @@
 2209261433
-	Status: #Exam
+	Status: #Exam #CCNA
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # Ethernet LANs
@@ -103,3 +103,22 @@ cabling, a speed of 1000 Mbps (1 Gbps), and a maximum cable length of 100 meters
 
 ---
 # Reference
+
+
+# Flashcards
+
+ if the sender detects a collision, it sends a jamming signal. All nodes cease transmitting and resume it after a random time.
+ ?
+CSMA/CD(Carrier sense multiple access with collision detection)
+ 
+ improves the maximum distances over UTP  and it uses less expensive transmitters as compared with single-mode.
+ ?
+ Multimode Fiber
+<!--SR:!2023-01-04,3,250-->
+
+allows distances into the tens of kilometers, but with slightly more expensive SFP/SFP+ hardware.;;Single-mode fiber
+<!--SR:!2023-01-04,3,250-->
+
+The hardware used to both send (transmit) energy over some communications medium (e.g., wires in a cable), and to process received energy signals to interpret as a series of 1s and 0s.;;Transciver
+<!--SR:!2023-01-04,3,250-->
+

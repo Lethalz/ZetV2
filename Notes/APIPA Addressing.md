@@ -1,5 +1,5 @@
 2209261504
-	Status: #Exam
+	Status: #Exam #CCNA 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 # APIPA Addressing

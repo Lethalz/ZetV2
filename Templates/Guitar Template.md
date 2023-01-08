@@ -1,9 +1,14 @@
 {{date:YYMMDD}}{{time:HHmm}}
-	Status: #MOC
+	Status: #Guitar
 		Tags: 
+
 
 # {{title}}
 
-Map of content for ___________
+
+
+
+
 
 ---
+# References
