@@ -4,8 +4,8 @@ https://roadmap.sh/devops
 
 Early Certs:
 A+ (done)
-CCNA (networking) 300$
-SEC + (DOJ) 350$
+CCNA (networking) 300$ (in Progress)
+SEC + (DOD 8570 certified) 350$
 
 Understand what Active Directory is.
 learn powershell / bash/  
@@ -21,9 +21,11 @@ System Administration
 
 VM set up AD and other test virtualization env
 Learn O365 and Email Migrations
-AWS is king to Azure
 [Practice to become a sys admin](https://www.reddit.com/r/sysadmin/comments/3z7qd9/comment/cyjynxh/)
 
+
+**LEARN GIT**
+- Git is such a good skill to have a great understanding on because you will use it in any tech field you decide and pursue
 
 ** Not in any order but this is something i really want to learn**
 Learn about Server Adminsistration
@@ -38,21 +40,40 @@ when i find out what project i will put it heree: set up server, pfsense
 
 kubernetes and docker are huge after doing the above linux/server admin project learn docker first then kubernetes
 
+Projects"
+
+Learn to set up
+1. Reverse Proxy
+2. Caching server
+3. Forward Proxy
+4. Load Balancer
+5. Firewall
+6. Web Server (NGINX)
+7. VPN
 
 
 
 **Don't need Linux+ or server+ Jobs don't value those at all!**
- **Linux Professional Institute LPIC-1**
+ **[Linux Professional Institute LPIC-1](https://www.lpi.org/our-certification...)**
+ 2 exams : $200
+ 
 Will Do **RHCSA** then **RHCE** at some point for the pursuit of knowledge.
 
 learn these to understand the basics of what you are working with in this field (automation is key to being efficent)
 
+Active Directory understanding while polishing my server experience from home 
+
+Learn SQL for databasing
+
 Learn PYTHON for automation 
 
+Ansible for Operating systems automation
+
+Terraform for infrastructure provisioning 
 ---- 
 
 Then move on to cloud.
-Cloud is the big thing more and more people need cloud experts and it's only going to get more lucarative.
+Cloud is the big thing more and more people need cloud experts, and it's only going to get more lucarative.
 
 as they said in 5am find what you want to be and go granular make sure you are the best at what you do till it becomes an art.
 
@@ -65,7 +86,8 @@ CLOUD CERTS:
 AZURE because learning this first is key to success in HWT
 https://cloudacademy.com/blog/how-to-become-a-microsoft-certified-azure-solutions-architect/
 
-AZ 800-801 -> AZ 900 -> AZ 104 -> AZ-305 -> AZ-400 -> AZ-500
+AZ 800-801 -> AZ 900 -> AZ 104 -> AZ-305 -> AZ-400 -> AZ-500 
+
 
 AWS  for jobs outside the scope of HWT think about the future
 
@@ -83,13 +105,24 @@ After those main certs all the while gaining experience with jay building serves
 	
 
  ### Certs to look into 
+
+## [Exam PL-600: Microsoft Power Platform Solution Architect](https://learn.microsoft.com/en-us/certifications/exams/pl-600)
+
+## CISA Certified Information Systems Auditor
+
 ## VCP6-DCV: VMWARE CERTIFIED PROFESSIONAL 6 – DATA CENTER VIRTUALIZATION
 
 ## AWS CERTIFIED CLOUD PRACTITIONER
 
 ## CCA-N: CITRIX CERTIFIED ASSOCIATE – NETWORKING
 
+##  Certified Information Systems Security Professional (CISSP)
+
+## Certified in Risk and Information Systems Control (CRISC)
 
 ## ITIL® FOUNDATION
 
 
+
+
+## Project Management Professional (PMP)

@@ -1,36 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "ROADMAP (IMPORTANT)",
-      "path": "Random/ROADMAP (IMPORTANT).md"
+      "basename": "No more Mr. Nice Guy",
+      "path": "Reference/Books/No more Mr. Nice Guy.md"
     },
     {
-      "basename": "Spanning Tree Protocol Concepts",
-      "path": "Notes/Spanning Tree Protocol Concepts.md"
+      "basename": "Relationship advice",
+      "path": "Notes/Relationship advice.md"
+    },
+    {
+      "basename": "Models",
+      "path": "Reference/Books/Models.md"
+    },
+    {
+      "basename": "Google Project managment",
+      "path": "Reference/Exams/Google Project managment.md"
+    },
+    {
+      "basename": "Network Engineer Roadmap to Network Automation Engineer",
+      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
+    },
+    {
+      "basename": "RSTP and EtherChannel Configuration",
+      "path": "Notes/RSTP and EtherChannel Configuration.md"
     },
     {
       "basename": "CCNA (200-301) Cram Notes",
       "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
     },
     {
-      "basename": "Implementing VLANs",
-      "path": "Notes/Implementing VLANs.md"
+      "basename": "Spanning Tree Protocol Concepts",
+      "path": "Notes/Spanning Tree Protocol Concepts.md"
+    },
+    {
+      "basename": "ROADMAP (IMPORTANT)",
+      "path": "Random/ROADMAP (IMPORTANT).md"
+    },
+    {
+      "basename": "ChatGPT prompts",
+      "path": "Random/ChatGPT prompts.md"
+    },
+    {
+      "basename": "How To Do Subnetting in 6 steps",
+      "path": "Notes/How To Do Subnetting in 6 steps.md"
+    },
+    {
+      "basename": "Most Important Chord changes",
+      "path": "Guitar/Most Important Chord changes.md"
+    },
+    {
+      "basename": "AI Template",
+      "path": "Templates/AI Template.md"
+    },
+    {
+      "basename": "IT Troubleshooting Core Questions",
+      "path": "Notes/IT Troubleshooting Core Questions.md"
+    },
+    {
+      "basename": "Time this week",
+      "path": "Random/Time this week.md"
+    },
+    {
+      "basename": "Things i did today 12622",
+      "path": "Random/Things i did today 12622.md"
+    },
+    {
+      "basename": "IT Job requirments",
+      "path": "Random/IT Job requirments.md"
+    },
+    {
+      "basename": "Notes on HWT SOW",
+      "path": "Random/Notes on HWT SOW.md"
+    },
+    {
+      "basename": "gpt",
+      "path": "Notes/gpt.md"
+    },
+    {
+      "basename": "Learning Strategies",
+      "path": "Notes/Learning Strategies.md"
     },
     {
       "basename": "Guitar random",
       "path": "Guitar/Guitar random.md"
     },
     {
-      "basename": "Practicing with a metronome",
-      "path": "Guitar/Practicing with a metronome.md"
+      "basename": "Core Note Template",
+      "path": "Templates/Core Note Template.md"
+    },
+    {
+      "basename": "Security+ Study Guide",
+      "path": "Reference/Exams/Security+ Study Guide.md"
+    },
+    {
+      "basename": "Every word a Song",
+      "path": "Reference/Books/Every word a Song.md"
     },
     {
       "basename": "Book Note Temp.",
       "path": "Templates/Book Note Temp..md"
     },
     {
-      "basename": "Most Important Chord changes",
-      "path": "Guitar/Most Important Chord changes.md"
+      "basename": "Implementing VLANs",
+      "path": "Notes/Implementing VLANs.md"
+    },
+    {
+      "basename": "Practicing with a metronome",
+      "path": "Guitar/Practicing with a metronome.md"
     },
     {
       "basename": "Guitar Template",
@@ -75,10 +151,6 @@
     {
       "basename": "Private IP Addresses",
       "path": "Notes/Private IP Addresses.md"
-    },
-    {
-      "basename": "Google Project managment",
-      "path": "Reference/Exams/Google Project managment.md"
     },
     {
       "basename": "CLI Help Features",
@@ -127,54 +199,6 @@
     {
       "basename": "Subnetting example",
       "path": "Notes/Subnetting example.md"
-    },
-    {
-      "basename": "IP subnet chart",
-      "path": "Notes/IP subnet chart.md"
-    },
-    {
-      "basename": "Subnetting and Binary",
-      "path": "Notes/Subnetting and Binary.md"
-    },
-    {
-      "basename": "Hexadecimal",
-      "path": "Notes/Hexadecimal.md"
-    },
-    {
-      "basename": "Switch Interfaces",
-      "path": "Notes/Switch Interfaces.md"
-    },
-    {
-      "basename": "MSP start",
-      "path": "Notes/MSP start.md"
-    },
-    {
-      "basename": "Secuirty + Pracctice test domain 1",
-      "path": "Practice test/Secuirty + Pracctice test domain 1.md"
-    },
-    {
-      "basename": "Notes on HWT SOW",
-      "path": "Random/Notes on HWT SOW.md"
-    },
-    {
-      "basename": "MSP growth",
-      "path": "Notes/MSP growth.md"
-    },
-    {
-      "basename": "Plugin Glossary",
-      "path": "Reference/Plugin Help/Plugin Glossary.md"
-    },
-    {
-      "basename": "CCNA Exam Note Template",
-      "path": "Templates/CCNA Exam Note Template.md"
-    },
-    {
-      "basename": "Pasted image 20220817135806",
-      "path": "Reference/Files/Pasted image 20220817135806.png"
-    },
-    {
-      "basename": "532a0dccacb7b24852419b582fb94dab",
-      "path": "Attachments/532a0dccacb7b24852419b582fb94dab.png"
     }
   ],
   "omittedPaths": [],

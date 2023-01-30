@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2ed82fac2d16473",
+            "id": "a8f716be6946a877",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random/ROADMAP (IMPORTANT).md",
+                "file": "Reference/Exams/CCNA (200-301) Cram Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a59aed1a84f282d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/Books/No more Mr. Nice Guy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d33eb8529caa2f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Spanning Tree Protocol Concepts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pax8",
+                "query": "relationship",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random/ROADMAP (IMPORTANT).md",
+                "file": "Reference/Books/No more Mr. Nice Guy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random/ROADMAP (IMPORTANT).md",
+                "file": "Reference/Books/No more Mr. Nice Guy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random/ROADMAP (IMPORTANT).md"
+                "file": "Reference/Books/No more Mr. Nice Guy.md"
               }
             }
           },
@@ -180,17 +206,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "f2ed82fac2d16473",
+  "active": "8a59aed1a84f282d",
   "lastOpenFiles": [
-    "Notes/Spanning Tree Protocol Concepts.md",
+    "Notes/Relationship advice.md",
+    "Reference/Books/Models.md",
+    "Reference/Exams/Google Project managment.md",
+    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
+    "Notes/RSTP and EtherChannel Configuration.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
-    "Notes/Implementing VLANs.md",
-    "Guitar/Guitar random.md",
-    "Guitar/Practicing with a metronome.md",
-    "Notes/netgate support.md",
-    "Templates/Book Note Temp..md",
-    "Guitar/Most Important Chord changes.md",
-    "Templates/Guitar Template.md",
-    "Templates/Map of content template.md"
+    "Notes/Spanning Tree Protocol Concepts.md",
+    "Random/ROADMAP (IMPORTANT).md",
+    "Random/ChatGPT prompts.md",
+    "Notes/How To Do Subnetting in 6 steps.md"
   ]
 }

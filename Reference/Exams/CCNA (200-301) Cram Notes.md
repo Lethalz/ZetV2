@@ -23,6 +23,9 @@
 [[Subnetting ref]]
 [[CIDR Notation]]
 
+### Subnetting
+[[How To Do Subnetting in 6 steps]]
+
 ### Cisco IOS 
 [[Cisco IOS Software Intro]]
 [[Connecting to the Cisco Device]]
@@ -46,6 +49,7 @@
 
 ## STP and RSTP
 [[Spanning Tree Protocol Concepts]]
+[[RSTP and EtherChannel Configuration]]
 
 ---
 # Reference

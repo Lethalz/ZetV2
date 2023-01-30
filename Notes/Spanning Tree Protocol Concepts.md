@@ -73,6 +73,11 @@ Each bridge/switch sends a **Hello** BPDU (bridge protocol data unit) with
     
 	-   Forwarding delay – When changing topology, how long a switch should stay in each transient state: listening and learning, in that sequence. Defaults to 15 seconds for each state.
 
+Which device determines how often a nonroot bridge or switch sends an STP Hello BPDU message
+?
+The root switch sets the Hello Timer
+
+
 
 **Root bridge selection:** *lowest* priority wins.  Lowest number in BID.
 If there is a draw, the lowest MAC address wins.

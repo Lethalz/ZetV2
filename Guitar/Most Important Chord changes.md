@@ -6,17 +6,17 @@
 # Most Important Chord changes
 
 
-**A,C (Needs Practice)
+**A,C (Pretty good)
 
-A,G
+A,G pg
 
-A,E
+A,E  (could be better)
 
-A,Em
+A,Em pg
 
-A,D
+A,D (pg)
 
-A,Dm
+A,Dm (cbb)
 
 C,G
 
