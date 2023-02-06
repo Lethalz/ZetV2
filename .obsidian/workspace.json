@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Exams/CCNA (200-301) Cram Notes.md",
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Spanning Tree Protocol Concepts.md",
+                "file": "Random/ChatGPT prompts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae8bb9cd02b366fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Be A More Organized Person.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Books/No more Mr. Nice Guy.md",
+                "file": "Random/ChatGPT prompts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Books/No more Mr. Nice Guy.md",
+                "file": "Random/ChatGPT prompts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Books/No more Mr. Nice Guy.md"
+                "file": "Random/ChatGPT prompts.md"
               }
             }
           },
@@ -206,17 +217,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "8a59aed1a84f282d",
+  "active": "5d33eb8529caa2f5",
   "lastOpenFiles": [
-    "Notes/Relationship advice.md",
-    "Reference/Books/Models.md",
-    "Reference/Exams/Google Project managment.md",
-    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
-    "Notes/RSTP and EtherChannel Configuration.md",
-    "Reference/Exams/CCNA (200-301) Cram Notes.md",
-    "Notes/Spanning Tree Protocol Concepts.md",
-    "Random/ROADMAP (IMPORTANT).md",
+    "Notes/Be A More Organized Person.md",
     "Random/ChatGPT prompts.md",
-    "Notes/How To Do Subnetting in 6 steps.md"
+    "Random/IT Job requirments.md",
+    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
+    "Random/Notes on HWT SOW.md",
+    "Random/Things i did today 12622.md",
+    "Random/Time this week.md",
+    "Random/ROADMAP (IMPORTANT).md",
+    "Reference/Exams/Google Project managment.md",
+    "Reference/Exams/CCNA (200-301) Cram Notes.md"
   ]
 }

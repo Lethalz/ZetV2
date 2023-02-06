@@ -38,7 +38,7 @@ So if you subnet to /25 your taking away another bit from the total 32 bits in a
 `32-25` that equals 7 
 
 So you have seven bits for hosts minus 2 for the Network id(lowest possible IP in subnet) abd the Broadcast ID (Highest possible IP in subnet)
-
+2^H-2
 2^7 = 128 - 2 (the net ID and Brodcast ID) = 126 possible hosts
 
 Subnetting uses the LOGIC GATE *AND*

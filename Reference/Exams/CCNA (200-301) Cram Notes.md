@@ -41,8 +41,6 @@
 [[LAN Switching]]
 
 
-
-
 ## VLANs and STP
 [[Implementing VLANs]]
 

@@ -63,6 +63,7 @@ Emulate networking problems.
 
 ## Projects
 
+- Nagios Monitoring
 -   Secondary Authorization Server
 -   Security issues with Mobile IP
 -   Chat Application
@@ -130,7 +131,16 @@ Allows an organization to work as a unit
 and Networking is included in all of that
 
 Your doing netowkring to get into the field and build on those fundamentals.
+## Other Technologies
+SD-WAN
+CISCO ISE
+## Critical Thinking
+https://learn.saylor.org/course/view.php?id=410
+COurse from saylor
+
 ## Future Certifications
+
+Palo Alto Networks Certified Network Security Engineer (PCNSE) certification
 
 Cisco DevNet Associate
 
@@ -143,3 +153,5 @@ CCA-N: CITRIX CERTIFIED ASSOCIATE – NETWORKING
 VCP6-DCV: VMWARE CERTIFIED PROFESSIONAL 6 – DATA CENTER VIRTUALIZATION
 
 Project Management Professional (PMP)
+
+[NSE 4 Network Security Professional - Fortinet Training Institute](https://training.fortinet.com/local/staticpage/view.php?page=nse_4)
