@@ -10,18 +10,27 @@ A+ - Finished
 
 CCNA - (In Progress)
 
-Security+ - For DOD certification, and NetSec Understanding
+Security+ - For DOD certification, and NetSec Understanding (Not Sure As of now)
+Quick and dirty.
 
-CCNP - (After doing multiple projects (listed below) and getting some experience)
+Linux+ - go through and learn the fundamentals take your time.
+
+Cisco DevNet Associate - before CCNP Automation is huge
+	At this point should have bought those Udemy courses to dip my toes in Network automation.
+
+AZ-900 
+
+CCNP - (After doing multiple projects (listed below) and getting alot of experience)
+
+RHCE/RHCSA - By this time you'll know where to put this my boy
 
  [VMware Certified Professional - Network Virtualization 2023](https://www.vmware.com/learning/certification/vcp-nv-nsxt.html)
 
 	- Need CCNA to get around classroom requirement, which will then qualify you for other VCP-level certifications without further classroom training required.
 
-Cisco DevNet Associate - after CCNP Automation is huge
-	At this point should have bought those Udemy courses to dip my toes in Network automation.
+# Technologies
 
-
+[REST API](https://www.techtarget.com/searchapparchitecture/definition/RESTful-API), [NETCONF](https://www.techtarget.com/searchnetworking/definition/NETCONF) and [YANG](https://www.techtarget.com/whatis/definition/YANG-data-modeling-language)
 
 ## Books To Read
 
@@ -41,6 +50,9 @@ Network Warrior - After CCNA to fill in some gaps
 ## Programming Language
 Bash then Powershell
 Python then
+
+
+**Learn How to Write Reusable Code**
 
 ## Machine Learning
 
