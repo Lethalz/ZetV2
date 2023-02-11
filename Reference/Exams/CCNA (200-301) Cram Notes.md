@@ -2,6 +2,10 @@
 	Status: #Exam
 		Tags: [[CCNA 200-301]] [[Networking]]
 
+
+# Remember!
+[[Studying For Exams]]
+
 # CCNA (200-301) Cram Notes
 ### The OSI model
 [[The OSI Model]]

@@ -48,7 +48,7 @@ Network Warrior - After CCNA to fill in some gaps
 **These books are theory in order for us to learn we need to put in the hands-on practice**
 
 ## Programming Language
-Bash then Powershell
+Bash & Powershell
 Python then
 
 
@@ -122,7 +122,7 @@ Also learn to automate natworking in the cloud
 
 ## Version Control
 
-Learn Git
+Learn Git Throughout
 Put things you are working on up there
 If you can't put the actual project put **well-defined documentation.**
 
@@ -133,6 +133,8 @@ If you can't put the actual project put **well-defined documentation.**
 Automation is going to be huge for me. 
 
 Before Python learning some BASH and Linux administration is key, most networkign in the world is done with linux/UNIX systems.
+
+Start learning about network automation tools, such as **Ansible, Terraform, and Nornir**
 
 ## DevOps
 
@@ -149,6 +151,13 @@ CISCO ISE
 ## Critical Thinking
 https://learn.saylor.org/course/view.php?id=410
 COurse from saylor
+
+# Earn Your Degree
+This is a Box checker, I'm not wasting my time with year of work at a normal uni. 
+
+DO more research on [WGU](https://www.wgu.edu/) and see if this is a valid choice for you
+
+Learn how you learn over this next year and hone those skills.
 
 ## Future Certifications
 
