@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Network Engineer Roadmap to Network Automation Engineer",
+      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
+    },
+    {
       "basename": "ChatGPT prompts",
       "path": "Random/ChatGPT prompts.md"
+    },
+    {
+      "basename": "Subnetting and Binary",
+      "path": "Notes/Subnetting and Binary.md"
+    },
+    {
+      "basename": "CCNA (200-301) Cram Notes",
+      "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
+    },
+    {
+      "basename": "No more Mr. Nice Guy",
+      "path": "Reference/Books/No more Mr. Nice Guy.md"
     },
     {
       "basename": "Be A More Organized Person",
@@ -11,10 +27,6 @@
     {
       "basename": "IT Job requirments",
       "path": "Random/IT Job requirments.md"
-    },
-    {
-      "basename": "Network Engineer Roadmap to Network Automation Engineer",
-      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
     },
     {
       "basename": "Notes on HWT SOW",
@@ -37,20 +49,8 @@
       "path": "Reference/Exams/Google Project managment.md"
     },
     {
-      "basename": "CCNA (200-301) Cram Notes",
-      "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
-    },
-    {
-      "basename": "Subnetting and Binary",
-      "path": "Notes/Subnetting and Binary.md"
-    },
-    {
       "basename": "Spanning Tree Protocol Concepts",
       "path": "Notes/Spanning Tree Protocol Concepts.md"
-    },
-    {
-      "basename": "No more Mr. Nice Guy",
-      "path": "Reference/Books/No more Mr. Nice Guy.md"
     },
     {
       "basename": "The OSI Model",

@@ -49,7 +49,8 @@ Network Warrior - After CCNA to fill in some gaps
 
 ## Programming Language
 Bash then Powershell
-Python then
+Python 
+Terraform
 
 
 **Learn How to Write Reusable Code**
