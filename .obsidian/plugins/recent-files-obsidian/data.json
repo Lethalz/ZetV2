@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Network Engineer Roadmap to Network Automation Engineer",
-      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
-    },
-    {
-      "basename": "ChatGPT prompts",
-      "path": "Random/ChatGPT prompts.md"
-    },
-    {
       "basename": "Subnetting and Binary",
       "path": "Notes/Subnetting and Binary.md"
     },
     {
       "basename": "CCNA (200-301) Cram Notes",
       "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
+    },
+    {
+      "basename": "CCNA Exam Note Template",
+      "path": "Templates/CCNA Exam Note Template.md"
+    },
+    {
+      "basename": "Network Engineer Roadmap to Network Automation Engineer",
+      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
+    },
+    {
+      "basename": "Notes on HWT SOW",
+      "path": "Random/Notes on HWT SOW.md"
+    },
+    {
+      "basename": "Things i did today 12622",
+      "path": "Random/Things i did today 12622.md"
+    },
+    {
+      "basename": "Ultralearning",
+      "path": "Random/Ultralearning.md"
+    },
+    {
+      "basename": "CCNA Study spreadsheet",
+      "path": "Notes/CCNA Study spreadsheet.md"
+    },
+    {
+      "basename": "STUDY PLAN 4 NETWORKING 2023",
+      "path": "Notes/STUDY PLAN 4 NETWORKING 2023.md"
+    },
+    {
+      "basename": "Networking",
+      "path": "Metalearning/Networking.md"
+    },
+    {
+      "basename": "Metalearning Template",
+      "path": "Templates/Metalearning Template.md"
+    },
+    {
+      "basename": "AI Template",
+      "path": "Templates/AI Template.md"
+    },
+    {
+      "basename": "CCNA MetaLearning",
+      "path": "Notes/CCNA MetaLearning.md"
+    },
+    {
+      "basename": "The untethered Soul",
+      "path": "Reference/Books/The untethered Soul.md"
+    },
+    {
+      "basename": "ChatGPT prompts",
+      "path": "Random/ChatGPT prompts.md"
+    },
+    {
+      "basename": "CCNA Two month study plan",
+      "path": "Notes/CCNA Two month study plan.md"
     },
     {
       "basename": "No more Mr. Nice Guy",
@@ -27,14 +75,6 @@
     {
       "basename": "IT Job requirments",
       "path": "Random/IT Job requirments.md"
-    },
-    {
-      "basename": "Notes on HWT SOW",
-      "path": "Random/Notes on HWT SOW.md"
-    },
-    {
-      "basename": "Things i did today 12622",
-      "path": "Random/Things i did today 12622.md"
     },
     {
       "basename": "ROADMAP (IMPORTANT)",
@@ -71,10 +111,6 @@
     {
       "basename": "Most Important Chord changes",
       "path": "Guitar/Most Important Chord changes.md"
-    },
-    {
-      "basename": "AI Template",
-      "path": "Templates/AI Template.md"
     },
     {
       "basename": "IT Troubleshooting Core Questions",
@@ -163,38 +199,6 @@
     {
       "basename": "CLI Help Features",
       "path": "Notes/CLI Help Features.md"
-    },
-    {
-      "basename": "Configuration File Administration",
-      "path": "Notes/Configuration File Administration.md"
-    },
-    {
-      "basename": "Ethernet LANs",
-      "path": "Notes/Ethernet LANs.md"
-    },
-    {
-      "basename": "Misc Commands",
-      "path": "Notes/Misc Commands.md"
-    },
-    {
-      "basename": "APIPA Addressing",
-      "path": "Notes/APIPA Addressing.md"
-    },
-    {
-      "basename": "Basic Switch Management",
-      "path": "Notes/Basic Switch Management.md"
-    },
-    {
-      "basename": "WAN & Routers",
-      "path": "Notes/WAN & Routers.md"
-    },
-    {
-      "basename": "TCPIP networking",
-      "path": "Notes/TCPIP networking.md"
-    },
-    {
-      "basename": "CIDR Notation",
-      "path": "Notes/CIDR Notation.md"
     }
   ],
   "omittedPaths": [],

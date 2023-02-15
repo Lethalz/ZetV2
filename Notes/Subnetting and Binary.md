@@ -29,6 +29,8 @@ Subnetting:
 	* First Octet = 1111 0000 = 240  -> 1111 1111 = 255
 - Broadcast 
 
+
+
   2. Classless:
   
    *  VLSM (Variable Length Subnet Mask): Allows a network space to be divided into unequal parts.
