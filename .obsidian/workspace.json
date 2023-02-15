@@ -11,8 +11,12 @@
             "id": "a8f716be6946a877",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -101,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
+              }
             }
           },
           {
@@ -184,12 +192,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9d35ee8173509f6e",
+  "active": "a8f716be6946a877",
   "lastOpenFiles": [
+    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
     "Random/ChatGPT prompts.md",
     "Notes/Subnetting and Binary.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
-    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
     "Reference/Books/No more Mr. Nice Guy.md",
     "Notes/Be A More Organized Person.md",
     "Random/IT Job requirments.md",
