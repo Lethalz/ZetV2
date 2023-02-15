@@ -1,4 +1,7 @@
 
+
+[[STUDY PLAN 4 NETWORKING]]
+
 Summary:
 
 Get good at at the networking forundamentals but understand that the future is cloud and automation but having a really strong foundation in networking is huge be a purple cow.
@@ -48,11 +51,24 @@ Network Warrior - After CCNA to fill in some gaps
 **These books are theory in order for us to learn we need to put in the hands-on practice**
 
 ## Programming Language
-Bash & Powershell
-Python then
+<<<<<<< HEAD
+Bash then Powershell
+Python 
+Anisble
+
 
 
 **Learn How to Write Reusable Code**
+
+# Lateral Tech
+
+Project Management - Having project management skills would be useful as a networking professional. You could learn about topics such as project planning, risk management, budgeting, and stakeholder management.
+
+Linux: Learning about Linux would be helpful as it is a widely used operating system in the world of networking. You could learn about topics such as Linux commands, file systems, networking, and administration.
+
+Cloud Computing: As more and more organizations are moving their infrastructure to the cloud, it would be beneficial to learn about cloud computing. You could learn about cloud architecture, virtualization, cloud deployment models, cloud security, and more.
+
+Cybersecurity: Since networking and cybersecurity are closely related, learning about cybersecurity would be a great way to expand your knowledge. You could learn about topics such as network security, vulnerability assessment, penetration testing, encryption, and more.
 
 ## Machine Learning
 
@@ -118,6 +134,9 @@ Master Cloud networking
 
 Also learn to automate natworking in the cloud
 
+## Network monitoring
+
+Nagios, Zabbix, and PRTG
 
 
 ## Version Control
@@ -134,7 +153,7 @@ Automation is going to be huge for me.
 
 Before Python learning some BASH and Linux administration is key, most networkign in the world is done with linux/UNIX systems.
 
-Start learning about network automation tools, such as **Ansible, Terraform, and Nornir**
+Start learning about network automation tools, such as **Ansible, Chef, Puppet, Terraform, and Nornir**
 
 ## DevOps
 
@@ -158,6 +177,9 @@ This is a Box checker, I'm not wasting my time with year of work at a normal uni
 DO more research on [WGU](https://www.wgu.edu/) and see if this is a valid choice for you
 
 Learn how you learn over this next year and hone those skills.
+
+Study.com credits into WGU classes
+
 
 ## Future Certifications
 

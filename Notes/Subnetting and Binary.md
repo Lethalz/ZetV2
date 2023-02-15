@@ -14,17 +14,22 @@ Subnetting:
 *  Class A: Ranges from 0.0.0.0/8 to 127.0.0.0/8, designed to support extremely large networks with more than 16 million host addresses.
 	* In binary, The first octet always starts with 0 - hence 0 - 127
 		* 128 is never lit up
+		* Default Mask: 255.0.0.0
 *  Class B: Ranges from 128.0.0.0/16 to 191.255.0.0, designed to support the needs of moderate to large size networks with up to approximately 65,000 host addresses.
 	* In binary, the first bit is always 1 (lit) and the second bit 0 ,hence 128 - 191
 		* 1000 0000 = 128 , 1011 1111 = 191
+		* Default Mask: 255.255.0.0
 *  Class C: Ranges from 192.0.0.0/24 to 223.255.255.0/24, designed to support small networks with a maximum of 254 hosts.
 	  - In binary the first two bits are always 1 followed by a 0.
 	  - 1100 0000 = 192  , 1101 1111 = 223
+	  - Default Mask: 255.255.255.0
 *  Class D: Multicast block consisting of 224.0.0.0 to 239.0.0.0.
 	* First octet = 1110 0000 = 224 -> 1110 1111 = 239
 *  Class E: Class E experimental address block consisting of 240.0.0.0-255.0.0.0.
 	* First Octet = 1111 0000 = 240  -> 1111 1111 = 255
 - Broadcast 
+
+
 
   2. Classless:
   
@@ -138,6 +143,11 @@ Take the last octet and add the amount of remaining available IPs which does not
 96 + 31 (minus the Network ID) = 127
 
 The Broadcast Address is 192.168.0.127
+
+designs that use more than one mask in
+different subnets of the same Class A, B, or C network ;; variable-length subnet masks (VLSM)
+
+<img src = 'https://i.gyazo.com/7764ba8438012da2d11d0d73a4a04ed4.png'>
 
 [Subnetting Chart ref](https://github.com/Lethalz/LethalZet/tree/main/202109191854)
 ---

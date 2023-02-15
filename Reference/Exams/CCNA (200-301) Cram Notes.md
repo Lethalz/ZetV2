@@ -55,3 +55,6 @@
 
 ---
 # Reference
+[[CCNA Two month study plan]] 
+[[CCNA Study spreadsheet]]
+[[CCNA MetaLearning]]
