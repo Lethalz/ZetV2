@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9297c4a9cda0918c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random/angel song.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Subnetting and Binary.md",
+                "file": "Random/angel song.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Subnetting and Binary.md",
+                "file": "Random/angel song.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Subnetting and Binary.md"
+                "file": "Random/angel song.md"
               }
             }
           },
@@ -241,16 +253,16 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "68b10747e6474672",
+  "active": "9297c4a9cda0918c",
   "lastOpenFiles": [
+    "Random/Ultralearning.md",
+    "Notes/STUDY PLAN 4 NETWORKING 2023.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
     "Templates/CCNA Exam Note Template.md",
     "Random/Network Engineer Roadmap to Network Automation Engineer.md",
     "Random/Notes on HWT SOW.md",
     "Random/Things i did today 12622.md",
-    "Random/Ultralearning.md",
     "Notes/CCNA Study spreadsheet.md",
-    "Notes/STUDY PLAN 4 NETWORKING 2023.md",
     "Metalearning/Networking.md",
     "Templates/Metalearning Template.md"
   ]
