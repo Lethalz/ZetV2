@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "32262d5cac352864",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fc305d777cf9022",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Random/What i need to be to soar.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee34ab8dba75a96a",
+    "type": "split",
+    "children": [
+      {
+        "id": "43115d2f8601ef68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d35ee8173509f6e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "342a1f6b174b4aa8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#TCP/IP",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "22a66dfa9f9e1d29",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "20ebcc9b30bc3808",
+    "type": "split",
+    "children": [
+      {
+        "id": "62b0357293a62570",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7bf40da4cfc1c33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Random/What i need to be to soar.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d91a1e05fb34174c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Random/What i need to be to soar.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0def12f4ef0a11f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "72fd844cfe9b9442",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Random/What i need to be to soar.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1fc305d777cf9022",
+  "lastOpenFiles": [
+    "Reference/Exams/Security+ Study Guide.md",
+    "Reference/Exams/CCNA (200-301) Cram Notes.md",
+    "Random/What i need to be to soar.md",
+    "Random/Notes on HWT SOW.md",
+    "Practice test/Secuirty + Pracctice test domain 1.md",
+    "Notes/Subnetting example.md",
+    "Notes/Subnetting and Binary.md",
+    "Notes/Subnetting ref.md",
+    "Notes/CIDR Notation.md",
+    "Notes/IP subnet chart.md"
+  ]
+}

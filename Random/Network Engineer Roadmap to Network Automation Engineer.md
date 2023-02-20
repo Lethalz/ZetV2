@@ -18,6 +18,8 @@ Quick and dirty.
 
 Linux+ - go through and learn the fundamentals take your time.
 
+RHCSA - RHCE (now has ansible)
+
 Cisco DevNet Associate - before CCNP Automation is huge
 	At this point should have bought those Udemy courses to dip my toes in Network automation.
 
@@ -37,15 +39,10 @@ RHCE/RHCSA - By this time you'll know where to put this my boy
 
 ## Books To Read
 
-Computer Networking : A Top-Down Approach
+[[Fundamental Networking Reading (In Order)]]
+
 
 DNS and BIND : DNS is a big part of networking, even if it isn't nessaceraily networking.
-
-TCP/IP illustrated Volume 1
-
-Computer networking by tanabaum 
-
-Network Warrior - After CCNA to fill in some gaps
 
 
 **These books are theory in order for us to learn we need to put in the hands-on practice**
@@ -91,6 +88,9 @@ Emulate networking problems.
 
 ## Projects
 
+[[Python Networking and Network Automation Projects.]]
+
+
 - Nagios Monitoring
 -   Secondary Authorization Server
 -   Security issues with Mobile IP
@@ -122,7 +122,15 @@ Emulate networking problems.
 -   Multi file upload System
 -   Chat server
 - -   DNS server running BIND
-- Setup some IDS/IPS service on the linux machine.
+- Setup some IDS/IPS service on the linux machine.ll
+
+
+## Soft skills
+
+Communication
+Influence
+Seduction
+Storytelling
 
 ## Cloud
 
@@ -156,6 +164,11 @@ Before Python learning some BASH and Linux administration is key, most networkig
 Start learning about network automation tools, such as **Ansible, Chef, Puppet, Terraform, and Nornir**
 
 ## DevOps
+
+DOcker & kubernetes
+https://github.com/techiescamp/kubernetes-learning-path
+
+
 
 CI/CD 
 

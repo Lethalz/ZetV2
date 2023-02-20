@@ -5,6 +5,7 @@
 # Every word, A Song
 
 
+## Chapter One
 
 Music and language are both systems of communication that use sound to convey meaning and emotion. Music is often referred to as a universal language because it is a form of communication that can be understood and appreciated by people from all cultures and backgrounds. Like language, music uses a system of symbols and conventions, such as melodies, rhythms, and harmonies, to convey meaning and emotion.
 
@@ -22,13 +23,14 @@ Points to add: Learning languages from listening to music
 -  **People remember music in the same way as speech**
 - Both are forms of social bonding
 ---
+## Chapter 2
 
-Timbre - the character or quality of a musical sound or voice
+**Timbre - the character or quality of a musical sound or voice**
 
 
-Timbre, also known as tone color or tone quality, refers to the unique sound character or quality of a musical instrument or voice. It is what distinguishes one instrument or voice from another and allows us to identify them. 
+**Timbre**, also known as tone color or tone quality, refers to the unique sound character or quality of a musical instrument or voice. It is what distinguishes one instrument or voice from another and allows us to identify them. 
 
-the timbre of a person's voice can also play a role in communication and can convey meaning and emotion. For example, a person's voice may sound angry or aggressive if it has a harsh timbre, while a person's voice may sound friendly or warm if it has a smoother timbre.
+The timbre of a person's voice can also play a role in communication and can convey meaning and emotion. For example, a person's voice may sound angry or aggressive if it has a harsh timbre, while a person's voice may sound friendly or warm if it has a smoother timbre.
 
 Timbre can also be used as a tool in communication to convey emphasis or to add interest. For example, a speaker may change the timbre of their voice to convey a sense of surprise or to emphasize a particular point. In the same way, a musician may use different timbres to create contrast or to add interest to a performance.
 
@@ -37,6 +39,7 @@ Timbre can also be used as a tool in communication to convey emphasis or to add 
 It's worth noting that these perceptions can vary based on cultural and societal norms and may not always be accurate or fair. It is important to remember that people should not be judged solely based on the timbre of their voice and that there are many other factors that contribute to a person's character and personality.**
 
 ----
+## Chapter 3
 
 I can sit there and play one note on the piano over and over how would that make you feel
 Or.. I can play a masterful song one that from the beginning captivates you and proves to you ive spent time and effort on this craft
@@ -60,6 +63,9 @@ In both cases, finding the right balance of volume can help to create a more enj
 
 
 ----
+
+## Chapter 4
+
 Form
 7.  Not organizing their thoughts or points in a clear and logical way, which can make it difficult for the listener to follow the speaker's train of thought.
 
@@ -73,7 +79,7 @@ It's worth noting that using an unconventional or non-linear approach can also b
 
 This is where Jazz comes in
 ****
-
+## Chapter 5
 
 The jazz of words 
 7.  Not listening actively to the listener, which can make the speaker seem self-centered or disinterested in the conversation.
@@ -85,6 +91,8 @@ In this sense, jazz can be seen as a form of communication in itself, as it allo
 Jazz can also be seen as a metaphor for communication in a broader sense. Just as jazz musicians must listen and respond to each other in order to create a cohesive performance, effective communication requires active listening and the ability to respond and adapt to others. Jazz also requires a high level of creativity and adaptability, which can be valuable skills in any form of communication.
 
 
+
+## Chapter 6
 
 TEMPO of Thought
 
@@ -101,6 +109,8 @@ It's worth noting that the appropriate tempo will depend on the context and the 
 TED talks are always 15mins long
 
 ---
+
+Possible chapter : Copy then create (how nothing is original without some replication)
 
 ## Conclusion
 

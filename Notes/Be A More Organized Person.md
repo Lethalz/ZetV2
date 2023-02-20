@@ -31,8 +31,6 @@ Books:
 4.  "The Productivity Project: Accomplishing More by Managing Your Time, Attention, and Energy" by Chris Bailey
 5.  "The Pomodoro Technique: The Acclaimed Time-Management System That Has Transformed How We Work" by Francesco Cirillo
 6.  "Time Management from the Inside Out: The Foolproof System for Taking Control of Your Schedule and Your Life" by Julie Morgenstern.
-
-
 7.  Limit distractions: Turn off your phone, close your email, and eliminate any other distractions while you work. This will help you stay focused and get more done.
 
 

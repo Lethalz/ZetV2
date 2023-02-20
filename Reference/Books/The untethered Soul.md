@@ -6,7 +6,7 @@
 # The untethered Soul
 
 ## #1: Solve Problems Based on Your Inside World
-"I" will never be content, there will always be something that isn't good enough for me in my head. Instead of fighting or trying to appease the voice in your head find out where that feeling is coming from. Whether it's jelousy, fear, anger , or disgust. 
+"I" will never be content, there will always be something that isn't good enough for me in my head. Instead of fighting or trying to appease the voice in your head find out where that feeling is coming from. Whether it's jelousy, fear, anger , or disgust.  ^3ef9a2
 
 "How you gon win when you ain't right within"
 
