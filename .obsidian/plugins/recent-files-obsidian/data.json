@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "angel song",
-      "path": "Random/angel song.md"
+      "basename": "Network Engineer Roadmap to Network Automation Engineer",
+      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
+    },
+    {
+      "basename": "The 7 habits of highly effective people summary",
+      "path": "Reference/Books/The 7 habits of highly effective people summary.md"
+    },
+    {
+      "basename": "Every word a Song",
+      "path": "Reference/Books/Every word a Song.md"
     },
     {
       "basename": "Ultralearning",
       "path": "Random/Ultralearning.md"
+    },
+    {
+      "basename": "angel song",
+      "path": "Random/angel song.md"
     },
     {
       "basename": "STUDY PLAN 4 NETWORKING 2023",
@@ -23,10 +35,6 @@
     {
       "basename": "CCNA Exam Note Template",
       "path": "Templates/CCNA Exam Note Template.md"
-    },
-    {
-      "basename": "Network Engineer Roadmap to Network Automation Engineer",
-      "path": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
     },
     {
       "basename": "Notes on HWT SOW",
@@ -141,10 +149,6 @@
       "path": "Reference/Exams/Security+ Study Guide.md"
     },
     {
-      "basename": "Every word a Song",
-      "path": "Reference/Books/Every word a Song.md"
-    },
-    {
       "basename": "Book Note Temp.",
       "path": "Templates/Book Note Temp..md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "Connecting to the Cisco Device",
       "path": "Notes/Connecting to the Cisco Device.md"
-    },
-    {
-      "basename": "Cisco IOS Software Intro",
-      "path": "Notes/Cisco IOS Software Intro.md"
-    },
-    {
-      "basename": "Private IP Addresses",
-      "path": "Notes/Private IP Addresses.md"
     }
   ],
   "omittedPaths": [],

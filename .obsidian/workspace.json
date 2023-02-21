@@ -85,14 +85,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random/angel song.md",
+                "file": "Reference/Books/The 7 habits of highly effective people summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a22a567d7f5ea52a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random/angel song.md",
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random/angel song.md",
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random/angel song.md"
+                "file": "Random/Network Engineer Roadmap to Network Automation Engineer.md"
               }
             }
           },
@@ -253,17 +265,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9297c4a9cda0918c",
+  "active": "a22a567d7f5ea52a",
   "lastOpenFiles": [
+    "Notes/Untitled.md",
+    "Reference/Books/The 7 habits of highly effective people summary.md",
+    "Reference/Books/Every word a Song.md",
     "Random/Ultralearning.md",
+    "Random/angel song.md",
     "Notes/STUDY PLAN 4 NETWORKING 2023.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
     "Templates/CCNA Exam Note Template.md",
     "Random/Network Engineer Roadmap to Network Automation Engineer.md",
-    "Random/Notes on HWT SOW.md",
-    "Random/Things i did today 12622.md",
-    "Notes/CCNA Study spreadsheet.md",
-    "Metalearning/Networking.md",
-    "Templates/Metalearning Template.md"
+    "Random/Notes on HWT SOW.md"
   ]
 }
