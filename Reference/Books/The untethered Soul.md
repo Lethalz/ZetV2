@@ -89,14 +89,14 @@ Even after letting go, you will still have thoughts, emotions, and a self-concep
 
 After letting go, you will not identify with anything outside your sense of Self.
 
-## #12: Don't Hold on to expeirences Good or Bad
+## #12: Don't Hold on to expierences Good or Bad
 
 Learn to let things pass through you instead of holding on the them for the future enjoy them for what they are now, whether good or bad. Because you only have one live and all of it is part of the expeirence.
 
 Begin healthy wouldn't feel as good if there was no pain.
 Beling alive wouldnt be as exciting if there wasn't death.
 
-You are not your experiences you are only the one observing them.
+"Your experiences are **not you**; they are only the contents of your consciousness. What you are is the conscious observer of those contents." - Eckhart Tolle
 
 ## #15: Death Teaches Us Unique Lessons
 

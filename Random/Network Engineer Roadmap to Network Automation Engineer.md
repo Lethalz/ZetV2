@@ -25,6 +25,8 @@ AZ-900
 
 CCNP - (After doing multiple projects (listed below) and getting alot of experience)
 
+CISSP - Not to be a security guru but to properly secure systems  (need 4 years)
+
 RHCE/RHCSA - By this time you'll know where to put this my boy
 
  [VMware Certified Professional - Network Virtualization 2023](https://www.vmware.com/learning/certification/vcp-nv-nsxt.html)
@@ -74,6 +76,20 @@ Cybersecurity: Since networking and cybersecurity are closely related, learning 
 
 This is going to be huge in the industry when it comes to networking. learn how and why this works and use it to your advantage, especially since gpt-4 is coming out fairly soon.
 
+1.  "AI for Network Engineers" course on Udemy: This course provides an introduction to AI for network engineers and covers topics like machine learning, deep learning, and neural networks.
+    
+2.  "AI in Networking" book by Ajit Jaokar: This book provides a comprehensive overview of AI in networking and covers topics like network security, optimization, and management.
+    
+3.  "Artificial Intelligence for Network Optimization" paper by Xiaoliang Wang et al.: This paper provides a detailed overview of AI-based network optimization techniques and algorithms.
+    
+4.  "AI in Network Security" course on Coursera: This course provides an introduction to AI-based network security solutions like firewalls and intrusion detection systems.
+    
+5.  "Practical AI for the Network Engineer" video series by NetworkChuck: This video series provides a practical introduction to AI for network engineers and covers topics like machine learning, natural language processing, and computer vision.
+
+## Soft skills
+
+Persuasion and influence
+StoryTelling - Selling yourself
 
 ## Labbing
 #### Virtual

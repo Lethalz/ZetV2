@@ -1,6 +1,6 @@
 2302222143
 	Status: #book 
-		Tags: 
+		Tags: [[Self-Study]] [[Learning]] [[Autodidact]]
 
 # Ultralearning
 
