@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "CCNA MetaLearning",
-      "path": "Notes/CCNA MetaLearning.md"
+      "basename": "Guitar Practice 2.26.2023-TBA",
+      "path": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md"
+    },
+    {
+      "basename": "Practicing with a metronome",
+      "path": "Guitar/Practicing with a metronome.md"
+    },
+    {
+      "basename": "Most Important Chord changes",
+      "path": "Guitar/Most Important Chord changes.md"
+    },
+    {
+      "basename": "Guitar random",
+      "path": "Guitar/Guitar random.md"
+    },
+    {
+      "basename": "Daily Vitamin and Supplements",
+      "path": "Notes/Daily Vitamin and Supplements.md"
+    },
+    {
+      "basename": "Studying For Exams",
+      "path": "Notes/Studying For Exams.md"
     },
     {
       "basename": "CCNA (200-301) Cram Notes",
       "path": "Reference/Exams/CCNA (200-301) Cram Notes.md"
+    },
+    {
+      "basename": "CCNA MetaLearning",
+      "path": "Notes/CCNA MetaLearning.md"
     },
     {
       "basename": "CCNA Study spreadsheet",
@@ -17,8 +41,8 @@
       "path": "Notes/CCNA Two month study plan.md"
     },
     {
-      "basename": "Studying For Exams",
-      "path": "Notes/Studying For Exams.md"
+      "basename": "Ultralearning",
+      "path": "Reference/Books/Ultralearning.md"
     }
   ],
   "omittedPaths": [],

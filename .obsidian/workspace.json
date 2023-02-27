@@ -1,76 +1,64 @@
 {
   "main": {
-    "id": "32262d5cac352864",
+    "id": "2081991e89eec5c0",
     "type": "split",
     "children": [
       {
-        "id": "34cdf1b3cd8e2cea",
+        "id": "73ae48f48f115b96",
         "type": "tabs",
         "children": [
           {
-            "id": "6cc9d9d6827111bc",
+            "id": "bad07d8001221c3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Exams/Security+ Study Guide.md",
+                "file": "Notes/Studying For Exams.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e1850004cd8c478",
+            "id": "d2d4bb9e0b94bef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random/Cert order.md",
+                "file": "Guitar/Practicing with a metronome.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f01419072d95dad1",
+            "id": "c6f57fbc36c03854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Books/The 4 Hour Workweek.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1e34332ea58f65e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Books/Ultralearning.md",
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ee34ab8dba75a96a",
+    "id": "4f9cb962b4ed8118",
     "type": "split",
     "children": [
       {
-        "id": "43115d2f8601ef68",
+        "id": "69f89f07c6206325",
         "type": "tabs",
         "children": [
           {
-            "id": "9d35ee8173509f6e",
+            "id": "ca3e190cb7d06f74",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,14 +68,14 @@
             }
           },
           {
-            "id": "342a1f6b174b4aa8",
+            "id": "3faa721987a386fa",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "WGU",
-                "matchingCase": true,
-                "explainSearch": true,
+                "query": "tag:#Guitar",
+                "matchingCase": false,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -95,7 +83,7 @@
             }
           },
           {
-            "id": "22a66dfa9f9e1d29",
+            "id": "2bebd36a0cb9f192",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -103,7 +91,7 @@
             }
           },
           {
-            "id": "4e924a95d0309326",
+            "id": "4a34ebb234ce4864",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -114,23 +102,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 300
   },
   "right": {
-    "id": "20ebcc9b30bc3808",
+    "id": "d821ee39265c2f16",
     "type": "split",
     "children": [
       {
-        "id": "62b0357293a62570",
+        "id": "e8ee04e73457557a",
         "type": "tabs",
         "children": [
           {
-            "id": "a7bf40da4cfc1c33",
+            "id": "df8700c9d17e81f9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Books/Ultralearning.md",
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,19 +130,19 @@
             }
           },
           {
-            "id": "d91a1e05fb34174c",
+            "id": "21dda47add38314e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Books/Ultralearning.md",
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0def12f4ef0a11f1",
+            "id": "e4c36a6ad02bcde6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,17 +153,17 @@
             }
           },
           {
-            "id": "72fd844cfe9b9442",
+            "id": "e9c3c9a8ab33c842",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Books/Ultralearning.md"
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md"
               }
             }
           },
           {
-            "id": "2e29124935918654",
+            "id": "4c09dee75e29ddff",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -192,6 +180,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "janitor:Janitor: scan vault": false,
+      "dbfolder:Create a new database table": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -200,53 +199,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1e34332ea58f65e",
+  "active": "ca3e190cb7d06f74",
   "lastOpenFiles": [
-    "Reference/Books/The 4 Hour Workweek.md",
-    "Reference/Books/Ultralearning.md",
-    "Random/Cert order.md",
-    "Reference/Books/THe 4 hour workweek.md",
-    "Reference/Exams/Security+ Study Guide.md",
-    "Notes/Notes.md",
-    "Reference/Exams/Google Project managment.md",
-    "Reference/Exams/CCNA (200-301) Cram Notes.md",
-    "Random/Network Engineer Roadmap to Network Automation Engineer.md",
-    "Random/angel song.md",
-    "Metalearning/Networking.md",
-    "Metalearning",
     "Guitar/Practicing with a metronome.md",
+    "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
+    "Guitar/Practice Routines",
     "Guitar/Most Important Chord changes.md",
     "Guitar/Guitar random.md",
-    "Guitar",
-    "Files/README.txt",
-    "Files",
-    "Practice test/Secuirty + Pracctice test domain 1.md",
-    "Practice test",
-    "Random/Ultralearning.md",
-    "Random/ROADMAP (IMPORTANT).md",
-    "Random/Notes on HWT SOW.md",
-    "Random/English Vocabulary words.md",
-    "Random/ChatGPT prompts.md",
-    "Random",
-    "Templates/Write-Up Template.md",
-    "Templates/Security + Exam Note template.md",
-    "Templates/Metalearning Template.md",
-    "Templates/Map of content template.md",
-    "Templates/Guitar Template.md",
-    "Templates/Fleeting Thought Template.md",
-    "Templates",
-    "Reference/Exams/Files/Pasted image 20220828194009.png",
-    "Reference/Exams/Files/Pasted image 20220828193334.png",
-    "Reference/Exams/Files/Pasted image 20220828192951.png",
-    "Reference/Books/Files/Pasted image 20220821151002.png",
-    "Reference/Write-up/Over the wire Bandit",
-    "Reference/Files/Pasted image 20220817135806.png",
-    "Reference/Exams/Files",
-    "Reference/Books/Files",
+    "Notes/Daily Vitamin and Supplements.md",
+    "Notes/Studying For Exams.md",
+    "Reference/Exams/CCNA (200-301) Cram Notes.md",
+    "Notes/CCNA MetaLearning.md",
+    "Notes/CCNA Study spreadsheet.md",
+    "Notes/CCNA Two month study plan.md",
+    "Reference/Books/Ultralearning.md",
+    "Attachments/Pasted image 20230103165125.png",
+    "Attachments/Pasted image 20221117135906.png",
+    "Attachments/Pasted image 20221112125642.png",
+    "Attachments/cb16997e8a23fc2fec73c40579fc338b.png",
     "Attachments/ca7621e78e0cf30bc3a684f46c6ad599.png",
     "Attachments/c9d07c2518415876f58747ed40bc403f.png",
     "Attachments/b9a18f81f45ce19617d57d7e98879a80.png",
     "Attachments/b3a289a094c040232cef06445262cd7f.png",
-    "Attachments/b193c95217d51acf5c06b12f589f4a0d.png"
+    "Attachments/b193c95217d51acf5c06b12f589f4a0d.png",
+    "Attachments/93fe8071cad5e02b8c64b3681d761faf.png",
+    "Attachments",
+    "Templates/Write-Up Template.md",
+    "Templates/Security + Exam Note template.md",
+    "Templates/Map of content template.md",
+    "Templates/Metalearning Template.md",
+    "Templates/Fleeting Thought Template.md",
+    "Templates/Guitar Template.md",
+    "Templates/Core Note Template.md",
+    "Templates/CCNA Exam Note Template.md",
+    "Templates/Book Note Temp..md",
+    "Templates/AI Template.md",
+    "Templates",
+    "Reference/Write-up/Over the wire Bandit/Bandit Level 13.md",
+    "Reference/Write-up/Over the wire Bandit",
+    "Reference/Plugin Help/Plugin Glossary.md",
+    "Reference/Exams/Security+ Study Guide.md",
+    "Reference/Exams/Google Project managment.md",
+    "Reference/Exams/Files",
+    "Reference/Books/Uncommon sense Teaching.md",
+    "Reference/Books/Files",
+    "Reference/Write-up",
+    "Reference/README.txt",
+    "Reference/Plugin Help",
+    "Reference/Files"
   ]
 }
