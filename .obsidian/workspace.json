@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Studying For Exams.md",
+                "file": "Notes/Daily Vitamin and Supplements.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
+                "file": "Notes/Daily Vitamin and Supplements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
+                "file": "Notes/Daily Vitamin and Supplements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md"
+                "file": "Notes/Daily Vitamin and Supplements.md"
               }
             }
           },
@@ -201,13 +200,13 @@
   },
   "active": "ca3e190cb7d06f74",
   "lastOpenFiles": [
+    "Notes/Studying For Exams.md",
     "Guitar/Practicing with a metronome.md",
     "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
     "Guitar/Practice Routines",
     "Guitar/Most Important Chord changes.md",
     "Guitar/Guitar random.md",
     "Notes/Daily Vitamin and Supplements.md",
-    "Notes/Studying For Exams.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
     "Notes/CCNA MetaLearning.md",
     "Notes/CCNA Study spreadsheet.md",
