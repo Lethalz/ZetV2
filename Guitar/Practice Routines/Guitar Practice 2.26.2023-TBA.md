@@ -56,12 +56,38 @@ Learn all the notes in the open positoin
 Learn all the names of the 3&4 chords
 
 
+Cadd9
+<img src ='https://images.ctfassets.net/r1mvpfown1y6/59Mn8WAZn0zvrJlnURusvm/d5b1f3760d7b72e8c7fe7d31d1a98171/Cadd9-hero.jpeg'>
 
 
 
 
+## D sus4 Chord
 
 
+![[34-Dsus4.gif]]
+
+
+
+## A7 sus 4 Chord
+
+![[34-A7sus4.gif]]
+
+
+
+## E min7 Chord
+
+![[34-Emin7.gif]]
+
+
+## D add11/F# Chord
+
+![[34-Dadd11_fs.gif]]
+
+
+## F 6/9 Chord
+
+![[34-F69.gif]]
 
 
 ---

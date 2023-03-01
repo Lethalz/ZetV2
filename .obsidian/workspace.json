@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Daily Vitamin and Supplements.md",
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily Vitamin and Supplements.md",
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Daily Vitamin and Supplements.md"
+                "file": "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md"
               }
             }
           },
@@ -198,15 +199,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca3e190cb7d06f74",
+  "active": "c6f57fbc36c03854",
   "lastOpenFiles": [
+    "Attachments/34-F69.gif",
+    "Attachments/34-Dadd11_fs.gif",
+    "Attachments/34-Emin7.gif",
+    "Attachments/34-A7sus4.gif",
+    "Attachments/34-Dsus4.gif",
+    "Notes/Daily Vitamin and Supplements.md",
     "Notes/Studying For Exams.md",
     "Guitar/Practicing with a metronome.md",
     "Guitar/Practice Routines/Guitar Practice 2.26.2023-TBA.md",
     "Guitar/Practice Routines",
     "Guitar/Most Important Chord changes.md",
     "Guitar/Guitar random.md",
-    "Notes/Daily Vitamin and Supplements.md",
     "Reference/Exams/CCNA (200-301) Cram Notes.md",
     "Notes/CCNA MetaLearning.md",
     "Notes/CCNA Study spreadsheet.md",
@@ -218,10 +224,6 @@
     "Attachments/cb16997e8a23fc2fec73c40579fc338b.png",
     "Attachments/ca7621e78e0cf30bc3a684f46c6ad599.png",
     "Attachments/c9d07c2518415876f58747ed40bc403f.png",
-    "Attachments/b9a18f81f45ce19617d57d7e98879a80.png",
-    "Attachments/b3a289a094c040232cef06445262cd7f.png",
-    "Attachments/b193c95217d51acf5c06b12f589f4a0d.png",
-    "Attachments/93fe8071cad5e02b8c64b3681d761faf.png",
     "Attachments",
     "Templates/Write-Up Template.md",
     "Templates/Security + Exam Note template.md",
@@ -240,7 +242,6 @@
     "Reference/Exams/Security+ Study Guide.md",
     "Reference/Exams/Google Project managment.md",
     "Reference/Exams/Files",
-    "Reference/Books/Uncommon sense Teaching.md",
     "Reference/Books/Files",
     "Reference/Write-up",
     "Reference/README.txt",
