@@ -7,7 +7,7 @@ Status
 CCNA
 
 - [ ] Not Started
-- [ ] In Progress
+- [x] In Progress
 - [ ] Completed
 
 Linux+
@@ -28,6 +28,8 @@ Devnet Professional
 - [ ] In Progress
 - [ ] Completed
 
+Devnet
+
 CCNP Enterprise/ENARSI
 
 - [ ] Not Started
@@ -35,6 +37,12 @@ CCNP Enterprise/ENARSI
 - [ ] Completed
 
 CCNP ENAUTO
+
+- [ ] Not Started
+- [ ] In Progress
+- [ ] Completed
+
+CCNP #### [300-420 ENSLD](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ensld-300-420.html)
 
 - [ ] Not Started
 - [ ] In Progress

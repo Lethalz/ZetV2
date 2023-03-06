@@ -24,8 +24,9 @@ Cisco DevNet Associate - before CCNP Automation is huge
 AZ-900 
 
 CCNP - (After doing multiple projects (listed below) and getting alot of experience)
+[[CCNP Study materials]]
 
-CISSP - Not to be a security guru but to properly secure systems  (need 4 years)
+
 
 RHCE/RHCSA - By this time you'll know where to put this my boy
 
@@ -96,6 +97,8 @@ StoryTelling - Selling yourself
 Arista
 
 GNS3
+
+## Security
 
 #### Physical
 
@@ -202,6 +205,7 @@ Study.com credits into WGU classes
 Palo Alto Networks Certified Network Security Engineer (PCNSE) certification
 
 Cisco DevNet Associate
+www
 
 Certified Information Systems Security Professional (CISSP)
 
