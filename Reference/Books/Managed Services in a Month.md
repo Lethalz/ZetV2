@@ -1,6 +1,6 @@
 2210071602
 	Status: #book 
-		Tags: 
+		Tags: [[MSP]]
 
 # Managed Services in a Month
 What is Managed Service?

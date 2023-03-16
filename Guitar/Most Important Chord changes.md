@@ -1,6 +1,6 @@
 2301062134
 	Status: #Guitar
-		Tags: 
+		Tags: [[Guitar Chords]]
 
 
 # Most Important Chord changes

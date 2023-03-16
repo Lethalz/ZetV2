@@ -218,3 +218,6 @@ VCP6-DCV: VMWARE CERTIFIED PROFESSIONAL 6 – DATA CENTER VIRTUALIZATION
 Project Management Professional (PMP)
 
 [NSE 4 Network Security Professional - Fortinet Training Institute](https://training.fortinet.com/local/staticpage/view.php?page=nse_4)
+
+
+https://i.imgur.com/NIVCU4P.png

@@ -4,9 +4,6 @@
 
 # Ultralearning
 
-## Ultralearning Short Summary
-
-Ultralearning by Scott H. Young is a book that will teach you one of the most valuable skills of the 21st century – learning fast. Scott details the experiences of people who have applied the skill of ultralearning and in the process shares valuable lessons that we can all apply in our own learning pursuits. A great book with many valuable lessons.
 
 ## Why Ultralearning Matters?
 

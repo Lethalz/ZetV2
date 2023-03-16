@@ -10,12 +10,13 @@
 ### The OSI model
 [[The OSI Model]]
 
-### Hex and Binary
+### Hex and Binary and Subnetting
 [[Hexadecimal]]
 [[Subnetting and Binary]] (IP CLASSES INCL.)
 [[IP subnet chart]]
 [[Subnetting example]]
 [[Subnetting cheet sheet]]
+[[Fixed-Length Subnet Mask(FLSM)]]
 
 ### TCP/IP and Ethernet
 [[TCPIP networking]]
