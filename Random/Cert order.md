@@ -10,7 +10,7 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
-Powershell Deepdive
+Python Fundamentals
 
 - [ ] Research
 - [ ] In Progress
@@ -22,29 +22,17 @@ Cisco Devnet associate
 - [ ] In Progress
 - [ ] Completed
 
-md - 102
-
-
+AZ-900 (not taking test)
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-https://learn.microsoft.com/en-us/certifications/exams/ms-102
+AZ-104
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-Learn about server administration
-
-Hone skills youngin for a little
-
-az 104
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-az 305
+AZ-305
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -78,11 +66,6 @@ DevNet Professional
 - [ ] In Progress
 - [ ] Completed'
 
-DevNet ENAUTO
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AWS Advanced Networking
 
