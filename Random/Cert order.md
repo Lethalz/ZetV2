@@ -10,6 +10,30 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
+
+
+AZ-900 (not taking test)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+LPI Linux Fundamentals
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-305
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
 Python Fundamentals
 
 - [ ] Research
@@ -18,21 +42,6 @@ Python Fundamentals
 
 Cisco Devnet associate
 
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AZ-900 (not taking test)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AZ-305
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
