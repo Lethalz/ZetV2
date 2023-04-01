@@ -257,3 +257,11 @@ Winifred Gallagher saying, “I’ll live the focused life, because it’s the b
 
 
 # Reference
+
+
+- [[Notes/Time management tips]]
+- [[Notes/The four Focuses]]
+- [[Notes/Learning new things]]
+- [[Notes/Ephiphanies on Money]]
+- [[Notes/“Someone’s sitting in the shade today because someone planted a tree a long time ago.” ~ Warren Buffet]]
+- [[Notes/Live for yourself]]

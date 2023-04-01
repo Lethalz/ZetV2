@@ -9,3 +9,6 @@ Start today and reap the benefits tommorow.
 
 ---
 # Reference
+- [[Notes/3 stock trading mindset lessons]]
+- [[Notes/Live for yourself]]
+- [[Notes/Buffet Investing approach questions]]

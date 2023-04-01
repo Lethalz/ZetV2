@@ -24,3 +24,8 @@ h
 # Reference
 
  THE 5AM CLUB by Robin Sharma
+- [[Notes/Ephiphanies on Money]]
+- [[Notes/Learning order control]]
+- [[Notes/Daily reflections for Journaling]]
+- [[Notes/Side Hustle]]
+- [[Notes/IT Lessons]]

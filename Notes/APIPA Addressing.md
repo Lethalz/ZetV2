@@ -13,3 +13,13 @@ Allows two computers on the same segmented network or hardwired to speak with ea
 
 ---
 # Reference
+
+- [[Notes/CIDR Notation]]
+- [[Notes/Subnetting ref]]
+- [[Notes/IP subnet chart]]
+- [[Notes/Subnetting example]]
+- [[Notes/Private IP Addresses]]
+- [[Notes/How To Do Subnetting in 6 steps]]
+- [[Reference/Exams/CCNA (200-301) Cram Notes]]
+- [[Notes/Cisco IOS Software Intro]]
+- [[Notes/Network Devices]]

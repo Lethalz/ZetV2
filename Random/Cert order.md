@@ -10,7 +10,10 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
-
+Fortigate labs
+- [x] Research
+- [x] In Progress
+- [ ] Completed
 
 AZ-900 (not taking test)
 - [ ] Research

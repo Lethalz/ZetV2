@@ -22,3 +22,6 @@
 ---
 # Reference
 https://docs.google.com/presentation/d/17UrIul1McMLP6UzO5j-N6j6st4PRLPznFZG-7fZ94no/edit#slide=id.p322  Slide 122
+- [[Notes/Before investing in a company]]
+- [[Notes/3 stock trading mindset lessons]]
+- [[Notes/“Someone’s sitting in the shade today because someone planted a tree a long time ago.” ~ Warren Buffet]]
