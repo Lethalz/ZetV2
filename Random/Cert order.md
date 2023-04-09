@@ -4,18 +4,17 @@ Certification
 
 Status
 
+## Associate
+
+
 CCNA
 
 - [x] Research
 - [x] In Progress
 - [ ] Completed
 
-Fortigate labs
-- [x] Research
-- [x] In Progress
-- [ ] Completed
 
-AZ-900 (not taking test)
+AZ-900
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -25,6 +24,14 @@ LPI Linux Fundamentals
 - [ ] In Progress
 - [ ] Completed
 
+DevNet Associate
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+## Professional
 
 AZ-104
 - [ ] Research
@@ -36,18 +43,6 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
-
-Python Fundamentals
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-Cisco Devnet associate
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 CCNP #### [300-420 ENSLD](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ensld-300-420.html)
@@ -63,6 +58,9 @@ CCNP Enterprise
 - [ ] In Progress
 - [ ] Completed
 
+
+
+## Expert
 
 
 VCP-NV 
@@ -86,7 +84,6 @@ AWS Advanced Networking
 - [ ] Completed'
 
 
-wireless design engineer
 
 
 

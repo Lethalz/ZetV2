@@ -36,5 +36,3 @@ CCNP
 -   Go 
     
 -   Third Cloud: GCP
-
-CCIE
