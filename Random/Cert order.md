@@ -10,17 +10,17 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
-Fortigate labs
-- [x] Research
-- [x] In Progress
-- [ ] Completed
-
-AZ-900 (not taking test)
+Powershell 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 LPI Linux Fundamentals
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-900 (not taking test)
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -36,6 +36,10 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
+AZ-500
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 Python Fundamentals
 

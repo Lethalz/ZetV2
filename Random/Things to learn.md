@@ -19,6 +19,8 @@
 
 CCNP
 
+- DevNet Professional
+
 -   Docker
     
 -   Puppet/Chef/Ansible

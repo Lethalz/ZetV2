@@ -196,3 +196,10 @@ To use DHCP for getting an IP use **ip address dhcp**
 
 ---
 # Reference
+
+- [[Notes/Network Devices]]
+- [[Notes/Cisco IOS Software Intro]]
+- [[Notes/Configuration File Administration]]
+- [[Notes/Subnetting and Binary]]
+- [[Reference/Exams/CCNA (200-301) Cram Notes]]
+- [[Notes/Connecting to the Cisco Device]]
