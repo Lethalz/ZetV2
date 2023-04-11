@@ -19,7 +19,7 @@
 
 CCNP
 
--   Docker
+-   Docker/Kubernetes
     
 -   Puppet/Chef/Ansible
     
@@ -31,7 +31,7 @@ CCNP
     
 -   Terraform
     
--   Kubernetes
+-   System Design
     
 -   Go 
     
