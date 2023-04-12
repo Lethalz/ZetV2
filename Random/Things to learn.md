@@ -15,9 +15,11 @@
 -   Python
 
 -  DevNet Asc
+- 
+- Splunk
     
 
-CCNP
+CCNP Security and Automation
 
 -   Docker/Kubernetes
     

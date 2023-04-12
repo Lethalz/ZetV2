@@ -25,7 +25,7 @@ Two core abilities to thrive in the new technological market:
 2. The ability to produce at an elite level. (Quality and Speed)
 Deep Work is piviotal to creating these two abilities.
 
-Deliberate Practice :
+Deliberate Practice : ^82d025
 1. Your attention is focused tightly on a specific skill you are trying to improve or master
 		deliberate practice cannot exist alongside distraction, your practice must be deliberate and important.
 2. Recieve feedback so you can correct your approach to keep your attention where it's most productive

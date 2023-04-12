@@ -43,38 +43,24 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
+Palo alto networks PNCSE
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
 
-w
-CCNP #### [300-420 ENSLD](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ensld-300-420.html)
+
+CCNP Security
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
 
 
-CCNP Enterprise
+CCNP security automation
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
-
-
-## Expert
-
-
-VCP-NV 
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
-
-
-DevNet Professional 
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
 
 
 AWS Advanced Networking
@@ -82,6 +68,22 @@ AWS Advanced Networking
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
+
+VCP-NV 
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
+## Expert
+
+
+CISSP
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
+
+
 
 
 
