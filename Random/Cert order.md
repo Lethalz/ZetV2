@@ -4,7 +4,7 @@ Certification
 
 Status
 
-## Associate
+## FUNDAMENTALS
 
 
 CCNA
@@ -13,16 +13,22 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
+MS-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 AZ-900
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-LPI Linux Fundamentals
+RHCSA
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
 
 DevNet Associate
 
@@ -30,10 +36,21 @@ DevNet Associate
 - [ ] In Progress
 - [ ] Completed
 
+## Cloud Admin 
+
+MS-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 ## Professional
 
-AZ-104
+AZ-500
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -43,41 +60,44 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
-Palo alto networks PNCSE
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
 
 
-CCNP Security
+CCNP 
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
 
 
-CCNP security automation
+CCNP automation
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 
-AWS Advanced Networking
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
-
 VCP-NV 
 
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed'
+- [ ] Completed
+
+RHCE
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
 ## Expert
 
+CASP+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
 
-CISSP
+
+
+CCIE
 
 - [ ] Research
 - [ ] In Progress
@@ -85,6 +105,15 @@ CISSP
 
 
 
+PMP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+CISSP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 
 
