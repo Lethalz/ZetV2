@@ -1,6 +1,6 @@
 
   CCNA
--   Primary Cloud: Azure
+-   Primary Cloud: Azure/365
     
 -   Linux Fundamentals
 
@@ -15,8 +15,7 @@
 -   Python
 
 -  DevNet Asc
-- 
-- Splunk
+
     
 
 CCNP Security and Automation

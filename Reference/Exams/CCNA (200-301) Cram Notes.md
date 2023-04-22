@@ -55,6 +55,16 @@
 [[Spanning Tree Protocol Concepts]]
 [[RSTP and EtherChannel Configuration]]
 
+
+## Routing Protocols
+
+[[IGP and EGP]]
+[[Protocol Metrics]]
+[[Administrative Distance]] 
+[[Loopback interfaces]] 
+[[Adjacencies and Passive Interfaces]]
+
+
 ---
 # Reference
 [[CCNA Two month study plan]] 
