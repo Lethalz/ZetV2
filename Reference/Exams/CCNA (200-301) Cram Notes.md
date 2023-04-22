@@ -40,6 +40,7 @@
 [[CLI Help Features]]
 [[Configuration File Administration]]
 [[Misc Commands]] 
+[[The Config Register]]
 
 ## Level 2 Switching
 [[Basic Switch Management]]
