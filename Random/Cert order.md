@@ -13,11 +13,6 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
-MS-900
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
 
 AZ-900
 - [ ] Research
@@ -62,15 +57,20 @@ AZ-305
 
 
 
-CCNP 
+CCNP security SCOR
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
 
 
-CCNP automation
+CCNP SISE
 
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -97,7 +97,7 @@ CASP+
 
 
 
-CCIE
+CCIE security
 
 - [ ] Research
 - [ ] In Progress
