@@ -56,6 +56,11 @@ AZ-305
 - [ ] Completed
 
 
+CCSP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 CCNP security SCOR
 
