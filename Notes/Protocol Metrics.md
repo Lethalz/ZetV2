@@ -31,8 +31,10 @@ If not configured the lowest hop count will be used
 
 EIGRP MEtric
 
-Uses the bandwidth and delay of links to calculate the metric
+Uses the bandwidth and delay of links to calculate the composite metric
 You can manually conigure the delay on links
+
+So even though it is a distance vector there are other factors that affect the Metric
 
 
 

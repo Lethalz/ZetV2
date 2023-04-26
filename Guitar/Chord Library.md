@@ -24,11 +24,13 @@
 
 ![[34-Dadd11_fs.gif]]
 
+# F 
 
 ## F 6/9 Chord
 
 ![[34-F69.gif]]
 
+![[OF-Fmaj7-chord.png]]
 
 
 
