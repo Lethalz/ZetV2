@@ -40,6 +40,11 @@ print(f"Each person should pay: ${final_amount}"
 
 
 
-What we learned on day 3: 
-
+What we learned on day 2: 
+-   On the second day of the course, we learned how to use Python to calculate a tip and split a bill between multiple people.
+-   We started by using the `print()` function to display a welcome message and prompt the user for input.
+-   We used the `float()` function to convert a string input into a floating-point number, which allowed us to perform mathematical operations on it.
+-   We also used the `int()` function to convert a string input into an integer, which was used to calculate the tip as a percentage.
+-   Next, we used arithmetic operators, such as multiplication and division, to calculate the total tip amount, the total bill (including tip), and the bill per person.
+-   Finally, we used the `round()` function to round the bill per person to two decimal places and displayed the result using the `print()` function with an `f-string` notation that included variables and expressions.
 

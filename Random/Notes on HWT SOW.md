@@ -10,6 +10,7 @@ Unliimited Automated Support
 - We need to find a RMM solution 
 	- i.e Level.io, Atera, Datto
 	- Some include Mobile apps for On-the-go Monitoring
+	- Connectwise, solar winds
 - Need to come up with a good system for pushing updates automatically or scheduling updates remotely.
 - Automated ticket creation from RMM in emergency
 

@@ -13,6 +13,10 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
+CC
+- [x] Research
+- [x] In Progress
+- [ ] Completed
 
 AZ-900
 - [ ] Research
@@ -23,6 +27,8 @@ RHCSA
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+
 
 
 DevNet Associate
@@ -55,11 +61,6 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
-
-CCSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 CCNP security SCOR
@@ -101,6 +102,10 @@ CASP+
 - [ ] Completed'
 
 
+CCSP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 CCIE security
 
