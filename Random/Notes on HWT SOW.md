@@ -16,3 +16,14 @@ Unliimited Automated Support
 
 # Managed Services Response Times
 mAYBE UP THOSE RESPOPNE TIMES FOR CRITICAL TILL WE GET MORE PEOPLE
+
+
+List of things to offer: 
+
+
+1. Email hosting
+2. Persistant monitoring
+3. Problems solved under 15 mins are not billed
+4. antivirus and email filter
+5. Figure out Project billing
+6. 

@@ -18,6 +18,11 @@ CC
 - [x] In Progress
 - [ ] Completed
 
+Ms-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 AZ-900
 - [ ] Research
 - [ ] In Progress
@@ -28,9 +33,6 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-
-
-
 DevNet Associate
 
 - [ ] Research
@@ -38,6 +40,11 @@ DevNet Associate
 - [ ] Completed
 
 ## Cloud Admin 
+
+MD-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 MS-102
 - [ ] Research
@@ -125,7 +132,9 @@ CISSP
 - [ ] In Progress
 - [ ] Completed
 
-
-
+CISM
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 

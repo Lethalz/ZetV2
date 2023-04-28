@@ -185,7 +185,7 @@ In Section IV of $100M Offers, Alex Hormozi shows you “How to make your offer 
 
 In Chapter 11 of $100M Offers, Alex Hormozi discusses how to enhance the offer by understanding human psychology and [habits](https://theprocesshacker.com/blog/the-power-of-habit-charles-duhigg-summary/). Naval Ravikant has said that “Desire is a contract you make with yourself to be unhappy until you get what you want,” as it follows that:
 
-“People want what they can’t have. People want what other people want. People want things only a select few have access to.”
+“People want what they can’t have. People want what other people wanwt. People want things only a select few have access to.”
 
 Essentially, all marketing exists to [influence](https://theprocesshacker.com/blog/influence-book-summary/) the supply and demand curve:
 
