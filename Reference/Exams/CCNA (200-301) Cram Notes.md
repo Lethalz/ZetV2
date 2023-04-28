@@ -64,8 +64,7 @@
 [[Administrative Distance]] 
 [[Loopback interfaces]] 
 [[Adjacencies and Passive Interfaces]]
-
-
+[[RIP and EIGRP]]
 ---
 # Reference
 [[CCNA Two month study plan]] 
