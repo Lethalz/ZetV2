@@ -18,7 +18,7 @@ CC
 - [x] In Progress
 - [ ] Completed
 
-Ms-900
+SC-900
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -33,25 +33,17 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-DevNet Associate
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 ## Cloud Admin 
 
-MD-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-MS-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+[SSCP](https://www.isc2.org/Certifications/SSCP)/or CYSA+
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -69,19 +61,17 @@ AZ-305
 - [ ] Completed
 
 
+RHCE
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
-CCNP security SCOR
+CCNP security SCOR/SISE
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
 
-
-CCNP SISE
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 PCNSE
 - [ ] Research
@@ -89,16 +79,7 @@ PCNSE
 - [ ] Completed
 
 
-VCP-NV 
 
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-RHCE
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 ## Expert
@@ -121,20 +102,11 @@ CCIE security
 - [ ] Completed'
 
 
-
-PMP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
 CISSP
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-CISM
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 
