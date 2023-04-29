@@ -42,20 +42,20 @@ AZ-104
 - [ ] In Progress
 - [ ] Completed
 
-
-[SSCP](https://www.isc2.org/Certifications/SSCP)/or CYSA+
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-## Professional
-
 AZ-500
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 AZ-305
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+## Professional
+
+[SSCP](https://www.isc2.org/Certifications/SSCP)/or CYSA+
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
