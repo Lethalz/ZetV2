@@ -18,12 +18,14 @@ CC
 - [x] In Progress
 - [ ] Completed
 
-SC-900
+
+MD-102
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-AZ-900
+MS-102
+
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -36,6 +38,15 @@ RHCSA
 
 ## Cloud Admin 
 
+MS-500
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-104
 - [ ] Research

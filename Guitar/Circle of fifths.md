@@ -7,6 +7,8 @@
 # Circle of fifths
 
 
+<img src = 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ihEohPybHu0ourZkFHba-Q.png'>
+
 Order Of Sharps: F C G D A E B (Father Charles Goes Down And Ends Battle)
 Order Of Flats: B E A D G C F (Big Ed Actin' Dirty Go Call Father) 
 
@@ -116,6 +118,15 @@ When your moving clockwise its 5ths ascending and 4ths desending (think of on a 
 When your moving counter-clockwise its 5ths desending and 4ths ascending
 
 Gotta Look into Transposing
+
+
+![[f521026701ad970576c2e7370100aa0f.png]]
+
+Diminished is one-half step below the 1 chord (int this case 'C')
+
+Pull chords from parrallel minor
+
+
 ---
 # References
 [7 Ways To Actually Use the Circle of 5ths - YouTube](https://youtu.be/4WxDZ-wSXLY)

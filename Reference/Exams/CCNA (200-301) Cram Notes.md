@@ -65,7 +65,18 @@
 [[Loopback interfaces]] 
 [[Adjacencies and Passive Interfaces]]
 [[RIP and EIGRP]]
+[[OSPF]]
+
+
+
+
 ---
+
+
+
+
+
+
 # Reference
 [[CCNA Two month study plan]] 
 [[CCNA Study spreadsheet]]

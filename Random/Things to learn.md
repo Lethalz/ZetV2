@@ -14,8 +14,6 @@
 
 -   Python
 
--  DevNet Asc
-
 - Splunk
 
 CCNP Security and Automation
