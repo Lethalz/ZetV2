@@ -190,11 +190,22 @@ and then the DR multicasts the updates to everyone else.
 
 ![[367ee39b98be009e2e4b6e23dab92f8f 1.png]]
 
+The router with the highest priority becomes the DR and the router with the second highest priority becomes the BDR.
+
+## Summary Routes
 
 
+Summarize routes going across different areas to take up less space in router memory
 
+```
+R2(config)#router ospf 1
+R2(config-router)#area 0 range 10.1.0.0 255.255.0.0
+R2(config-router)#area 1 range 10.0.0.0 255.255.0.0
+```
 
-
+>[!Notice] 
+>Summary routes do not use wildcards because they specify the acutal network 
+>
 
 
 ---
