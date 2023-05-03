@@ -18,6 +18,26 @@ CC
 - [x] In Progress
 - [ ] Completed
 
+MS-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+MS-203(Email)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+MS-700 (teams sharepoint)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+SC-300(Identity)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 MD-102
 - [ ] Research
@@ -38,10 +58,6 @@ RHCSA
 
 ## Cloud Admin 
 
-MS-500
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-900
 - [ ] Research

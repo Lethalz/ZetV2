@@ -6,11 +6,11 @@
 
 # OSPF Routing Protocol Overview
 
-**OSPF (Open Shortest Path First)** is an Interior Gateway Protocol (IGP). It is a link-state routing protocol that uses the Shortest Path First (SPF) algorithm to calculate the best route. OSPF routing protocol is an open standard, so various network vendors implement it.
+**OSPF (Open Shortest Path First)** is an **Interior Gateway Protocol (IGP).** It is a link-state routing protocol that uses the Shortest Path First (SPF) algorithm to calculate the best route. OSPF routing protocol is an open standard, so various network vendors implement it.
 
-Here are the most important features of OSPF:
+Here are the **most important** features of OSPF:
 
--   A classless routing protocol
+-   A **classless** routing protocol
 -   Supports VLSM, CIDR, manual route summarization, equal cost load balancing
 -   Incremental updates are supported
 -   Uses only one parameter as the metric – the interface cost.
@@ -35,9 +35,12 @@ The process is explained in the following figure:
 
 Routers R1 and R2 are directly connected. After OSPF is enabled, both routers send Hellos to establish a neighbor relationship. You can verify that the neighbor relationship has been established by typing the **‘show ip ospf neighbors’** command.
 
-R1#show ip ospf neighbor 
+
+```R1#show ip ospf neighbor 
 Neighbor ID Pri State Dead Time Address Interface
 2.2.2.2 1 FULL/DR 00:00:30 192.168.0.2 FastEthernet0/0
+```
+
 
 In the example above, you can see that the router-id of R2 is  2.2.2.2. Each OSPF router is assigned a router ID. A router ID is determined by using one of the following:
 
@@ -80,7 +83,8 @@ There is anothe state calld 'full' where each router sends a LSAck
 
 ## OSPF Routing Protocol Areas
 
-OSPF uses the concept of areas. An area is a logical grouping of contiguous networks and routers. All routers in the same area have the same topology table, but they don’t know about routers in the other areas. The main benefits of creating areas are that the size of the topology and the routing table on a router is reduced, less time is required to run the SPF algorithm, and routing updates are also reduced.
+OSPF uses the concept of **areas.** An **area** is a logical grouping of contiguous networks and routers. 
+Areas share the same LSDBs. All routers in the same area have the same topology table, but they don’t know about routers in the other areas. The main benefits of creating areas are that the size of the topology and the routing table on a router is reduced, less time is required to run the SPF algorithm, and routing updates are also reduced.
 
 Each area in the OSPF network has to connect to the backbone area (area 0). All routers inside an area must have the same area ID to become OSPF neighbors. A router with interfaces in more than one area (area 0 and area 1, for example) is called **Area Border Router (ABR)**. A router that connects an OSPF network to other routing domains (EIGRP network, for example) is called **Autonomous System Boundary Router (ASBR)**.
 
@@ -98,6 +102,9 @@ All routers are running OSPF. Routers R1 and R2 are inside the backbone area (ar
 > [!note] 
 > The role of an ABR is to advertise address summaries to neighboring areas. The role of an ASBR is to connect an OSPF routing domain to another external network (e.g. Internet, EIGRP network…).
 
+ABRs maintain a separate LSDB for each area they are connected to. It is recoommended that you connect an ABR to a maximum of 2 areas
+
+Routers that have all of there interfaces in one area are called internal routers.
 ## Reference Bandwidth
 
 Bandwidth default is 100Mbps this is the command to change that

@@ -12,6 +12,8 @@
     
 -   Basic Networking
 
+- SQL 
+
 -   Python
 
 - Splunk
