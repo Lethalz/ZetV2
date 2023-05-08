@@ -18,10 +18,6 @@ CC
 - [x] In Progress
 - [ ] Completed
 
-MS-900
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 MS-203(Email)
 - [ ] Research

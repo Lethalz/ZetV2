@@ -14,7 +14,7 @@ Creating VLAN and assigning interfaces:
 
 -   (config)# **vlan** *n* – Create a VLAN with ID n and enter its configuration context
     
--   (config-vlan)# **name name** – Assign a human readable name to a give VLAN
+-   (config-vlan)# **name**  name – Assign a human readable name to a give VLAN
     
 -   (config-if)# **switchport access vlan** *n* – associate the port with VLAN n
     
@@ -57,6 +57,7 @@ Controlling whether a port is trunking:
 -   (config-if)# **switchport mode dynamic auto** – trunk if the other side is set to trunk or to dynamic desirable, access otherwise
     
 -   (config-if)# **switchport mode dynamic desirable** – initiate trunking with the other side, trunk if the other side is set to dynamic auto, dynamic desirable or trunk, access otherwise
+- (config-if)#**switchport nonegotiate** - Disables DTP
     
 
 Dynamic trunk negotiation is done using **Dynamic Trunking Protocol** (DTP). 
@@ -70,6 +71,30 @@ Set allowed VLANs:
 
 -   (config-if)# **switchport trunk allowed** *vlan range* (can be specified multiple times)
 
+![[158a04e3bd4be61699218c4c353004c8.png]]
+
+>[!Note] 
+>Daisy-chained Phones, the interface that phone is using needs to be configured as a Truck port because it is going to be transmitting data from multiple vlans namely the phone and the accompanying PC connected to the back of it . VMs are VLAN aware and can switch between VLANs whenever they want so the interface they are plugged into also needs to be trunked
+>
+
+For the IP phones they aren't going to be configured as a trunk port but as an 'access' port with trunk qualities
+
+![[19994a377601b0a218f06e47fca7fbbb.png]]
+
+Access would be data
+Voice would be Phone
+
+## Native VLAN
+
+<img src = 'https://i.gyazo.com/6fd454c0983abe77bfda831483a2f024.png'>
+
+
+## Allowed VLANs Config
+
+Lets say you have a switch that has vlan 10, 30, 40 on it. but you have another switch that only has 10, 30. Allowing 40 traffic to go to the switch is a waste of time and bandwidth here is how you change the allowed VLANs on a switch
+
+
+![[dfa30cd5e504dabd742053b09857c4d7.png]]
 
 ### Review config
 
@@ -104,6 +129,7 @@ VTP can operate in three modes:
     
 -   Transparent – Does not participate in VTP, i.e. does not originate VTP advertisements nor does it use them to populate its VLAN database, but it will forward VTP advertisements. In VTPv1, a transparent switch will only forward VTPv1 advertisements in its own domain or if its own domain is empty. In VTPv2, a transparent switch will forward VTP advertisements regardless of domain. A transparent switch maintains its own VLAN database and stores it in NVRAM.
     
+<img src = 'https://i.gyazo.com/9d14f72fa489346bd90eb0fce92deb84.png'>
 
 To set mode:
 
@@ -113,7 +139,9 @@ To set mode:
 To set domain:
 
 -   (config)# vtp domain vtp_domain
-    
+
+<img src = 'https://i.gyazo.com/f33cad8cb91b1738d59a151786723bf7.png'>
+
 
 To set version:
 
@@ -124,6 +152,8 @@ Check VTP status:
 
 -   # show vtp status
     
+
+<img src = 'https://i.gyazo.com/3e9531cc74045d4e5196686459b395cd.png'>
 
 If there are several VTP servers on the network, the one with the highest configuration revision will originate VTP advertisements. In theory, this allows decentralised configuration: switch A makes changes, ups the configuration revision and propagates new configuration to other switches. Switch B can then do the same and propagate its changes, with incremented configuration revision to other switches, including switch A. In practice, however, this may lead to a VTP bomb – if a switch with configuration revision higher than others (e.g. an old switch being repurposed) is attached to a network, it will overwrite VLAN configuration on all switches, And That’s Terrible.
 
@@ -162,8 +192,9 @@ CDP must be enabled on an interface for a voice access port to work with Cisco I
 
 ```
 
+Use **show vlan brief** for a quick overview
 Use **show interfaces** *type* n  to see Access mode VLAN and Voice VLAN settings
-
+Use **show interfaces interface switchport** for verification
 Use **show interfaces** F0/4 **trunk** Tp get some more info
 
 However, using **show interfaces trunk** wont show the IP telephony switchport because it does not consider it a truck.
