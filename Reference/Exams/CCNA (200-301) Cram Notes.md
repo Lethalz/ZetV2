@@ -50,7 +50,7 @@
 
 ## VLANs and STP
 [[Implementing VLANs]]
-
+[[Inter-VLAN routing]]
 
 ## STP and RSTP
 [[Spanning Tree Protocol Concepts]]
