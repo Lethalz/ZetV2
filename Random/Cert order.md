@@ -15,7 +15,7 @@ CCNA
 
 CC
 - [x] Research
-- [x] In Progress
+- [ ] In Progress
 - [ ] Completed
 
 
@@ -35,10 +35,6 @@ SC-300(Identity)
 - [ ] In Progress
 - [ ] Completed
 
-MD-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 MS-102
 
