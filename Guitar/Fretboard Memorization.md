@@ -27,6 +27,17 @@
 	- ETC...
 6. INCREASE THE SPEED FOR STEP 2-5 TO 80 BPM
 
+| B   | E  | D   | A#  |
+| --- | --- | --- | --- |
+| C#  | A   | F#  | G#  |
+| F    |   D#  | C    |  G   |
+
+| Ab  | B   | G   | E   |
+| --- | --- | --- | --- |
+| Eb  | D   | A   | F   |
+| Bb  | Gb  | C   | Db    |
+
+
 
 ---
 # References

@@ -13,11 +13,15 @@ CCNA
 - [x] In Progress
 - [ ] Completed
 
-CC
+CySA+
 - [x] Research
-- [ ] In Progress
+- [ ] In Progressa
 - [ ] Completed
 
+NSE4
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 MS-203(Email)
 - [ ] Research
@@ -74,11 +78,10 @@ AZ-305
 
 ## Professional
 
-[SSCP](https://www.isc2.org/Certifications/SSCP)/or CYSA+
+CASP+
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 RHCE
 - [ ] Research
@@ -92,7 +95,7 @@ CCNP security SCOR/SISE
 - [ ] Completed'
 
 
-PCNSE
+NSE 5
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -103,10 +106,7 @@ PCNSE
 
 ## Expert
 
-CASP+
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
+
 
 
 CCSP
@@ -120,6 +120,10 @@ CCIE security
 - [ ] In Progress
 - [ ] Completed'
 
+NSE 8
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
 
 CISSP
 - [ ] Research

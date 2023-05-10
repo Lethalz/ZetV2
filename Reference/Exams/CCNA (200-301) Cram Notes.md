@@ -72,6 +72,25 @@
 [[Campus Lan Design]]
 [[Spine-leaf NEtwork design]]
 
+## DHCP
+
+[[Cisco DHCP server]]
+[[External DHCP server Config]]
+[[Cisco Router DHCP Client]] 
+
+## HSRP (Hot Standby Router Protocol)
+
+[[Network redundancy]] 
+[[First Hop Redundancy Protocols]]
+[[HSRP Priority and Pre-emption]]
+
+
+
+
+
+
+
+
 
 ---
 

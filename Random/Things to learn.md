@@ -14,7 +14,7 @@
 
 - SQL 
 
--   Python
+- Python
 
 - Splunk
 
