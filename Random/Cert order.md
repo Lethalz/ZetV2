@@ -6,19 +6,15 @@ Status
 
 ## FUNDAMENTALS
 
+Backbone Certs are emboldened 
 
-CCNA
+**CCNA**
 
 - [x] Research
 - [x] In Progress
 - [ ] Completed
 
-CySA+
-- [x] Research
-- [ ] In Progressa
-- [ ] Completed
-
-NSE4
+**RHCSA**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -46,10 +42,17 @@ MS-102
 - [ ] In Progress
 - [ ] Completed
 
-RHCSA
+SSCP
+- [ ] Research
+- [ ] In Progressa
+- [ ] Completed
+
+**NSE4**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+
 
 
 ## Cloud Admin 
@@ -88,6 +91,17 @@ RHCE
 - [ ] In Progress
 - [ ] Completed
 
+VCP-NV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+VCP-DCV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
 CCNP security SCOR/SISE
 
 - [ ] Research
@@ -105,7 +119,6 @@ NSE 5
 
 
 ## Expert
-
 
 
 
