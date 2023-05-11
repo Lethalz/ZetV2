@@ -55,6 +55,11 @@
 ## STP and RSTP
 [[Spanning Tree Protocol Concepts]]
 [[RSTP and EtherChannel Configuration]]
+[[Spanning tree Terminology]]
+[[How STP works]]
+[[Spanning Tree Versions]]
+[[Manipulating Root bridge]]
+[[Portfast,BDPU guard and Root guard]]
 
 
 ## Routing Protocols
