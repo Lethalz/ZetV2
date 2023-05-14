@@ -48,7 +48,7 @@
 [[LAN Switching]]
 
 
-## VLANs and STP
+## VLANs 
 [[Implementing VLANs]]
 [[Inter-VLAN routing]]
 
@@ -60,6 +60,9 @@
 [[Spanning Tree Versions]]
 [[Manipulating Root bridge]]
 [[Portfast,BDPU guard and Root guard]]
+[[EtherChannel 101]]
+[[Etherchannel Configuration]]
+[[Multi-Chassis Etherchannel]]
 
 
 ## Routing Protocols
@@ -72,7 +75,7 @@
 [[RIP and EIGRP]]
 [[OSPF]]
 
-## VLANs
+## Campus Design and Spine Leaf
 
 [[Campus Lan Design]]
 [[Spine-leaf NEtwork design]]

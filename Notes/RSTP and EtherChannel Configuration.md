@@ -68,7 +68,7 @@ Show EtherChannel status:
 -   # show etherchannel n port-channel – show detailed info – including autonegotiation – on the EtherChannel with ID n
     
 
-EtherChannel virtual interfaces are named Port-channeln (usually shortened to Pon), where n is the ID, eg. Po1 for ID 1.
+EtherChannel virtual interfaces are named Port-channels (usually shortened to Pon), where n is the ID, eg. Po1 for ID 1.
 
 Autonegotiation can be achieved with two protocols: Cisco-proprietary PAgP (Port Aggregation Protocol) and IEEE standard LACP (Link Aggregation Control Protocol). They are mostly analogous. At least one side of the link must be set to initiate autonegotiation, the other can be set to wait for the other to begin. This is done with:
 

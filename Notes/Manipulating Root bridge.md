@@ -4,8 +4,8 @@
 
 # Manipulating Root bridge
 
-You can elect the root bride by setting the brige pritotiy which you should make lower than the default
-32768
+You can elect the root bride by setting the bridge priority which you should make lower than the default.
+**32768**
 
 <img src = 'https://i.gyazo.com/24a2cae0ae32284dc4e5c2bdeff8a7ef.png'>
 

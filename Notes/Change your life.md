@@ -1,4 +1,8 @@
+2305130842
+	Status: #idea 
+		Tags: [[Self-Help]]
 
+# Change your life
 
 1 Define your goals
 
@@ -22,6 +26,10 @@ Surrond yourself with supportive people
 Whether thats in a discord chat or on the job
 
 6. This is the only life you have.
+---
+# Reference
+
+
 
 
 

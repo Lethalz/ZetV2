@@ -5,19 +5,19 @@
 # How STP works
 
 
-All switches come with STP enabled.
-When a switch is powered on and plugged in it sends out BDPU packets
-Bridge Data Protocol Unit
-- This contains the switche's Bridge ID (Unique Identifier on LAN)
+All switches come with **STP enabled.**
+When a switch is **powered on** and plugged in it sends out **BDPU** packets
+**Bridge Data Protocol Unit**
+- This contains the switch's **Bridge ID** (Unique Identifier on LAN)
 - Comprised of the switch's unique MAC and a admin defined Bridge Priority Value
 - Can be from 0-65535 (32768 is default)
 
-Using this information the switches(Bridges) in the LAN choose a **Root** bridge based on the lowest switch Priority value (3234 would be root over 52343)
+Using this information the switches(Bridges) in the LAN choose a **Root** bridge based on the **lowest** switch Priority value (3234 would be root over 52343)
 
 In the case of a tie the switch with the lowest MAC address will be selected.
 The switches then build a loop free fowarding path tree that leads back to the **root** bridge
 
-The other (non-root) Bridges(switches) will detect their lowest cost path to the **root** bridge and set those interfaces to a forwarding state.
+The other (non-root) Bridges(switches) will detect their **lowest cost path** to the **root** bridge and set those interfaces to a forwarding state.
 
 this 'Cost' is preffered via **bandwidth**
 

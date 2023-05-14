@@ -19,3 +19,9 @@
 -   The Core layer is the third and final layer in the network design and it is responsible for providing high-speed switching and routing services between the Distribution layer switches.
 -   This layer is typically designed with high-performance switches that provide Layer 3 connectivity and routing services between the Distribution layer switches.
 -   The Core layer switches are responsible for providing a high degree of availability and redundancy, as well as implementing advanced features such as load balancing, multicast routing, and security policies.
+
+
+<img src = 'https://i.gyazo.com/29e32a6753b28dc69815709153f18cf0.png'>
+
+
+<img src = 'https://i.gyazo.com/848ae48954a37d34d23b88eedbb4bb03.png'>
