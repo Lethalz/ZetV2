@@ -1,5 +1,5 @@
 2209021724
-	Status: #Exam
+	Status: #Exam #MOC 
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 
@@ -46,6 +46,15 @@
 [[Basic Switch Management]]
 [[Switch Interfaces]]
 [[LAN Switching]]
+
+## Switch Security
+[[DHCP Snooping]]
+[[Dynamic arp inspection]]
+[[802.1x authentication cisco]]
+[[CCNA Port Security]]
+
+
+
 
 
 ## VLANs 

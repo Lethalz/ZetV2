@@ -39,5 +39,26 @@
 
 
 
+# 12 Week Program
+
+![[555a97cf0de7ff927c37a27517919a8f.png]]
+
+
+
+Each week choose a major and a corresponding minor (eg. C and Cminor)
+Play the notes along with the chord also do the exercise above with each note
+
+
+
+
+
+
+
+
+
+
+
 ---
 # References
+
+[[Circle of fifths]]

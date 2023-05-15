@@ -14,7 +14,7 @@ Backbone Certs are emboldened
 - [x] In Progress
 - [ ] Completed
 
-**RHCSA**
+RHCSA
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -42,7 +42,7 @@ MS-102
 - [ ] In Progress
 - [ ] Completed
 
-SSCP
+**SSCP**
 - [ ] Research
 - [ ] In Progressa
 - [ ] Completed
@@ -52,10 +52,14 @@ SSCP
 - [ ] In Progress
 - [ ] Completed
 
+CySA+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+## Cloud Security
 
 
-
-## Cloud Admin 
 
 
 AZ-900
@@ -73,10 +77,12 @@ AZ-500
 - [ ] In Progress
 - [ ] Completed
 
-AZ-305
+VCP-NV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+
 
 
 ## Professional
@@ -86,21 +92,39 @@ CASP+
 - [ ] In Progress
 - [ ] Completed
 
+
+
+SC-100
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+AZ-305
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 RHCE
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-VCP-NV
+
+AWS Cloud Certified Practitioner
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-VCP-DCV
+AWS Cloud Certified Cloud Architech
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
+
+AWS Certified Security
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 CCNP security SCOR/SISE
 
@@ -121,6 +145,10 @@ NSE 5
 ## Expert
 
 
+VCP-DCV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 CCSP
 - [ ] Research
