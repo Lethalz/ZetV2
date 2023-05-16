@@ -1,6 +1,6 @@
 2208211859
 	Status: #idea 
-		Tags: 
+		Tags: [[business]] [[entrepreneur]]
 
 # You Need to Spend Money to Get Rich
 

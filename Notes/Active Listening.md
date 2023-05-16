@@ -1,6 +1,7 @@
 2304212144
 	Status: #Guitar
-		Tags: 
+		Tags: [[ear training]]
+		
 
 
 # Active Listening
