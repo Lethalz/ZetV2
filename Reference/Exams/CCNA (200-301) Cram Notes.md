@@ -53,6 +53,13 @@
 [[802.1x authentication cisco]]
 [[CCNA Port Security]]
 
+## NAT
+
+[[What is NAT]]
+[[Static NAT]]
+[[Dynamic NAT]]
+[[PAT]]
+
 
 ## ACLs
 [[What are ACLs]]

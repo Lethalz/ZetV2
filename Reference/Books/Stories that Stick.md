@@ -194,9 +194,6 @@ The success of a purpose story hinges on the leader’s ability to make a story 
 
 ---
 
-> Branding is what people say about you when you’re not in the room.
-> 
-> —JEFF BEZOS
 
 You already know the customer story well. You’ve seen its echoes in things like testimonials, reviews, influencer endorsements, referrals, and recommendations. The long history of customers praising (or panning) products is a pastime that just keeps on giving.
 

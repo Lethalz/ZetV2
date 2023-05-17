@@ -19,28 +19,6 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-MS-203(Email)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-MS-700 (teams sharepoint)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-SC-300(Identity)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-MS-102
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 **SSCP**
 - [ ] Research
@@ -52,14 +30,12 @@ MS-102
 - [ ] In Progress
 - [ ] Completed
 
-CySA+
+**Blue Team LVL 1**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 ## Cloud Security
-
-
 
 
 AZ-900
@@ -77,22 +53,6 @@ AZ-500
 - [ ] In Progress
 - [ ] Completed
 
-VCP-NV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-
-
-## Professional
-
-CASP+
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
 
 SC-100
 - [ ] Research
@@ -100,31 +60,19 @@ SC-100
 - [ ] Completed
 
 
-AZ-305
+## Professional
+
+VCP-NV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
 
 RHCE
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-
-AWS Cloud Certified Practitioner
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AWS Cloud Certified Cloud Architech
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
-
-AWS Certified Security
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 CCNP security SCOR/SISE
 
@@ -138,8 +86,11 @@ NSE 5
 - [ ] In Progress
 - [ ] Completed
 
+BTL LV2 
 
-
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 
 ## Expert
@@ -157,6 +108,11 @@ CCSP
 
 CCIE security
 
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
+
+BTLL3
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'

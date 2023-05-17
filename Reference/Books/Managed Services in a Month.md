@@ -130,7 +130,7 @@ Hosted services require no maintenance on your part.
 
 # The Managed Service Model
 
-### New and existing MSPS
+### New and existing MSPs
 
 For new msps it is much better to get clients that are willing to do business within your model than to just go for the biggest clients you can get.
 
