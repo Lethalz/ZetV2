@@ -91,7 +91,7 @@ icmp 155.4.12.1:16     10.0.0.100:16      155.4.12.5:16      155.4.12.5:16
 In the output above you can see that the translation has been made between the Host A’s private IP address (_Inside local, 10.0.0.100_) to the first available public IP address from the pool (_Inside global, 155.4.12.1_) and it is connecting to the server on the outside (_Outside local and Outside global, 155.4.12.5_) .
 
 >[!Note]
-You can remove all NAT translations from the table by using the _clear ip nat translation  add a star at the end to delete all dynamic translations command.
+You can remove all NAT translations from the table by using the _clear ip nat translation  *_ delete all dynamic translations command.
 
 ---
 # Reference
