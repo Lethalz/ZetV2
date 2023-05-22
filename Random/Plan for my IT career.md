@@ -1,6 +1,7 @@
 
 
-Earn My CCNA and Sec+
+Finish All the Funadamentals in my [[Cert order]]
+
 
 - If we don't start getting major business at HWT, start looking for new oppurtunities
 - Use the money from my new job to start taking Credits at Study.com

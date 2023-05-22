@@ -8,6 +8,7 @@ Status
 
 Backbone Certs are emboldened 
 
+
 **CCNA**
 
 - [x] Research
@@ -19,11 +20,16 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-
-**SSCP**
+**Sec +**
 - [ ] Research
 - [ ] In Progressa
 - [ ] Completed
+
+[eJPT](https://info.ine.com/ejpt/)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 **NSE4**
 - [ ] Research
@@ -35,13 +41,16 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-## Cloud Security
-
-
 AZ-900
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+
+## Cloud Security
+
+
+
 
 AZ-104
 - [ ] Research
@@ -66,7 +75,6 @@ VCP-NV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 RHCE
 - [ ] Research
