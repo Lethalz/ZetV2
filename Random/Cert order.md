@@ -15,6 +15,17 @@ Backbone Certs are emboldened
 - [x] In Progress
 - [ ] Completed
 
+
+AZ-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 RHCSA
 - [ ] Research
 - [ ] In Progress
@@ -41,10 +52,7 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-AZ-900
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 
 ## Cloud Security
