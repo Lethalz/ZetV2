@@ -6,8 +6,6 @@ Status
 
 ## FUNDAMENTALS
 
-Backbone Certs are emboldened 
-
 
 **CCNA**
 
@@ -26,21 +24,15 @@ AZ-104
 - [ ] In Progress
 - [ ] Completed
 
-RHCSA
+RHCSA- 400$
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-**Sec +**
+**SSCP**
 - [ ] Research
 - [ ] In Progressa
 - [ ] Completed
-
-[eJPT](https://info.ine.com/ejpt/)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
 
 **NSE4**
 - [ ] Research
@@ -52,18 +44,10 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
+* Python knowledge - should be competant at this point
 
-
-
-## Cloud Security
-
-
-
-
-AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+Practicioner
+----------------
 
 AZ-500
 - [ ] Research
@@ -71,7 +55,18 @@ AZ-500
 - [ ] Completed
 
 
-SC-100
+VCP-NV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+AZ-305
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+NSE 5
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -79,10 +74,6 @@ SC-100
 
 ## Professional
 
-VCP-NV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 RHCE
 - [ ] Research
@@ -96,23 +87,27 @@ CCNP security SCOR/SISE
 - [ ] In Progress
 - [ ] Completed'
 
-
-NSE 5
+NSE 7
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] Completed'
 
-BTL LV2 
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 ## Expert
 
 
 VCP-DCV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+NSE 8
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
+
+CISM
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -128,21 +123,12 @@ CCIE security
 - [ ] In Progress
 - [ ] Completed'
 
-BTLL3
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
-
-NSE 8
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
 
 CISSP
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-
+COMPLETED IN 4 YEARS
 
 
