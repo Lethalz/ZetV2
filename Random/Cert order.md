@@ -39,10 +39,11 @@ RHCSA- 400$
 - [ ] In Progress
 - [ ] Completed
 
-**Blue Team LVL 1**
+VCP-NV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
 
 * Python knowledge - should be competant at this point
 
@@ -55,7 +56,7 @@ AZ-500
 - [ ] Completed
 
 
-VCP-NV
+**Blue Team LVL 1**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
