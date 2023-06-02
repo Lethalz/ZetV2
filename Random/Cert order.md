@@ -13,18 +13,17 @@ Status
 - [x] In Progress
 - [ ] Completed
 
-
-AZ-900
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
 AZ-104
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 RHCSA- 400$
+- [x] Research
+- [ ] In Progress
+- [ ] Completed
+
+VCP-NV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -34,15 +33,12 @@ RHCSA- 400$
 - [ ] In Progressa
 - [ ] Completed
 
-**NSE4**
+**DevNet Associate**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-VCP-NV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 
 * Python knowledge - should be competant at this point
@@ -55,6 +51,10 @@ AZ-500
 - [ ] In Progress
 - [ ] Completed
 
+SC-100
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 **Blue Team LVL 1**
 - [ ] Research
@@ -62,15 +62,11 @@ AZ-500
 - [ ] Completed
 
 
-AZ-305
+AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-NSE 5
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 ## Professional
@@ -88,12 +84,11 @@ CCNP security SCOR/SISE
 - [ ] In Progress
 - [ ] Completed'
 
-NSE 7
+
+CISSP
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed'
-
-
+- [ ] Completed
 
 ## Expert
 
@@ -103,10 +98,6 @@ VCP-DCV
 - [ ] In Progress
 - [ ] Completed
 
-NSE 8
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
 
 CISM
 - [ ] Research
@@ -125,10 +116,7 @@ CCIE security
 - [ ] Completed'
 
 
-CISSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 COMPLETED IN 4 YEARS
 
