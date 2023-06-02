@@ -1,8 +1,4 @@
 
-MS-203(Email)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 MS-700 (teams sharepoint)
 - [ ] Research
