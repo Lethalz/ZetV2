@@ -181,3 +181,6 @@ How to experiment:
 5.  **Explore the extremes**. With any skill, many of the possibilities are in the extreme so push yourself towards that end
 ---
 # Reference
+
+[[Peak]]
+[[Deep Work]]

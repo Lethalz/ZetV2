@@ -265,3 +265,6 @@ Winifred Gallagher saying, “I’ll live the focused life, because it’s the b
 - [[Notes/Ephiphanies on Money]]
 - [[Notes/“Someone’s sitting in the shade today because someone planted a tree a long time ago.” ~ Warren Buffet]]
 - [[Notes/Live for yourself]]
+- [[Reference/Books/Ultralearning|Ultralearning]]
+- [[Peak]]
+- 

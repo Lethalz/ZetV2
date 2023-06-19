@@ -34,7 +34,7 @@ NSE4
 - [ ] Completed
 
 
-Skills to know before professional: Python, Powershell, git, bash, Wireshark.d
+Skills to know before professional: Python, Powershell, git, bash, Wireshark.
 
 
 ## Professional
@@ -49,7 +49,6 @@ AZ-305
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 
 F5 BIG-IP
