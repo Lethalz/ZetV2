@@ -13,10 +13,17 @@ Status
 - [x] In Progress
 - [ ] Completed
 
-AZ-900
+
+SC-300
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+MS-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 NSE4
 - [ ] Research
@@ -38,6 +45,11 @@ Skills to know before professional: Python, Powershell, git, bash, Wireshark.
 
 
 ## Professional
+
+AZ-900 (STUDY)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-104
 - [ ] Research
