@@ -13,27 +13,14 @@ Status
 - [x] In Progress
 - [ ] Completed
 
+- Be dangerous with Powershell by here
 
-SC-300
+AZ-900 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-MS-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-NSE4
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-**SSCP**
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+Learn Python basics before this:
 
 **DevNet Associate**
 - [ ] Research
@@ -41,17 +28,20 @@ NSE4
 - [ ] Completed
 
 
-Skills to know before professional: Python, Powershell, git, bash, Wireshark.
+Skills to know before professional: Python, Powershell, 
+
 
 
 ## Professional
 
-AZ-900 (STUDY)
+
+AZ-104
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-AZ-104
+AZ-700
+
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -62,12 +52,10 @@ AZ-305
 - [ ] In Progress
 - [ ] Completed
 
-
-F5 BIG-IP
+CCNP ENCOR/ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 CCNP security SCOR/SISE
 
@@ -80,20 +68,11 @@ DevNet Professional
 - [ ] In Progress
 - [ ] Completed
 
+
+
 ## Expert
 
 CISSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-VCP-DCV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-CISM
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -103,7 +82,7 @@ CCSP
 - [ ] In Progress
 - [ ] Completed
 
-CCIE security
+CCIE 
 
 - [ ] Research
 - [ ] In Progress
@@ -115,3 +94,7 @@ CCIE security
 COMPLETED IN 4 YEARS
 
 
+VCP-DCV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed

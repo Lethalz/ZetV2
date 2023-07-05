@@ -138,11 +138,14 @@ The Fastlane wealth equation looks like this:
 - **Distribution systems**. These are systems that move products to the masses. An example is Amazon
 - **Human resource systems.** Systems that are run by people. Sometimes they can work in conjunction with other systems
 
+
+
+
 ## The Real Law of Wealth
 
-**The law of affection:** The more lives you affect in an entity you control, in scale or in magnitude, the richer you become. 
+**The law of effection:** The more lives you affect in an entity you control, in scale or in magnitude, the richer you become. 
 
-> _“To exploit the Law of Affection, your business needs to make an impact of either scale or magnitude, or both. Within our Fastlane wealth equation, “scale” and_ _“magnitude” are implicit to our “net profit” variable. **NET PROFIT = Units Sold (Scale) X Unit Profit (Magnitude)**”_
+> _“To exploit the Law of effection, your business needs to make an impact of either scale or magnitude, or both. Within our Fastlane wealth equation, “scale” and_ _“magnitude” are implicit to our “net profit” variable. **NET PROFIT = Units Sold (Scale) X Unit Profit (Magnitude)**”_
 
 ## Your Vehicle To Wealth
 
@@ -166,17 +169,24 @@ If you lose your job, you can either decide to see the event positively or negat
 
 Tips for making better decisions:
 
-1. **Worse Case Consequence Analysis (WCCA).** Analyse potential consequences before making a decision
+1. **Worse Case Consequence Analysis (WCCA).** Analyze potential consequences before making a decision
 
 2. **Weighted Average Decision Matrix (WADM).** Weigh the various decisions and see which one is better
 
-## The Five Fastlane Commandments (NECST)
+## The Five Fastlane Commandments (CENTS)
 
-1. **The commandment of need.** Businesses satisfy the needs of people. Don’t chase money. Rather, look at how your business will help other people
-2.  **The commandment of entry.**  As entry barriers to a business fall, or lessen, the effectiveness of that road declines while competition in that field subsequently strengthens. To overcome weak entry, you need exceptionalism
-3. **The commandment of control.**  Play in an organization that you control or you will be at the mercy of someone else
-4. **The commandment of scale.** Increase scale and magnitude in your business
-5. **The commandment of time.** Your business should detach you from your time
+1. **The commandment of control.**  Play in an organization that you control or you will be at the mercy of someone else
+2. **The commandment of entry.**  As entry barriers to a business fall, or lessen, the effectiveness of that road declines while competition in that field subsequently strengthens. To overcome weak entry, you need exceptionalism
+3. **The commandment of need.** Businesses satisfy the needs of people. Don’t chase money. Rather, look at how your business will help other people
+	1. Use passion to fuel the need,  then need to fuel your passion.
+	2. Dont "do what you love"; Do what is needed to do what you love,
+4. **The commandment of time.** Your business should detach you from your time
+	1. Do not buy yourself a job [[The E-Myth Revisited by Michael E. Gerber]]
+5. **The commandment of scale.** Increase scale and magnitude in your business
+	1. Scale = how many
+	2. magnitude = how much
+	3. "If you can't serve millions you wont make millions."
+
 
 ## Speed 
 
@@ -185,6 +195,32 @@ Ideas are nothing without execution. 
 > _“The Fastlane is a conglomeration of information that creates potential speed. You understand the Fastlane roadmap and its wealth equation. You’ve dumped the_ _Sidewalk and the Slowlane.”_
 
  Execution divides winners from losers. **Execution is a process. Ideas are events.**
+
+
+internet 
+content based = blogs 
+lead generation = leads for small to medium sized businesses
+social networks = 
+brokerage systems = paypal , cars direct , brings buyers and sellers together
+advertising = brings buyers and sellers together
+ecommerce = selling items online, information, ebooks, courses, etc..
+
+wealth = net profit + asset value
+
+Innovation:
+
+invent a product then distribute it
+sell on internet, qvc , whoever
+take a concept and make it "feel" new 
+Products need to be novel
+
+
+Intentional
+iteration
+frachising
+create scale
+real eststate one family home  rent = net income  home value = magnitude
+
 ---
 # Reference
 [dansilvestre.com](https://dansilvestre.com/summaries/the-millionaire-fastlane/)
