@@ -12,15 +12,25 @@ Status
 - [x] Research
 - [x] In Progress
 - [ ] Completed
+Learn Python basics before this:
 
-- Be dangerous with Powershell by here
+MD-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+MS-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-900 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-Learn Python basics before this:
+- Be dangerous with Powershell by here
+
 
 **DevNet Associate**
 - [ ] Research
@@ -46,13 +56,22 @@ AZ-700
 - [ ] In Progress
 - [ ] Completed
 
+AZ 500
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-305
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-CCNP ENCOR/ENARSI
+CCNP ENCOR/ENCC
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+DEVNET DEVCOR/ENAUTO
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -63,21 +82,29 @@ CCNP security SCOR/SISE
 - [ ] In Progress
 - [ ] Completed
 
-DevNet Professional
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 
 ## Expert
+
 
 CISSP
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
+CISM
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 CCSP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+CCSK
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed

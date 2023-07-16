@@ -41,7 +41,7 @@ Base Instruction:
          .64 .0
          .128 .0
          .192 .0
-     .***4***   ~~.256~~ .0
+     .***4***   ~~.256~~ .0           Because /18 is a size of 64 it hits 256 which has a extra bit you add it to previous octet
      .**5** .  0 .0
 
 ## First and second Octet
@@ -61,21 +61,12 @@ You can multiply the group size to get to the target more quickly
 
 #### Example :  10.1.1.85 /29
 You can just multiple 8 by 10 to get to 80 quickly
-what i mean by this
-	Based on the information you provided, it seems that you are referring to the calculation of the network address for the IP range 10.1.1.85/29.
-	
-In this case, the /29 subnet mask means that the first 29 bits of the IP address are used to identify the network portion of the address, and the remaining 3 bits are used to identify the host portion of the address. In other words, the subnet mask is 255.255.255.248 in decimal format, which can be derived from the binary representation of /29, which is 11111111.11111111.11111111.11111000.
-	To calculate the network address for this range, you need to set all the host bits to 0. In this case, the last 3 bits of the IP address are the host bits, so you need to set them to 0:
-
-10.1.1.85 -> 00001010.00000001.00000001.01010101 ^^^
-
-The result is:
-
-10.1.1.80 -> 00001010.00000001.00000001.01010000 ^^^
-
-Therefore, the network address for the IP range 10.1.1.85/29 is 10.1.1.80.
-
-It seems that the statement "You can just multiple 8 by 10 to get to 80 quickly" may be a reference to the fact that the 4th octet of the network address is 80, which is 8 multiplied by 10. This may be a mnemonic device to help remember the network address for this range.
+multiply by 10 for the network ID
+You can even double it for example:
+10.3.3.170/29
+          .80  (x2)
+          .160
+          .168
 
 ### #2
 
