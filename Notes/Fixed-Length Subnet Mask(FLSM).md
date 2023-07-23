@@ -40,8 +40,12 @@ Example :
 
 If you start with a /10 how many subnetworks could you create that were each a /16
 
-/10 - /16 = 6
+/16 - /10 = 6
 2^6 =64 so the answer is 64
+
+If you start with a /22, how many sub-networks could you create that could contain 50 IP address (/26 has 64)
+
+/26 - 22 = 4  , 2^4=16
 
 
 If you start with a /15 what size subnetwork would you need to create 500 sub network

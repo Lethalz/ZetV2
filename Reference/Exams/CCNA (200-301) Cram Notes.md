@@ -3,6 +3,9 @@
 		Tags: [[CCNA 200-301]] [[Networking]]
 
 
+# Exam Topics
+[[CCNA 200-301 Exam Topics]]
+[[test prep in 30 dys]]
 # Remember!
 [[Studying For Exams]]
 
@@ -17,7 +20,7 @@
 [[Subnetting example]]
 [[Subnetting cheet sheet]]
 [[Fixed-Length Subnet Mask(FLSM)]]
-
+[[Variable Length Subnetting Mask VLSM]]
 ### TCP/IP and Ethernet
 [[TCPIP networking]]
 [[Ethernet LANs]]

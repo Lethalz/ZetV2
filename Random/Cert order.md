@@ -14,15 +14,6 @@ Status
 - [ ] Completed
 Learn Python basics before this:
 
-MD-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-MS-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-900 
 - [ ] Research
@@ -56,15 +47,6 @@ AZ-700
 - [ ] In Progress
 - [ ] Completed
 
-AZ 500
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AZ-305
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 CCNP ENCOR/ENCC
 - [ ] Research
