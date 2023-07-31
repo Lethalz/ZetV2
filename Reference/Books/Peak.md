@@ -108,6 +108,8 @@ At the level where extraordinary skill is to be developed, you need to know how 
 > _“That is how it always is. The creative, the restless, and the driven are not content with the status quo, and they look for ways to move forward, to do things that others have not.”_
 
 Principles of deliberate practice can be used to improve the education system. **The key is to assimilate information into different unconnected pieces that build mental representations.** The mental representations will provide context for problem-solving.
+
+
 ---
 # Reference
 [[Reference/Books/Ultralearning|Ultralearning]] 

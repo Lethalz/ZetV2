@@ -21,6 +21,9 @@
 [[Subnetting cheet sheet]]
 [[Fixed-Length Subnet Mask(FLSM)]]
 [[Variable Length Subnetting Mask VLSM]]
+[[IPV6 cheetsheet]]
+[[IPV6 EUI-64]]
+[[IPv6 Types]]
 ### TCP/IP and Ethernet
 [[TCPIP networking]]
 [[Ethernet LANs]]

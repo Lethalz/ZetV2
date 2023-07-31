@@ -14,6 +14,15 @@ Status
 - [ ] Completed
 Learn Python basics before this:
 
+MD-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+MS-102
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-900 
 - [ ] Research
@@ -34,6 +43,7 @@ Skills to know before professional: Python, Powershell,
 
 
 ## Professional
+
 
 
 AZ-104
@@ -64,8 +74,10 @@ CCNP security SCOR/SISE
 - [ ] In Progress
 - [ ] Completed
 
-
-
+VCP-NV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 ## Expert
 
