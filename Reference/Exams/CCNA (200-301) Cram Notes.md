@@ -8,7 +8,7 @@
 [[test prep in 30 dys]]
 # Remember!
 [[Studying For Exams]]
-
+[[Write this down before ccna exam]]
 # CCNA (200-301) Cram Notes
 ### The OSI model
 [[The OSI Model]]

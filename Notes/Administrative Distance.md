@@ -4,6 +4,25 @@
 
 # Administrative Distance
 
+1. **Common Administrative Distances**:
+    
+    - Directly connected: 0
+    - Static route: 1
+    - EIGRP summary route: 5
+    - External BGP: 20
+    - Internal EIGRP: 90
+    - IGRP: 100
+    - OSPF: 110
+    - IS-IS: 115
+    - RIP: 120
+    - EIGRP external route: 170
+    - Internal BGP: 200
+
+--- 
+
+
+Remember, the key is not just to memorize these charts but to understand the concepts behind them. The CCNA exam tests understanding and application, not just rote memorization. However, having these charts at your fingertips can save valuable time during the exam and boost your confidence.
+
 If paths to the same destination are received from different routing protocols, their metrics cannot be compared
 
 The Router needs a different method to choose when routes to the same destination are received from diffreent routing protocols, this is where *AD - administrative distance* comes in

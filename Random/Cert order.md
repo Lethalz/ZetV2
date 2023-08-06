@@ -6,23 +6,13 @@ Status
 
 ## FUNDAMENTALS
 
-
+Lateral Tech : Powershell, Python, Git
 **CCNA**
 
 - [x] Research
 - [x] In Progress
 - [ ] Completed
 Learn Python basics before this:
-
-MD-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-MS-102
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-900 
 - [ ] Research
@@ -31,11 +21,11 @@ AZ-900
 
 - Be dangerous with Powershell by here
 
-
 **DevNet Associate**
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
 
 
 Skills to know before professional: Python, Powershell, 
@@ -44,7 +34,7 @@ Skills to know before professional: Python, Powershell,
 
 ## Professional
 
-
+Lateral Tech: Ansible, Terraform, Docker, VMWARE
 
 AZ-104
 - [ ] Research
@@ -52,6 +42,12 @@ AZ-104
 - [ ] Completed
 
 AZ-700
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-305
 
 - [ ] Research
 - [ ] In Progress
@@ -74,10 +70,7 @@ CCNP security SCOR/SISE
 - [ ] In Progress
 - [ ] Completed
 
-VCP-NV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 ## Expert
 
