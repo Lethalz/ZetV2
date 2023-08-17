@@ -60,6 +60,7 @@ Successful seduction starts with who you are and the type of seductive energy yo
 -   The Anti-Seducer: those who repel
 -   Anti-Seducers come in many shapes and kinds, but almost all of them share a single attribute, the source of their repellence: insecurity.
 -   It is critical to recognize anti-seductive qualities not only in others but also in ourselves. Almost all of us have one or two of the Anti-Seducer’s qualities latent in our character, and to the extent that we can consciously root them out, we become more seductive.
+- Seduction is about looking into the other person and seeing what they want
 -   The Brute: Who has no patience, who wants to skip the seduction, who offends with egotism.
 -   The Suffocator: Those who cling incessantly to you, love you before you know who they are, or who make themselves a doormat to you in their obsession.
 -   The Moralizer: Who wants you to bend to their standard.

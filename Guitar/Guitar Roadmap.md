@@ -23,6 +23,6 @@ Books
 
 FretBoard Theory
 
-
+learn notes --> learn major scales --> learn the function of each degree of the major scale --> learn the chords of the major scale --> learn to play the major scale over chord progressions --> learn chord tones over chord progressions --> learn modes over chord progressions. This will give you a solid foundation. Then you can incorporate more exotic scales (minor, melodic minor, bop scales, etc.) and more exotic chords (7th chords, 9th chords, sus2/4, etc.).
 ---
 # References
