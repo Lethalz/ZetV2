@@ -1,5 +1,5 @@
 
-
+[[cisco cert list]]
 Certification
 
 Status
@@ -14,6 +14,23 @@ Lateral Tech : Powershell, Python, Git
 - [ ] Completed
 Learn Python basics before this:
 
+
+**DevNet Associate**
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+Linux+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+PCNSE
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
 AZ-900 
 - [ ] Research
 - [ ] In Progress
@@ -21,10 +38,7 @@ AZ-900
 
 - Be dangerous with Powershell by here
 
-**DevNet Associate**
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 
 
@@ -54,7 +68,7 @@ AZ-305
 - [ ] Completed
 
 
-CCNP ENCOR/ENCC
+CCNP ENCOR/ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -73,7 +87,6 @@ CCNP security SCOR/SISE
 
 
 ## Expert
-
 
 CISSP
 - [ ] Research

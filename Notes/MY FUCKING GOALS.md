@@ -13,6 +13,7 @@ I am a master at python and every language that comes with network automation
 I can sell anything to anyone 
 Im in the best shape of my life for life
 I am intune with my spiritual side 
+I can play any song on the guitar by ear and create songs from scratch
 
 
 
