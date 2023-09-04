@@ -25,16 +25,18 @@ Linux+
 - [ ] In Progress
 - [ ] Completed
 
-PCNSE
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
 AZ-900 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+VCP-NV (need ccna)
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+
 
 - Be dangerous with Powershell by here
 
@@ -49,6 +51,34 @@ Skills to know before professional: Python, Powershell,
 ## Professional
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE
+
+
+CCNP ENCOR/ENARSI/ENCC
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+DEVNET DEVCOR/ENAUTO
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+CCNP Data Center
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+VCP-DCV
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+F5 301/302
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 AZ-104
 - [ ] Research
@@ -66,25 +96,6 @@ AZ-305
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
-
-CCNP ENCOR/ENARSI
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-DEVNET DEVCOR/ENAUTO
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-CCNP security SCOR/SISE
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
 
 ## Expert
 
@@ -121,7 +132,4 @@ CCIE
 COMPLETED IN 4 YEARS
 
 
-VCP-DCV
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
