@@ -30,6 +30,11 @@ AZ-900
 - [ ] In Progress
 - [ ] Completed
 
+F5 201
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 VCP-NV (need ccna)
 - [ ] Research
 - [ ] In Progress
