@@ -30,16 +30,11 @@ AZ-900
 - [ ] In Progress
 - [ ] Completed
 
-F5 201
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 VCP-NV (need ccna)
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
 
 
 
@@ -56,6 +51,7 @@ Skills to know before professional: Python, Powershell,
 ## Professional
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE
+
 
 
 CCNP ENCOR/ENARSI/ENCC
@@ -80,10 +76,7 @@ VCP-DCV
 - [ ] Completed
 
 
-F5 301/302
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 AZ-104
 - [ ] Research
