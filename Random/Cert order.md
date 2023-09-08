@@ -25,16 +25,7 @@ Linux+
 - [ ] In Progress
 - [ ] Completed
 
-AZ-900 
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
-
-VCP-NV (need ccna)
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 
@@ -52,6 +43,23 @@ Skills to know before professional: Python, Powershell,
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE
 
+AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-204
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+AZ-700
+
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 
 CCNP ENCOR/ENARSI/ENCC
@@ -59,35 +67,18 @@ CCNP ENCOR/ENARSI/ENCC
 - [ ] In Progress
 - [ ] Completed
 
-DEVNET DEVCOR/ENAUTO
+DEVNET DEVCOR/DCAUTO
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-CCNP Data Center
+CCNP Data Center/DCAUTO
 
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-VCP-DCV
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 
-
-
-AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-AZ-700
-
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-305
 
@@ -124,6 +115,11 @@ CCIE
 - [ ] In Progress
 - [ ] Completed'
 
+
+DEVNET EXPERT
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed'
 
 
 
