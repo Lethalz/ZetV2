@@ -374,7 +374,7 @@ One failure after another – bad failures – great setbacks; but in the face o
 
 Perhaps you’ve heard of him. His name was Abraham Lincoln.
 
-Babe Ruth had a sense of indifference [about losing].
+Babe Ruth had a sense of indifference about losing
 
 Dr. Louis E. Bisch, one of the nation’s leading psychiatrists, wrote: “Cultivate a little the don’t-care habit; don’t worry about what people may think. this will endear you to others and make you liked and loved all the more.”
 
