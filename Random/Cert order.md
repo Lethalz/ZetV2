@@ -29,7 +29,10 @@ AWS SAA
 - [ ] In Progress
 - [ ] COMPLETED 
 
-
+f5 101/f5 201
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 
 
 
@@ -78,12 +81,6 @@ AWS Security
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
-
-
-F5 201
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
 

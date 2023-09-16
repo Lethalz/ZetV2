@@ -4,7 +4,7 @@
 		Tags: [[Philosophy]]
 
 # The 48 Laws of Power
-# The 48 Laws of Power by Robert Greene Summary & Notes - Nat Eliason
+# The 48 Laws of Power by Robert Greene Summary & Notes 
 
 
 ---
