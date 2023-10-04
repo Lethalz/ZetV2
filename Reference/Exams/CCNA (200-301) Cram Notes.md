@@ -27,6 +27,8 @@
 [[IPV6 cheetsheet]]
 [[IPV6 EUI-64]]
 [[IPv6 Types]]
+[[Solicited node multicast address and Neighbor Discovery Protocol]]
+[[SLAAC and Cisco Router Configuration in CCNA Context and Duplicate address detection]]
 ### TCP/IP and Ethernet
 [[TCPIP networking]]
 [[Ethernet LANs]]

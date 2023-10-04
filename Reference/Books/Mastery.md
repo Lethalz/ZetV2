@@ -5,7 +5,7 @@
 # Mastery
 
 
-# Mastery by Robert Greene Summary & Key Lessons - Nat Eliason
+# Mastery by Robert Greene Summary & Key Lessons 
 
 
 ---

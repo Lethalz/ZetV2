@@ -14,6 +14,7 @@ Lateral Tech : Powershell, Python, Git
 - [ ] Completed
 Learn Python basics before this:
 
+
 Linux+
 - [ ] Research
 - [ ] In Progress
@@ -24,15 +25,10 @@ Linux+
 - [ ] In Progress
 - [ ] Completed
 
-AWS SAA
+AWS SAA 
 - [ ] Research
 - [ ] In Progress
-- [ ] COMPLETED 
-
-f5 101/f5 201
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
+- [ ] Completed
 
 
 
@@ -53,23 +49,18 @@ Skills to know before professional: Python, Powershell,
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
 
-CCNP ENCOR/Enarsi/ENCC
+CCNP ENCOR/ENCC
+- [ ] Research
+- [ ] In ProgressdwdwdwCCNP ENCOR/ENCC
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
-
-DEVNET DEVCOR/DCAUTO
-- [ ] Research
-- [ ] In Progress
 - [ ] Completed
 
-CCNP DCCOREDCAUTO
-
+CCNP SCCOR/SVPN/SISE/SCAZT
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
-
+- [ ] COMPLETED 
 
 
 AWS  Advanced Networking
@@ -83,8 +74,7 @@ AWS Security
 - [ ] COMPLETED 
 
 
-
-f5 CTS/BIG-IP DNS
+f5 301,303,304
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
