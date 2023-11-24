@@ -9,7 +9,7 @@
 
 **Ultralearning**: A strategy of acquiring skills and knowledge that is both self-directed and intense.
 
-Ultralearning isn’t easy and you will have to [set up a schedule to pursue it](https://dansilvestre.com/how-to-prioritize-your-life/). The goal of becoming an ultralearner will strain you mentally, emotionally, and even physically. You have to be prepared for all that.
+Ultralearning isn’t easy and you will have to set up a schedule ot pursue it. The goal of becoming an ultralearner will strain you mentally, emotionally, and even physically. You have to be prepared for all that.
 
 Reasons to engage in ultralearning:
 

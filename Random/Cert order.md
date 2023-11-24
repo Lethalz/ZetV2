@@ -7,63 +7,63 @@ Status
 ## FUNDAMENTALS
 
 Lateral Tech : Powershell, Python, Git
+
 **CCNA**
 
 - [x] Research
 - [x] In Progress
-- [ ] Completed
-Learn Python basics before this:
-
+- [x] Completed
 
 Linux+
-- [ ] Research
+- [x] Research
 - [ ] In Progress
 - [ ] Completed
 
-**DevNet Associate**
+AWS SAA
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] COMPLETED 
 
-AWS SAA 
+DevNet ASC
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] COMPLETED 
+
+F5-CA (101,201)
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 
 
-
-
-
-- Be dangerous with Powershell by here
-
+--- 
 
 
 
 
 Skills to know before professional: Python, Powershell, 
 
-
+---
 
 ## Professional
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
-
-CCNP ENCOR/ENCC
-- [ ] Research
-- [ ] In ProgressdwdwdwCCNP ENCOR/ENCC
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-- [ ] Completed
-
-CCNP SCCOR/SVPN/SISE/SCAZT
+PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
+CCNP SCCOR/SISE
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 
-AWS  Advanced Networking
+F5 LTM (301), BIG-IP DNS(302)
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+AWS Advanced Networking
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
@@ -73,14 +73,10 @@ AWS Security
 - [ ] In Progress
 - [ ] COMPLETED 
 
-
-f5 301,303,304
+CCSP
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
-
-IN 3 YEARS 
-
 
 
 ## Expert
@@ -90,33 +86,13 @@ CISSP
 - [ ] In Progress
 - [ ] Completed
 
-CISM
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
-CCSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-CCSK
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-CCIE 
+CCIE Security
 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
 
-
-DEVNET EXPERT
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed'
 
 
 

@@ -1,7 +1,7 @@
 
 2301031802
 	Status: #Exam 
-		Tags: [[Learning]]
+		Tags: [[Learning]] [[Self-Study]]
 
 # Higher order learning
 
