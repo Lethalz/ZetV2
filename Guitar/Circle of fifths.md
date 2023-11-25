@@ -9,8 +9,10 @@
 
 <img src = 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ihEohPybHu0ourZkFHba-Q.png'>
 
-Order Of Sharps: F C G D A E B (Father Charles Goes Down And Ends Battle)
-Order Of Flats: B E A D G C F (Big Ed Actin' Dirty Go Call Father) 
+Order Of Sharps: F C G D A E B (Father Charles Goes Down And Ends Battle)(Fast Cars Go dangerously around every bend )
+Order Of Flats: B E A D G C F (Big Ed Actin' Dirty Go Call Father) BEADGo Car Fast
+
+
 
 Used in the circle to determine which sharp is in each scale
 In the scale of G (1 sharp) you go down the order of sharps in get this.. order
@@ -25,7 +27,7 @@ Eureka
 
 It only goes up to 7 flats/sharps because the first note always repeats
 
-it works for flat as well
+it works for flat as well (use order of flats)
 
 F G A Bb C D E
 Bb C D Eb F G A
@@ -79,6 +81,7 @@ You can move three spaces in the circle to find your relative minor
 If i start at C..
 C G D A
 A is my relative minor
+or on the guitar think of penatonic position 1
 
 ## Diatonic Chords
 
@@ -119,6 +122,7 @@ When your moving counter-clockwise its 5ths desending and 4ths ascending
 
 Gotta Look into Transposing
 
+Chords in a key using the circle 
 
 ![[f521026701ad970576c2e7370100aa0f.png]]
 
