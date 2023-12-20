@@ -9,7 +9,7 @@ Levels
 
 Key
 
-Chord typpe - major , minor, dominant, sus , diminished
+Chord type - major , minor, dominant, sus , diminished
 
 chord funcition - what position is the chord or number of the chord is in a given key  ( C chord is 1 chord in C major scale)
 

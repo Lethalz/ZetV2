@@ -39,7 +39,7 @@
    - Highway to Hell - AC/DC
    - Hurt - Johnny Cash
 
-# Level 3
+# Level 3 (Im here)
 1. Second Position Pentatonic Scale - Major Pentatonic Scale
 2. Barre Chords - F Major, B Minor- Leading to playing barre chords with 5th & 6th String roots
 3. Minor and Major versions of those barre chords

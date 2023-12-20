@@ -19,20 +19,17 @@ Linux+
 - [ ] In Progress
 - [ ] Completed
 
-AWS SAA
+CCNP ENCOR/ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-DevNet ASC
+PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-F5-CA (101,201)
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
+
 
 
 --- 
@@ -48,17 +45,12 @@ Skills to know before professional: Python, Powershell,
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
-PCNSE
+CCNP SCOR/SVPN
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-CCNP SCCOR/SISE
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-F5 LTM (301), BIG-IP DNS(302)
+AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 

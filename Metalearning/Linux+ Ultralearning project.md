@@ -151,8 +151,150 @@
 
 ### 2.4 Apply Access Controls (5%)
 
-#### Study Focus:
-- Learn about file permissions, SELinux,
+**Study Focus:**
+- Learn about file permissions, SELinux, and AppArmor.
+
+**Study Plan:**
+1. Practice setting file permissions and using ACLs.
+2. Experiment with SELinux and AppArmor configurations.
+
+### 2.5 Configure and Execute Remote Connectivity (3%)
+
+**Study Focus:**
+- Understand SSH configurations and common firewall technologies.
+
+**Study Plan:**
+1. Practice SSH configurations and troubleshoot common firewall issues.
+2. Explore SSH tunneling and its applications.
+
+## 3.0 Scripting, Containers, and Automation (19%)
+
+### 3.1 Create Shell Scripts (6%)
+
+**Study Focus:**
+- Learn shell script elements, conditionals, and variables.
+- Understand standard stream redirection and common script utilities.
+
+**Study Plan:**
+1. Practice writing basic shell scripts with loops, conditionals, and variables.
+2. Experiment with standard stream redirection and common script utilities.
+
+### 3.2 Perform Basic Container Operations (6%)
+
+**Study Focus:**
+- Understand container management, container image operations, and Docker or Podman.
+
+**Study Plan:**
+1. Practice managing containers using Docker or Podman.
+2. Experiment with container image operations and Dockerfile creation.
+
+### 3.3 Perform Basic Version Control Using Git (2%)
+
+**Study Focus:**
+- Learn essential Git commands for version control.
+
+**Study Plan:**
+1. Set up a Git repository and practice cloning, pushing, pulling, and committing.
+2. Explore branches, tags, and common Git workflows.
+
+### 3.4 Summarize Common Infrastructure as Code Technologies (2%)
+
+**Study Focus:**
+- Understand file formats, utilities, and common infrastructure as code tools.
+
+**Study Plan:**
+1. Learn YAML and JSON syntax for infrastructure as code.
+2. Explore Ansible, Puppet, Chef, SaltStack, and Terraform.
+
+### 3.5 Summarize Container, Cloud, and Orchestration Concepts (3%)
+
+**Study Focus:**
+- Understand Kubernetes, single-node, multicontainer use cases, and container networks.
+
+**Study Plan:**
+1. Study Kubernetes concepts, including pods and container networks.
+2. Experiment with single-node, multicontainer scenarios using Docker Compose.
+
+## 4.0 Troubleshooting (28%)
+
+### 4.1 Analyze and Troubleshoot Storage Issues (7%)
+
+**Study Focus:**
+- Learn to troubleshoot high latency, low throughput, and I/O issues.
+- Understand device-related problems and mount option challenges.
+
+**Study Plan:**
+1. Experiment with scenarios leading to high latency and low throughput.
+2. Troubleshoot common device issues and explore mount option problems.
+
+### 4.2 Analyze and Troubleshoot Network Resource Issues (7%)
+
+**Study Focus:**
+- Understand troubleshooting network configuration, firewall issues, and interface errors.
+
+**Study Plan:**
+1. Practice troubleshooting subnetting, routing, and firewall configurations.
+2. Experiment with diagnosing dropped packets, collisions, and link status issues.
+
+### 4.3 Analyze and Troubleshoot CPU and Memory Issues (7%)
+
+**Study Focus:**
+- Learn to troubleshoot runaway processes, high CPU utilization, and memory exhaustion.
+
+**Study Plan:**
+1. Experiment with processes causing high CPU utilization and runaway processes.
+2. Troubleshoot memory exhaustion scenarios and explore swapping.
+
+### 4.4 Analyze and Troubleshoot System Resources (7%)
+
+**Study Focus:**
+- Understand load averages, analyzing system resource utilization, and interpreting system logs.
+
+**Study Plan:**
+1. Practice interpreting load averages and analyzing resource utilization.
+2. Experiment with diagnosing issues using system logs.
+
+### 4.5 Diagnose and Resolve Issues Using systemd (7%)
+
+**Study Focus:**
+- Understand systemd components and their roles.
+- Learn how to use systemd for diagnosing and resolving common Linux system problems.
+
+**Study Plan:**
+1. Study the systemd architecture, including units, targets, and dependencies.
+2. Explore different types of systemd unit files, focusing on:
+   - **Service Units:**
+     - Networking services
+     - ExecStart/ExecStop
+     - Before/after
+     - Type
+     - User
+     - Requires/wants
+   - **Timer Units:**
+     - OnCalendar
+     - OnBootSec
+     - Unit
+     - Time expressions
+   - **Mount Units:**
+     - Naming conventions
+     - What
+     - Where
+     - Type
+     - Options
+   - **Target Units:**
+     - Default
+     - Multiuser
+     - Network-online
+     - Graph
+3. Understand common problems and their resolution using systemd, including:
+   - Name resolution failure
+   - Application crash
+   - Time-zone configuration
+   - Boot issues
+   - Journal issues
+   - Services not starting on time
+4. Practice using systemd commands related to unit management, logging, and troubleshooting.
+5. Simulate common Linux system problems and use systemd to diagnose and resolve them.
 
 
 ---
