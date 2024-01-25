@@ -14,17 +14,8 @@ Lateral Tech : Powershell, Python, Git
 - [x] In Progress
 - [x] Completed
 
-Linux+
-- [x] Research
-- [ ] In Progress
-- [ ] Completed
 
-CCNP ENCOR/ENARSI
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-PCNSE
+AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
@@ -45,31 +36,27 @@ Skills to know before professional: Python, Powershell,
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
-CCNP SCOR/SVPN
+https://roadmap.sh/ai-data-scientist
+
+[[David Bombal AI roadmap]] 
+
+Focusing on Artificial intelligence, the certifications i attain at this point will be determined by my job path and opportunities..
+
+CCNP ENCOR/ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-AWS SAA
+
+PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-AWS Advanced Networking
+CCNP SCOR/SISE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
-
-AWS Security
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-CCSP
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
 
 ## Expert
 
@@ -79,8 +66,7 @@ CISSP
 - [ ] Completed
 
 
-CCIE Security
-
+CCIE 
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed'
