@@ -14,18 +14,15 @@ Lateral Tech : Powershell, Python, Git
 - [x] In Progress
 - [x] Completed
 
-AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-
 CCNP ENCOR/ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-
+DEVASC
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 --- 
 
 
@@ -46,17 +43,7 @@ https://roadmap.sh/ai-data-scientist
 Focusing on Artificial intelligence, the certifications i attain at this point will be determined by my job path and opportunities..
 
 
-AZ-305
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-AZ-500
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-AZ-700
+AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
@@ -66,31 +53,21 @@ PCNSE
 - [ ] In Progress
 - [ ] COMPLETED 
 
-CCNP SCOR/SISE
+CCNP SCOR/SVPN
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-f5 101
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
-f5 201
+DEVCOR/DCAUTO
 - [ ] Research
 - [ ] In Progress
-- [ ] COMPLETED 
+- [ ] COMPLETED
+
+
 ## Expert
 
-AWS SAP 
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
-AWS DevOps Professional
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
 
 CISSP

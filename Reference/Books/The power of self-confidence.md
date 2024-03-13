@@ -1,0 +1,69 @@
+2403081532
+	Status: #book 
+		Tags: 
+
+# The power of self-confidence
+
+
+# The Power of Self-Confidence by BRIAN TRACY 
+
+
+**How to know if this book can help you:**
+
+- You’re often paralyzed by fear, afraid to make decisions and act.
+- You see yourself negatively.
+- You want to be better looking.
+- You want successful people to be attracted to you.
+- You want a better job.
+- You want to win at everything you do.
+- You’re in any area of sales or marketing.
+
+
+---
+
+### Personal Thoughts
+
+- While I was working for jay i found that my self-confidence shot up because i was working towards my career. And every day there was a different challenge. I think working at the edge of your abilities pushes you to be a better man.
+
+
+
+
+The Power of Self Confidence explains that confidence is "mental fitness." It can be developed by engaging in a series of regular exercises to build up and maintain higher and higher levels of self-confidence in every area of your life.
+
+- The law of concentration, as mentioned earlier, says that whatever you dwell on continually grows in your reality.
+- In a positive vein, if you are absolutely convinced that you are meant to be a great success in life, and that there was nothing in the world that could stop you from achieving great things as long as you threw yourself wholeheartedly into every activity, and persisted until you succeeded, you would become an irresistible force of nature. The depth of your belief and the strength of your conviction would dramatically increase the power of your personality. If you really believed in your ability to succeed greatly, you would become unstoppable.
+- The Four Cs of Inner Confidence You can develop this kind of belief, this inner confidence, by developing what I call “the four Cs.” 
+1. Clarity: Decide exactly what it is you want to accomplish and exactly the kind of person you wish to become. 
+2. Conviction: Develop the unshakable belief that you can do anything that you can put your mind to.
+3. Commitment: Resolve to do whatever is necessary; develop the willingness to pay the price, in advance, for any success you desire. 
+4. Consistency: Resolve to work on your goals every day, morning, noon, and night, until they are accomplished.
+- To develop unshakable self-confidence, you need to see yourself and think of yourself as a leader, and to do what leaders do. You need to stretch yourself toward the outermost boundaries of your potential. **You need to set goals that draw out of you the very best that is in you.** You need to work toward objectives that cause you to feel a sense of mastery and peak performance.
+- There are no unrealistic goals, only unrealistic timelines. The very act of writing your goals down sets the whole universe to work in your favor, and activates all the mental laws to help you. In fact, many people have had the experience of writing out a list of goals on New Year’s Day, putting them away and not referring to them again until the end of the year, and then finding that 80 percent of the goals have been achieved, sometimes in the most amazing ways.
+- The act of setting goals requires self-confidence and simultaneously builds self-confidence. Having the courage to write down what you really want improves your self-image and raises your self-esteem. The action itself generates a feeling of greater personal power and ability.
+- There are several mental exercises that you use to set your goals: 
+1. Imagine that you have just won a million dollars cash, and that you can do or have anything you want with the money. What would you do first? Where would you go? What changes would you make in your life? If you had complete financial freedom, what would you do differently from what you are doing now? 
+2. Describe your ideal lifestyle. Imagine that you could live your ideal of the perfect life. What part of the country would you choose to live in? What kind of a company would you choose to work for or to start and run as your own? What kind of a home and car would you want? How would you like to spend your time and live your life? What kind of relationships would you want? 
+3. Ask yourself what you would do if you learned today that you only had six months to live. If you had no limitations, how would you spend your last six months on earth? This is another way of asking, “What is really important to you?” Who would you want to spend time with? What would you want to accomplish? What would you like to leave behind? In other words, what do you truly value? What are the things that really give meaning and purpose to your life? 
+4. List all the worries or problems in your life and write out a goal that is the perfect solution to each of those difficulties. If money is a concern, write out a goal that clearly defines how much you want to earn, how much you want to accumulate, and what you want to achieve financially over the next three to five years. 
+5. Think about your family and your relationships. Describe the perfect situation between you and the important people in your life, and then make out a series of goals to achieve that situation. 
+6. Look at your health. Describe what perfect health and physical fitness means to you, and then make out a plan to achieve that level of fitness. 
+7. Define the kind of person that you would most like to become, both personally and professionally. Then, work out a plan of personal and professional development that will enable you to learn and grow and become the kind of person you most admire and would most like to be. Remember, as Goethe said, “Before you can have something, you must first be something.”
+- **The more you think about your goal, the more it will come to dominate and direct your life.** The more you think about it, the more rapidly you will move toward it and it will move toward you.
+- Your major goal must also be clearly bound by time. Set a deadline on it. Select a realistic but challenging date for its completion and write it down. If it’s a long-term goal, such as two or three years, break it down into smaller parts, with minor goals or benchmarks, every 30 to 60 days.
+- A final point with regard to goals is this: keep your goals confidential. You build confidence and personal strength by keeping your goals inside of you and by channeling your efforts purposefully each hour and each day toward their attainment. Many people make the mistake of talking too much about their goals. Too much talking causes their energies to dissipate and their motivation to decline. It weakens their resolve. They lose the force and the power they would have had if they kept their goals to themselves and instead concentrated on purposeful activities.
+- Let me now give you a simple technique that has transformed my life and the life of almost every person who has ever used it. It is simply this: get yourself a spiral notebook, the kind used in school for taking notes. Begin each day by sitting down with this notebook and writing out your main goals in the present tense, as though they were already a reality. Use strong, definite words like, “I earn,” “I achieve,” or “I am.” You can write other things in this notebook if you like, but the most important action is that you take five minutes each day to write and rewrite your major goals, without referring back to what you wrote yesterday.
+- Action Exercises 1. Decide today exactly what you want in life. Set your goals as if you had no limitations, and whatever you wrote, you could achieve. 2. Make a list of 10 goals that you would like to achieve in the next 12 months or so. 3. Write your goals in the present, positive, personal tense. For example, you could write, “I earn $XXX,XXX by this date.” This is personal, positive, and in the present tense. 4. Set deadlines on each of your goals, and set subdeadlines if necessary. 5. Make a list of everything you will have to do to achieve your goal and organize the list by sequence and priority. This now becomes your plan. 6. Review your list and ask, “If I could be guaranteed to achieve any one goal on my list within 24 hours, which one goal would have the greatest positive impact on my life?” 7. Take this number-one goal, your major definite purpose, write it at the top of a new page in the present, personal, positive tense. Make a list of everything you could do to achieve this goal, organize it into a plan, and take action on your plan immediately. 8. Do something every day, seven days per week on your major goal. Resolve to persist on this goal until you succeed, no matter how hard it becomes or how much time it takes. This process of setting and achieving one big goal will build your self-confidence to the point where you will become unstoppable for the rest of your life.
+- To attain this wonderful, healthy feeling of optimal performance, you need clear goals, challenging standards, regular feedback, total concentration, step-by-step success, and a feeling that you are expanding your capabilities to a new, higher level.
+- First, ask yourself these questions: 1. What talents, skills, and abilities do you have that seem to be natural to you? 2. What have you been able to do easily and well in the past that seems to be difficult for other people? 3. What subjects in school and what parts of your work have you naturally gravitated toward? 4. What did you most enjoy doing between the ages of 7 and 14? (Ask your mother!) This is often a predictor of what you should be doing as an adult. 5. What parts of your work do you love to do and seem to do well? 6. What work or activities give you a natural high? They give you energy, fill you with enthusiasm, and you lose track of time when you are doing them.
+
+## Some other book notes you might like
+
+## Did You Enjoy This?
+
+Then consider signing up for my Monday Medley newsletter. It's a collection of fascinating finds from my week, usually about psychology, technology, health, philosophy, and whatever else catches my interest. I also include new articles, book notes, and podcast episodes.
+
+Thank you! Your submission has been received!
+
+Oops! Something went wrong while submitting the form.
+---
+# Reference
