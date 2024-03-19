@@ -47,7 +47,10 @@ AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
-
+AWS Advance Networking
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 PCNSE
 - [ ] Research
 - [ ] In Progress
@@ -57,6 +60,11 @@ CCNP SCOR/SVPN
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
+
+Learn how to deploy ISE
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED **
 
 
 DEVCOR/DCAUTO
