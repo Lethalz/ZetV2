@@ -48,7 +48,7 @@
         
     -   **If you find yourself losing focus during a conversation, bring yourself back into the present by wiggling your toes or focus on your breathing.**
         
--   **Power and Warmth**
+-   **Power(vision) and Warmth(receptiveness)**
     
     -   Power: Ability to influence the people around us. Clues of power are appearance, people's reaction to the individual, and body language.
         

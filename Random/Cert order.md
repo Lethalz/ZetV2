@@ -14,15 +14,29 @@ Lateral Tech : Powershell, Python, Git
 - [x] In Progress
 - [x] Completed
 
-CCNP ENCOR/ENARSI
+CCNP ENCOR
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-DEVASC
+CCNP ENARSI
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
+
+
+DevNet Associate
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+
+AWS SAA
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+
 --- 
 
 
@@ -36,46 +50,41 @@ Skills to know before professional: Python, Powershell,
 
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
-https://roadmap.sh/ai-data-scientist
 
-[[David Bombal AI roadmap]] 
-
-Focusing on Artificial intelligence, the certifications i attain at this point will be determined by my job path and opportunities..
-
-
-AWS SAA
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-AWS Advance Networking
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-PCNSE
+AWS CAN (network)
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-CCNP SCOR/SVPN
+AWS CSS (security)
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
-Learn how to deploy ISE
+
+CCNP SCOR
 - [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED **
+- [ ] In Progress 
+- [ ] COMPLETED 
 
-
-DEVCOR/DCAUTO
+CCNP SISE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
+CCNP Data Center
+
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+CCNP DCACI
+
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
 
 ## Expert
-
-
 
 
 CISSP
@@ -83,12 +92,10 @@ CISSP
 - [ ] In Progress
 - [ ] Completed
 
-
-CCIE 
+CCIE Security
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed'
-
+- [ ] COMPLETED 
 
 
 

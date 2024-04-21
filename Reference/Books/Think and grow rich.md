@@ -41,15 +41,22 @@ Most people will throw in the towel at the first sign of opposition. However, wi
 
 **Power of the Master Mind: The Driving Force**
 
-Individuals can attain and apply power through the formation of a Master Mind group, an alliance of individuals with different strengths and perspectives who coordinate their knowledge and efforts to attain a definite purpose. Master Mind groups bring both economic advantages (riches) as well as psychic benefits (a cosmic harmony that generates a “third mind,” or spiritual unit of energy operating at a higher frequency). 
+Individuals can attain and apply power through the formation of a Master Mind group, an alliance of individuals with different strengths and perspectives who coordinate their knowledge and efforts to attain a definite purpose. Master Mind groups bring both economic advantages (riches) as well as psychic benefits (a cosmic harmony that generates a “third mind,” or spiritual unit of energy operating at a higher frequency). No man is an island. The mastermind helps one tap into infinite intelligence through another.
 
 **The Mystery of Sex Transmutation**
 
-Sex transmutation entails the channeling of carnal desires and their corresponding energies into other outlets than those that are purely physical—namely, creative ones. A correlative to this principle is the importance of selecting a compatible partner.
+Sex transmutation entails the channeling of carnal desires and their corresponding energies into other outlets than those that are purely physical—namely, creative ones. A correlative to this principle is the importance of selecting a compatible partner. Salespeople use sex energy to sell, he calls it the *magnetizing* effect. Which makes sense the best sales people aren't ugly. Older Men tend to lean into ST naturally but not consciously. A handshake can be all you need to tell someones sex energy.
 
 **The Subconscious Mind: The Connecting Link**
 
-Hill describes the subconscious mind as the intermediary between the finite mind of man and Infinite Intelligence that enables humans to tap into the forces of the Universal Mind. He emphasizes that it alone is the medium for translating mental impulses into their spiritual and physical equivalents.
+Hill describes the subconscious mind as the intermediary between the finite mind of man and Infinite Intelligence that enables humans to tap into the forces of the Universal Mind. He emphasizes that it alone is the medium for translating mental impulses into their spiritual and physical equivalents. 
+
+positive emotions
+desire faith love sex enthusiasm romance hope
+negative emotions
+fear jealousy revenge greed hatred superstition anger
+
+These emotions will form the goals of your subconscious mind and help you to control it.
 
 **The Brain: A Broadcasting and Receiving Station for Thought**
 
