@@ -2,7 +2,7 @@
 	Status: #idea 
 		Tags: 
 
-# What makes a person change?
+# What makes a person change
 
 One who has loved truly can never lose entirely.
 
