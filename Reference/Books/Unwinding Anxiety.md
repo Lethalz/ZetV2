@@ -7,6 +7,56 @@
 
 ---
 
+> **Anxiety is born when our PFCs (prefrontal cortex: a part of the brain that helps us to think and plan for the future) don’t have enough information to accurately predict the future.**
+
+- Notice how fear itself does not equal anxiety. Fear is an adaptive learning mechanism that helps us survive. Anxiety, on the other hand, is maladaptive; our thinking and planning brain spins out of control when it doesn’t have enough information.
+- From a scientific standpoint, the impact of having too much information to make choices when planning has been dubbed choice overload.
+- To hack our brains and break the anxiety cycle, we must become aware of two things: that we are getting anxious and/or panicking and what results from anxiety/panicking.
+
+‍
+
+#### **Anti Habit Strategies:**
+
+Anti-Habit Strategy 1: Willpower
+
+- Willpower may be fine under normal conditions but when you get stressed (saber-toothed tiger, email from the boss, fight with a spouse, exhaustion, hunger), your old brain takes control and overrides your new brain, basically shutting the latter down until the stress is gone.
+- Applying willpower to anxiety is logical yet a bit misguided for the masses. When my friend Emily (the high-powered lawyer who can think her way out of any mess, real or imagined) had panic attacks, she would tell herself, “You feel like you’re going to die, but you won’t. This is your brain playing games with you. You decide what happens next.”
+
+Anti-Habit Strategy 2: Substitution
+
+Anti-Habit Strategy 3: Prime Your Environment
+
+- How does priming your environment work for anxiety? You can’t not keep anxiety in your freezer or avoid the anxiety store so you aren’t tempted to pick one of its thirty-one flavors up on your way home from a hard day at work. As nice as an “anxiety-free zone” in your house sounds, even if you build it, the anxiety will come.
+
+Anti-Habit Strategy 4: Mindfulness
+
+- Mindfulness is not about stopping, emptying, or ridding ourselves of anything. Thoughts, emotions, and physical sensations are what make us human. ... mindfulness is about changing our relationship to those thoughts and emotions.
+
+‍
+
+- Dr. Carol Dweck, a researcher at Stanford University, talked about this years ago when she contrasted fixed and growth mindsets. When you’re stuck in old habit loops (including judging yourself), you’re not open to growth.
+- My PhD mentor, Dr. Louis Muglia, taught me the phrase “true, true, and unrelated.” This was his reminder to me when performing experiments in the lab to check for a chain of causality. In other words, I could be studying behavior or process X and seeing Y happen, yet had to prove (to myself, my mentor, and the world) that X caused Y. X could be happening (true). Y could be happening at the same time or right afterward (true). But that didn’t prove that X caused Y to happen.
+- Dr. Dweck defines fixed mindset as when you believe your basic intelligence and abilities are immutable: you’ve got what you’ve got and have to utilize them the best you can. Growth mindset, on the other hand, is a belief that your abilities can be developed and improved over time.
+- You must let the pain visit. You must allow it to teach you. You must not allow it to overstay. —IJEOMA UMEBINYUO.
+- In 2006, the psychologists Jordan Litman and Paul Silvia itemized two main “flavors” of curiosity, which they dubbed I-curiosity and D-curiosity. The I in I-curiosity stands for interest, the pleasurable aspects of the hunger for knowledge, while the D in D-curiosity stands for deprivation, the idea that if we have a gap in information, we go into a restless, unpleasant, need-to-know state.
+
+‍
+
+#### **Triggers:**
+
+- Craving Habit Loop Trigger: See cake Behavior: Eat cake Result: Feel good.
+- Rumination Habit Loop Trigger: Feel low in energy Behavior: Think about how down you feel, how you will never get anything done, etc. Result: Feel (more) depressed.
+- Anxious Worry Habit Loop Trigger: Look at unfinished to-do list Behavior: Worry about not getting it done Result: Feel anxious.
+
+‍
+
+- To change a behavior, you can’t just focus on the behavior itself. Instead, you have to address the felt experience of the rewards of that behavior. If all we needed to do was to think our way out of a behavior, we’d just tell ourselves to stop smoking, stop eating cake, stop yelling at our kids when we are stressed, stop being anxious in general, and snap! it would work. But it doesn’t. The only sustainable way to change a habit is to update its reward value. That’s why it’s called reward-based learning.
+- Trigger: Time of day, stress, hunger, etc. Behavior: Mindlessly eat a snack Result: Hmmm, how did those chips taste? I wasn’t really paying attention. Yes, exactly. That’s why those old pesky habits are so hard to break. Remember that “set and forget” from earlier?
+- That de-stress reward value doesn’t get updated until you start paying attention right at that moment. So of course you keep repeating this behavior over and over, wondering why you can’t just tell yourself to stop.
+- If you really pay careful and close attention—without making any assumptions or relying on past experience to guide you—and you see that a behavior is not rewarding right now, I promise you that you will start to get less excited about doing it again.
+- Every time you pay attention to your actions, you become more aware of what you actually get from them. If you notice that potato chips make you feel crappy when you eat too many, you get less excited about eating the whole bag next time. Not because you have to force yourself to not eat them, but simply because you remember what happened last time (and the time before that, and the time before that, and the time before that). This also holds true for worry, procrastination, or any other anxiety habit loop that you’ve learned over the years.
+- Keep going with the habit loop practice. Map out a habit loop (first gear); ask yourself, What do I get from this?; and pay attention to the body sensations, thoughts, and emotions that come as a result of the behavior (second gear). Repeat.
+- There are three parts to the loving-kindness practice: The use of some loving-kindness phrases to help you stay centered Seeing the image of the being to whom you are sending loving-kindness Recognizing a feeling of kindness that arises in your body as you do the practice.
 ## Main takeaways
 
 Habits are formed to make room for new knowledge

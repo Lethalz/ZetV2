@@ -5,7 +5,7 @@
 # Moonwalking with Einstein
 
 
-# Book Summary: Moonwalking with Einstein by Joshua Foer - Hustle Escape
+# Book Summary: Moonwalking with Einstein by Joshua Foer 
 
 
 ---
