@@ -31,10 +31,7 @@ DevNet Associate
 - [ ] COMPLETED 
 
 
-AWS SAA
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
+
 
 
 --- 
@@ -51,6 +48,44 @@ Skills to know before professional: Python, Powershell,
 Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
 
 
+
+CCNP SCOR
+- [ ] Research
+- [ ] In Progress 
+- [ ] COMPLETED 
+
+CCNP SVPN
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+
+DEVCOR
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+
+CCNP Data Center
+
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+CCNP DCAUTO
+
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+
+
+AWS SAA
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+
 AWS CAN (network)
 - [ ] Research
 - [ ] In Progress
@@ -62,27 +97,8 @@ AWS CSS (security)
 - [ ] COMPLETED 
 
 
-CCNP SCOR
-- [ ] Research
-- [ ] In Progress 
-- [ ] COMPLETED 
 
-CCNP SISE
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
 
-CCNP Data Center
-
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
-CCNP DCACI
-
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
 
 ## Expert
 
