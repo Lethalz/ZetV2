@@ -24,8 +24,11 @@ CCNP ENARSI
 - [ ] In Progress
 - [ ] COMPLETED 
 
-
-DevNet Associate
+F5 101
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+F5 201
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
@@ -33,7 +36,7 @@ DevNet Associate
 
 
 
-
+Why? These will give me the foundation i need to branch out to any part of IT. Networking is a great fundamental beginnning.
 --- 
 
 
@@ -42,6 +45,7 @@ DevNet Associate
 Skills to know before professional: Python, Powershell, 
 
 ---
+Why? I've found a great need in my workplace. The need for a great network security engineer. That is the Hole I will fill with these next certifications.
 
 # Tenured
 
@@ -54,47 +58,26 @@ CCNP SCOR
 - [ ] In Progress 
 - [ ] COMPLETED 
 
-CCNP SVPN
+CCNP SNCF
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+PCNSA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
 
-DEVCOR
+PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
-
-CCNP Data Center
-
+f5 APM, ASM, LTM, CTS
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
-
-CCNP DCAUTO
-
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
-
-
-AWS SAA
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-
-AWS CAN (network)
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-AWS CSS (security)
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
 
 
@@ -102,8 +85,7 @@ AWS CSS (security)
 
 ## Expert
 
-
-CISSP
+F5 CSE
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -111,7 +93,16 @@ CISSP
 CCIE Security
 - [ ] Research
 - [ ] In Progress
-- [ ] COMPLETED 
+- [ ] Completed
+
+
+CISSP
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+
+
 
 
 
