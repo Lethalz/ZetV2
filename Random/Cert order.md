@@ -24,14 +24,6 @@ CCNP ENARSI
 - [ ] In Progress
 - [ ] COMPLETED 
 
-F5 101
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-F5 201
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
 
 
@@ -73,6 +65,15 @@ PCNSE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
+
+F5 101
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+F5 201
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 
 f5 APM, ASM, LTM, CTS
 - [ ] Research
