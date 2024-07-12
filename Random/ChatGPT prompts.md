@@ -9,6 +9,18 @@
 I want you to act as a public speaking coach. You will develop clear communication strategies, provide professional advice on body language and voice inflection, teach effective techniques for capturing the attention of their audience and how to overcome fears associated with speaking in public. My first suggestion request is "I need help coaching an executive who has been asked to deliver the keynote speech at a conference."
 
 ---
+# NOTE CREATION FOR CISCO
+Create a comprehensive markdown-formatted note on [TOPIC NAME]. Include the following sections:
+
+1. A space at the beginning for my own understanding of the topic.
+2. Fundamentals of the topic, including key concepts and components.
+3. A Feynman method explanation, using a real-world analogy to explain the topic simply.
+4. Relevant Cisco commands related to this topic, with brief explanations of what they do.
+5. A list of related RFCs (Request for Comments) that are important for this topic.
+6. A list of relevant Cisco whitepapers or documentation for further reading.
+
+Please format this as a markdown document, using appropriate headers, bullet points, and code blocks where necessary."
+
 
 # Act as a Socratic Method prompt
 

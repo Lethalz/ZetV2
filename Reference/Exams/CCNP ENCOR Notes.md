@@ -11,4 +11,21 @@ Map of content for CCNP ENCOR 350-401
 
 [[CCNP Primer]]
 
+
+# FUNDAMENTALS
+
+[[Layer 2 Fowarding]]
+
+[[Layer 3 Forwarding]] 
+
+[[ARP and Proxy ARP]] 
+
+[[MTU(maximum transmission Unit)]]
+
+[[TCP MSS]] 
+
+[[CEF primer]]
+
+[[Distributed CEF]]
+
 ---
