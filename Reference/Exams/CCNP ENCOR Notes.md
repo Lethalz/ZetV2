@@ -14,7 +14,7 @@ Map of content for CCNP ENCOR 350-401
 
 # FUNDAMENTALS
 
-[[Layer 2 Fowarding]]
+[[Layer 2 Forwarding]]
 
 [[Layer 3 Forwarding]] 
 

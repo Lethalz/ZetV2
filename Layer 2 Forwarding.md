@@ -2,7 +2,7 @@
 	Status: #Exam #CCNP
 		Tags: [[CCNP 350-401]] [[Networking]]
 
-# Layer 2 Fowarding
+# Layer 2 Forwarding
 
 # Layer 2 Forwarding Fundamentals
 

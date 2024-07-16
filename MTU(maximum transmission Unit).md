@@ -8,6 +8,23 @@
 # MTU (Maximum Transmission Unit)
 
 ## My Understanding
+MTU (Maximum Transmission Unit) is the maximum size of data that can be encapsulated within an Ethernet frame. TCP MSS (Maximum Segment Size) is different in the sense that it does not include the IP or transport header, just the payload.
+
+MTU affects network performance and efficiency:
+
+- Lower MTU: Fewer errors but more overhead due to the higher header-to-data ratio.
+- Higher MTU: Less overhead but potentially more errors because each packet contains more data.
+
+If a packet is larger than the set MTU on your ingress interface, you will need to fragment the packet or increase the MTU of that interface to accept the larger frame.
+
+MTU is important to understand because it affects certain services like GRE tunnels. Due to the extra overhead or headers that GRE uses, you cannot use the original default MTU. This is because the size of the data would be 1524 bytes or more, which is too big. Therefore, you need to lower the MTU to something like 1476 bytes to avoid problems with communication across the tunnel.
+
+```ad-note
+icon:note
+GRE adds 24 bytes of overhead (20 bytes for the new IP header and 4 bytes for the GRE header).
+```
+
+Networks often benefit from using the largest MTU possible that doesn't cause fragmentation along the path, as this can improve efficiency by reducing packet overhead. Path MTU Discovery (PMTUD) is used to determine the maximum MTU size that can be used along the entire path between the source and destination without requiring fragmentation
 
 
 ## Fundamentals
@@ -79,3 +96,5 @@ ip mtu [bytes]
 
 ---
 # Reference
+
+![[Pasted image 20240716122114.png]]

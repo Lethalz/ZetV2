@@ -7,7 +7,8 @@
 # TCP Maximum Segment Size (MSS)
 
 ## My Understanding
-[Space for your own notes and understanding of the topic]
+[
+The TCP MSS is kind of a misnomer in the sense that segement size does not actually mean segement when it comes to this term. The mss is the max amount of data is bytes that the node can recieve or send within a tcp segment NOT including the TCP or IP header.
 
 
 
@@ -76,7 +77,6 @@ show tcp parameters
 
 ## References
 
-1. [Diagram: MSS and MTU R elationship](https://example.com/networking-diagrams/mss-mtu-relationship.png)
 
 ---
 # Reference
