@@ -7,8 +7,8 @@
 # Distributed CEF (dCEF)
 
 ## My Understanding
-[Space for your own notes and understanding of the topic]
 
+dCEF (Distributed Cisco Express Forwarding) is used in conjunction with higher-end networking equipment like chassis routers. Chassis routers typically have different modules: one for route processing and others for line cards used in packet forwarding. dCEF places a copy of the FIB (Forwarding Information Base) and adjacency table on each forwarding line card. When the Route Processor receives a routing update, it updates the FIB and the adjacency table (which is derived from ARP). This distribution allows for faster routing, improved scalability, and some fault tolerance. If one of the line cards goes down, the router can still route properly using the other line cards.
 ## Fundamentals
 
 ### Definition

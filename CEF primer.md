@@ -7,8 +7,8 @@
 # Cisco Express Forwarding (CEF)
 
 ## My Understanding
-[Space for your own notes and understanding of the topic]
 
+CEF (Cisco Express Forwarding) is a Layer 3 switching technology used in Cisco Layer 3 devices to optimize network performance. CEF is separate from the hardware switching unit, which is typically called ip_input. Data is sent to ip_input instead of CEF when there is more overhead to process the traffic, such as with OSPF packets or other Layer 3 protocol-specific traffic. CEF consists of two main components: the FIB (Forwarding Information Base) and the adjacency table. Both of these components pull their data from corresponding resources: the FIB derives its information from the routing table, while the adjacency table is populated from the ARP table.
 ## Fundamentals
 
 ### Definition

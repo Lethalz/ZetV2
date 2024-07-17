@@ -28,4 +28,6 @@ Map of content for CCNP ENCOR 350-401
 
 [[Distributed CEF]]
 
+[[VSS, StackWise, and StackWise Virtual]]
+
 ---
