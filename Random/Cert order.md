@@ -25,26 +25,6 @@ CCNP ENARSI
 - [ ] COMPLETED 
 
 
-
-
-
-Why? These will give me the foundation i need to branch out to any part of IT. Networking is a great fundamental beginnning.
---- 
-
-
-
-
-Skills to know before professional: Python, Powershell, 
-
----
-Why? I've found a great need in my workplace. The need for a great network security engineer. That is the Hole I will fill with these next certifications.
-
-# Tenured
-
-Lateral Tech: Ansible, Terraform, Docker, VMWARE, IPSec
-
-
-
 CCNP SCOR
 - [ ] Research
 - [ ] In Progress 
@@ -55,16 +35,29 @@ CCNP SNCF
 - [ ] In Progress
 - [ ] COMPLETED
 
+
+
+CCNP DCCOR
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+CCNP DCAUTO
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
+
+
 PCNSA
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
-
-PCNSE
+CCNP ENCC
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
+
 
 F5 101
 - [ ] Research
@@ -81,33 +74,39 @@ f5 APM, ASM, LTM, CTS
 - [ ] COMPLETED
 
 
-
-
-
-## Expert
-
-F5 CSE
+CCIE Enterprise
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-CCIE Security
+AZ-104
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-500
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-700
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AWS SAA
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+GCP
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 
-CISSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 
-
-
-
-
-COMPLETED IN 4 YEARS
 
 
 
