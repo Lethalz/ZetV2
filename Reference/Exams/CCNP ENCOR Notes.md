@@ -30,4 +30,6 @@ Map of content for CCNP ENCOR 350-401
 
 [[VSS, StackWise, and StackWise Virtual]]
 
+[[SSO Stateful Switchover]]
+
 ---
