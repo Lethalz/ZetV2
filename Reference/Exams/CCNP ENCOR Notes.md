@@ -11,7 +11,7 @@ Map of content for CCNP ENCOR 350-401
 
 [[CCNP Primer]]
 
-
+[[ENCOR EXAM TOPICS SUMMARY]]
 # FUNDAMENTALS
 
 [[Layer 2 Forwarding]]
@@ -31,5 +31,7 @@ Map of content for CCNP ENCOR 350-401
 [[VSS, StackWise, and StackWise Virtual]]
 
 [[SSO Stateful Switchover]]
+
+[[SDM Switching Database Manager]]
 
 ---

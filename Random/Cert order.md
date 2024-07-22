@@ -35,7 +35,10 @@ CCNP SNCF
 - [ ] In Progress
 - [ ] COMPLETED
 
-
+HCISPP
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
 
 CCNP DCCOR
 - [ ] Research

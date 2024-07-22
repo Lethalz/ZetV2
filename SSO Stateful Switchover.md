@@ -71,6 +71,18 @@ icon: network-wired
 In BGP, a router undergoing GR (the restarting router) informs its peers that it's restarting. The peers then maintain their routing information for the restarting router, allowing it to rebuild its BGP table without causing route flaps.
 ```
 
+```ad-info
+title: NSR Non-stop Routing
+collapse: closed
+
+NSR (Non-Stop Routing):
+
+- An enhancement to NSF that provides additional stability and less traffic disruption during route processor switchover.
+- With NSR, the standby route processor maintains a mirror image of the active route processor's protocol data and state information.
+- When a switchover occurs, NSR allows the newly active route processor to maintain routing relationships with peers without needing to re-establish sessions, relearn route information, or flap the neighbor adjacencies.
+
+
+```
 ## Comparison
 
 | Feature     | SSO                      | NSF                          | GR                         |

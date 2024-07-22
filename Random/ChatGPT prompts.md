@@ -17,7 +17,9 @@ Create a comprehensive markdown-formatted note on [TOPIC NAME]. Include the foll
 3. A Feynman method explanation, using a real-world analogy to explain the topic simply.
 4. Relevant Cisco commands related to this topic, with brief explanations of what they do.
 5. A list of related RFCs (Request for Comments) that are important for this topic.
-6. A list of relevant Cisco whitepapers or documentation for further reading.
+6. A list of relevant Cisco whitepapers or documentation for further reading with links to all.
+7. Use information from the video
+8. Search the web for admonition plugin on obsidian and use that to create the note formatted in markdown
 
 Please format this as a markdown document, using appropriate headers, bullet points, and code blocks where necessary."
 
