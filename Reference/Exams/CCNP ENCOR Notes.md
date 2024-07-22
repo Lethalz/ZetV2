@@ -34,4 +34,6 @@ Map of content for CCNP ENCOR 350-401
 
 [[SDM Switching Database Manager]]
 
+[[ICMP]]
+
 ---
