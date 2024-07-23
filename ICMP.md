@@ -42,6 +42,7 @@ Error Messages:
 
 2. Redirect (Type 5)
    - Sent by routers to inform hosts of a better route for a destination
+![[Pasted image 20240723142347.png]]
 
 3. Time Exceeded (Type 11)
    - Sent when a packet's TTL reaches zero
@@ -124,6 +125,17 @@ icon: exclamation-triangle
 
 Debugging can be resource-intensive. Use with caution on production networks.
 ```
+
+Rate limit how often the router will send unreacheables:
+```
+ip icmp rate-limit unreachables milliseconds
+```
+
+Rate limit how often the router will send unreacheables but only code 4:
+```
+ip icmp rate-limit unreachables df milliseconds
+
+
 
 ## Related RFCs
 
