@@ -7,7 +7,7 @@
 # ICMP (Internet Control Message Protocol) and ICMPv6
 
 ## My Understanding
-[Space for your own notes and understanding of the topic]
+
 
 ## Fundamentals
 
@@ -37,22 +37,42 @@ ICMP Message Types:
 Error Messages:
 1. Destination Unreachable (Type 3)
    - Indicates a packet couldn't be delivered to its destination
-   - Various codes specify the reason (e.g., network unreachable, port unreachable)
+   - Various codes specify the reason the packet was dropped (e.g., network unreachable, port unreachable)
     ![[Pasted image 20240722140717.png]]
-
+```ad-note
+The Next-hop MTU field is only used with Code 4
+```
 2. Redirect (Type 5)
    - Sent by routers to inform hosts of a better route for a destination
 ![[Pasted image 20240723142347.png]]
 
 3. Time Exceeded (Type 11)
    - Sent when a packet's TTL reaches zero
+   - Used to inform a sender that a router couldn't forward the packet because the IP TTL expired.
+   - Used to inform a sender that a device had to discard a fragmented packet because not all fragments arrived in time.
    - Used by the traceroute utility
+   - Code field indicates the type of Time Exceeded message:
+![[Pasted image 20240724093307.png]]
+
 
 Query Messages:
 1. Echo Request (Type 8) and Echo Reply (Type 0)
    - Used by the ping utility to test connectivity (Can have a 0-byte payload)
    - In Echo messages, the data in the Echo Request must be echoed back in the Echo Reply.
+![[Pasted image 20240724094703.png]]
 
+- **Identifier** is used by a device to keep track of pings it sends
+	- this value is incremented by 1 for each series of pings sent (per ping command)
+- **Sequence** is used to keep track of each Request and reply exchange in a series
+		- I.e Request 1 = Sequence 0, Reply 1 = Sequence 0 ; Request 2 = Sequence 1, Reply 2 = Sequence 1
+- **Payload** is usually just a string of ASCII characters.
+	- The Payload of the Request must be sent back in the Reply.
+
+## ICMPv6
+![[Pasted image 20240724124101.png]]
+
+ ICMPv6 uses a Protocol number of 58 in the next header field of the ipv6 header
+ 
 ICMPv6 Specific Messages:
 1. Neighbor Solicitation and Advertisement (Types 135 and 136)
    - Used for address resolution, similar to ARP in IPv4
@@ -134,6 +154,12 @@ ip icmp rate-limit unreachables milliseconds
 Rate limit how often the router will send unreacheables but only code 4:
 ```
 ip icmp rate-limit unreachables df milliseconds
+```
+
+Check Ip redirect settings:
+```
+show ip interface g0/0
+```
 
 
 
@@ -181,3 +207,6 @@ ICMP and ICMPv6 are essential protocols for network diagnostics and error report
 # Reference
 
 https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
+https://www.youtube.com/watch?v=zesTvBZCESk&t=815s
+
+![[Pasted image 20240724113243.png]]
