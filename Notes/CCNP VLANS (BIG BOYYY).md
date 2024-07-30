@@ -36,6 +36,30 @@ Extended VLAN range: 1006-4094
 VLANs 1002-1005 are reserved for legacy protocols
 ```
 
+
+### Internal VLANS
+- Cisco switches create internal VLANs for their own use..
+		- I.e when you make a routed port with the `no switchport` an internal VLAN is created
+- Created from the extend VLAN range, starting from 1006 (default)
+```ad-note
+title:How to change the default
+collapse: open
+  You can control this with `vlan internal allocation policy {ascending | descending}`
+	  `ascending` - allocation starts from 1006
+	  `descending` - allocation starts from 4094
+	  *Once a VLAN is used for internal purposes it cannot be used elsewhere.*
+```
+
+### Inter-VLAN Routing 
+
+3 Ways to do it
+
+1. A separate connection per VLAN to a router (tedious)
+2. Router-on-a-stick(a trunk connection between the switch and router), {sub-interfaces}.
+3. Switch Virtual interfaces (SVIs) on a multilayer switch 
+
+
+
 ## Feynman Method Explanation
 
 Imagine a large office building with many departments. Initially, all departments share the same hallway (network), and whenever someone shouts (broadcasts), everyone hears it, causing distraction (network congestion).
@@ -52,6 +76,12 @@ Create a VLAN:
 ```
 vlan <vlan-id>
 name <vlan-name>
+```
+
+```ad-tip
+title:Creating Multiple Vlans?
+When Creating and deleting VLANs, you can specify a range (ie. vlan 100-105.120,123)
+
 ```
 
 Assign a port to a VLAN (Access Mode):
@@ -90,6 +120,8 @@ Configure native VLAN on a trunk:
 switchport trunk native vlan <vlan-id>
 Always ensure native VLAN matches on both ends of a trunk link.
 ```
+
+
 
 Shut down a VLAN on a local switch:
 ```
@@ -131,6 +163,17 @@ icon: terminal
 When you use the 'show vlan brief' command:
 - A shutdown VLAN will show status as 'act/lshut' (active but locally shut down)
 - A suspended VLAN will show status as 'sus' (suspended)
+```
+
+Show Internal VLANS in use:
+```
+show vlan internal usage
+```
+```ad-note
+title: What if I need to use a VLAN already taken internally?
+collapse: closed
+
+If necessary, you can shut down the routed port assigned to the internal VLAN, which frees up the internal VLAN, and then create the extended range VLAN and re-enable the port, which then uses another VLAN as its internal VLAN.
 ```
 ## Related RFCs
 

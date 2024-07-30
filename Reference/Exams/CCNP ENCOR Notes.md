@@ -28,7 +28,7 @@ Map of content for CCNP ENCOR 350-401
 
 [[CEF primer]]
 
-[[Distributed CEF]]
+[[distributed CEF]]
 
 [[VSS, StackWise, and StackWise Virtual]]
 
@@ -41,6 +41,8 @@ Map of content for CCNP ENCOR 350-401
 [[TRACEROUTE]]
 
 [[Cisco IOS Debug]]
+
+[[CCNP VLANS (BIG BOYYY)]]
 
 
 
