@@ -44,8 +44,9 @@ Map of content for CCNP ENCOR 350-401
 
 [[CCNP VLANS (BIG BOYYY)]]
 
+[[VTP AND DTP]]
 
-
+## STP
 
 
 
