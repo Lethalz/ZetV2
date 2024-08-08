@@ -46,6 +46,10 @@ CCNP DCAUTO
 - [ ] In Progress
 - [ ] COMPLETED
 
+CCIE Enterprise
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 PCNSE
 - [ ] Research
@@ -57,26 +61,6 @@ CCNP ENCC
 - [ ] In Progress
 - [ ] COMPLETED
 
-
-F5 101
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-F5 201
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
-
-f5 APM, ASM, LTM, CTS
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
-
-CCIE Enterprise
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-104
 - [ ] Research
