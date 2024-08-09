@@ -114,6 +114,12 @@ There is a way to have both sides authenticate all the time and thats called mut
 
 
 Certificate Authority
+- Governing Entity that issues Certificates 
+- Trusted by client ad server
+- provides trust anchor
+	- if we trust the ca we trust what the ca trusts
+- Five orgs secure 98% of the internet:
+![[Pasted image 20240809112532.png]]
 
 
 
