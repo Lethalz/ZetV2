@@ -138,6 +138,56 @@ Certificate Authority
 6. TLS 1.2 - Released in 2008, widely used
 7. TLS 1.3 - Released in 2018, current standard
 
+```ad-note
+title:Security vs Accessibility 
+
+You might want to just use the newest version of ssl/tls but you need to take other factors into account. What if you have older devices connecting to your server that arent compatible with newer TLS versions?
+
+```
+
+## Version Changes
+
+Here's a concise overview of SSL/TLS versions with key points and upgrades:
+
+1. SSL 1.0 (Deprecated)
+   • Never publicly released
+   • Contained significant security flaws
+   • Developed by Netscape
+
+2. SSL 2.0 (Deprecated)
+   • First publicly released version
+   • Vulnerable to downgrade attacks
+   • Introduced the SSL handshake process
+
+3. SSL 3.0 (Deprecated)
+   • Completely redesigned from SSL 2.0
+   • Vulnerable to POODLE attack
+   • Introduced support for Fortezza cipher suites
+
+4. TLS 1.0 (Deprecated) (secure-ish)
+   • Based on SSL 3.0 with minor differences
+   • Vulnerable to BEAST attack (Cipher Block Chaining Vulnerability)
+   • Introduced HMAC for message authentication
+
+5. TLS 1.1(Deprecated) (secure-ish)
+   • Added protection against CBC attacks
+   • Introduced explicit IV for CBC mode ciphers
+   -  Formally Deprecated EXPORT based ciphers
+   • Improved handling of padding errors
+
+6. TLS 1.2 (secure)
+   • Allows negotiation of hash and signature algorithms
+   • Supports AEAD ( Authenticated Encryption with Associated Data) cipher modes (e.g., GCM)
+   • Removed support for weak hash functions (MD5/SHA-1)
+
+7. TLS 1.3 (secure)
+   • Reduced handshake latency (1-RTT, 0-RTT)
+   • Removed support for obsolete and insecure features
+   - Required Forward Secrecy
+   - AEAD Required
+   • Introduced encrypted handshake messages
+
+
 ## Related RFCs
 
 1. [RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://datatracker.ietf.org/doc/html/rfc8446)
