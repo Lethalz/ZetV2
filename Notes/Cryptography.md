@@ -7,8 +7,7 @@
 
 # Cryptography: A Deep Dive
 
-## My Understanding
-[Space for your own notes and understanding of the topic]
+
 
 ## 1. Hashing
 
@@ -144,7 +143,18 @@ Use Cases:
 - Secure key exchange
 - Digital signatures
 - Email encryption (PGP)
-- Secure web browsing (HTTPS)
+- Secure web browsing (HTTPS) 
+- Using the Asymmetric Keys to Encrypt Symmetric Keys
+
+```ad-note 
+title: Hybrid Encryption
+collapse: Closed
+	Cencept of using both Asymmetric and Symmetric Encryption
+		Asymmetric Encryption to facilitate a Key Exchange
+		Secret Key use with Symmetric Encryption for Bulk Data
+	
+
+```
 
 Key Management:
 - Secure generation of key pairs
@@ -152,15 +162,79 @@ Key Management:
 - Distribution of public keys
 - Key rotation and revocation
 
+```ad-note
+title: But what about Signatures?
+collapse: closed
+
+signatures- using your private key to encrypt a message, so that anyone with your public key knows it was you who sent it.
+
+The entire message can't be "encyrpted" with Private key
+	Asymnmetric encryption has limitations
+Could we sign a fixed, represenetational sample of the message?
+	Hasing algorithm!
+	
+```
+
+```ad-note
+title: Process for Using an Asymmetric Key Pair for Digital Signatures
+collapse: closed
+icon: signature
+
+1. Pam calculates a hash of the message.
+2. Pam encrypts the resulting digest with her private key (signing).
+3. Jim decrypts the signature with Pam's public key.
+4. Jim calculates the hash of the received message.
+5. Jim compares the decrypted hash with the calculated hash.
+
+If both digests match, this proves two things:
+- Integrity: The message hasn't changed since Pam signed it.
+- Authentication: Only Pam could have created the signature.
+
+Explanation:
+- The matching hash proves the message integrity (hasn't been altered).
+- The successful decryption using Pam's public key proves that Pam's private key was used to sign, authenticating Pam as the sender.
+
+This process ensures both integrity and authentication of the message.
+
+```
+
+
+```ad-note
+title: Key Takeaways
+
+Hybrrid Encryption: 
+- Use Asymmetric Encryption to securely establish Symmetric Keys
+- Symmetric Keys can then be used with Symmetric Encrytpion to protect bulk data
+
+Signatures:
+- Uses the Sender's Private Key to encrypt the hash of a data
+- Provvides Integrity and Authentication for what is Signed
+```
+
+
 ## 5. How TLS and SSL Use Cryptography
 
 TLS (Transport Layer Security) and its predecessor SSL use a combination of symmetric and asymmetric cryptography.
+
+
+SSL and TLS have three main purposes:
+1. Confidentiality(Encryption) - Data is only accessible by Client and server
+2. Integrity(Hashing) - Data is not modified between Client and Server
+3. Authentication(PKI) - Client/Server are indeed who they say they are
+
+![[Pasted image 20240813095042.png]]
 
 TLS Handshake Process:
 1. Client Hello: Client sends supported cipher suites and random number
 2. Server Hello: Server chooses cipher suite and sends certificate
 3. Key Exchange: Often using Diffie-Hellman or RSA
 4. Finished: Both sides derive session keys
+
+Cert Authority Role 
+1. CA is trusted by Client
+2. CA will generate a Certificate
+3. The CA links a particular set of Asymmetric keys to an Identity (Certificate)
+4. This Cert is "signed" by the CA provides **Authentication**
 
 Cryptographic Components in TLS:
 - Asymmetric cryptography for key exchange and authentication
@@ -176,23 +250,24 @@ icon: exclamation-triangle
 All SSL versions and TLS versions prior to 1.2 are considered insecure. Use TLS 1.2 or 1.3 in production.
 ```
 
+![[Pasted image 20240813124757.png]]
 ## 6. Public Key Infrastructure (PKI)
 
 PKI is a set of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates.
 
-Components of PKI:
-- Certificate Authority (CA): Issues and signs certificates
-- Registration Authority (RA): Verifies the identity of entities requesting certificates
-- Certificate Database: Stores certificate requests and issued certificates
-- Certificate Store: Holds certificates and private keys on the client side
+Anytime you have a session that includes a client , server and CA you have a **public key infrastructure**.
 
-X.509 Certificates:
-- Standard format for public key certificates
-- Contains public key, identity information, and CA's digital signature
+3 Entities that form the PKI: Client , Server, Certificate Authority
+	1. Client - needs to connect securely or verify an identity e.g web browsers
+	2. Server - needs to prove its identity e.g Websites
+	3. Certificate Authority - validate identities &  generates certificates e.g GoDaddy GlobalSign
 
-Certificate Revocation:
-- Certificate Revocation Lists (CRLs)
-- Online Certificate Status Protocol (OCSP)
+Other Types of PKI:
+1. Code Signing (client is the OS , software is the server, the CA is a code signing specific CA)
+   ![[Pasted image 20240813131714.png]]
+2. Internal Corporate PKI (Client -  Employees, Server- Corporate resources - HR portals, Ticketing systems,, etc, CA - Internal CA) ![[Pasted image 20240813132028.png]]
+
+
 
 ```ad-tip
 title: Certificate Transparency
@@ -206,15 +281,25 @@ Certificate Transparency is a relatively new system for logging and monitoring c
 
 RSA is one of the first practical public-key cryptosystems, widely used for secure data transmission.
 
+The most common Asymmetric Encryption algorithm.
+
 Key Concepts:
 1. Based on the practical difficulty of factoring the product of two large prime numbers
 2. Public key consists of the modulus n and the public exponent e
 3. Private key consists of the modulus n and the private exponent d
 
 RSA Operations:
-- Key Generation
+- Key Generation - Creates a pair of "commutative" keys
+	- i.e "encrypt with one" "decrypt with the other"
 - Encryption: c = m^e mod n
 - Decryption: m = c^d mod n
+
+c = Cipher Text 
+m=message, E = public key  n = product of two prime numbers
+d = private key 
+
+![[Pasted image 20240813141005.png]]
+
 
 Security Considerations:
 - Key size: Minimum 2048 bits recommended
@@ -227,7 +312,7 @@ Use Cases:
 
 ## 8. Diffie-Hellman Key Exchange
 
-Diffie-Hellman (DH) is a method of securely exchanging cryptographic keys over a public channel.
+Diffie-Hellman (DH) is a method of securely exchanging cryptographic keys over a public channel. (Shared secret over an unsecure medium)
 
 Key Concepts:
 1. Based on the discrete logarithm problem
@@ -240,8 +325,14 @@ Process:
 3. Exchange public keys
 4. Each party computes the shared secret
 
-Variants:
-- Elliptic Curve Diffie-Hellman (ECDH): Uses elliptic curve cryptography for smaller keys and faster operations
+![[Pasted image 20240813151133.png]]
+
+- Established Shared Secret is then used to generate Symmetric keys
+- Or HMAC keys for data integrity
+
+![[Pasted image 20240813151634.png]]
+
+
 
 ```ad-warning
 title: Man-in-the-Middle Attacks
@@ -253,7 +344,7 @@ Diffie-Hellman is vulnerable to man-in-the-middle attacks without additional aut
 
 ## 9. Digital Signature Algorithm (DSA)
 
-DSA is a Federal Information Processing Standard for digital signatures, based on the discrete logarithm problem.
+DSA is a Federal Information Processing Standard for digital signatures, based on the discrete logarithm problem. *Simply a signature algorithm*
 
 Key Concepts:
 1. Provides authenticity and non-repudiation
@@ -264,8 +355,13 @@ Process:
 2. Signing: Compute r and s values based on the message hash and private key
 3. Verification: Verify the signature using the public key
 
-Variants:
-- Elliptic Curve DSA (ECDSA): Uses elliptic curve cryptography for smaller keys and faster operations
+
+![[Pasted image 20240813153408.png]]
+
+Random number is very important, must be unique for each message or DSA fails catastrophically.
+If Random # is ever re-used, Private key can be extracted.
+
+[RFC 6979 - generate random # deterministically based on message](https://datatracker.ietf.org/doc/html/rfc6979)
 
 Use Cases:
 - Code signing
@@ -279,6 +375,13 @@ icon: balance-scale
 
 While DSA was specifically designed for digital signatures, RSA can be used for both encryption and signatures. ECDSA is generally preferred over DSA for its smaller key sizes and faster operations.
 ```
+
+
+![[Pasted image 20240813155623.png]]
+
+
+
+
 
 
 ## Relevant RFCs
@@ -325,5 +428,49 @@ When reading RFCs, start with the Abstract and Introduction sections to get an o
 ## Conclusion
 
 Cryptography forms the backbone of information security in the digital age. Understanding these core concepts and algorithms is crucial for anyone working in cybersecurity or developing secure systems. As the field evolves, new algorithms and techniques are continually being developed to address emerging threats and computational advances.
+
 ---
 # Reference
+
+### Review Questions
+
+You should be able to confidently answer each of the following questions. Review the necessary lessons if you are unsure of any answer, or if you had to guess.
+
+If you aren't sure about an answer, ask in the Private Channel in the Discord server (details in Lesson 2 of the Welcome Module)
+
+- What is a Hashing Algorithm?
+	- A hashing algorithm takes a variable length message and created a fixed length message. Hashing is used for integrity to check if a message was altered in any way
+
+- What is a Collision?
+	- A collision occurs when two messages output the same hash.
+- What is a MAC?
+	- Message authentication code - is when you take a secret key and encrypt a Hash
+- How is a MAC different than an HMAC?
+	- A Mac uses a Symmetric key to encrypt the message , HMAC uses Asymmetric keys to encrypt the message
+- What are the two types of Key-based encryption that exist?
+	- Symmetric and Asymmetric 
+- How are they different?
+	 - Symmetric is used for Bulk Data, both the sender and receiver uses the same key, problem is having matching keys without sending over the wire
+	 - Asymmetric is used for smaller data, it consists of a private and public key pair, where the private is used to encrypt/decrypt the public key and vise versa
+- Which type of encryption is considered more secure?
+	- Asymmetric is more secure but has more overhead
+- Which type of encryption is better for Bulk Data?
+	- Symmetric 
+- What is the general process for Hybrid encryption?
+	- The process for Hybrid encryption is  by using their asymmetric key pair to encrypt (public key) the symmetric key so that both sides have the  symmetric key without having to send it plain text over the wire.
+- What is the general process for Message Signing?
+	- The user Hashes the message this is for integrity purposes then signs the message by encrypting with their private key so that anyone with their public key can see that it was actually the user who sent it. 
+- What are the three functions of Asymmetric Encryption?
+	- Key-Exchange
+	- Authentication
+	- Encryption 
+- What is RSA?
+	- RSA is that cool math that allows you top create communicative keys where if you encrypt with one then you decrypt with the other and vice versa
+- What is Diffie-Hellman? What is its purpose?
+	- The purpose of DH is being able to send a shared secret over an unshared medium
+- What is the Digital Signature Algorithm? How is it different from RSA and DH?
+	- DSA IS LITERALLY only used for Signing . Input the information and you get the sign
+	- Then input the sign into verification  and get a 1 or 0 for true or false
+
+
+[[Differences between DH and RSA]]

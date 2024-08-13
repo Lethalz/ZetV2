@@ -16,7 +16,7 @@ Lateral Tech : Powershell, Python, Git
 
 CCNP ENCOR
 - [x] Research
-- [ ] In Progress
+- [x] In Progress
 - [ ] COMPLETED 
 
 CCNP ENARSI
@@ -36,25 +36,22 @@ CCNP SNCF
 - [ ] COMPLETED
 
 
-CCNP DCCOR
+CCNP SVPN
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
-CCNP DCAUTO
+DevNET ASC
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
-CCIE Enterprise
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
-PCNSE
+CCNP ENSDWI
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
+
 
 CCNP ENCC
 - [ ] Research
