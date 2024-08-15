@@ -9,7 +9,7 @@
 
 ## My Understanding of Layer 3 Forwarding
 
-[Your input here]
+
 
 ---
 
@@ -49,6 +49,24 @@
 - Used for specific routing requirements or simple networks
 
 ---
+
+## Steps to Layer 3 Forwarding:
+
+1. Packet Arrival: Router receives a packet on one of its interfaces.
+2. Destination IP Check: Router examines the destination IP address in the packet header.
+3. Routing Table Lookup: Router consults its routing table to find the best match for the destination IP.
+4. Next-Hop Determination: Router identifies the next-hop IP address or exit interface for the packet. (longest prefix match)
+5. ARP Lookup: If needed, router uses ARP to find the MAC address of the next-hop.
+6. Packet Modification: Router decrements the TTL, recalculates the IP header checksum.
+7. Frame Construction: Router encapsulates the IP packet in a new Layer 2 frame.
+8. Forwarding: Router sends the frame out of the appropriate interface.
+9. Process Repeat: This process repeats at each router until the packet reaches its final destination.
+
+Key Points:
+
+- Routing decisions are made based on the destination IP address.
+- The routing table is crucial for determining the best path.
+- Layer 3 forwarding involves both Layer 3 (IP) and Layer 2 (MAC) operations.
 
 ## Feynman Method Explanation
 

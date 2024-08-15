@@ -19,11 +19,17 @@ CCNP ENCOR
 - [x] In Progress
 - [ ] COMPLETED 
 
-CCNP ENARSI
+
+CCNP ENARSI 
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
 
+
+DevNET ASC
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
 
 CCNP SCOR
 - [ ] Research
@@ -37,11 +43,6 @@ CCNP SNCF
 
 
 CCNP SVPN
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
-DevNET ASC
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
