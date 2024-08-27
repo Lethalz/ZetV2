@@ -54,12 +54,6 @@ CCNP ENSDWI
 - [ ] COMPLETED
 
 
-CCNP ENCC
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
-
 AZ-104
 - [ ] Research
 - [ ] In Progress
@@ -74,6 +68,12 @@ AZ-700
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+
+CCNP ENCC
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
 
 AWS SAA
 - [ ] Research

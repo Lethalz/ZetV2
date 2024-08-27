@@ -4,7 +4,7 @@
 
 # x509 Certificates and Keys
 
-
+[[Practical TLS]]
 ## Overview of the SSL Process
 
 
@@ -318,9 +318,84 @@ Extensions can be marked as "critical" or "non-critical". If an extension is mar
 [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
    
 
+## What is in a Private Key?
+
+# What is IN a Private Key
 
 
+## Contents of Private Keys
 
+The contents of a private key depend on the cryptographic algorithm being used. Here are the contents for some common algorithms:
+
+Bunch of values used in Asymmetric math. [[Cryptography#7. RSA (Rivest-Shamir-Adleman) | RSA Math Example]]
+
+```ad-note
+title: How to find out what key matches to what Cert
+collapse: closed
+
+If the modulus in the private key file matches with the modulus of the cert file you know you have a match.
+
+![[Pasted image 20240827145903.png]]
+```
+### RSA (Rivest-Shamir-Adleman) Private Key
+
+An RSA private key contains:
+
+1. p and q: Two large prime numbers
+2. n: The modulus (n = p * q)
+3. d: The private exponent
+4. e: The public exponent (usually a small number like 65537)
+5. Additional values for optimization:
+   - dp: d mod (p-1)
+   - dq: d mod (q-1)
+   - qinv: q^(-1) mod p
+
+```ad-info
+title: RSA Key Format
+collapse: closed
+icon: file-code
+
+RSA private keys are often stored in PKCS#1 or PKCS#8 format, which include additional metadata along with these numerical values.
+```
+
+### ECC (Elliptic Curve Cryptography) Private Key
+
+An ECC private key is simpler and contains:
+
+1. d: A random integer between 1 and the order of the curve
+2. Information about the specific elliptic curve being used
+
+### DSA (Digital Signature Algorithm) Private Key
+
+A DSA private key contains:
+
+1. p: A large prime modulus
+2. q: A prime divisor of p-1
+3. g: A generator of order q in the multiplicative group of integers modulo p
+4. x: The private key (a random integer less than q)
+5. y: The public key (y = g^x mod p)
+
+```ad-warning
+title: Key Security
+collapse: closed
+icon: lock
+
+Regardless of the algorithm, the numerical values in a private key must be kept strictly confidential. Exposure of these values compromises the security of the cryptosystem.
+```
+
+## Private Key Formats
+
+Private keys are typically stored in standardized formats:
+
+1. PEM (Privacy Enhanced Mail): Base64 encoded DER certificate, enclosed between "-----BEGIN PRIVATE KEY-----" and "-----END PRIVATE KEY-----"
+2. DER (Distinguished Encoding Rules): Binary format
+3. PKCS#8: A standard syntax for storing private key information
+
+## Related RFCs
+
+- [RFC 3447 - Public-Key Cryptography Standards (PKCS) #1: RSA Cryptography Specifications Version 2.1](https://datatracker.ietf.org/doc/html/rfc3447)
+- [RFC 5915 - Elliptic Curve Private Key Structure](https://datatracker.ietf.org/doc/html/rfc5915)
+- [RFC 6979 - Deterministic Usage of the Digital Signature Algorithm (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA)](https://datatracker.ietf.org/doc/html/rfc6979)
 
 ---
 # Reference
