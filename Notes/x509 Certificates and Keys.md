@@ -397,5 +397,94 @@ Private keys are typically stored in standardized formats:
 - [RFC 5915 - Elliptic Curve Private Key Structure](https://datatracker.ietf.org/doc/html/rfc5915)
 - [RFC 6979 - Deterministic Usage of the Digital Signature Algorithm (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA)](https://datatracker.ietf.org/doc/html/rfc6979)
 
+
+
+
+
+# What's in a CSR (Certificate Signing Request)
+
+## Structure of a CSR
+
+A CSR consists of three main sections:
+1. Certificate Request Information
+2. Signature Algorithm
+3. Signature
+
+## Certificate Request Information
+
+This section contains:
+1. Version
+2. Subject Distinguished Name (DN)
+3. Public Key
+4. Attributes
+
+### Version
+- Value: 0x0
+- Meaning: CSR version 1
+- Note: This is currently the only version in use
+
+### Subject Distinguished Name (DN)
+- Contains the subject's distinguished name
+- Imported by the CA into the certificate
+- CA adds its own DN as the certificate's issuer field
+
+### Public Key
+- Presented as two values: modulus and exponent
+- Includes the algorithm used
+
+### Attributes
+- Optional additional CSR features
+- Common attributes include:
+  1. Extension Requests
+  2. Challenge Password
+
+```ad-info
+title: Extension Requests
+collapse: closed
+icon: puzzle-piece
+
+- Where the server adds requests for specific extensions for the ensuing certificate
+- Examples: Subject Key Identifier, Subject Alternative Name (SAN)
+```
+
+```ad-info
+title: Challenge Password
+collapse: closed
+icon: key
+
+- Used when requesting admin action from CA
+- Limits who can ask CA to revoke the certificate
+- Legacy: Now often replaced by web portals for certificate management
+```
+
+- Note: `a:00` indicates when the CSR contains 0 attributes
+
+## CSR Process
+
+1. Server Creation: The server creates the CSR
+2. Signing: The server signs the CSR (not the CA)
+3. Submission: CSR is submitted to the CA
+4. CA Processing:
+   - CA imports subject information
+   - CA adds its own DN as the certificate issuer
+   - CA processes extension requests
+5. Certificate Issuance: CA issues the certificate based on the CSR
+
+```ad-warning
+title: CSR Security
+collapse: closed
+icon: shield-alt
+
+The private key corresponding to the public key in the CSR never leaves the server. This ensures the security and integrity of the key pair.
+```
+
+
+## Related RFC
+
+[RFC 2986 - PKCS #10: Certification Request Syntax Specification Version 1.7](https://datatracker.ietf.org/doc/html/rfc2986)
+
+
+
+
 ---
 # Reference

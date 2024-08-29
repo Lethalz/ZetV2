@@ -42,9 +42,9 @@ Look for those little wins early on those will help you push through the trials 
 Sometime i think oh im not going to do this its going to be too easy, but sometimes we need those easy win. 
 
 
-## Ch 4: Knowledge Beomces invisible with Experience
+## Ch 4: Knowledge Becomes invisible with Experience
 
-Experts dont always make the best teachers because at a certain point knowledge become intuition but when it becomes intuition it becomes knowledge you feel everyone should know so most times you exclude it.
+Experts don't always make the best teachers because at a certain point knowledge become intuition but when it becomes intuition it becomes knowledge you feel everyone should know so most times you exclude it.
 
 
 When asking a expert in a specialized skill about something, instead of asking a direct question ask them about a story. 

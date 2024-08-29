@@ -431,46 +431,90 @@ Cryptography forms the backbone of information security in the digital age. Unde
 
 ---
 # Reference
-
-### Review Questions
-
-You should be able to confidently answer each of the following questions. Review the necessary lessons if you are unsure of any answer, or if you had to guess.
-
-If you aren't sure about an answer, ask in the Private Channel in the Discord server (details in Lesson 2 of the Welcome Module)
-
-- What is a Hashing Algorithm?
-	- A hashing algorithm takes a variable length message and created a fixed length message. Hashing is used for integrity to check if a message was altered in any way
-
-- What is a Collision?
-	- A collision occurs when two messages output the same hash.
-- What is a MAC?
-	- Message authentication code - is when you take a secret key and encrypt a Hash
-- How is a MAC different than an HMAC?
-	- A Mac uses a Symmetric key to encrypt the message , HMAC uses Asymmetric keys to encrypt the message
-- What are the two types of Key-based encryption that exist?
-	- Symmetric and Asymmetric 
-- How are they different?
-	 - Symmetric is used for Bulk Data, both the sender and receiver uses the same key, problem is having matching keys without sending over the wire
-	 - Asymmetric is used for smaller data, it consists of a private and public key pair, where the private is used to encrypt/decrypt the public key and vise versa
-- Which type of encryption is considered more secure?
-	- Asymmetric is more secure but has more overhead
-- Which type of encryption is better for Bulk Data?
-	- Symmetric 
-- What is the general process for Hybrid encryption?
-	- The process for Hybrid encryption is  by using their asymmetric key pair to encrypt (public key) the symmetric key so that both sides have the  symmetric key without having to send it plain text over the wire.
-- What is the general process for Message Signing?
-	- The user Hashes the message this is for integrity purposes then signs the message by encrypting with their private key so that anyone with their public key can see that it was actually the user who sent it. 
-- What are the three functions of Asymmetric Encryption?
-	- Key-Exchange
-	- Authentication
-	- Encryption 
-- What is RSA?
-	- RSA is that cool math that allows you top create communicative keys where if you encrypt with one then you decrypt with the other and vice versa
-- What is Diffie-Hellman? What is its purpose?
-	- The purpose of DH is being able to send a shared secret over an unshared medium
-- What is the Digital Signature Algorithm? How is it different from RSA and DH?
-	- DSA IS LITERALLY only used for Signing . Input the information and you get the sign
-	- Then input the sign into verification  and get a 1 or 0 for true or false
-
-
 [[Differences between DH and RSA]]
+
+
+# Comprehensive Cryptography Quiz
+
+1. What are the four requirements that a hashing algorithm must satisfy?
+2. Why are MD5 and SHA-1 no longer recommended for use in production environments?
+3. What is the main difference between symmetric and asymmetric encryption in terms of keys used?
+4. Explain the concept of "Hybrid Encryption" and why it's useful.
+5. What are the three main purposes of SSL and TLS?
+6. In the context of Public Key Infrastructure (PKI), what role does a Certificate Authority (CA) play?
+7. What is the key concept behind the security of RSA encryption?
+8. Describe the basic process of the Diffie-Hellman key exchange.
+9. What is the main vulnerability of Diffie-Hellman key exchange, and how is it typically addressed?
+10. How does the Digital Signature Algorithm (DSA) differ from RSA in terms of functionality?
+11. What are the three main entities that form a basic Public Key Infrastructure (PKI)?
+12. Explain the concept of "Certificate Transparency" and its importance.
+13. What is HMAC, and how does it differ from a simple hash?
+14. In the context of TLS handshake, what is the purpose of the "Client Hello" and "Server Hello" messages?
+15. What is the significance of key size in RSA, and what's the minimum recommended size for secure operations?
+
+Bonus Question: 16. Explain the concept of "Perfect Forward Secrecy" and how it relates to key exchange protocols.
+
+
+
+
+### Review Questions Answers
+
+
+
+```ad-note
+title: Quiz Answers
+collapse: closed
+icon: check-circle
+
+1. The four requirements for a hashing algorithm are:
+   - Infeasible to produce a given digest
+   - Impossible to extract the original message
+   - Slight changes produce drastic differences (avalanche effect)
+   - Resulting digest is fixed width (length)
+
+2. MD5 and SHA-1 are vulnerable to collision attacks, making them insecure for cryptographic purposes.
+
+3. Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a pair of keys (public and private).
+
+4. Hybrid Encryption combines asymmetric and symmetric encryption. It uses asymmetric encryption to securely exchange a symmetric key, which is then used for bulk data encryption. This approach leverages the security of asymmetric encryption and the efficiency of symmetric encryption.
+
+5. The three main purposes of SSL and TLS are:
+   - Confidentiality (Encryption)
+   - Integrity (Hashing)
+   - Authentication (PKI)
+
+6. A Certificate Authority (CA) validates identities and generates certificates, linking a particular set of asymmetric keys to an identity.
+
+7. RSA's security is based on the practical difficulty of factoring the product of two large prime numbers.
+
+8. Diffie-Hellman key exchange process:
+   1. Agree on public parameters
+   2. Each party generates a private key and computes a public key
+   3. Exchange public keys
+   4. Each party computes the shared secret
+
+9. Diffie-Hellman is vulnerable to man-in-the-middle attacks. This is typically addressed by using authenticated Diffie-Hellman, which incorporates additional authentication measures.
+
+10. DSA is specifically designed for digital signatures, while RSA can be used for both encryption and signatures.
+
+11. The three main entities in a basic PKI are:
+    - Client (e.g., web browsers)
+    - Server (e.g., websites)
+    - Certificate Authority (e.g., GoDaddy, GlobalSign)
+
+12. Certificate Transparency is a system for logging and monitoring certificate issuance, helping to detect misissued certificates quickly, enhancing the overall security of PKI.
+
+13. HMAC (Hash-based Message Authentication Code) combines a cryptographic hash function with a secret key. Unlike a simple hash, HMAC provides both data integrity and authenticity, and protects against length extension attacks.
+
+14. In TLS handshake:
+    - Client Hello: Client sends supported cipher suites and a random number
+    - Server Hello: Server chooses a cipher suite and sends its certificate
+
+15. For RSA, the minimum recommended key size is 2048 bits. Larger key sizes provide stronger security but may impact performance.
+
+Bonus Answer:
+16. Perfect Forward Secrecy ensures that if a long-term key is compromised, it doesn't compromise past session keys. It's typically achieved using ephemeral Diffie-Hellman key exchange, where a new set of keys is generated for each session.
+```
+
+
+

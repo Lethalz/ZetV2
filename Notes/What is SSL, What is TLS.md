@@ -209,3 +209,91 @@ Cryptographic standards continue to evolve. Stay informed about new vulnerabilit
 ```
 ---
 # Reference
+
+
+
+## Comprehensive SSL/TLS Quiz
+
+1. What is the primary purpose of SSL/TLS?
+
+2. What are the three main ways SSL/TLS protects data (CIA)?
+
+3. What is the current version of TLS, and when was it released?
+
+4. Name two key differences between SSL and TLS.
+
+5. Why is it crucial to use TLS instead of SSL in production environments?
+
+6. What are the three key players in the SSL/TLS ecosystem?
+
+7. What does "mutual SSL/TLS" refer to?
+
+8. What is the significance of the "Certificate Authority" in SSL/TLS?
+
+9. What two additional security features does SSL/TLS provide beyond CIA?
+
+10. In the evolution of SSL/TLS, which versions are considered "secure-ish" and which are considered "secure"?
+
+11. What major improvements were introduced in TLS 1.3?
+
+12. What is the POODLE attack, and which version of SSL/TLS is vulnerable to it?
+
+13. What does AEAD stand for in the context of TLS 1.2?
+
+14. Why might an organization choose to support older versions of TLS despite security concerns?
+
+15. What is Forward Secrecy, and in which TLS version did it become required?
+
+```ad-note
+title: Quiz Answers
+collapse: closed
+icon: check-circle
+
+1. SSL/TLS creates a secure, protected tunnel across the internet, allowing clients and servers to send and share information safely.
+
+2. The three main ways (CIA) are:
+   - Confidentiality (Encryption)
+   - Integrity (Hashing)
+   - Authentication (PKI)
+
+3. The current version is TLS 1.3, released in 2018.
+
+4. Two key differences (any two of these):
+   - TLS offers stronger encryption algorithms
+   - TLS has a more robust handshake process
+   - TLS uses HMAC for message authentication, while SSL uses MAC
+   - TLS has a more extensive alert protocol
+   - TLS has an improved record protocol structure
+
+5. All versions of SSL are considered vulnerable to various attacks, including POODLE and BEAST.
+
+6. The three key players are:
+   - Client
+   - Server
+   - Certificate Authority (CA)
+
+7. Mutual SSL/TLS refers to when both the client and server authenticate each other.
+
+8. The Certificate Authority provides a trust anchor. If we trust the CA, we trust what the CA trusts.
+
+9. The two additional features are:
+   - Anti-replay
+   - Non-repudiation
+
+10. TLS 1.0 and 1.1 are considered "secure-ish", while TLS 1.2 and 1.3 are considered "secure".
+
+11. Major improvements in TLS 1.3 include:
+    - Reduced handshake latency (1-RTT, 0-RTT)
+    - Removed support for obsolete and insecure features
+    - Required Forward Secrecy
+    - AEAD Required
+    - Introduced encrypted handshake messages
+
+12. The POODLE attack affects SSL 3.0.
+
+13. AEAD stands for Authenticated Encryption with Associated Data.
+
+14. Organizations might support older versions for compatibility with older devices that aren't compatible with newer TLS versions.
+
+15. Forward Secrecy ensures that if a long-term key is compromised, it doesn't compromise past session keys. It became required in TLS 1.3.
+```
