@@ -484,7 +484,183 @@ The private key corresponding to the public key in the CSR never leaves the serv
 [RFC 2986 - PKCS #10: Certification Request Syntax Specification Version 1.7](https://datatracker.ietf.org/doc/html/rfc2986)
 
 
+# Cryptography and Certificate File Formats
+
+## DER (Distinguished Encoding Rules)
+
+- Binary encoded format
+- Used for certificates on the wire
+- Not typically used for exchanging files
+- File extensions: .der, .cert, .crt, .csr
+
+```ad-warning
+title: File Extension Caution
+collapse: closed
+icon: exclamation-triangle
+
+File extensions are not sufficient to identify the file format. Always verify the actual format of the file.
+```
+
+## PEM (Privacy Enhanced Mail)
+
+- Base64 encoded version of DER format
+- Easy to copy/paste, editor-friendly
+- Contains identifiers like "BEGIN CERTIFICATE", "BEGIN PRIVATE KEY", "BEGIN CERTIFICATE REQUEST"
+- A single PEM file can contain multiple certs and CSRs
+- File extensions: .pem, .cert, .crt, .key, .csr
+
+```ad-info
+title: Base64 Encoding
+collapse: closed
+icon: info-circle
+
+Base64 encoding converts binary data into a text format by mapping 6 bits to one character. The '=' character is used for padding to ensure the encoded data length is a multiple of 4.
+```
+
+## PFX / PKCS#12 (Personal Information Exchange)
+
+- Initially released by Microsoft in 1996
+- Re-released as PKCS#12 by RSA Laboratories in 1999
+- Contains one certificate and matching key in the same file
+- Can include additional chain certificates (optional)
+- Binary encoded (cannot open in text editors)
+- File extensions: .pfx, .pkcs12, .p12
+
+```ad-note
+title: PFX vs PKCS#12
+collapse: closed
+icon: lightbulb
+
+True PFX formatted files are rare. Most files with .pfx extension are actually in PKCS#12 format.
+```
+
+## PKCS#7
+
+- Public Key Cryptography Standard #7
+- Base64 encoded file (editor-friendly)
+- Contains certificates and/or chains only - no keys
+- Originally used for S/MIME (Secure Multipurpose Internet Mail Extensions)
+- Not typically used for SSL/TLS
+- File extensions: .p7b, .p7c
+
+## Software Preferences for File Formats
+
+Different software and systems prefer different file formats:
+
+- Java: Typically uses DER format
+- Apache: Generally uses PEM format
+- Windows: Primarily uses PKCS#12 format
+
+```ad-tip
+title: Format Conversion
+collapse: closed
+icon: exchange-alt
+
+Many tools exist for converting between these formats. OpenSSL is a popular command-line tool that can handle most conversions.
+```
+
+## Summary Table
+
+| Format | Encoding | Contains | Typical Use | File Extensions |
+|--------|----------|----------|-------------|-----------------|
+| DER | Binary | Certificates, keys, or CSRs | On-wire transmission | .der, .cert, .crt, .csr |
+| PEM | Base64 | Certificates, keys, CSRs (can contain multiple) | File exchange, Apache | .pem, .cert, .crt, .key, .csr |
+| PFX/PKCS#12 | Binary | Certificate with matching key, optional chain | Windows, complete cert package | .pfx, .pkcs12, .p12 |
+| PKCS#7 | Base64 | Certificates and/or chains (no keys) | S/MIME, certificate sharing | .p7b, .p7c |
+
+```ad-warning
+title: Security Consideration
+collapse: closed
+icon: shield-alt
+
+Files containing private keys (like some PEM files and PKCS#12) should be handled with extreme care and protected with strong passwords when possible.
+```
 
 
 ---
+# Comprehensive X.509 Certificates and Keys Quiz
+
+1. What are the three main sections of an X.509 certificate?
+
+2. What is the purpose of the Serial Number in a certificate?
+
+3. What does the 'Subject Name' field in a certificate represent?
+
+4. What is the difference between Key Usage and Extended Key Usage extensions?
+
+5. What is the purpose of the Basic Constraints extension?
+
+6. How does the Subject Alternative Name (SAN) extension differ from the Common Name (CN)?
+
+7. What is the difference between a Common Name (CN) and a Canonical Name (CNAME)?
+
+8. What are the contents of an RSA private key?
+
+9. What is the purpose of the Subject Key Identifier and Authority Key Identifier extensions?
+
+10. What is a CSR, and what are its main components?
+
+11. In the context of certificates, what does 'DN' stand for and what does it specify?
+
+12. What is the purpose of the CRL Distribution Points extension?
+
+13. How does a self-signed CA certificate differ from a regular certificate?
+
+14. What is the significance of the 'Version Number' in an X.509 certificate?
+
+15. What is the purpose of the Authority Information Access extension?
+
+```ad-note
+title: Quiz Answers
+collapse: closed
+icon: check-circle
+
+1. The three main sections of an X.509 certificate are:
+   - Certificate Data
+   - Signature Algorithm
+   - Signature
+
+2. The Serial Number uniquely identifies a certificate issued by a given CA. It's used to look up the validity of a certificate.
+
+3. The Subject Name represents the identity of the entity the certificate is issued to (what the certificate is trying to identify).
+
+4. Key Usage defines the intended use of the public key in the certificate, while Extended Key Usage specifies additional purposes for which the certified public key may be used, limiting by protocol and/or role.
+
+5. The Basic Constraints extension indicates if the subject is a CA and specifies the maximum depth of the certification path.
+
+6. The SAN extension allows multiple identities (like multiple domains) to be bound to the certificate, while the CN typically represents a single domain.
+
+7. CN is used in X.509 digital certificates to represent the server name, while CNAME is a DNS record type that maps an alias to a true domain name.
+
+8. An RSA private key contains:
+   - p and q (two large prime numbers)
+   - n (the modulus, n = p * q)
+   - d (the private exponent)
+   - e (the public exponent)
+   - Additional optimization values (dp, dq, qinv)
+
+9. The Subject Key Identifier provides a means of identifying certificates containing a particular public key, while the Authority Key Identifier identifies the public key corresponding to the private key used to sign a certificate.
+
+10. A CSR (Certificate Signing Request) is a file submitted to a CA to apply for a certificate. Its main components are:
+    - Certificate Request Information
+    - Signature Algorithm
+    - Signature
+
+11. DN stands for Distinguished Name. It specifies the subject and issuer in a standardized format, including elements like Common Name, Organization, Country, etc.
+
+12. The CRL Distribution Points extension indicates how Certificate Revocation List information can be obtained.
+
+13. In a self-signed CA certificate, the Subject and Issuer are the same, as the CA issues its own certificate.
+
+14. The Version Number indicates the X.509 version (v1, v2, or v3). V3 adds support for certificate extensions.
+
+15. The Authority Information Access extension indicates how to access CA information and services, including where to find the CA's certificates and the location of the OCSP service for checking certificate validity.
+```
+
+---
 # Reference
+
+
+[[Certificate file format commands]]
+
+[[Base64 table conversion]]
