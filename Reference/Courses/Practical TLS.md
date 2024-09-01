@@ -13,6 +13,7 @@ Map of content for TLS
 
 [[x509 Certificates and Keys]]
 
+[[Security through certificates]]
 
 
 ---
