@@ -26,11 +26,6 @@ CCNP ENARSI
 - [ ] COMPLETED 
 
 
-DevNET ASC
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
-
 CCNP SCOR
 - [ ] Research
 - [ ] In Progress 
@@ -41,6 +36,10 @@ CCNP SNCF
 - [ ] In Progress
 - [ ] COMPLETED
 
+DevNET ASC
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED
 
 CCNP SVPN
 - [ ] Research
