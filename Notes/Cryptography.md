@@ -80,7 +80,7 @@ icon: lightbulb
 
 HMAC provides protection against length extension attacks, which simple hashing does not.
 ```
-
+![[Pasted image 20240907200406.png]]
 Use Cases:
 - Verifying file downloads
 - Ensuring message integrity in communications

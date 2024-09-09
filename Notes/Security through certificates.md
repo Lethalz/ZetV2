@@ -150,7 +150,7 @@ icon: info-circle
 The choice between RSA and DH for key exchange depends on the agreed cipher suite between client and server. RSA is traditionally more common, but DH (especially ECDHE) is increasingly preferred for its perfect forward secrecy.
 ```
 
-
+![[Pasted image 20240907135828.png]]
 # Certificate Chains
 
 ## Purpose and Advantages
