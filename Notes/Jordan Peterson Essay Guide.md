@@ -1,4 +1,4 @@
-
+[[Writing]] [[Write Essays to Learn]]
 Essay Writing Guide
 
 You can use this word document to write an excellent essay from beginning to end, using a ten-step process. Most of the time, students or would-be essay writers are provided only with basic information about how to write, and most of that information concentrates on the details of formatting. These are necessary details, but writing is obviously far more than mere formatting. If you write your essay according to this plan, and you complete every step, you will produce an essay that is at least very good. You will also learn exactly how to write an essay, which is something very valuable to learn.
