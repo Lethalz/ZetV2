@@ -19,6 +19,15 @@ CCNP ENCOR
 - [x] In Progress
 - [ ] COMPLETED 
 
+RHCSA
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AZ-900
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 CCNP ENARSI 
 - [ ] Research
@@ -36,18 +45,16 @@ CCNP SNCF
 - [ ] In Progress
 - [ ] COMPLETED
 
-
-AZ-900
+RHCE
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] COMPLETED
 
 
 CCNP SVPN
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
-
 
 CCNP ENSDWI
 - [ ] Research
@@ -60,21 +67,17 @@ AZ-104
 - [ ] In Progress
 - [ ] Completed
 
-AZ-500
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 AZ-700
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-
 CCNP ENCC
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
+
 
 AWS SAA
 - [ ] Research
@@ -85,6 +88,12 @@ AWS Networking Speciality
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
+CCIE
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 GCP
 - [ ] Research
