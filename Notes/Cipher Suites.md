@@ -3,7 +3,7 @@
 	Status: #idea 
 		Tags: 
 
-# Cipher Suite
+# Cipher Suites
 
 
 # Cipher Suites
@@ -427,6 +427,89 @@ When selecting cipher suites, prioritize those with:
 3. AEAD ciphers (AES-GCM or ChaCha20)
 4. Strong hash functions (SHA-256 or higher)
 ```
+
+# Cipher Suite Enumeration in TLS Handshake
+
+## TLS Handshake Process
+
+1. Client Hello
+   - Client initiates TLS handshake
+   - Sends list of supported cipher suites
+
+2. Server Hello
+   - Server responds, indicating selected cipher suite
+   - Selection based on security priority (most secure to least secure)
+   - Server has final say in cipher suite selection
+
+## Cipher Suite Selection
+
+- Server selects first matching cipher suite from its priority list
+- Client and server may disagree on relative security of cipher suites
+- Server's choice prevails in case of disagreement
+
+## Supported Cipher Suites
+
+- Client's supported cipher suites depend on SSL/TLS version
+- Handshake fails if no matching ciphers are found
+  - Server sends alert to client in this case
+
+## Enumerating Supported Ciphers
+
+### Challenge
+- Server only reports one selected cipher suite per handshake
+- Need to test each cipher suite individually
+
+### Process
+1. Client must suggest cipher suites one at a time
+2. Observe which ciphers the server supports
+3. Repeat for each SSL/TLS version (as supported ciphers may differ)
+
+### Automation
+- Linux utility `nmap` can automate this process
+- Uses a script to test multiple cipher suites
+
+#### Nmap Command
+```
+nmap --script ssl-enum-ciphers -p 443 www.site.com
+```
+
+## Implications
+
+1. Security Assessment
+   - Allows identification of supported weak cipher suites
+   - Helps in evaluating overall server security posture
+
+2. Compatibility Checking
+   - Useful for ensuring support for specific clients
+   - Helps in planning security upgrades
+
+3. Compliance Verification
+   - Assists in checking adherence to security standards and policies
+
+4. Troubleshooting
+   - Helps diagnose connection issues related to cipher suite mismatches
+
+## Best Practices
+
+1. Regular Enumeration
+   - Periodically check supported cipher suites
+   - Ensure only necessary and secure ciphers are enabled
+
+2. Version Control
+   - Be aware of differences in supported ciphers across SSL/TLS versions
+   - Plan for deprecation of older, less secure versions
+
+3. Balance Security and Compatibility
+   - Strive to support only the most secure cipher suites
+   - Consider compatibility requirements for older clients if necessary
+
+4. Stay Informed
+   - Keep up-to-date with latest security recommendations
+   - Be prepared to disable newly discovered vulnerable cipher suites
+
+5. Use Automation Tools
+   - Leverage tools like nmap for efficient and thorough enumeration
+   - Integrate enumeration into regular security audit processes
 
 
 

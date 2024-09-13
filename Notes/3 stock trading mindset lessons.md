@@ -1,6 +1,6 @@
 2208190104
 	Status: #idea 
-		Tags: [[Stocks]]
+		Tags: [[Stocks]] [[Investing]]
 
 # 3 stock trading mindset lessons
 

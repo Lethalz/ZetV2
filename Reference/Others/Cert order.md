@@ -36,10 +36,12 @@ CCNP SNCF
 - [ ] In Progress
 - [ ] COMPLETED
 
-DevNET ASC
+
+AZ-900
 - [ ] Research
 - [ ] In Progress
-- [ ] COMPLETED
+- [ ] Completed
+
 
 CCNP SVPN
 - [ ] Research
@@ -75,6 +77,11 @@ CCNP ENCC
 - [ ] COMPLETED
 
 AWS SAA
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
+AWS Networking Speciality
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
