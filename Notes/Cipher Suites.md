@@ -1,10 +1,11 @@
 
  2409071253
 	Status: #idea 
-		Tags: 
+		Tags: [[Practical TLS]] [[Cryptography]]
 
-# Cipher Suites
 
+```table-of-contents
+```
 
 # Cipher Suites
 

@@ -1,4 +1,3 @@
-
 [[cisco cert list]]
 Certification
 
@@ -24,12 +23,18 @@ RHCSA
 - [ ] In Progress
 - [ ] Completed
 
-AZ-900
+DevNet Associate
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
+
 CCNP ENARSI 
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+AWS SAA 
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 

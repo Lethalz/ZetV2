@@ -2,6 +2,11 @@
 	Status: #idea 
 		Tags:  [[Practical TLS]] [[Cryptography]]
 
+
+
+```table-of-contents
+```
+
 # Cryptography
 
 [[Practical TLS]]
