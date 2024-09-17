@@ -64,7 +64,7 @@ Status
 - [ ] In Progress
 - [ ] Completed
 
-### CCNP ENARSI 
+### CCNP ENCC 
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
@@ -98,10 +98,6 @@ Status
 - [ ] In Progress
 - [ ] Completed
 
-### CCSP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
 
 ### CISSP
 - [ ] Research
