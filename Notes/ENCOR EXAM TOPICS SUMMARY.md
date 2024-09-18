@@ -66,6 +66,15 @@
 | 6.1          | Interpret basic Python components and scripts                                                                |                                                                                                                                                                                                 |          |     |           |       |
 | 6.2          | Construct valid JSON-encoded files                                                                           |                                                                                                                                                                                                 |          |     |           |       |
 | 6.3          | Describe the high-level principles and                                                                       |                                                                                                                                                                                                 |          |     |           |       |
+
+- **Resource**: You can fill this column with study materials such as official Red Hat documentation, books, online courses, or specific tutorials relevant to each subtopic.
+- **Lab**: Indicate whether a hands-on lab exercise is available or needed for the subtopic.
+- **Level 1-3**: Assign a difficulty or priority level to each subtopic based on your familiarity or the importance of the topic.
+    - **Level 1**: Fundamental concepts; must know thoroughly.
+    - **Level 2**: Intermediate topics; important but may require less focus.
+    - **Level 3**: Advanced or niche topics; good to know but lower priority.
+- **Notes**: Use this column for any additional comments, such as areas you find challenging or need to revisit.
+
 # CCNP 350-401 ENCOR v1.1
 
 # Explain the different design principles used in an enterprise network
