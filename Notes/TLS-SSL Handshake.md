@@ -255,6 +255,249 @@ Using separate keys for client and server communication enhances security. If on
 
 
 
+# TLS Handshake: Ephemeral Diffie-Hellman (DHE) Key Exchange
+
+## Overview
+
+Ephemeral Diffie-Hellman (DHE) is an alternative key exchange method in TLS, offering different security properties compared to RSA key exchange.
+
+## Key Differences from RSA
+
+1. Mutual Contribution: Both client and server contribute to the seed value
+2. Forward Secrecy: Session keys cannot be recovered if the server's long-term private key is compromised
+
+## DHE Handshake Process
+
+### 1. Client Hello
+- Same as in RSA handshake
+
+### 2. Server Hello
+- Same as in RSA handshake
+
+### 3. Server Key Exchange (New step)
+Server sends:
+- DH parameters (prime, generator)
+- Server's DH public value
+- Signature of above data, signed with server's private key
+
+### 4. Server Hello Done
+- Indicates server has sent all necessary information
+
+### 5. Client Key Exchange
+Client sends:
+- Client's DH public value (not encrypted)
+
+### 6. Key Calculation
+Both parties:
+- Calculate DH shared secret using their own private value and the other's public value
+- Use DH shared secret to derive the pre-master secret
+- Calculate master secret and session keys (similar to RSA process)
+
+## Proving Server Identity
+
+1. Server signs its DH public value with its private key
+2. Client verifies signature using server's public key from the certificate
+3. Successful verification proves server possesses the matching private key
+
+## Security Benefits
+
+```ad-info
+title: Forward Secrecy
+collapse: closed
+icon: shield-alt
+
+DHE provides forward secrecy: If the server's long-term private key is compromised in the future, past session keys cannot be recovered. This is because the ephemeral DH values are discarded after the handshake.
+```
+
+## Comparison with RSA Key Exchange
+
+| Aspect | RSA | DHE |
+|--------|-----|-----|
+| Seed Value Contribution | Client only | Both client and server |
+| Server Identity Proof | Decryption of pre-master secret | Signature verification |
+| Forward Secrecy | No | Yes |
+| Computational Cost | Lower | Higher |
+| Key Reuse | Same key for encryption and signing | Separate keys possible |
+
+## Key Points
+
+1. DHE involves more steps in the handshake compared to RSA
+2. Both parties actively contribute to the final shared secret
+3. The server must sign its DH parameters and public value
+4. Provides forward secrecy, enhancing long-term security
+5. Slightly higher computational cost compared to RSA
+
+```ad-note
+title: Ephemeral Nature
+collapse: closed
+icon: clock
+
+The "Ephemeral" in DHE means that new DH parameters are generated for each session, enhancing security but increasing computational load.
+```
+
+
+
+
+
+![[Pasted image 20240930153129.png]]
+
+
+
+
+
+
+
+
+# TLS Session Resumption
+
+## Problem Addressed
+
+Full TLS handshakes are resource-intensive:
+- Require 9+ records
+- Two full round trips before data transmission
+- Require sending certificate and full certificate chain
+- Involve asymmetric cryptography calculations
+
+## Benefits of Correct Implementation
+
+1. Reduced latency: Fewer round trips required
+2. Lower computational overhead: Avoids full cryptographic negotiations
+3. Improved user experience: Faster connection establishment
+
+```ad-warning
+title: Security Considerations
+collapse: closed
+icon: shield-alt
+
+While session resumption improves performance, it's important to balance this with security needs. Servers should implement appropriate policies for session lifetime and rotation.
+```
+
+## Session Resumption Solution
+
+Quickly resume a previous session with an abbreviated handshake:
+- Requires only 6 records
+- One round trip
+- No need to resend certificates
+- No asymmetric cryptography calculations
+
+```ad-note
+title: Security Consideration
+collapse: closed
+icon: shield-alt
+
+Session resumption is not the same as session renegotiation, which has known security vulnerabilities.
+```
+
+## Session Resumption Process
+
+1. Client Hello:
+   - Client sends the previously received Session ID
+
+2. Server Hello:
+   - If agreeing to resume: Server sends back the same Session ID
+   - If declining resumption: Server generates and sends a new random Session ID
+
+```ad-info
+title: Server Decision
+collapse: closed
+icon: server
+
+The server has the final say in whether to resume a session. It may decline for various reasons, including security policies or if it has discarded the session information.
+```
+
+
+![[Pasted image 20240930154615.png]]
+
+
+
+### Abbreviated Handshake
+1. Client Hello:
+   - Includes previously received Session ID
+
+2. Server Hello:
+   - If agreeing to resume: Returns the same Session ID
+   - If declining: Returns a new, randomly generated Session ID
+
+3. Server sends:
+   - Change Cipher Spec record
+   - Finished record
+
+4. Client sends:
+   - Change Cipher Spec record
+   - Finished record
+
+![[Pasted image 20240930154715.png]]
+
+## Key Points
+- Both parties must agree to resume the previous session
+- Communication of intent is through Session IDs
+- Server can choose to accept or deny the resumption request
+- Only 6 records and one round trip required
+
+## Session Key Generation
+
+### Original Session Keys
+Created from four values: Master secret,Key expansion, client random, server random
+![[Pasted image 20240930160127.png]]
+
+
+
+### Resumed Session Keys
+Created similarly to original, using:
+- Previous session's master secret
+- New session's client random
+- New session's server random
+
+```ad-info
+title: Key Variation
+collapse: closed
+icon: key
+
+Resumed session keys are not identical to the previous session's keys, but are derived using the previous session's master secret.
+```
+
+
+
+## Verification Process
+1. Each party calculates hash of all handshake records
+2. Hash is encrypted with sender's session keys
+3. Receiving party verifies with identical keys
+
+
+
+
+![[Pasted image 20240930155211.png]]
+
+
+
+
+
+## Benefits of Session Resumption
+1. Reduced latency (one round trip vs. two)
+2. Lower computational overhead (no asymmetric cryptography)
+3. Reduced network traffic (fewer records transmitted)
+4. Faster connection establishment
+
+## Use Cases
+- High-volume web servers
+- Mobile applications with frequent reconnections
+- IoT devices with intermittent connectivity
+
+```ad-warning
+title: Security Trade-offs
+collapse: closed
+icon: balance-scale
+
+While session resumption improves performance, it may slightly reduce security by reusing some cryptographic material. The trade-off is generally considered acceptable for most use cases.
+```
+
+
+
+
+
+
+
+
 
 
 
