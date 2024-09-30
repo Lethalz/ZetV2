@@ -39,8 +39,12 @@ Status
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+### DevNet Associate
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
-### AWS SAA
+### AZ-104
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -59,22 +63,24 @@ Status
 - Create a technical blog to document your learning journey
 
 ## T3 ADVANCED (1-2 years)
-### DevNet Associate
+
+### CCNP ENARSI 
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+### DevNet Professional
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-### CCNP ENCC 
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
 ### RHCE
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
 
-### AWS Advanced Networking
+### AZ-700
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED
@@ -93,23 +99,19 @@ Status
 - Consider specializing in either networking or cloud infrastructure
 
 ## T4 EXPERT (2+ years)
-### CCIE
+### CCIE EI
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 
-### CISSP
+
+### AWS SAA
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
-### AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-### AZ-700
+### AWS NETWORKING
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
@@ -144,16 +146,7 @@ Status
 
 Remember, this roadmap is flexible. Adjust it based on your career goals, job market demands, and personal interests. The key is consistent learning and practical application of your skills.
 
-
-
-
-
-
-
-
-
-
-
+]
 
 
 
