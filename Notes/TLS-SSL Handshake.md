@@ -63,7 +63,7 @@ Each record begins with a header followed by the payload:
 ![[Pasted image 20240916163703.png]]
 ---
 
-
+--- 
 
 
 
@@ -144,7 +144,7 @@ The move towards AEAD ciphers in TLS 1.2 and mandating them in TLS 1.3 represent
 
 
 
-
+--- 
 
 
 
@@ -253,7 +253,7 @@ Using separate keys for client and server communication enhances security. If on
 ![[Pasted image 20240919201829.png]]
 
 
-
+--- 
 
 # TLS Handshake: Ephemeral Diffie-Hellman (DHE) Key Exchange
 
@@ -345,7 +345,7 @@ The "Ephemeral" in DHE means that new DH parameters are generated for each sessi
 
 
 
-
+--- 
 
 
 # TLS Session Resumption
@@ -500,7 +500,199 @@ While session resumption improves performance, it may slightly reduce security b
 
 
 
+# TLS/SSL: Mutual Authentication and Extensions
+
+## Mutual Authentication
+
+In typical TLS/SSL, only the server is authenticated. Mutual authentication allows both client and server to authenticate each other.
+
+![[Pasted image 20241001092044.png]]
+### Process:
+
+1. Handshake: Certificate Request (Server)
+   - Server requests client's certificate
+   - Optionally includes:
+     - Type of certificate
+     - List of trusted Certificate Authorities (CAs)
+
+2. Handshake: Certificate (Client)
+   - Client sends its certificate and certificate chain
+
+3. Certificate Validation
+   - Server validates client's certificate:
+     a. Is the client certificate valid? (Checked using CA's public key)
+     b. Is the client the true owner of the certificate? (Verified by client's possession of the correct private key)
+   - Client validates server's certificate (as in standard TLS)
+
+4. Handshake: Certificate Verify (Client)
+   - Proves client is the true owner of the certificate
+   - Client calculates hash of all handshake records
+   - Client creates signature of hash with its private key
+
+```ad-note
+title: Use Cases
+collapse: closed
+icon: info-circle
+
+Mutual authentication is rare for HTTPS websites but more common in SSL VPNs and certain enterprise applications.
+```
+
+
+![[Pasted image 20241001092635.png]]
+
+
+## TLS Extensions
+
+Extensions add features to TLS/SSL without rewriting the RFC.
+
+
+![[Pasted image 20241001094917.png]]
 
 
 
-# Reference
+
+### Characteristics:
+- Typically client-initiated
+- Client suggests extensions and includes necessary info
+- Server responds with supported extensions
+
+### Server Response Options:
+1. Respond normally, ignoring unsupported extensions
+2. Terminate the session (rare)
+3. Respond with an alert: handshake failure
+
+```ad-warning
+title: Client Response
+collapse: closed
+icon: exclamation-triangle
+
+If a server responds with an extension not initiated by the client, the client must terminate the handshake with an "unsupported extension" alert.
+```
+
+### Main Extensions:
+1. OCSP Stapling
+2. Server Name Indication (SNI)
+3. Session Tickets
+
+## OCSP Stapling Extension
+
+OCSP (Online Certificate Status Protocol) Stapling allows the server to provide certificate status information directly.
+
+
+![[Pasted image 20241001132626.png]]
+
+
+
+### Process:
+1. Server periodically asks CA for its own status
+2. Client requests certificate and status in Client Hello
+3. Server confirms support in Server Hello
+4. Server sends status in Certificate Status handshake record
+
+![[Pasted image 20241001140034.png]]
+### If Server Doesn't Support OCSP Stapling:
+- Server doesn't echo status request extension
+- Client proceeds to check revocation status via CRL or OCSP
+
+```ad-info
+title: Efficiency
+collapse: closed
+icon: tachometer-alt
+
+OCSP Stapling reduces the need for clients to make separate OCSP requests, improving performance and reducing load on OCSP responders.
+```
+
+
+# TLS Extension: Server Name Indication (SNI)
+
+## Background
+
+### Traditional Web Hosting
+- Each server typically hosted only one website
+- Legacy approach, not scalable for modern web
+
+### Modern Web Hosting
+- Servers host multiple websites
+- Requires sending Host header in HTTP request
+
+## The Challenge with TLS/SSL
+
+- TLS/SSL tunnel protects the HTTP conversation
+- TLS doesn't inherently know which site the client is trying to access
+- Traditional TLS/SSL:
+  - Server sends certificate based on destination IP
+  - Each server can only host one HTTPS website
+  - Multiple HTTPS sites require multiple IP addresses
+
+## Server Name Indication (SNI) Solution
+
+SNI allows a server to host multiple HTTPS websites on a single IP address.
+
+### Process
+
+1. Client Hello:
+   - Client sends SNI extension
+   - Includes the hostname of the requested website
+
+2. Server Hello:
+   - Server confirms support for SNI
+
+3. Certificate:
+   - Server sends appropriate certificate for the requested hostname
+
+```ad-info
+title: Efficiency Gain
+collapse: closed
+icon: server
+
+SNI enables efficient use of IP addresses, allowing multiple secure websites to be hosted on a single server with a single IP.
+```
+
+### Scenarios
+
+#### Server Supports SNI:
+- Server confirms support in Server Hello
+- Sends certificate matching the requested hostname
+
+#### Server Doesn't Support SNI:
+- Server doesn't send SNI extension in Server Hello
+- Sends fallback certificate bound to server's IP address
+- Client still verifies if certificate CN/SAN matches requested hostname
+
+#### Unrecognized Hostname:
+- Server may send alert: "unrecognized name"
+- Alternatively, server may continue with fallback certificate
+- Client verifies if certificate CN/SAN matches requested website
+
+```ad-warning
+title: Compatibility
+collapse: closed
+icon: exclamation-triangle
+
+Older clients may not support SNI. Servers should have a fallback strategy to handle these cases, typically using a default certificate.
+```
+
+## Benefits of SNI
+
+1. Resource Efficiency: Allows hosting multiple HTTPS sites on one IP address
+2. Cost-Effective: Reduces need for multiple IP addresses
+3. Scalability: Facilitates easier management of multiple secure websites
+4. Improved User Experience: Enables correct certificate delivery without user intervention
+
+## Considerations
+
+- Client Support: Ensure your target audience uses SNI-compatible clients
+- Server Configuration: Proper setup is crucial for correct certificate delivery
+- Fallback Strategies: Important for handling non-SNI clients or unrecognized hostnames
+
+```ad-tip
+title: Best Practice
+collapse: closed
+icon: lightbulb
+
+When implementing SNI, always have a well-configured fallback certificate to ensure all clients can establish a secure connection, even if not optimally matched to the requested hostname.
+```
+
+
+
+
