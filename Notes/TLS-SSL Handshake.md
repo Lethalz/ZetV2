@@ -696,3 +696,127 @@ When implementing SNI, always have a well-configured fallback certificate to ens
 
 
 
+
+
+---
+
+
+
+
+# TLS Extension: Session Tickets
+
+## Purpose
+
+Session Tickets enable session resumption across multiple servers hosting the same website, allowing an entire server fleet to perform session resumption efficiently.
+
+## Process
+
+1. Initial Handshake:
+   - Client performs full TLS handshake with a server
+   - Server creates a session ticket
+   - Ticket includes master secret and other session details
+   - Ticket is encrypted with Session Ticket Encryption Key (STEK)
+     - STEK is shared across all servers in the fleet
+
+2. Subsequent Connections:
+   - Client includes session ticket in new connection
+   - New server can extract master secret using STEK
+   - Any server in the fleet can resume the client's session
+![[Pasted image 20241002150543.png]]
+## Handshake Details
+
+1. Client Hello:
+   - Client indicates support for session tickets (empty extension)
+
+2. Server Hello:
+   - Server confirms support for session tickets (empty extension)
+
+3. Post-Handshake:
+   - After client sends Change Cipher Spec and Finished records
+   - Server sends session ticket in New Session Ticket record
+
+4. Reconnection:
+   - Client includes session ticket in next Client Hello
+   - Server confirms support in Server Hello
+   - Server continues with abbreviated session resumption handshake
+
+```ad-info
+title: Optional Refresh
+collapse: closed
+icon: sync
+
+The server has the option to refresh the session ticket after receiving the old one, but this is optional.
+```
+
+### After Client has Session Ticket for server (reconnection)
+
+Abbreviated Handshake after session ticket is confirmed
+
+![[Pasted image 20241002151340.png]]
+## Benefits
+
+1. Scalability: Enables session resumption across multiple servers
+2. Performance: Reduces handshake overhead for returning clients
+3. Load Distribution: Allows any server in the fleet to handle resumed sessions
+
+## Criticisms
+
+1. Key Management:
+   - Coordinated STEK rotation for the entire server fleet is challenging
+
+2. Security Concerns:
+   - Session ticket is sent before Change Cipher Spec
+   - This means the ticket is sent before the secure encryption is established
+
+3. Forward Secrecy Issues:
+   - STEK compromises can defeat forward secrecy
+   - If STEK is compromised, master secrets for all sessions can be extracted
+   - Compromising STEK potentially exposes every session
+
+```ad-warning
+title: TLS 1.3 Changes
+collapse: closed
+icon: exclamation-triangle
+
+TLS 1.3 changes the way Session Tickets work to address some of these security concerns. Always consider using the latest TLS version when possible.
+```
+
+## Implementation Considerations
+
+1. STEK Management:
+   - Implement secure and coordinated key rotation across the server fleet
+   - Consider the trade-off between key rotation frequency and operational complexity
+
+2. Monitoring:
+   - Implement monitoring for unusual patterns in session ticket usage
+   - Be prepared to revoke and rotate STEKs if compromise is suspected
+
+3. Client Compatibility:
+   - Ensure fallback mechanisms for clients that don't support session tickets
+
+4. Forward Secrecy:
+   - Consider the impact on forward secrecy when implementing session tickets
+   - Evaluate if the performance benefits outweigh the potential security trade-offs
+
+```ad-tip
+title: Best Practice
+collapse: closed
+icon: shield-alt
+
+When implementing session tickets, establish a strict STEK rotation policy and consider using shorter session durations to mitigate the impact of potential STEK compromises.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

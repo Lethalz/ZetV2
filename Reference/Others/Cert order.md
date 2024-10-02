@@ -39,10 +39,12 @@ Status
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-### DevNet Associate
+
+### AZ-900
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
+
 
 ### AZ-104
 - [ ] Research
@@ -68,6 +70,12 @@ Status
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
+
+
+### DevNet Associate
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
 
 ### DevNet Professional
 - [ ] Research
