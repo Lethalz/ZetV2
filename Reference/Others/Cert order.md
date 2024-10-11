@@ -35,6 +35,7 @@ Status
 - [x] In Progress
 - [ ] COMPLETED 
 
+
 ### RHCSA
 - [ ] Research
 - [ ] In Progress
@@ -113,6 +114,11 @@ Status
 - [ ] Completed
 
 
+## CCNP Data Center
+- [ ] Research
+- [ ] In Progress
+- [ ] Completed
+
 
 ### AWS SAA
 - [ ] Research
@@ -154,7 +160,7 @@ Status
 
 Remember, this roadmap is flexible. Adjust it based on your career goals, job market demands, and personal interests. The key is consistent learning and practical application of your skills.
 
-]
+
 
 
 
