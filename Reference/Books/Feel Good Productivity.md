@@ -1,6 +1,6 @@
 2406201318
 	Status: #book 
-		Tags: 
+		Tags:  [[productivity]]
 
 # Feel Good Productivity
 
@@ -35,8 +35,7 @@ In each chapter, Abdaal suggests various experiments to help you put the ideas i
 
 For a long time, Abdaal’s only productivity strategy was just to work harder. It worked. But only up to a point. Once he became a junior doctor, he felt he was drowning in work, which made him neglect his health and relationships.
 
-Positive emotions are linked to four “feel-good” hormones: endorphins, serotonin, dopamine and oxytocin. For example, curiosity gives us a dopamine hit that makes us feel good, helps us focus and remember details better. By contrast, negative emotions release stress hormones like adrenaline and cortisol. Stress hormones can motivate us in the short-term but take a toll in the long-term. **[See also _[The Power of Full Engagement](https://www.tosummarise.com/book-summary-the-power-of-full-engagement-by-jim-loehr-and-tony-schwartz/)_ for more on these ideas.]**
-
+Positive emotions are linked to four “feel-good” hormones: endorphins, serotonin, dopamine and oxytocin. For example, curiosity gives us a dopamine hit that makes us feel good, helps us focus and remember details better. By contrast, negative emotions release stress hormones like adrenaline and cortisol. Stress hormones can motivate us in the short-term but take a toll in the long-term. 
 #### Positive emotions help us “broaden and build”
 
 In the 1990s, Barbara Fredrickson came up with the “broaden-and-build” theory of positive emotions.
@@ -67,7 +66,7 @@ For your tasks, ask yourself, “What would this look like if it were fun?” Ad
 Some ideas:
 
 - **Take on a character**. There are [8 play personalities](https://www.nifplay.org/what-is-play/play-personalities/): Collector, Competitor, Creator, Director, Explorer, Joker, Kinesthete and Storyteller. Most people will resonate with one or two of these. Taking on a character can increase your sense of adventure and help you express different aspects of yourself.
-- **Side quests**. Abdaal thinks of his life as containing a bunch of “side quests”, like in a video game. Side quests are things that don’t obviously move him forward towards his goals, but are simply interesting. For example, leaving his office and working for a few hours from a café, or trying some new software. **[I wish he’d come up with more examples because these seem rather bland.]**
+- **Side quests**. Abdaal thinks of his life as containing a bunch of “side quests”, like in a video game. Side quests are things that don’t obviously move him forward towards his goals, but are simply interesting. For example, leaving his office and working for a few hours from a café, or trying some new software. 
 - **Add music**. This is an easy thing that makes many tasks more fun.
 
 ##### Lower the stakes
@@ -80,7 +79,7 @@ We can also reframe failures. When we’re afraid of failure, we feel stressed, 
 
 #### Power
 
-Power refers to a sense of personal empowerment — the idea that _you_ control your own fate. **[i.e. not exerting power over others like in _[The 48 Laws of Power](https://www.tosummarise.com/detailed-summary-the-48-laws-of-power-by-robert-greene/)_.]**
+Power refers to a sense of personal empowerment — the idea that _you_ control your own fate. \
 
 We can become more empowered by: increasing our confidence; increasing our skills; and taking ownership.
 
@@ -161,7 +160,9 @@ A 2006 study of 79 dating couples found that the strongest predictor of whether 
 
 In _Radical Candor_, Kim Scott explains that being candid is about directly challenging the issue at hand, while genuinely caring about the person you’re speaking to. Don’t make it personal or say whatever pops into your head.
 
-Honesty, on the other hand, implies that you know the truth (which you don’t). Just share your view of the objective facts (e.g. “I noticed you cut her off several times in that meeting”) without adding your judgement of the facts (e.g. “You were very rude in that meeting.”). **[See also _[Difficult Conversations](https://www.tosummarise.com/book-summary-difficult-conversations-by-douglas-stone-bruce-patton-and-sheila-heen/#common-mistakes-and-what-to-do-instead)_.]** You may also offer suggestions for what they could do next time. Focusing on solutions may make it less likely the other person feels attacked.
+Honesty, on the other hand, implies that you know the truth (which you don’t). Just share your view of the objective facts (e.g. “I noticed you cut her off several times in that meeting”) without adding your judgement of the facts (e.g. “You were very rude in that meeting.”
+
+You may also offer suggestions for what they could do next time. Focusing on solutions may make it less likely the other person feels attacked.
 
 We’re much more likely to underestimate how much communication we need than to overestimate it. People approach things with different levels of context or understanding. So even when you think you’ve communicated plenty, you almost certainly haven’t.
 
@@ -191,7 +192,7 @@ To overcome uncertainty, Abdaal suggests getting clear on three things:
 
 Focus on the high-level “why”, and the end-state you are pursuing. It’s easy to lose sight of the high-level “why” and get bogged down in details once we’ve started a project. We can waste months or even years pursuing tasks that feel pressing in the moment, but are ultimately irrelevant to our larger “why”.
 
-Ask “why” 5 times to drill down to your ultimate purpose. **[This is similar to the difference between [ultimate and proximate causes](https://www.tosummarise.com/causality-is-so-much-harder-than-we-normally-think/).]** For example, when deciding whether to start a new project, ask “why” 5 times to see if it links back to your ultimate purpose. If not, don’t do it.
+Ask “why” 5 times to drill down to your ultimate purpose. for example, when deciding whether to start a new project, ask “why” 5 times to see if it links back to your ultimate purpose. If not, don’t do it.
 
 ##### What
 
@@ -216,7 +217,7 @@ Abdaal suggests an incremental approach to help you get started:
 
 Time-blocking may be one of the most underrated tools. People often balk at the idea of structuring their day so much, but Abdaal argues the structure gives you _more_ freedom, not less. It’s a bit like budgeting — allocating your income to different categories gives you greater financial freedom; allocating 24 hours each day to different activities gives you more time freedom.
 
-**[_[Deep Work](https://www.tosummarise.com/book-summary-deep-work-by-cal-newport/)_ goes into time-blocking in more detail. See also [my own experience with time-blocking](https://www.tosummarise.com/my-experience-with-time-blocking/).]**
+[[Deep Work]] goes into time blocking
 
 #### Fear
 
@@ -244,7 +245,7 @@ Gain some perspective using the **[10-10-10 rule](https://www.tosummarise.com/bo
 
 If you’re afraid of what other people might think of you, know that we tend to overestimate how much others notice and judge our actions. This is called the ‘spotlight effect’ — we go through life imagining a big spotlight on everything we do. But in reality, most people are far too busy worrying about themselves and not paying much, if any, attention to you.
 
-**[See also the “Boost your confidence” section above.]**
+
 
 #### Inertia
 
@@ -311,7 +312,7 @@ We often overexert ourselves because of overcommitments. It’s easy to say yes 
 
 To overcome this temptation to overcommit, Abdaal suggests:
 
-- **Energy investment portfolio**. The basic idea is you write down all the things you want to do _at some point_, but focus on just a few “active investments” at a time. Abdaal himself sticks to around 5. This stops you from thinking you can do everything. **[This is like [Oliver Burkeman’s suggestion to keep two to-do lists](https://www.tosummarise.com/four-thousand-weeks-10-practical-tools-to-help-embrace-your-finitude/).]**
+- **Energy investment portfolio**. The basic idea is you write down all the things you want to do _at some point_, but focus on just a few “active investments” at a time. Abdaal himself sticks to around 5. This stops you from thinking you can do everything. 
 - **Hell yeah or no**. Derek Sivers has a test for deciding whether or not to take on a new project or commitment. If it’s not a “hell yeah”, it should be a “no”. “Hell yeahs” are naturally rare, so you’ll start finding yourself rejecting 95% of commitments.
 - **Think of opportunity costs**. Remember that everything you say “yes” to means saying “no” to something else.
 - **Imagine it was tomorrow.** It’s easy to agree to a commitment 6 weeks in the future, when our calendar is probably looking blank. But ask yourself if you’d say yes to a commitment if it was happening _tomorrow_. If not, you should probably reject it.
@@ -326,7 +327,7 @@ LeBron James is one of the fastest sprinters in NBA history. But when he doesn�
 
 Many people think this has played a part in LeBron’s unusually long career. While most NBA players last an average of 4.5 years at their prime, LeBron’s been playing for 19 years.
 
-You probably need longer breaks than you think. A study by the Draugiem Group found that the most productive workers weren’t the ones chained at their desks, nor even the ones that gave themselves a 5-minute break every hour. Actually, the most productive workers had a work-to-break ratio of around 52 minutes to 17 minutes. **[I suspect there’s at least _some_ causation in the other direction, though. The most productive workers may feel more _able_ to take long breaks, because they’re already on top of their work. Less-productive workers who are already struggling to get on top of their workload may understandably feel more reluctant to take long breaks.]**
+You probably need longer breaks than you think. A study by the Draugiem Group found that the most productive workers weren’t the ones chained at their desks, nor even the ones that gave themselves a 5-minute break every hour. Actually, the most productive workers had a work-to-break ratio of around 52 minutes to 17 minutes. 
 
 While scheduled breaks can be good, there is also merit in having unexpected breaks or distractions. Not all distractions are created equal. Some, like admin emails or Twitter notifications, just get in the way of achieving what we want to do. But other distractions can actually be _energising_, filling us with positive energy. For example, at university Abdaal welcomed distractions from friends, even if they pulled him away from his work.
 
@@ -391,29 +392,7 @@ You can also experiment more generally. For each area where you feel particularl
 - **Test it**, but in a small way. Instead of quitting your job entirely, negotiate a part-time arrangement for several months. Instead of switching degrees, enrol in one different course first.
 - **Record your results**. Keep a journal or log, and note any insights or challenges along the way.
 
-## My Review of _Feel-Good Productivity_
 
-I’ve followed Ali Abdaal on **[YouTube](https://www.youtube.com/@aliabdaal)** for some time. He seems like a nice guy and I find his laidback style appealing. Many of my book summaries, including _**[Atomic Habits](https://www.tosummarise.com/book-summary-atomic-habits-by-james-clear/)**_, _**[Storyworthy](https://www.tosummarise.com/book-summary-storyworthy-by-matthew-dicks/)**_, and _**[Steal Like an Artist](https://www.tosummarise.com/book-summary-steal-like-an-artist-by-austin-kleon/)**_, even came from his recommendations.
-
-Overall, I found _Feel-Good Productivity_ to just be “okay”. It’s a short and easy read, clocking in at just 304 pages (including occasional diagrams and illustrations).
-
-There is some good stuff here. I believe in the book’s general message, which was similar to that in _**[The Power of Full Engagement](https://www.tosummarise.com/book-summary-the-power-of-full-engagement-by-jim-loehr-and-tony-schwartz/)**_ (though I preferred TPOFE). Abdaal refers to quite a few studies without being dry, including some I’d never heard of or which contradicted the commonly-accepted wisdom (e.g. unintended consequences of SMART goals). He also injects some pop culture references (e.g. Star Wars, Hunger Games, The Office) and plenty of anecdotes from his own life, which makes the book more relatable. For people who have never heard of these ideas, it’s probably a good, light-hearted intro.
-
-However, I can’t help feeling that the book is very “shallow”. Some bits of advice conflict with other bits (e.g. don’t “fail with abandon” vs sometimes it’s okay to write off a day; lower the stakes vs find an accountability partner). Even though I think these conflicts can usually be reconciled — the world is not black and white — Abdaal didn’t really make much attempt to do so.
-
-The book is also not very original. Abdaal didn’t seem to go out and do any original research. While I wasn’t expecting any scientific studies (I know Abdaal is not a researcher), it doesn’t seem like he interviewed other high performers to find out how they incorporate Feel-Good Productivity into their lives, or drew on experience gained from coaching others either (contrast with, say, **[_Tiny Habits_](https://www.tosummarise.com/book-summary-tiny-habits-by-bj-fogg/)**). My impression is that Abdaal mostly wrote this book by sitting down at his desk and figuring out what worked for him, then adding a bunch of stories and studies to bulk it up into a book. So there’s not much unique insight.
-
-That can be okay. _**[Atomic Habits](https://www.tosummarise.com/book-summary-atomic-habits-by-james-clear/)**_ was another book of this ilk, and was wildly successful, so clearly there’s demand for books like this. If you’re new to the whole productivity scene, it could be a good place to start. But if you’ve already read a few books in this genre, I believe you can safely skip _Feel-Good Productivity_ without missing much.
-
-**Have you read _Feel-Good Productivity_? Share your thoughts in the comments below!**
-
-**Buy _Feel-Good Productivity_ at: [Amazon](https://amzn.to/48Hq2Pr) | [Kobo](https://click.linksynergy.com/deeplink?id=S4IXy7Rvo00&mid=37217&murl=https://www.kobo.com/ca/en/ebook/feel-good-productivity-3) **<– These are affiliate links, which means I may earn a small commission if you make a purchase. I’d be grateful if you considered supporting the site in this way! 🙂****
-
-**If you enjoyed this summary of _Feel-Good Productivity_, you may also like:**
-
-- **[Book Summary: _The Power of Full Engagement_ by Jim Loehr and Tony Schwartz](https://www.tosummarise.com/book-summary-the-power-of-full-engagement-by-jim-loehr-and-tony-schwartz/)**
-- **[Book Summary: _Atomic Habits_ by James Clear](https://www.tosummarise.com/book-summary-atomic-habits-by-james-clear/)**
-- **[Book Summary: _Four Thousand Weeks_ by Oliver Burkeman](https://www.tosummarise.com/detailed-book-summary-four-thousand-weeks-by-oliver-burkeman/)**
 
 ---
 # Reference
