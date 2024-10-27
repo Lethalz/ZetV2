@@ -12,17 +12,17 @@
 
 ---
 
-## [](https://bagerbach.com/books/indistractable#whats-your-superpower)What’s Your Superpower?
+## What’s Your Superpower?
 
 > Just as eating too much junk food leads to health problems, the overuse of devices can also have negative consequences.
 
-### [](https://bagerbach.com/books/indistractable#remember-this)Remember this
+### Remember this
 
 - We need to learn how to avoid distraction. Living the lives we want not only requires doing the right things but also necessitates not doing the things we know we’ll regret.
 - The problem is deeper than tech. Being indistractable isn’t about being a Luddite. It’s about understanding the real reasons why we do things against our best interests.
 - Here’s what it takes: We can be indistractable by learning and adopting four key strategies.
 
-## [](https://bagerbach.com/books/indistractable#being-indistractable)Being Indistractable
+## Being Indistractable
 
 ![Traction & Distraction](https://bagerbach.com/_next/image?url=%2Fuploads%2Ff0013-01.jpg&w=3840&q=75)
 
@@ -42,15 +42,15 @@ All actions — distraction or traction — are prompted by triggers, internal o
 > 
 > Being indistractable means striving to do what you say you will do.
 
-### [](https://bagerbach.com/books/indistractable#remember-this-1)Remember this
+### Remember this
 
 - Distraction stops you from achieving your goals. It is any action that moves you away from what you really want.
 - Traction leads you closer to your goals. It is any action that moves you toward what you really want.
 - Triggers prompt both traction and distraction. External triggers prompt you to action with cues in your environment. Internal triggers prompt you to action with cues within you.
 
-## [](https://bagerbach.com/books/indistractable#master-internal-triggers)Master Internal Triggers
+## Master Internal Triggers
 
-## [](https://bagerbach.com/books/indistractable#what-motivates-us-really)What Motivates Us, Really?
+## What Motivates Us, Really?
 
 > By pleasure, we mean the absence of pain in the body and of trouble in the soul  
 > — Epicurus
@@ -63,25 +63,25 @@ We have to deal with the root cause of our distraction — otherwise we'll find 
 
 **Distraction is not about the distraction itself. It's about how we respond to it.**
 
-### [](https://bagerbach.com/books/indistractable#remember-this-2)Remember this
+### Remember this
 
 - Understand the root cause of distraction. Distraction is about more than your devices. Separate proximate causes from the root cause.
 - All motivation is a desire to escape discomfort. If a behavior was previously effective at providing relief, we’re likely to continue using it as a tool to escape discomfort.
 - Anything that stops discomfort is potentially addictive, but that doesn’t make it irresistible. If you know the drivers of your behavior, you can take steps to manage them.
 
-## [](https://bagerbach.com/books/indistractable#time-management-is-pain-management)Time Management Is Pain Management
+## Time Management Is Pain Management
 
 If pain drives our actions — towards either traction or distraction — then we must become better at managing pain.
 
 > If distraction costs us time, then time management is pain management.
 
-### [](https://bagerbach.com/books/indistractable#where-does-our-discomfort-come-from)Where does our discomfort come from?
+### Where does our discomfort come from?
 
 We're hardwired for it. We can be happy — but we can't be happy all the time.
 
 Why? Because "if satisfaction and pleasure were permanent, there might be little incentive to continue seeking further benefits or advances." — if we were always happy and content, we wouldn't ever do anything to advance.
 
-### [](https://bagerbach.com/books/indistractable#there-are-four-psychological-factors-that-make-satisfaction-temporary)There are four psychological factors that make satisfaction temporary
+### There are four psychological factors that make satisfaction temporary
 
 - **Boredom**
     
@@ -105,23 +105,23 @@ Not being happy IS normal.
 
 > It’s good to know that feeling bad isn’t actually bad; it’s exactly what survival of the fittest intended.
 
-### [](https://bagerbach.com/books/indistractable#remember-this-3)REMEMBER THIS
+### REMEMBER THIS
 
 - Time management is pain management. Distractions cost us time, and like all actions, they are spurred by the desire to escape discomfort.
 - Evolution favored dissatisfaction over contentment. Our tendencies toward boredom, negativity bias, rumination, and hedonic adaptation conspire to make sure we’re never satisfied for long.
 - Dissatisfaction is responsible for our species’ advancements as much as its faults. It is an innate power that can be channeled to help us make things better.
 - If we want to master distraction, we must learn to deal with discomfort.
 
-## [](https://bagerbach.com/books/indistractable#deal-with-distraction-from-within)Deal with Distraction from Within
+## Deal with Distraction from Within
 
 > Certain desires can be modulated, if not completely mitigated, by how we think about our urges.
 
-### [](https://bagerbach.com/books/indistractable#remember-this-4)REMEMBER THIS
+### REMEMBER THIS
 
 - Without techniques for disarming temptation, mental abstinence can backfire. Resisting an urge can trigger rumination and make the desire grow stronger.
 - We can manage distractions that originate from within by changing how we think about them. We can reimagine the trigger, the task, and our temperament.
 
-## [](https://bagerbach.com/books/indistractable#reimagine-the-internal-trigger)Reimagine the Internal Trigger
+## Reimagine the Internal Trigger
 
 We can't control the thoughts and emotions that pop into our heads. However, we can control what we do with them.
 
@@ -142,11 +142,11 @@ We shouldn't try to fight the urge. We need new methods to handle intrusive thou
     2. Basically; what you do between tasks. For example, checking your phone while waiting for the traffic light to change.
     3. These are not dangerous per se. The dangerous part is doing them for "just a second", leading to us getting off track for a much longer duration.
 
-### [](https://bagerbach.com/books/indistractable#ten-minute-rule)Ten-Minute Rule
+### Ten-Minute Rule
 
 Instead on action on a distraction right away, tell yourself that it's fine to give in, but you have to wait ten minutes.
 
-### [](https://bagerbach.com/books/indistractable#remember-this-5)REMEMBER THIS
+### REMEMBER THIS
 
 By reimagining an uncomfortable internal trigger, we can disarm it.
 
@@ -158,7 +158,7 @@ Step 3. Explore the negative sensation with curiosity instead of contempt.
 
 Step 4. Be extra cautious during liminal moments.
 
-## [](https://bagerbach.com/books/indistractable#reimagine-the-task)Reimagine the Task
+### Reimagine the Task
 
 > Fun and play don’t have to make us feel good per se; rather, they can be used as tools to keep us focused.
 
@@ -168,7 +168,7 @@ This means that we don't have to run away from the pain of a task using rewards 
 
 **Instead, we should "pay such close attention that you find new challenges you didn't see before."**
 
-### [](https://bagerbach.com/books/indistractable#an-example--mowing-a-lawn)An example — Mowing a lawn
+### An example — Mowing a lawn
 
 > “It may seem ridiculous to call an activity like this ‘fun,’” he writes, yet he learned to love it. Here’s how: “First, pay close, foolish, even absurd attention to things.” For Bogost, he soaked up as much information as he could about the way grass grows and how to treat it. Then, he created an “imaginary playground” in which the limitations actually helped to produce meaningful experiences. He learned about the constraints he had to operate under, including his local weather conditions and what different kinds of equipment can and can’t do. Operating under constraints, Bogost says, is the key to creativity and fun. Finding the optimal path for the mower or beating a record time are other ways to create an imaginary playground.
 > 
@@ -176,7 +176,7 @@ This means that we don't have to run away from the pain of a task using rewards 
 
 But... "finding novelty is only possible when we give ourselves the time to focus intently on a task and look hard for the variability. Whether it’s uncertainty about our ability to do a task better or faster than last time or coming back to challenge the unknown day after day, the quest to solve these mysteries is what turns the discomfort we seek to escape with distraction into an activity we embrace."
 
-### [](https://bagerbach.com/books/indistractable#remember-this-6)REMEMBER THIS
+### [](https:// indistractable#remember-this-6)REMEMBER THIS
 
 - We can master internal triggers by reimagining an otherwise dreary task. Fun and play can be used as tools to keep us focused.
 - Play doesn’t have to be pleasurable. It just has to hold our attention
@@ -211,7 +211,7 @@ If we tell ourselves we're deficient by nature, we'll believe every word.
 - What we say to ourselves matters. Labeling yourself as having poor self-control is self-defeating.
 - Practice self-compassion. Talk to yourself the way you’d talk to a friend. People who are more self-compassionate are more resilient.
 
-## [](https://bagerbach.com/books/indistractable#make-time-for-traction)Make Time for Traction
+##  Part 2 - Make Time for Traction
 
 ## [](https://bagerbach.com/books/indistractable#turn-your-values-into-time)Turn Your Values into Time
 

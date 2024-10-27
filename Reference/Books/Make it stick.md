@@ -29,180 +29,135 @@ Best form of retrieval is testing (flash cards)
 
 # Book Notes: Make It Stick
 
-10–13 minutes
+This is the most important point: deep and durable learning takes effort.
 
----
+Making practice harder is more effective. It should never be impossible; the desired difficulty is what can be overcome through increased effort.
 
-TLDR:
+To make your practice harder (and therefore more effective), you can use
 
-- Use spaced repetition
-- Test yourself frequently
-- Don’t mass practice
-- Seek out objective proof that you’ve learned something
+- **Spaced Practice** while avoiding Massed Practice. You should space your practice by putting time between sessions. At least one day.
+- **Interleaved Practice**, which means to mix up your practice sessions; don’t just tackle one thing at a time. Move on before you feel ready.
+- **Varied Practice**, which means to mix up your practice. Don’t just do the same thing every time.
 
----
+All three of which are conduits for better learning and more effective practice.
 
-This book talks about learning in general but talks most about, and is best at explaining, memory.
+Interleaved and varied practice makes you better at distinguishing which kind of problem you are dealing with.
 
-Somehow, this book doesn’t mention Anki or SuperMemo.
+Retrieval Practice is a great way to learn, as it strengthens neural pathways between memories, making recall easier.
 
-[**_Use Anki_**.](http://alok.github.io/2018/02/10/anki/)
+It is hard to overstate the importance of testing yourself. It should absolutely be your primary study strategy.
 
-This book is worth reading if you haven’t heard of spaced repetition. For anyone else, it’s a good reminder.
+If you want to be a successful student, remember:  
+The most successful students are those who take charge of their own learning and follow a simple but disciplined study strategy.
 
-[**Read this first.**](https://www.supermemo.com/en/articles/20rules)
+A limiting factor of our learning is that many us is that we are poor judges of when we are learning well and when we are not - so we try to use strategies that feel more productive but actually are not.  
+This is to say that Employing learning strategies that makes the work easier hurts your learning, which is why you should avoid re-reading because re-reading after a short period of time for learning is a waste of time. Learning must be effortful.
 
-## Preface
+You should always try to connect ideas to learn better, because knowledge can be seen as a graph.  
+Why? Because we learn by building on what we already know. The better connected your knowledge is, the stronger it is.
 
-> Most books deal with topics serially—they cover one topic, move on to the next, and so on. We follow this strategy in the sense that each chapter addresses new topics, but we also apply two of the primary learning principles in the book: spaced repetition of key ideas, and the interleaving of different but related topics.
+## Retrieval practice
 
-[Patrick Winston covered this in the context of lectures](https://vimeo.com/101543862).
+Retrieval practice is where you attempt to recall something from your memory.
 
-## Chapter 1: Learning Is Misunderstood
+A classical example of retrieval practice is the use of flashcards — usually with a technique known as Spaced Repetition.
 
-> We are poor judges of when we are learning well and when we’re not. When the going is harder and slower and it doesn’t feel productive, we are drawn to strategies that feel more fruitful, unaware that the gains from these strategies are often temporary.
+Recall makes it easier to recall later. This is more effective than rereading.  
+The brain is not a muscle, but the analogy transfers. By ‘training your brain’ through retrieval practice, you make the neural pathways between nodes stronger.
 
-A big theme is how to develop _lasting_ knowledge. Hence the title, Make it _Stick_.
+Interrupting the forgetting curve with testing/recall strengthens memory.  
+A common form of retrieval practice is testing.
 
-Lasting knowledge takes _time_ to develop. I know this viscerally, but somehow manage to forget it every few months.
+A focus on recitation gets the best results.
 
-### Rereading Is Mostly A Waste Of Time
+Fast lookup of memories is desirable.  
+You can make it fast through repeated use of the information and by establishing powerful retrieval cues that can reactivate them.
 
-Rereading _as a method of review_ is weak. As a method of learning something in the first place, it’s pretty good.
+Therefore, retrieval practice is key.
 
-> A single, simple quiz after reading a text or hearing a lecture produces better learning and remembering than rereading the text or reviewing lecture notes.
+## 6 Tips for Better learning
 
-The main lesson is to **seek objective evidence that you’ve learned the material**.
+- Try to solve problems before being taught the solution
+- Make what you learn matter. Make it concrete. Make it personal.
+- Better to solve a problem than to memorize the solution
+- Writing about what you have learned helps you learn
+- Build on your strengths as well as your weaknesses
+- Failing is a part of learning - you can improve
 
-## Chapter 2: Retrieval
+## Study Techniques
 
-Knowing Anki exists makes this you feel smug reading this chapter. Don’t fall into that sense of security. Quiz yourself whenever you learn something new, and not just with flashcards.
+### Elaboration
 
-> We’re all susceptible to illusions that can hijack our judgment of what we know and can do. Testing helps calibrate our judgments of what we’ve learned.
+This is a very powerful technique.
 
-Testing is to bullshit what audits are to taxes.
+Try to elaborate on something; explain it in your own words.
 
-The authors make a point about clear lectures that I’ve felt before.
+You may recognize [The Feynman Technique](https://bagerbach.com/blog/how-to-learn-new-subjects-easily-the-feynman-technique/), which is a variant of this technique.
 
-> When they hear a lecture or read a text that is a paragon of clarity, the ease with which they follow the argument gives them the feeling that they already know it and don’t need to study it.
+### Testing
 
-This describes some of my lecturers.
+Your primary study strategy should be to test yourself.
 
-My best teacher explained 80% and made you do the last bit of deduction yourself.
+Test yourself to reveal your weaknesses, such that you can work on them. You should build on your strengths as well as your weaknesses.
 
-Maybe you were traumatized by testing as a kid. I was.
+Do you, in fact, know what you think you know?
 
-> But if we stop thinking of testing as a dipstick to measure learning—if we think of it as practicing retrieval of learning from memory rather than “testing,” we open ourselves to another possibility: the use of testing as a tool for learning.
+Elaboration can also help with this; in fact, it is what The Feynman Technique is based upon — finding gaps in one’s own knowledge through elaboration of concepts and ideas.
 
-Retrieval
+#### How to test yourself
 
-Dragging something out of your memory.
+One way is through flashcards.
 
-When you retrieve, you have a chance to reconnect that piece of information to _new_ things. That’s one reason reflection can be powerful: you can connect old knowledge to new and improved understanding.
+A very common method of testing that employs several powerful learning concepts is Spaced Repetition. This method uses flashcards.
 
-### Cramming
+A good framework for testing is Dynamic Testing, which is a three-step process:
 
-Cram just before a high-value task. It’ll boost short-term performance but won’t last. On the other hand, neither will that job interview.
+1. Test yourself to see where you may improve, and aim to do so.
+2. Actually attempt to improve.
+3. Test yourself again to see what you have improved, and what you should still work on.
 
-## Chapter 3: Mix Up Your Practice
+This is more effective than just doing step one, and does not assume a static level of abilities — i.e., you realize that it is possible to improve your skill and knowledge.
 
-There’s a bunch of transfer learning analogies here. Which I won’t make.
+### Reflection
 
-> Even in studies where the participants have shown superior results from spaced learning, they don’t perceive the improvement; they believe they learned better on the material where practice was massed.
+Reflection is great for learning because it facilitates retrieving recollection, connecting memories, and going through what you might do differently.
 
-Varied practice sucks, but you’ll learn more even if you doubt it.
+**Ask yourself**
 
-> The basic idea is that varied practice—like tossing your beanbags into baskets at mixed distances—improves your ability to transfer learning from one situation and apply it successfully to another. You develop a broader understanding of the relationships between different conditions and the movements required to succeed in them; you discern context better and develop a more flexible “movement vocabulary”—different movements for different situations
+- What went well?
+- What could you do to get better results?
+- What knowledge does it remind you of?
 
-> Whether the scope of variable training (e.g., the two- and four-foot tosses) must encompass the particular task (the three-foot toss) is subject for further study.
+### Generation
 
-This is a caveat I’ll have to follow up on.
+There are many ways to employ generation.
 
-> Larsen would like to see something done to interrupt the forgetting: give a quiz at the end of a conference and follow it with spaced retrieval practice. “Make quizzing a standard part of the culture and the curriculum. You just know every week you’re going to get in your email your ten questions that you need to work through.”
+One way is to try to solve problems before being taught the solution.
 
-One day. If only to see their faces.
+When reading, you can use the generation method by trying to guess what the author will say / the key ideas in a chapter. You could also write questions for yourself while reading and then try to answer them after reading.
 
-## Chapter 4: Embrace Difficulties (Or, How Memory Works)
+Likewise, you could also attempt to try to explain the key ideas of a lecture before you attend it. Then you can reflect after and see if you got it right or not.
 
-> Knowledge that is well entrenched, like real fluency in French or years of experience driving on the right side of the road, is easily relearned later, after a period of disuse or after being interrupted by competition for retrieval cues. It’s not the knowledge itself that has been forgotten, but the cues that enable you to find and retrieve it. The cues for the new learning, driving on the left, displace those for the old, driving on the right.
+### Connecting ideas
 
-> As you learn new things, you don’t lose from long-term memory most of what you have learned well in life; rather, through disuse or the reassignment of cues, you forget it in the sense that you’re unable to call it up easily.
+A very effective Learning method is relating new ideas to what you already know.
 
-Deeply-entrenched knowledge and habits are hard to tell apart. They both have triggers.
+Like connecting nodes in a sort of Knowledge Graph.
 
-> When learners commit errors and are given corrective feedback, the errors are not learned.
+If you want to learn something, you must have something to relate it to.
 
-I wonder how much this holds.
+If you do so, you can learn as much as you’d like.  
+The more you know, the more you can know.
 
-> Trial and error with delayed feedback is a more awkward but effective way of acquiring a skill than trial and correction through immediate feedback; immediate feedback is like the training wheels on a bicycle: the learner quickly comes to depend on the continued presence of the correction.
-
-This is from chapter 2, but fits better with the rest of chapter 4.
-
-> Spaced and interleaved exposure characterizes most of humans’ normal experience. It’s a good way to learn, because this type of exposure strengthens the skills of discrimination—the process of noticing particulars (a turtle comes up for air but a fish doesn’t)—and of induction: surmising the general rule (fish can breathe in water).
-
-> students who have a high fear of making errors when taking tests may actually do worse on the test because of their anxiety. Why? It seems that a significant portion of their working memory capacity is expended to monitor their performance (How am I doing? Am I making mistakes?), leaving less working memory capacity available to solve the problems posed by the test.
-
-I get this all the time, and now I have an Anki flashcard to ward against it.
-
-## Chapter 5: Avoid Illusions Of Knowing
-
-> As Dunning put it, the “sheer genius people have at convincing themselves of congenial conclusions while denying the truth of inconvenient ones.”
-
-> The British prime minister Benjamin Disraeli once said of a political opponent that his conscience was not his guide but his accomplice.
-
-I laughed for a full minute in front of rush-hour BART traffic reading that.
-
-### Why Your Undergrads Are So Dumb
-
-> What psychologists call the curse of knowledge is our tendency to underestimate how long it will take another person to learn something new or perform a task that we have already mastered. Teachers often suffer this illusion—the calculus instructor who finds calculus so easy that she can no longer place herself in the shoes of the student who is just starting out and struggling with the subject.
-
-> Mazur says that the person who knows best what a student is struggling with in assimilating new concepts is not the professor, it’s another student.
-
-Been there, suffered that. Shoutouts to Ed Scerbo and George Melvin for helping me when the professor couldn’t.
-
----
-
-> In some domains, the revelation of one’s incompetence can be brutally frank. The authors can all remember from their childhoods when a teacher would appoint two boys to pick other kids for softball teams. The good players are picked first, the worst last. You learn your peers’ judgments of your softball abilities in a very public manner, so it would be hard for the last-picked player to think “I must be really good at softball.” However, most realms of life do not render such stark judgments of ability.
-
-I’m sorry I laughed.
-
-### Seek Objective Feedback
-
-> the path to self-insight leads through other people. “So it really depends on what sort of feedback you are getting. Is the world telling you good things? Is the world rewarding you in a way that you would expect a competent person to be rewarded? If you watch other people, you often find there are different ways to do things; there are better ways to do things. ‘I’m not as good as I thought I was, but I have something to work on.’
-
-Hard to argue with actual success.
-
-## Chapter 6: Learning Styles Don’t Matter That Much
-
-> It is more important that the mode of instruction match the nature of the subject being taught: visual instruction for geometry and geography, verbal instruction for poetry, and so on. When instructional style matches the nature of the content, all learners learn better, regardless of their differing preferences for how the material is taught.
-
-## Chapter 7: Increase Your Abilities
-
-> Mnemonic devices are sometimes discounted as tricks of memory, not tools that fundamentally add to learning, and in a sense this is correct. The value of mnemonics to raise intellectual abilities comes after mastery of new material.
-
-Rules 1 and 2 of the 20 linked at the top.
-
-> Why bother?
+> It is important to view knowledge as sort of a semantic tree — make sure you understand the fundamental principles, i.e. the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang onto.
 > 
-> We make the effort because the effort itself extends the boundaries of our abilities. What we do shapes who we become and what we’re capable of doing. The more we do, the more we can do.
+>   
+> — Elon Musk
 
-I like that.
+With no root or branches, the leaves can’t hang.  
+While I think that the analogy is good, I believe that there can be multiple branches from the root.
 
-## Chapter 8: Make It Stick
-
-Random bits of practical advice in this chapter.
-
-> Always do the reading prior to a lecture.
-
-I should’ve done this.
-
-> Without the drafted version—if it did not exist—you obviously would not be thinking of ways to improve it. In short, you may actually be writing only two or three hours a day, but your mind, in one way or another, is working on it twenty-four hours a day—yes, while you sleep—but only if some sort of draft or earlier version exists. Until it exists, writing has not really begun.
-
-Very good writing advice that should be used for more than writing.
-
-> Shoot an azimuth.
-
-This is a tagline for looking towards the horizon of your abilities, sighting a landmark (picking a goal [barely beyond your abilities](http://alok.github.io/2018/02/10/book-notes-the-talent-code-by-daniel-coyle/)), and aiming for that.
+The better connected your knowledge is the more solid it is. Put it in the larger context.
 
 ---
 # Reference
