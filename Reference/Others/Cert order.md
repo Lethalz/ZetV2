@@ -130,10 +130,7 @@ Status
 - [ ] In Progress
 - [ ] Completed
 
-### GCP
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
+
 
 **Relevant Skills:**
 - Expert-level network design and troubleshooting
@@ -157,9 +154,6 @@ Status
 5. Network with other professionals in the field
 6. Balance depth and breadth in your skill set
 7. Always tie your technical skills to business outcomes
-
-Remember, this roadmap is flexible. Adjust it based on your career goals, job market demands, and personal interests. The key is consistent learning and practical application of your skills.
-
 
 
 
