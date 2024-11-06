@@ -15,7 +15,7 @@ Map of content for CCNP ENCOR 350-401
 
 [[CCNP UltraLearning Plan]]
 
-[[ENCOR EXAM TOPICS SUMMARY]]
+[[ENCOR EXAM TOPICS  PROGRESS UPDATE]]
 # FUNDAMENTALS
 
 [[Layer 2 Forwarding]]
