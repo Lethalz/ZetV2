@@ -48,6 +48,8 @@ Map of content for CCNP ENCOR 350-401
 
 [[VTP AND DTP]]
 
+[[EtherChannel CCNP]]
+
 ## STP
 
 

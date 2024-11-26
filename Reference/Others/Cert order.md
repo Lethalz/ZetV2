@@ -41,29 +41,12 @@ Status
 - [ ] In Progress
 - [ ] Completed
 
-### AZ-900
+### DevNet Associate
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
 
 
-### AZ-104
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-**Relevant Skills:**
-- Advanced routing and switching
-- Network programmability and automation
-- Linux system administration
-- AWS core services and architecture
-- Infrastructure as Code (IaC) basics
-- Virtualization concepts
-
-**Additional Info:**
-- Start building a home lab or use cloud-based labs
-- Contribute to open-source projects
-- Create a technical blog to document your learning journey
 
 ## T3 ADVANCED (1-2 years)
 
@@ -72,89 +55,27 @@ Status
 - [ ] In Progress
 - [ ] COMPLETED 
 
-
-### DevNet Associate
+### CCNP SCOR
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] COMPLETED 
+      
 
-### DevNet Professional
+### CCNP SNCF
 - [ ] Research
 - [ ] In Progress
-- [ ] Completed
+- [ ] COMPLETED 
 
 
-### RHCE
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
 
-### AZ-700
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED
 
-**Relevant Skills:**
-- Network automation with Python and Ansible
-- API development and consumption
-- Advanced Linux system administration
-- AWS networking in-depth
-- Containerization (Docker, Kubernetes basics)
-- CI/CD pipelines
 
-**Additional Info:**
-- Participate in hackathons or coding challenges
-- Seek out complex projects at work or as side projects
-- Consider specializing in either networking or cloud infrastructure
 
 ## T4 EXPERT (2+ years)
-### CCIE EI
+### CCIE SEC
 - [ ] Research
 - [ ] In Progress
 - [ ] Completed
-
-
-## CCNP Data Center
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-### AWS SAA
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-### AWS NETWORKING
-- [ ] Research
-- [ ] In Progress
-- [ ] Completed
-
-
-
-**Relevant Skills:**
-- Expert-level network design and troubleshooting
-- Cloud security best practices
-- Multi-cloud architecture
-- Azure administration and networking
-- Google Cloud Platform fundamentals
-- Advanced security principles and risk management
-
-**Additional Info:**
-- Mentor junior engineers and contribute to the community
-- Speak at conferences or write technical papers
-- Stay updated with emerging technologies (e.g., SDN, SASE, Edge Computing)
-- Consider pursuing a specialization (e.g., cloud security, network automation)
-
-**General Advice:**
-1. Regularly practice hands-on scenarios using simulators or real gear
-2. Master core protocols and services (e.g., BGP, OSPF, DNS, DHCP)
-3. Continuously improve your scripting and automation skills
-4. Stay updated with the latest cloud services and features
-5. Network with other professionals in the field
-6. Balance depth and breadth in your skill set
-7. Always tie your technical skills to business outcomes
-
 
 
 
