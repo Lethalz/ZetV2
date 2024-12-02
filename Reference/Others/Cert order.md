@@ -50,7 +50,7 @@ Status
 
 ## T3 ADVANCED (1-2 years)
 
-### CCNP ENARSI 
+### CCNP ENCC 
 - [ ] Research
 - [ ] In Progress
 - [ ] COMPLETED 
