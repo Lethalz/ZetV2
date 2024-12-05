@@ -5,12 +5,55 @@
 
 # Learn Like a Pro
 
-**Summary:** A collection of effective, science-backed learning tools that covers new ground beyond the [Learning How to Learn](https://www.outerbridge.blog/articles/learning-how-to-learn-infographic) course. _Learn Like a Pro_ is written in accessible language, and targeted towards high-school and college-aged students. However, the content is universal and can be applied to learning any discipline or skill.  
-  
-[This book](https://amzn.to/3C1aYMg) is essential reading for anyone who wants to stop procrastinating, learn subjects more deeply, read more effectively, or stay motivated while learning.   
-  
-​​Continue reading to access my **detailed book notes**. 
+# Quick summary
+# Learn Like a Pro - Core Concepts & Connections
+## Core Message
 
+The book presents evidence-based strategies for effective learning, focusing on cognitive science principles and practical application methods.
+
+## Key Insights
+
+- **Cognitive Management**: Alternate between focused work (25 min) and genuine rest (5 min). Avoid digital distractions during breaks.
+- **Learning Modes**:
+    - Focused mode for direct learning
+    - Diffuse mode for problem-solving and creativity
+    - Both modes complement each other for optimal learning\
+- **Active Learning Methods**:
+    - Retrieval practice over passive review
+    - Elaboration (explaining concepts)
+    - Interleaving different skills
+    - Testing as a learning tool
+- **Biological Factors**:
+    - Exercise increases BDNF for neural growth
+    - Sleep clears metabolites
+    - Strategic caffeine use
+- **Practical Techniques**:
+    - Split notes method
+    - Memory palace and mnemonics
+    - Environment control for focus
+    - SMART goal setting
+
+## Connection to Learning Frameworks
+
+### [[How to Get Better at Anything]]
+- Both emphasize learning as a systematic process
+- Support the value of instruction before practice
+- Focus on small wins for motivation
+- Recognize the importance of story-based learning
+
+### [[The Talent Code]]
+- Align on neural development importance
+- Share emphasis on deliberate practice
+- Support chunking methods
+- Stress proper rest and recovery
+
+### [[The 50th Law]]
+- Environment control for optimal performance
+- Focus on long-term process over quick wins
+- Strategic approach to skill building
+- Value of persistence through challenges
+
+These three books create a foundation for mastery: learning through observation ([[How to Get Better at Anything]]), understanding the science of skill ([[The Talent Code]]), and maintaining mental toughness ([[The 50th Law]]). Learn Like a Pro builds on this by providing specific cognitive tools and practical study techniques.
 ---
 
 **Beating Procrastination**  

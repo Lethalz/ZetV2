@@ -161,3 +161,30 @@ The better connected your knowledge is the more solid it is. Put it in the large
 
 ---
 # Reference
+## Core Principle Connections
+
+### Active Recall & Testing
+
+- [[The Talent Code]] - Deep practice principles
+- [[Learn Like a Pro]] - Retrieval practice methods
+- [[A Mind for Numbers]] - Active recall techniques
+- [[Atomic Habits]] - Habit formation through practice
+- [[Deep Work]] - Focus and deliberate practice
+
+### Spaced Practice
+
+- [[Learning How to Learn]] - Memory formation science
+- [[Ultralearning]] - Strategic learning approaches
+- [[Peak]] - Deliberate practice principles
+- [[The Shallows]] - Impact of practice patterns
+
+### Interleaving
+
+- [[Range]] - Benefits of varied learning
+- [[How to Get Better at Anything]] - Skill acquisition methods
+- [[The Power of Full Engagement]] - Energy management in learning
+- [[Flow]] - Optimal learning states
+
+### Effort and Difficulty
+
+- [[The 50th Law]] - Embracing challenges
