@@ -45,3 +45,5 @@ Study Tips Specific to Interconnections:
 
 ---
 # Reference
+
+[[Effective Learning from Technical Textbooks]]
