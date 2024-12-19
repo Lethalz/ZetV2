@@ -50,6 +50,20 @@ Status
 
 ## T3 ADVANCED (1-2 years)
 
+
+****
+
+
+### AZ-900
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
+### AZ-104 
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
+
 ### CCNP ENCC 
 - [ ] Research
 - [ ] In Progress
