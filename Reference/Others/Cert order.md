@@ -36,6 +36,11 @@ Status
 - [ ] COMPLETED 
 
 
+
+### CCNP ENARSI 
+- [ ] Research
+- [ ] In Progress
+- [ ] COMPLETED 
 ### RHCSA
 - [ ] Research
 - [ ] In Progress
@@ -48,11 +53,8 @@ Status
 
 
 
+
 ## T3 ADVANCED (1-2 years)
-
-
-****
-
 
 ### AZ-900
 - [ ] Research
@@ -64,10 +66,6 @@ Status
 - [ ] In Progress
 - [ ] COMPLETED 
 
-### CCNP ENCC 
-- [ ] Research
-- [ ] In Progress
-- [ ] COMPLETED 
 
 ### CCNP SCOR
 - [ ] Research
