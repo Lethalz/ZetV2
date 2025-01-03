@@ -8,7 +8,17 @@
 
 ## My Understanding
 
-SSO provides seemless transfer from active to backup for control-plane processors or RSPs. 
+SSO provides seamless transfer from active to backup for control-plane processors or RSPs. 
+SSO/NSF go hand in hand, If you enable SSO then NSF is automatically enabled. SSO 'checkpoints' the layer 2 information to the RP and NSF 'checkpoint' the Layer 3 information from the FIB to the RP. 
+This is done so that although the control plane is down at layer three the router still has the same routes from when it was working and will use that till the adjacency can be formed. 
+
+Although this process is good if the adjacent neighbor realizes that the router has went down it will stop sending information to that router. 
+
+This is where GR restart comes in, GR restart allows the adjacent router to allow the failed RP to get a chance to come up and re-sync with the adjacency. 
+
+
+
+
 ## Overview
 
 SSO (Stateful Switchover), NSF (Non-Stop Forwarding), and GR (Graceful Restart) are technologies designed to maintain network availability during planned or unplanned control plane disruptions.
