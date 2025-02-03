@@ -1,4 +1,4 @@
-{{date:YYMMDD}}{{time:HHmm}}
+{{date:YYYY-MM-DD}} {{time:HHmm}}
 	Status: #Journal
 		Tags: 
 
