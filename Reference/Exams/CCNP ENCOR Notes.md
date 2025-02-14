@@ -9,12 +9,6 @@ Map of content for CCNP ENCOR 350-401
 
 [[CCNP ENCOR STUDY MATERIALS]]
 
-[[CCNP Primer]]
-
-[[CCNP LEARNING PLAN]] 
-
-[[CCNP UltraLearning Plan]]
-
 [[ENCOR EXAM TOPICS  PROGRESS UPDATE]]
 # FUNDAMENTALS
 

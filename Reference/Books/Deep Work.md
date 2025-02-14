@@ -267,4 +267,4 @@ Winifred Gallagher saying, “I’ll live the focused life, because it’s the b
 - [[Notes/Live for yourself]]
 - [[Reference/Books/Ultralearning|Ultralearning]]
 - [[Peak]]
-- 
+- [[Mastering Hard Skills-A Framework]]
