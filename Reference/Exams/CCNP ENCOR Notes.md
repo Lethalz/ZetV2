@@ -10,6 +10,8 @@ Map of content for CCNP ENCOR 350-401
 [[CCNP ENCOR STUDY MATERIALS]]
 
 [[ENCOR EXAM TOPICS  PROGRESS UPDATE]]
+
+[[ENCOR table]]
 # FUNDAMENTALS
 
 [[Layer 2 Forwarding]]
