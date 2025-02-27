@@ -28,7 +28,7 @@ In order to achieve this, we break the network into three separate layers:
 
 The number of layers that are required are based on the network characteristics, for example a single building may not need a dedicated distribution layer.
 
-Which in turn would result in a **2 Tier** architecture also known as a collapsed core.
+Which in turn would result in a **2 Tier** architecture also known as a collapsed core/collapsed distribution.
 
 And as the network grows it doesn't grow vertically but horizontally as more blocks are added to increase the capacity of the layer as opposed to scale up would be to upgrade the individual box vertically.
 
