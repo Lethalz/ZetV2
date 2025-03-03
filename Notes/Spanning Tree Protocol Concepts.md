@@ -14,7 +14,7 @@
 
 ### Classic STP
 
-**STP** (and its descendants), standardised as 802.1D, now included in 802.1Q. Allows switches to exchange information on network physical topology and agree which links to disable to ensure there are no loops. If topology changes (e.g. a cable is disconnected), the switches converge on a new set of links to use.
+**STP** (and its descendants), standardized as 802.1D, now included in 802.1Q. Allows switches to exchange information on network physical topology and agree which links to disable to ensure there are no loops. If topology changes (e.g. a cable is disconnected), the switches converge on a new set of links to use.
 
 Port can be in two **permanent states:**
 
@@ -31,15 +31,13 @@ Ports that are administratively disabled or that are failed are said to be in a 
 ``` 
 
 STP/RSTP uses three criteria to choose whether to put an interface in forwarding state:
+
 ■ STP/RSTP elects a root switch. STP puts all working interfaces on the root switch in forwarding state.
-■ Each nonroot switch considers one of its ports to have the least administrative cost
-between itself and the root switch. The cost is called that switch’s root cost. STP/RSTP places its port that is part of the least root cost path, called that switch’s root port (RP),
-in forwarding state.
-■ Many switches can attach to the same Ethernet segment, but due to the fact that links
-connect two devices, a link would have at most two switches. With two switches on a
-link, the switch with the lowest root cost, as compared with the other switches attached
-to the same link, is placed in forwarding state. That switch is the designated switch, and
-that switch’s interface, attached to that segment, is called the designated port (DP).
+
+■ Each non-root switch considers one of its ports to have the least administrative cost between itself and the root switch. 
+	The cost is called that switch’s root cost. STP/RSTP places its port that is part of the least root cost path, called that switch’s **root port** (RP),
+	in the forwarding state.
+■ Many switches can attach to the same Ethernet segment, but due to the fact that links connect two devices, a link would have at most two switches.         With two switches on a link, **the switch with the lowest root cost**, as            compared with the other switch attached to the same link, is placed            in the forwarding state. That switch is the designated switch, and that          switch’s interface, attached to that segment, is called the designated            port (DP).
 
 ![[b9a18f81f45ce19617d57d7e98879a80.png]]
 
